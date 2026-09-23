@@ -1,0 +1,137 @@
+{
+  "id": "stackleak-support-clang-stack-depth-tracking-b503790cd7e7-v2",
+  "subject": "[PATCH v2 00/14] stackleak: Support Clang stack depth tracking",
+  "authorName": "Kees Cook",
+  "authorEmail": "kees@kernel.org",
+  "revision": 2,
+  "postedAt": "2025-05-23T04:39:10.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 9,
+  "latestRevision": false,
+  "messageIds": [
+    "<20250523043251.it.550-kees@kernel.org>",
+    "<20250523043935.2009972-1-kees@kernel.org>",
+    "<20250523043935.2009972-2-kees@kernel.org>",
+    "<20250523043935.2009972-3-kees@kernel.org>",
+    "<20250523043935.2009972-4-kees@kernel.org>",
+    "<20250523043935.2009972-5-kees@kernel.org>",
+    "<20250523043935.2009972-6-kees@kernel.org>",
+    "<20250523043935.2009972-7-kees@kernel.org>",
+    "<20250523043935.2009972-8-kees@kernel.org>",
+    "<20250523043935.2009972-9-kees@kernel.org>",
+    "<20250523043935.2009972-10-kees@kernel.org>",
+    "<20250523043935.2009972-11-kees@kernel.org>",
+    "<20250523043935.2009972-12-kees@kernel.org>",
+    "<20250523043935.2009972-13-kees@kernel.org>",
+    "<20250523043935.2009972-14-kees@kernel.org>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250523043251.it.550-kees@kernel.org/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250523043251.it.550-kees@kernel.org/raw",
+  "replies": 14,
+  "versions": [
+    {
+      "revision": 2,
+      "id": "stackleak-support-clang-stack-depth-tracking-b503790cd7e7-v2",
+      "current": true
+    },
+    {
+      "revision": 3,
+      "id": "stackleak-support-clang-stack-depth-tracking-5ee5201df3fc-v3",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 14,
+      "subject": "stackleak: Rename STACKLEAK to KSTACK_ERASE",
+      "messageId": "<20250523043935.2009972-1-kees@kernel.org>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250523043935.2009972-1-kees@kernel.org/",
+      "changedFiles": [
+        "Documentation/admin-guide/sysctl/kernel.rst",
+        "Documentation/arch/x86/x86_64/mm.rst",
+        "Documentation/security/self-protection.rst",
+        "Documentation/translations/zh_CN/security/self-protection.rst",
+        "MAINTAINERS",
+        "arch/Kconfig",
+        "arch/arm/Kconfig",
+        "arch/arm/boot/compressed/Makefile",
+        "arch/arm/kernel/entry-common.S",
+        "arch/arm64/Kconfig",
+        "arch/arm64/kernel/entry.S",
+        "arch/arm64/kernel/pi/Makefile",
+        "arch/arm64/kvm/hyp/nvhe/Makefile",
+        "arch/riscv/Kconfig",
+        "arch/riscv/kernel/entry.S",
+        "arch/riscv/kernel/pi/Makefile",
+        "arch/riscv/purgatory/Makefile",
+        "arch/s390/Kconfig",
+        "arch/s390/kernel/entry.S",
+        "arch/x86/Kconfig",
+        "arch/x86/entry/calling.h",
+        "arch/x86/purgatory/Makefile",
+        "drivers/firmware/efi/libstub/Makefile",
+        "drivers/misc/lkdtm/Makefile",
+        "drivers/misc/lkdtm/kstack_erase.c",
+        "fs/proc/base.c",
+        "include/linux/kstack_erase.h",
+        "include/linux/sched.h",
+        "kernel/Makefile",
+        "kernel/fork.c",
+        "kernel/kstack_erase.c",
+        "lib/Makefile",
+        "scripts/Makefile.gcc-plugins",
+        "security/Kconfig.hardening",
+        "tools/objtool/check.c",
+        "tools/testing/selftests/lkdtm/config"
+      ],
+      "patchId": "50feaa774ae2b4c449f39fb9aa7d449413631b2d",
+      "trailers": [
+        {
+          "type": "Suggested-by",
+          "value": "Ingo Molnar <mingo@kernel.org>",
+          "messageId": "<20250523043935.2009972-1-kees@kernel.org>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

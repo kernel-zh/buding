@@ -1,0 +1,175 @@
+{
+  "id": "translation-self-protection-rst-into-chinese-0f1cadcaf559-v4",
+  "subject": "[PATCH v4 0/3] Translation self-protection.rst into chinese",
+  "authorName": "zhangwei",
+  "authorEmail": "zhangwei@cqsoftware.com.cn",
+  "revision": 4,
+  "postedAt": "2025-02-07T02:23:24.000Z",
+  "language": "zh_CN",
+  "patchCount": 3,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 1,
+  "latestRevision": false,
+  "messageIds": [
+    "<cover.1738835231.git.zhangwei@cqsoftware.com.cn>",
+    "<0cad3c793e58e8e9b12516ee3ce6c0c27011bbc6.1738835231.git.zhangwei@cqsoftware.com.cn>",
+    "<02843f1e6bcab0fdf5b2433bc3762b51f84a963c.1738835231.git.zhangwei@cqsoftware.com.cn>",
+    "<aa63044a75111d87086a6dfbbda7d6e608df4391.1738835231.git.zhangwei@cqsoftware.com.cn>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "partial",
+      "matched": 1,
+      "total": 3,
+      "commit": "24b330444886957ee8b4960b5f4c8e49909f15b1"
+    },
+    "corbet": {
+      "state": "partial",
+      "matched": 1,
+      "total": 3,
+      "commit": "24b330444886957ee8b4960b5f4c8e49909f15b1"
+    },
+    "linus": {
+      "state": "partial",
+      "matched": 1,
+      "total": 3,
+      "commit": "24b330444886957ee8b4960b5f4c8e49909f15b1"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/cover.1738835231.git.zhangwei@cqsoftware.com.cn/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/cover.1738835231.git.zhangwei@cqsoftware.com.cn/raw",
+  "replies": 2,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "translation-self-protection-rst-into-chinese-0bffdd8e7439-v1",
+      "current": false
+    },
+    {
+      "revision": 3,
+      "id": "translation-self-protection-rst-into-chinese-9bf04ece9249-v3",
+      "current": false
+    },
+    {
+      "revision": 4,
+      "id": "translation-self-protection-rst-into-chinese-0f1cadcaf559-v4",
+      "current": true
+    },
+    {
+      "revision": 5,
+      "id": "translation-self-protection-rst-into-chinese-835d3ec29d1f-v5",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 3,
+      "subject": "docs/zh_CN: Add self-protection index Chinese translation",
+      "messageId": "<0cad3c793e58e8e9b12516ee3ce6c0c27011bbc6.1738835231.git.zhangwei@cqsoftware.com.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/0cad3c793e58e8e9b12516ee3ce6c0c27011bbc6.1738835231.git.zhangwei@cqsoftware.com.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/security/index.rst",
+        "Documentation/translations/zh_CN/security/self-protection.rst"
+      ],
+      "patchId": "3a5bd5be1cb8f6a3e2e7a00ee91d6f5700522d4d",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Yanteng Si <si.yanteng@linux.dev>",
+          "messageId": "<0cad3c793e58e8e9b12516ee3ce6c0c27011bbc6.1738835231.git.zhangwei@cqsoftware.com.cn>"
+        },
+        {
+          "type": "Reviewed-by",
+          "value": "Yuxian Mao <maoyuxian@cqsoftware.com.cn>",
+          "messageId": "<0cad3c793e58e8e9b12516ee3ce6c0c27011bbc6.1738835231.git.zhangwei@cqsoftware.com.cn>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "24b330444886957ee8b4960b5f4c8e49909f15b1"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "24b330444886957ee8b4960b5f4c8e49909f15b1"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "24b330444886957ee8b4960b5f4c8e49909f15b1"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "total": 3,
+      "subject": "docs/zh_CN: Add keys index Chinese translation",
+      "messageId": "<02843f1e6bcab0fdf5b2433bc3762b51f84a963c.1738835231.git.zhangwei@cqsoftware.com.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/02843f1e6bcab0fdf5b2433bc3762b51f84a963c.1738835231.git.zhangwei@cqsoftware.com.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/security/keys/index.rst"
+      ],
+      "patchId": "80e46b7d5acec014e333bd94df09fb4f90080fec",
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "f460cd3080134b46b11cb42a7cd268239adc2643"
+        },
+        "corbet": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "f460cd3080134b46b11cb42a7cd268239adc2643"
+        },
+        "linus": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "f460cd3080134b46b11cb42a7cd268239adc2643"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "total": 3,
+      "subject": "docs/zh_CN: Add secrets index Chinese translation",
+      "messageId": "<aa63044a75111d87086a6dfbbda7d6e608df4391.1738835231.git.zhangwei@cqsoftware.com.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/aa63044a75111d87086a6dfbbda7d6e608df4391.1738835231.git.zhangwei@cqsoftware.com.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/security/secrets/index.rst"
+      ],
+      "patchId": "bff5e42b47691294408bd5d178b1dfaf90f72a30",
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "2b087edf588c66d149a7ba29bd37f2ad6edbdc9f"
+        },
+        "corbet": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "2b087edf588c66d149a7ba29bd37f2ad6edbdc9f"
+        },
+        "linus": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "2b087edf588c66d149a7ba29bd37f2ad6edbdc9f"
+        }
+      }
+    }
+  ]
+}

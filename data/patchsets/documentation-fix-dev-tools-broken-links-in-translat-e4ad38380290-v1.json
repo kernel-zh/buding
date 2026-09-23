@@ -1,0 +1,83 @@
+{
+  "id": "documentation-fix-dev-tools-broken-links-in-translat-e4ad38380290-v1",
+  "subject": "[PATCH] Documentation: fix dev-tools broken links in translations",
+  "authorName": "Ally Heev",
+  "authorEmail": "allyheev@gmail.com",
+  "revision": 1,
+  "postedAt": "2025-10-19T20:40:44.000Z",
+  "language": "mixed",
+  "patchCount": 1,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "waiting",
+  "reviewReplies": 0,
+  "latestRevision": false,
+  "messageIds": [
+    "<20251020-aheev-fix-docs-dev-tools-broken-links-v1-1-5d127efec0b2@gmail.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20251020-aheev-fix-docs-dev-tools-broken-links-v1-1-5d127efec0b2@gmail.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20251020-aheev-fix-docs-dev-tools-broken-links-v1-1-5d127efec0b2@gmail.com/raw",
+  "replies": 0,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "documentation-fix-dev-tools-broken-links-in-translat-e4ad38380290-v1",
+      "current": true
+    },
+    {
+      "revision": 2,
+      "id": "documentation-fix-dev-tools-broken-links-in-translat-43fbad389aef-v2",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "Documentation: fix dev-tools broken links in translations",
+      "messageId": "<20251020-aheev-fix-docs-dev-tools-broken-links-v1-1-5d127efec0b2@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251020-aheev-fix-docs-dev-tools-broken-links-v1-1-5d127efec0b2@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/admin-guide/README.rst",
+        "Documentation/translations/zh_CN/dev-tools/gdb-kernel-debugging.rst",
+        "Documentation/translations/zh_TW/dev-tools/gdb-kernel-debugging.rst"
+      ],
+      "patchId": "97afac75c88904117398b06b333b9b30e945c2c3",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

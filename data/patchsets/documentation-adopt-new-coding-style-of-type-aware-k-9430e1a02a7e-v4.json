@@ -1,0 +1,128 @@
+{
+  "id": "documentation-adopt-new-coding-style-of-type-aware-k-9430e1a02a7e-v4",
+  "subject": "[PATCH v4 0/3] Documentation: adopt new coding style of type-aware kmalloc-family",
+  "authorName": "Manuel Ebner",
+  "authorEmail": "manuelebner@mailbox.org",
+  "revision": 4,
+  "postedAt": "2026-04-29T07:08:01.000Z",
+  "language": "mixed",
+  "patchCount": 1,
+  "status": "applied",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 9,
+  "latestRevision": true,
+  "messageIds": [
+    "<20260429070759.309110-3-manuelebner@mailbox.org>",
+    "<20260429071445.309733-2-manuelebner@mailbox.org>",
+    "<20260429072320.310817-2-manuelebner@mailbox.org>",
+    "<20260429072704.311603-2-manuelebner@mailbox.org>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "7c6d969d5349c40348276d5c301b2d200afa623d"
+    },
+    "corbet": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "7c6d969d5349c40348276d5c301b2d200afa623d"
+    },
+    "linus": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "7c6d969d5349c40348276d5c301b2d200afa623d"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260429070759.309110-3-manuelebner@mailbox.org/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260429070759.309110-3-manuelebner@mailbox.org/raw",
+  "replies": 12,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "documentation-adopt-new-coding-style-of-type-aware-k-1e4289a76674-v1",
+      "current": false
+    },
+    {
+      "revision": 2,
+      "id": "documentation-adopt-new-coding-style-of-type-aware-k-c0ae40086770-v2",
+      "current": false
+    },
+    {
+      "revision": 3,
+      "id": "documentation-adopt-new-coding-style-of-type-aware-k-80e457a32971-v3",
+      "current": false
+    },
+    {
+      "revision": 4,
+      "id": "documentation-adopt-new-coding-style-of-type-aware-k-9430e1a02a7e-v4",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 3,
+      "subject": "Documentation: adopt new coding style of type-aware kmalloc-family",
+      "messageId": "<20260429071445.309733-2-manuelebner@mailbox.org>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260429071445.309733-2-manuelebner@mailbox.org/",
+      "changedFiles": [
+        "Documentation/core-api/kref.rst",
+        "Documentation/core-api/list.rst",
+        "Documentation/driver-api/mailbox.rst",
+        "Documentation/driver-api/media/v4l2-fh.rst",
+        "Documentation/kernel-hacking/locking.rst",
+        "Documentation/locking/locktypes.rst",
+        "Documentation/process/coding-style.rst",
+        "Documentation/sound/kernel-api/writing-an-alsa-driver.rst",
+        "Documentation/spi/spi-summary.rst",
+        "Documentation/translations/it_IT/kernel-hacking/locking.rst",
+        "Documentation/translations/it_IT/locking/locktypes.rst",
+        "Documentation/translations/it_IT/process/coding-style.rst",
+        "Documentation/translations/sp_SP/process/coding-style.rst",
+        "Documentation/translations/zh_CN/core-api/kref.rst",
+        "Documentation/translations/zh_CN/process/coding-style.rst",
+        "Documentation/translations/zh_CN/video4linux/v4l2-framework.txt",
+        "Documentation/translations/zh_TW/process/coding-style.rst"
+      ],
+      "patchId": "e8336525f88a607c5712e35c237280bdfd3d8adc",
+      "trailers": [
+        {
+          "type": "Acked-by",
+          "value": "Vlastimil Babka (SUSE) <vbabka@kernel.org>",
+          "messageId": "<78978a11-8345-4b84-bef7-90d17f4c581c@suse.com>"
+        },
+        {
+          "type": "Acked-by",
+          "value": "SeongJae Park <sj@kernel.org>",
+          "messageId": "<20260430005333.113698-1-sj@kernel.org>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "7c6d969d5349c40348276d5c301b2d200afa623d"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "7c6d969d5349c40348276d5c301b2d200afa623d"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "7c6d969d5349c40348276d5c301b2d200afa623d"
+        }
+      }
+    }
+  ]
+}

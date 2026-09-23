@@ -1,0 +1,162 @@
+{
+  "id": "irqdomain-cleanups-and-documentation-5a2b335617b1-v2",
+  "subject": "[PATCH v2 00/57] irqdomain: Cleanups and Documentation",
+  "authorName": "Jiri Slaby (SUSE)",
+  "authorEmail": "jirislaby@kernel.org",
+  "revision": 2,
+  "postedAt": "2025-03-19T09:28:53.000Z",
+  "language": "zh_CN",
+  "patchCount": 3,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 6,
+  "latestRevision": true,
+  "messageIds": [
+    "<20250319092951.37667-1-jirislaby@kernel.org>",
+    "<20250319092951.37667-40-jirislaby@kernel.org>",
+    "<20250319092951.37667-41-jirislaby@kernel.org>",
+    "<20250319092951.37667-50-jirislaby@kernel.org>",
+    "<20250319092951.37667-53-jirislaby@kernel.org>",
+    "<20250319092951.37667-54-jirislaby@kernel.org>",
+    "<20250319092951.37667-55-jirislaby@kernel.org>",
+    "<20250319092951.37667-56-jirislaby@kernel.org>",
+    "<20250319092951.37667-57-jirislaby@kernel.org>",
+    "<20250319092951.37667-58-jirislaby@kernel.org>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "partial",
+      "matched": 2,
+      "total": 3,
+      "commit": "813da4f379e789c428d2e0a44730f852e090d47d"
+    },
+    "corbet": {
+      "state": "partial",
+      "matched": 2,
+      "total": 3,
+      "commit": "813da4f379e789c428d2e0a44730f852e090d47d"
+    },
+    "linus": {
+      "state": "partial",
+      "matched": 2,
+      "total": 3,
+      "commit": "813da4f379e789c428d2e0a44730f852e090d47d"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250319092951.37667-1-jirislaby@kernel.org/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250319092951.37667-1-jirislaby@kernel.org/raw",
+  "replies": 10,
+  "versions": [
+    {
+      "revision": 2,
+      "id": "irqdomain-cleanups-and-documentation-5a2b335617b1-v2",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 39,
+      "total": 57,
+      "subject": "irqdomain: ppc: Switch irq_domain_add_nomap() to use fwnode",
+      "messageId": "<20250319092951.37667-40-jirislaby@kernel.org>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250319092951.37667-40-jirislaby@kernel.org/",
+      "changedFiles": [
+        "Documentation/core-api/irq/irq-domain.rst",
+        "Documentation/translations/zh_CN/core-api/irq/irq-domain.rst",
+        "arch/powerpc/platforms/powermac/smp.c",
+        "arch/powerpc/platforms/ps3/interrupt.c",
+        "include/linux/irqdomain.h"
+      ],
+      "patchId": "4d8baab25bd599ce768d259d0d20a1e42e896ff0",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "813da4f379e789c428d2e0a44730f852e090d47d"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "813da4f379e789c428d2e0a44730f852e090d47d"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "813da4f379e789c428d2e0a44730f852e090d47d"
+        }
+      }
+    },
+    {
+      "index": 40,
+      "total": 57,
+      "subject": "irqdomain: Drop irq_domain_add_*() functions",
+      "messageId": "<20250319092951.37667-41-jirislaby@kernel.org>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250319092951.37667-41-jirislaby@kernel.org/",
+      "changedFiles": [
+        "Documentation/core-api/irq/irq-domain.rst",
+        "Documentation/translations/zh_CN/core-api/irq/irq-domain.rst",
+        "include/linux/irqdomain.h",
+        "kernel/irq/irqdomain.c"
+      ],
+      "patchId": "76859192fc3412b9afd08551ca2cfe5787e51da0",
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "42b8b16fe56c206fde7fbae0116769d0addef4b7"
+        },
+        "corbet": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "42b8b16fe56c206fde7fbae0116769d0addef4b7"
+        },
+        "linus": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "42b8b16fe56c206fde7fbae0116769d0addef4b7"
+        }
+      }
+    },
+    {
+      "index": 49,
+      "total": 57,
+      "subject": "irqdomain: Drop irq_linear_revmap()",
+      "messageId": "<20250319092951.37667-50-jirislaby@kernel.org>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250319092951.37667-50-jirislaby@kernel.org/",
+      "changedFiles": [
+        "Documentation/core-api/irq/irq-domain.rst",
+        "Documentation/translations/zh_CN/core-api/irq/irq-domain.rst",
+        "include/linux/irqdomain.h"
+      ],
+      "patchId": "d28c31187118df7e701af7b9f57f331c3379b9fb",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "14ebb11ba895c9223d9a453a17df2fd81410c96c"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "14ebb11ba895c9223d9a453a17df2fd81410c96c"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "14ebb11ba895c9223d9a453a17df2fd81410c96c"
+        }
+      }
+    }
+  ]
+}

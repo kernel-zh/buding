@@ -1,0 +1,327 @@
+{
+  "id": "add-chinese-translation-for-usb-subsystem-ea5671fb5b99-v3",
+  "subject": "[PATCH v3 0/8] Add Chinese translation for USB subsystem",
+  "authorName": "Kefan Bai",
+  "authorEmail": "baikefan@leap-io-kernel.com",
+  "revision": 3,
+  "postedAt": "2025-11-24T13:34:04.000Z",
+  "language": "zh_CN",
+  "patchCount": 8,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 2,
+  "latestRevision": false,
+  "messageIds": [
+    "<cover.1763984424.git.baikefan@leap-io-kernel.com>",
+    "<89505b29e74210348ac9d111139dce13782ee9bf.1763984424.git.baikefan@leap-io-kernel.com>",
+    "<17f3f62c3dc75f0260d2965df3cc39179f601f5c.1763984424.git.baikefan@leap-io-kernel.com>",
+    "<b4328d04b19ca0d16307aeaa3cc8d10ad2c01bdd.1763984424.git.baikefan@leap-io-kernel.com>",
+    "<feca0c51628961feed10c9fe6aef523477737e03.1763984424.git.baikefan@leap-io-kernel.com>",
+    "<5861f056f92d04534f0ac4a30a90a744e7592694.1763984424.git.baikefan@leap-io-kernel.com>",
+    "<c8a1a30d13b203336fb1b567cb73f82477980768.1763984424.git.baikefan@leap-io-kernel.com>",
+    "<c339eba12da0a57b8dd8389d5f5766dcf9efa200.1763984424.git.baikefan@leap-io-kernel.com>",
+    "<5e7464f53152344546b15f29874d06155f375151.1763984424.git.baikefan@leap-io-kernel.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 8,
+      "commit": "cb8b9537901be8c17e8d5b2f09da0e7f8bb4393f"
+    },
+    "corbet": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 8,
+      "commit": "cb8b9537901be8c17e8d5b2f09da0e7f8bb4393f"
+    },
+    "linus": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 8,
+      "commit": "cb8b9537901be8c17e8d5b2f09da0e7f8bb4393f"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/cover.1763984424.git.baikefan@leap-io-kernel.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/cover.1763984424.git.baikefan@leap-io-kernel.com/raw",
+  "replies": 3,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "add-chinese-translation-for-usb-subsystem-99074d198921-v1",
+      "current": false
+    },
+    {
+      "revision": 2,
+      "id": "add-chinese-translation-for-usb-subsystem-2acf283d1135-v2",
+      "current": false
+    },
+    {
+      "revision": 3,
+      "id": "add-chinese-translation-for-usb-subsystem-ea5671fb5b99-v3",
+      "current": true
+    },
+    {
+      "revision": 4,
+      "id": "add-chinese-translation-for-usb-subsystem-a7c94c7cef20-v4",
+      "current": false
+    },
+    {
+      "revision": 5,
+      "id": "add-chinese-translation-for-usb-subsystem-4c8eac4f2e60-v5",
+      "current": false
+    },
+    {
+      "revision": 6,
+      "id": "add-chinese-translation-for-usb-subsystem-19bcbddfb203-v6",
+      "current": false
+    },
+    {
+      "revision": 7,
+      "id": "add-chinese-translation-for-usb-subsystem-bb2f8661860d-v7",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 8,
+      "subject": "docs/zh_CN: Add index.rst translation",
+      "messageId": "<89505b29e74210348ac9d111139dce13782ee9bf.1763984424.git.baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/89505b29e74210348ac9d111139dce13782ee9bf.1763984424.git.baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/subsystem-apis.rst",
+        "Documentation/translations/zh_CN/usb/index.rst"
+      ],
+      "patchId": "eac57a8de2a98be07d97410b5286178ee33d3582",
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "cb8b9537901be8c17e8d5b2f09da0e7f8bb4393f"
+        },
+        "corbet": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "cb8b9537901be8c17e8d5b2f09da0e7f8bb4393f"
+        },
+        "linus": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "cb8b9537901be8c17e8d5b2f09da0e7f8bb4393f"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "total": 8,
+      "subject": "docs/zh_CN: Add acm.rst translation",
+      "messageId": "<17f3f62c3dc75f0260d2965df3cc39179f601f5c.1763984424.git.baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/17f3f62c3dc75f0260d2965df3cc39179f601f5c.1763984424.git.baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/acm.rst"
+      ],
+      "patchId": "ce37fb7dff247680c58fae7e2e266f62133ad3d8",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Yanteng Si <siyanteng@cqsoftware.com.cn>",
+          "messageId": "<0e3c9840-8c6f-4806-af03-ca889202ecd5@linux.dev>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 3,
+      "total": 8,
+      "subject": "docs/zh_CN: Add authorization.rst translation",
+      "messageId": "<b4328d04b19ca0d16307aeaa3cc8d10ad2c01bdd.1763984424.git.baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/b4328d04b19ca0d16307aeaa3cc8d10ad2c01bdd.1763984424.git.baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/authorization.rst"
+      ],
+      "patchId": "ac3fc712c3de16cc8bccd45ea89bb274e74f50aa",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 4,
+      "total": 8,
+      "subject": "docs/zh_CN: Add chipidea.rst translation",
+      "messageId": "<feca0c51628961feed10c9fe6aef523477737e03.1763984424.git.baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/feca0c51628961feed10c9fe6aef523477737e03.1763984424.git.baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/chipidea.rst"
+      ],
+      "patchId": "cd7bc9662c3a83cc4e73b9602efa3d8496514cab",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 5,
+      "total": 8,
+      "subject": "docs/zh_CN: Add dwc3.rst translation",
+      "messageId": "<5861f056f92d04534f0ac4a30a90a744e7592694.1763984424.git.baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/5861f056f92d04534f0ac4a30a90a744e7592694.1763984424.git.baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/dwc3.rst"
+      ],
+      "patchId": "1d4c48ad82758c46051dde2593726db07843b25d",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 6,
+      "total": 8,
+      "subject": "docs/zh_CN: Add ehci.rst translation",
+      "messageId": "<c8a1a30d13b203336fb1b567cb73f82477980768.1763984424.git.baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/c8a1a30d13b203336fb1b567cb73f82477980768.1763984424.git.baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/ehci.rst"
+      ],
+      "patchId": "9ddf844220440d57fc9aaed74ebb3b50e48bddb7",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 7,
+      "total": 8,
+      "subject": "docs/zh_CN: Add usbmon.rst translation",
+      "messageId": "<c339eba12da0a57b8dd8389d5f5766dcf9efa200.1763984424.git.baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/c339eba12da0a57b8dd8389d5f5766dcf9efa200.1763984424.git.baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/usbmon.rst"
+      ],
+      "patchId": "6599ed12c542295cbc4717c5221c265737548017",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 8,
+      "total": 8,
+      "subject": "docs/zh_CN: Add CREDITS translation",
+      "messageId": "<5e7464f53152344546b15f29874d06155f375151.1763984424.git.baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/5e7464f53152344546b15f29874d06155f375151.1763984424.git.baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/CREDITS"
+      ],
+      "patchId": "5dbdbb0396d798b771f8ef4b07de6158341d4fb9",
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "84d2b46ec18ac897cf39ea4b51d085df5e2f4bf4"
+        },
+        "corbet": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "84d2b46ec18ac897cf39ea4b51d085df5e2f4bf4"
+        },
+        "linus": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "84d2b46ec18ac897cf39ea4b51d085df5e2f4bf4"
+        }
+      }
+    }
+  ]
+}

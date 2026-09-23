@@ -1,0 +1,89 @@
+{
+  "id": "restructure-how-to-rst-patch-submission-workflow-f81173d2813c-v1",
+  "subject": "[PATCH] docs/zh_CN: restructure how-to.rst patch submission workflow",
+  "authorName": "Dongliang Mu",
+  "authorEmail": "dzm91@hust.edu.cn",
+  "revision": 1,
+  "postedAt": "2026-04-20T11:56:46.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "applied",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 2,
+  "latestRevision": true,
+  "messageIds": [
+    "<20260420115647.2718959-1-dzm91@hust.edu.cn>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "0d4078536c958ede3d20d97baeca59ab3d078af3"
+    },
+    "corbet": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "0d4078536c958ede3d20d97baeca59ab3d078af3"
+    },
+    "linus": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "0d4078536c958ede3d20d97baeca59ab3d078af3"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260420115647.2718959-1-dzm91@hust.edu.cn/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260420115647.2718959-1-dzm91@hust.edu.cn/raw",
+  "replies": 2,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "restructure-how-to-rst-patch-submission-workflow-f81173d2813c-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "docs/zh_CN: restructure how-to.rst patch submission workflow",
+      "messageId": "<20260420115647.2718959-1-dzm91@hust.edu.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260420115647.2718959-1-dzm91@hust.edu.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/how-to.rst"
+      ],
+      "patchId": "5ebbf6afaa5aa4e0fd98f7805b7e2896afeb0b00",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Yanteng Si <si.yanteng@linux.dev>",
+          "messageId": "<bec8b0d3-f38b-4463-81b0-0cc194f0496f@linux.dev>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "0d4078536c958ede3d20d97baeca59ab3d078af3"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "0d4078536c958ede3d20d97baeca59ab3d078af3"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "0d4078536c958ede3d20d97baeca59ab3d078af3"
+        }
+      }
+    }
+  ]
+}

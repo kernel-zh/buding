@@ -1,0 +1,803 @@
+{
+  "id": "add-chinese-translation-for-usb-subsystem-99074d198921-v1",
+  "subject": "[PATCH 00/25] *** Add Chinese translation for USB subsystem ***",
+  "authorName": "macrofun",
+  "authorEmail": "baikefan@leap-io-kernel.com",
+  "revision": 1,
+  "postedAt": "2025-11-23T07:45:15.000Z",
+  "language": "zh_CN",
+  "patchCount": 25,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "waiting",
+  "reviewReplies": 0,
+  "latestRevision": false,
+  "messageIds": [
+    "<20251123074540.34161-1-baikefan@leap-io-kernel.com>",
+    "<20251123074540.34161-2-baikefan@leap-io-kernel.com>",
+    "<20251123074540.34161-3-baikefan@leap-io-kernel.com>",
+    "<20251123074540.34161-4-baikefan@leap-io-kernel.com>",
+    "<20251123074540.34161-5-baikefan@leap-io-kernel.com>",
+    "<20251123074540.34161-6-baikefan@leap-io-kernel.com>",
+    "<20251123074540.34161-7-baikefan@leap-io-kernel.com>",
+    "<20251123074540.34161-8-baikefan@leap-io-kernel.com>",
+    "<20251123074540.34161-9-baikefan@leap-io-kernel.com>",
+    "<20251123074540.34161-10-baikefan@leap-io-kernel.com>",
+    "<20251123074540.34161-11-baikefan@leap-io-kernel.com>",
+    "<20251123074540.34161-12-baikefan@leap-io-kernel.com>",
+    "<20251123074540.34161-13-baikefan@leap-io-kernel.com>",
+    "<20251123074540.34161-14-baikefan@leap-io-kernel.com>",
+    "<20251123074540.34161-15-baikefan@leap-io-kernel.com>",
+    "<20251123074540.34161-16-baikefan@leap-io-kernel.com>",
+    "<20251123074540.34161-17-baikefan@leap-io-kernel.com>",
+    "<20251123074540.34161-18-baikefan@leap-io-kernel.com>",
+    "<20251123074540.34161-19-baikefan@leap-io-kernel.com>",
+    "<20251123074540.34161-20-baikefan@leap-io-kernel.com>",
+    "<20251123074540.34161-21-baikefan@leap-io-kernel.com>",
+    "<20251123074540.34161-22-baikefan@leap-io-kernel.com>",
+    "<20251123074540.34161-23-baikefan@leap-io-kernel.com>",
+    "<20251123074540.34161-24-baikefan@leap-io-kernel.com>",
+    "<20251123074540.34161-25-baikefan@leap-io-kernel.com>",
+    "<20251123074540.34161-26-baikefan@leap-io-kernel.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 25
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 25
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 25
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20251123074540.34161-1-baikefan@leap-io-kernel.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20251123074540.34161-1-baikefan@leap-io-kernel.com/raw",
+  "replies": 0,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "add-chinese-translation-for-usb-subsystem-99074d198921-v1",
+      "current": true
+    },
+    {
+      "revision": 2,
+      "id": "add-chinese-translation-for-usb-subsystem-2acf283d1135-v2",
+      "current": false
+    },
+    {
+      "revision": 3,
+      "id": "add-chinese-translation-for-usb-subsystem-ea5671fb5b99-v3",
+      "current": false
+    },
+    {
+      "revision": 4,
+      "id": "add-chinese-translation-for-usb-subsystem-a7c94c7cef20-v4",
+      "current": false
+    },
+    {
+      "revision": 5,
+      "id": "add-chinese-translation-for-usb-subsystem-4c8eac4f2e60-v5",
+      "current": false
+    },
+    {
+      "revision": 6,
+      "id": "add-chinese-translation-for-usb-subsystem-19bcbddfb203-v6",
+      "current": false
+    },
+    {
+      "revision": 7,
+      "id": "add-chinese-translation-for-usb-subsystem-bb2f8661860d-v7",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 25,
+      "subject": "docs/zh_CN: Add index.rst translation",
+      "messageId": "<20251123074540.34161-2-baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251123074540.34161-2-baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/index.rst"
+      ],
+      "patchId": "4bb6874397a67fb01632b2f156c0584e4210c684",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 2,
+      "total": 25,
+      "subject": "docs/zh_CN: Add acm.rst translation",
+      "messageId": "<20251123074540.34161-3-baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251123074540.34161-3-baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/acm.rst"
+      ],
+      "patchId": "a9db2b65f55b87c9dc54cffc4cba6311b8d21af2",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 3,
+      "total": 25,
+      "subject": "docs/zh_CN: Add authorization.rst translation",
+      "messageId": "<20251123074540.34161-4-baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251123074540.34161-4-baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/authorization.rst"
+      ],
+      "patchId": "d849a03844dabe259a85f330891979a2e41e248a",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 4,
+      "total": 25,
+      "subject": "docs/zh_CN: Add chipidea.rst translation",
+      "messageId": "<20251123074540.34161-5-baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251123074540.34161-5-baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/chipidea.rst"
+      ],
+      "patchId": "d49e3427a696c60f5d343ab4c93ebb357605e604",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 5,
+      "total": 25,
+      "subject": "docs/zh_CN: Add dwc3.rst translation",
+      "messageId": "<20251123074540.34161-6-baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251123074540.34161-6-baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/dwc3.rst"
+      ],
+      "patchId": "7dae3f205bcd6c13affecbd53a15ca3bf959b2ad",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 6,
+      "total": 25,
+      "subject": "docs/zh_CN: Add ehci.rst translation",
+      "messageId": "<20251123074540.34161-7-baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251123074540.34161-7-baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/ehci.rst"
+      ],
+      "patchId": "b497bb57690a1d0194d4ac7ad6cf712f11a3bdb0",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 7,
+      "total": 25,
+      "subject": "docs/zh_CN: Add functionfs.rst translation",
+      "messageId": "<20251123074540.34161-8-baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251123074540.34161-8-baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/functionfs.rst"
+      ],
+      "patchId": "0f43954c9854c5eee15ce47534e5f000681f61ab",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 8,
+      "total": 25,
+      "subject": "docs/zh_CN: Add functionfs-desc.rst translation",
+      "messageId": "<20251123074540.34161-9-baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251123074540.34161-9-baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/functionfs-desc.rst"
+      ],
+      "patchId": "a1e860e55b33c06ef071a0aee773b3b8064565d8",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 9,
+      "total": 25,
+      "subject": "docs/zh_CN: Add gadget_configfs.rst translation",
+      "messageId": "<20251123074540.34161-10-baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251123074540.34161-10-baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/gadget_configfs.rst"
+      ],
+      "patchId": "7a2b8b36acd76e36f3c9a66d28a9edd4788ae089",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 10,
+      "total": 25,
+      "subject": "docs/zh_CN: Add gadget_hid.rst translation",
+      "messageId": "<20251123074540.34161-11-baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251123074540.34161-11-baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/gadget_hid.rst"
+      ],
+      "patchId": "80f03758cae4aca899c313a7b407497cba86fce1",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 11,
+      "total": 25,
+      "subject": "docs/zh_CN: Add gadget_multi.rst translation",
+      "messageId": "<20251123074540.34161-12-baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251123074540.34161-12-baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/gadget_multi.rst"
+      ],
+      "patchId": "ee9022ae2978c6633e381dacd8fbba468d5386ad",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 12,
+      "total": 25,
+      "subject": "docs/zh_CN: Add gadget_printer.rst translation",
+      "messageId": "<20251123074540.34161-13-baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251123074540.34161-13-baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/gadget_printer.rst"
+      ],
+      "patchId": "fa506117db25a32e1602ac716e480059bc1a730a",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 13,
+      "total": 25,
+      "subject": "docs/zh_CN: Add gadget_serial.rst translation",
+      "messageId": "<20251123074540.34161-14-baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251123074540.34161-14-baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/gadget_serial.rst"
+      ],
+      "patchId": "503f2ca072373a624c97b6579bf3534c3eec5efa",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 14,
+      "total": 25,
+      "subject": "docs/zh_CN: Add gadget_uvc.rst translation",
+      "messageId": "<20251123074540.34161-15-baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251123074540.34161-15-baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/gadget_uvc.rst"
+      ],
+      "patchId": "ae42939bece93be5d91edc6717dc56cbb0bb1f69",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 15,
+      "total": 25,
+      "subject": "docs/zh_CN: Add gadget-testing.rst translation",
+      "messageId": "<20251123074540.34161-16-baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251123074540.34161-16-baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/gadget-testing.rst"
+      ],
+      "patchId": "6bd8c299e1c6a9004aecfadf4e6a7b2fbfb2b6d8",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 16,
+      "total": 25,
+      "subject": "docs/zh_CN: Add iuu_phoenix.rst translation",
+      "messageId": "<20251123074540.34161-17-baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251123074540.34161-17-baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/iuu_phoenix.rst"
+      ],
+      "patchId": "ea8ccc99e2fc1b2b47934fc0deefa77d896743e3",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 17,
+      "total": 25,
+      "subject": "docs/zh_CN: Add mass-storage.rst translation",
+      "messageId": "<20251123074540.34161-18-baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251123074540.34161-18-baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/mass-storage.rst"
+      ],
+      "patchId": "46451f11380740596845dcce3e55753cf21ee7b6",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 18,
+      "total": 25,
+      "subject": "docs/zh_CN: Add misc_usbsevseg.rst translation",
+      "messageId": "<20251123074540.34161-19-baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251123074540.34161-19-baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/misc_usbsevseg.rst"
+      ],
+      "patchId": "c3a7e25b268e0972c49ce17cb4c32635711a264c",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 19,
+      "total": 25,
+      "subject": "docs/zh_CN: Add mtouchusb.rst translation",
+      "messageId": "<20251123074540.34161-20-baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251123074540.34161-20-baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/mtouchusb.rst"
+      ],
+      "patchId": "43694c4087646c6e2b902fe29e2ae6fd70e85fd8",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 20,
+      "total": 25,
+      "subject": "docs/zh_CN: Add ohci.rst translation",
+      "messageId": "<20251123074540.34161-21-baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251123074540.34161-21-baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/ohci.rst"
+      ],
+      "patchId": "5f66eb052d94e50b7042ad3c6faf4694db004aa4",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 21,
+      "total": 25,
+      "subject": "docs/zh_CN: Add raw-gadget.rst translation",
+      "messageId": "<20251123074540.34161-22-baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251123074540.34161-22-baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/raw-gadget.rst"
+      ],
+      "patchId": "36b9b3641ba9b96610ec975e0206227e8f14fbd5",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 22,
+      "total": 25,
+      "subject": "docs/zh_CN: Add usbmon.rst translation",
+      "messageId": "<20251123074540.34161-23-baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251123074540.34161-23-baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/usbmon.rst"
+      ],
+      "patchId": "5264a389353b4a0391bcf2ffc194dc65e4cfbc29",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 23,
+      "total": 25,
+      "subject": "docs/zh_CN: Add usb-serial.rst translation",
+      "messageId": "<20251123074540.34161-24-baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251123074540.34161-24-baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/usb-serial.rst"
+      ],
+      "patchId": "64d466e75387da9fd49fca433836aa9d3221a634",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 24,
+      "total": 25,
+      "subject": "docs/zh_CN: Add usb-help.rst translation",
+      "messageId": "<20251123074540.34161-25-baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251123074540.34161-25-baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/usb-help.rst"
+      ],
+      "patchId": "ad2411601460cb63e3f0927bc4696956338288b1",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 25,
+      "total": 25,
+      "subject": "docs/zh_CN: Add CREDITS.rst translation",
+      "messageId": "<20251123074540.34161-26-baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251123074540.34161-26-baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/CREDITS"
+      ],
+      "patchId": "6d381088060af62bc7770e7e93030b704dea1a9d",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

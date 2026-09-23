@@ -1,0 +1,148 @@
+{
+  "id": "translate-process-applying-patches-rst-into-chinese-8cf371f1589e-v1",
+  "subject": "[PATCH 0/3] docs/zh_CN: translate process/applying-patches.rst into Chinese",
+  "authorName": "Weijie Yuan",
+  "authorEmail": "wy@wyuan.org",
+  "revision": 1,
+  "postedAt": "2026-07-17T12:06:39.000Z",
+  "language": "zh_CN",
+  "patchCount": 3,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 1,
+  "latestRevision": false,
+  "messageIds": [
+    "<cover.1784289654.git.wy@wyuan.org>",
+    "<b65902acdaa37438479b3739e907a9e0ff604c55.1784289654.git.wy@wyuan.org>",
+    "<ad6e02c970b2c4ccae43ee41bc367aeb4131da8e.1784289654.git.wy@wyuan.org>",
+    "<a6a2b03c95371293bc16eda7cfc99470e910e2ea.1784289654.git.wy@wyuan.org>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 3,
+      "commit": "b0b415dcdd84732d24f16fb0758450897e30cd64"
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 3
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 3
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/cover.1784289654.git.wy@wyuan.org/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/cover.1784289654.git.wy@wyuan.org/raw",
+  "replies": 5,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "translate-process-applying-patches-rst-into-chinese-8cf371f1589e-v1",
+      "current": true
+    },
+    {
+      "revision": 2,
+      "id": "translate-process-applying-patches-rst-into-chinese-43d74d9c99aa-v2",
+      "current": false
+    },
+    {
+      "revision": 3,
+      "id": "translate-process-applying-patches-rst-into-chinese-61ad6099a021-v3",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 3,
+      "subject": "docs/zh_CN: add process/applying-patches Chinese translation",
+      "messageId": "<b65902acdaa37438479b3739e907a9e0ff604c55.1784289654.git.wy@wyuan.org>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/b65902acdaa37438479b3739e907a9e0ff604c55.1784289654.git.wy@wyuan.org/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/process/applying-patches.rst"
+      ],
+      "patchId": "8870a6be42afbf9df386f4047cc98d62cc9e69e2",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 2,
+      "total": 3,
+      "subject": "docs/zh_CN: add applying-patches to process index",
+      "messageId": "<ad6e02c970b2c4ccae43ee41bc367aeb4131da8e.1784289654.git.wy@wyuan.org>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/ad6e02c970b2c4ccae43ee41bc367aeb4131da8e.1784289654.git.wy@wyuan.org/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/process/index.rst"
+      ],
+      "patchId": "ed183822cb29ca0b93ce315feccb63fc58e0ab16",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 3,
+      "total": 3,
+      "subject": "docs/zh_CN: link to Chinese applying-patches translation",
+      "messageId": "<a6a2b03c95371293bc16eda7cfc99470e910e2ea.1784289654.git.wy@wyuan.org>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/a6a2b03c95371293bc16eda7cfc99470e910e2ea.1784289654.git.wy@wyuan.org/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/admin-guide/README.rst",
+        "Documentation/translations/zh_CN/process/howto.rst"
+      ],
+      "patchId": "3cb0dce1224ac2bf655aa12d821280203d5a9850",
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "b0b415dcdd84732d24f16fb0758450897e30cd64"
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

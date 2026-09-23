@@ -1,0 +1,77 @@
+{
+  "id": "kasan-docs-modify-the-translation-of-config-kasan-sw-a5c81c388bd9-v1",
+  "subject": "[PATCH v1] kasan: docs: modify the translation of CONFIG_KASAN_SW_TAGS",
+  "authorName": "Xiang Gao",
+  "authorEmail": "gxxa03070307@gmail.com",
+  "revision": 1,
+  "postedAt": "2025-12-19T13:23:05.000Z",
+  "language": "mixed",
+  "patchCount": 1,
+  "status": "proposed",
+  "lifecycle": "active",
+  "reviewState": "waiting",
+  "reviewReplies": 0,
+  "latestRevision": true,
+  "messageIds": [
+    "<20251219132305.959779-1-gxxa03070307@gmail.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20251219132305.959779-1-gxxa03070307@gmail.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20251219132305.959779-1-gxxa03070307@gmail.com/raw",
+  "replies": 0,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "kasan-docs-modify-the-translation-of-config-kasan-sw-a5c81c388bd9-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "kasan: docs: modify the translation of CONFIG_KASAN_SW_TAGS",
+      "messageId": "<20251219132305.959779-1-gxxa03070307@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251219132305.959779-1-gxxa03070307@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/dev-tools/kasan.rst",
+        "Documentation/translations/zh_TW/dev-tools/kasan.rst"
+      ],
+      "patchId": "7edf8e272a146869ab73e05bb452ad82689ef1ed",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

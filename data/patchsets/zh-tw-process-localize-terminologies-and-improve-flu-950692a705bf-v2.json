@@ -1,0 +1,88 @@
+{
+  "id": "zh-tw-process-localize-terminologies-and-improve-flu-950692a705bf-v2",
+  "subject": "[PATCH v2] docs: zh_TW: process: localize terminologies and improve fluency in 8.Conclusion",
+  "authorName": "Chen-Yu Yeh",
+  "authorEmail": "chenyou910331@gmail.com",
+  "revision": 2,
+  "postedAt": "2026-06-03T08:25:31.000Z",
+  "language": "zh_TW",
+  "patchCount": 1,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 16,
+  "latestRevision": true,
+  "messageIds": [
+    "<20260603082531.263115-1-chenyou910331@gmail.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260603082531.263115-1-chenyou910331@gmail.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260603082531.263115-1-chenyou910331@gmail.com/raw",
+  "replies": 22,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "zh-tw-process-localize-terminologies-and-improve-flu-fd45f917f744-v1",
+      "current": false
+    },
+    {
+      "revision": 2,
+      "id": "zh-tw-process-localize-terminologies-and-improve-flu-950692a705bf-v2",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "docs: zh_TW: process: localize terminologies and improve fluency in 8.Conclusion",
+      "messageId": "<20260603082531.263115-1-chenyou910331@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260603082531.263115-1-chenyou910331@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_TW/process/8.Conclusion.rst"
+      ],
+      "patchId": "cd06f6e7e304dd6b753dbf884544d65faeb20ee3",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Dongliang Mu <dzm91@hust.edu.cn>",
+          "messageId": "<20260603082531.263115-1-chenyou910331@gmail.com>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

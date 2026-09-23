@@ -1,0 +1,100 @@
+{
+  "id": "add-security-lsm-development-chinese-translation-bdaf6634b3eb-v1",
+  "subject": "[PATCH] docs/zh_CN: Add security lsm-development Chinese translation",
+  "authorName": "Shuo Zhao",
+  "authorEmail": "zhaoshuo@cqsoftware.com.cn",
+  "revision": 1,
+  "postedAt": "2025-09-17T07:30:09.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "applied",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 2,
+  "latestRevision": true,
+  "messageIds": [
+    "<20250917073010.88607-1-zhaoshuo@cqsoftware.com.cn>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "7404c6b78a7c145529414f7d7aa51c8760c7cb1d"
+    },
+    "corbet": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "7404c6b78a7c145529414f7d7aa51c8760c7cb1d"
+    },
+    "linus": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "7404c6b78a7c145529414f7d7aa51c8760c7cb1d"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250917073010.88607-1-zhaoshuo@cqsoftware.com.cn/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250917073010.88607-1-zhaoshuo@cqsoftware.com.cn/raw",
+  "replies": 2,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "add-security-lsm-development-chinese-translation-717377dab089-v1",
+      "current": false
+    },
+    {
+      "revision": 1,
+      "id": "add-security-lsm-development-chinese-translation-b54a9c8041ca-v1",
+      "current": false
+    },
+    {
+      "revision": 1,
+      "id": "add-security-lsm-development-chinese-translation-bdaf6634b3eb-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "docs/zh_CN: Add security lsm-development Chinese translation",
+      "messageId": "<20250917073010.88607-1-zhaoshuo@cqsoftware.com.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250917073010.88607-1-zhaoshuo@cqsoftware.com.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/security/index.rst",
+        "Documentation/translations/zh_CN/security/lsm-development.rst"
+      ],
+      "patchId": "0ffca9880e1a9809089b88ad9a5ab7e8775bd44c",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Yanteng Si <siyanteng@cqsoftware.com.cn>",
+          "messageId": "<f27e3d04-ced6-459c-993f-b5495257fa3f@linux.dev>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "7404c6b78a7c145529414f7d7aa51c8760c7cb1d"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "7404c6b78a7c145529414f7d7aa51c8760c7cb1d"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "7404c6b78a7c145529414f7d7aa51c8760c7cb1d"
+        }
+      }
+    }
+  ]
+}

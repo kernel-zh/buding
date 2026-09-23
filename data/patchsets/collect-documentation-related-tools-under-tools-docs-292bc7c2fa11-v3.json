@@ -1,0 +1,196 @@
+{
+  "id": "collect-documentation-related-tools-under-tools-docs-292bc7c2fa11-v3",
+  "subject": "[PATCH v3 0/8] Collect documentation-related tools under /tools/docs",
+  "authorName": "Jonathan Corbet",
+  "authorEmail": "corbet@lwn.net",
+  "revision": 3,
+  "postedAt": "2025-10-24T20:08:21.000Z",
+  "language": "mixed",
+  "patchCount": 3,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 10,
+  "latestRevision": true,
+  "messageIds": [
+    "<20251024200834.20644-1-corbet@lwn.net>",
+    "<20251024200834.20644-2-corbet@lwn.net>",
+    "<20251024200834.20644-3-corbet@lwn.net>",
+    "<20251024200834.20644-4-corbet@lwn.net>",
+    "<20251024200834.20644-5-corbet@lwn.net>",
+    "<20251024200834.20644-6-corbet@lwn.net>",
+    "<20251024200834.20644-7-corbet@lwn.net>",
+    "<20251024200834.20644-8-corbet@lwn.net>",
+    "<20251024200834.20644-9-corbet@lwn.net>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "partial",
+      "matched": 2,
+      "total": 3,
+      "commit": "d37366cac4ccfb71c77e9620f63e3a6fcdf3816c"
+    },
+    "corbet": {
+      "state": "partial",
+      "matched": 2,
+      "total": 3,
+      "commit": "d37366cac4ccfb71c77e9620f63e3a6fcdf3816c"
+    },
+    "linus": {
+      "state": "partial",
+      "matched": 2,
+      "total": 3,
+      "commit": "d37366cac4ccfb71c77e9620f63e3a6fcdf3816c"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20251024200834.20644-1-corbet@lwn.net/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20251024200834.20644-1-corbet@lwn.net/raw",
+  "replies": 12,
+  "versions": [
+    {
+      "revision": 2,
+      "id": "collect-documentation-related-tools-under-tools-docs-a2bf485a593f-v2",
+      "current": false
+    },
+    {
+      "revision": 3,
+      "id": "collect-documentation-related-tools-under-tools-docs-292bc7c2fa11-v3",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 2,
+      "total": 8,
+      "subject": "docs: move checktransupdate.py to tools/docs",
+      "messageId": "<20251024200834.20644-3-corbet@lwn.net>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251024200834.20644-3-corbet@lwn.net/",
+      "changedFiles": [
+        "Documentation/doc-guide/checktransupdate.rst",
+        "Documentation/translations/zh_CN/doc-guide/checktransupdate.rst",
+        "Documentation/translations/zh_CN/how-to.rst",
+        "MAINTAINERS",
+        "tools/docs/checktransupdate.py"
+      ],
+      "patchId": "59c631a4237b3b0c897792cf8eb3cfbadbb255b5",
+      "trailers": [
+        {
+          "type": "Acked-by",
+          "value": "Jani Nikula <jani.nikula@intel.com>",
+          "messageId": "<20251024200834.20644-3-corbet@lwn.net>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "d37366cac4ccfb71c77e9620f63e3a6fcdf3816c"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "d37366cac4ccfb71c77e9620f63e3a6fcdf3816c"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "d37366cac4ccfb71c77e9620f63e3a6fcdf3816c"
+        }
+      }
+    },
+    {
+      "index": 6,
+      "total": 8,
+      "subject": "docs: move kernel-doc to tools/docs",
+      "messageId": "<20251024200834.20644-7-corbet@lwn.net>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251024200834.20644-7-corbet@lwn.net/",
+      "changedFiles": [
+        "Documentation/conf.py",
+        "Documentation/doc-guide/kernel-doc.rst",
+        "Documentation/kbuild/kbuild.rst",
+        "Documentation/process/coding-style.rst",
+        "Documentation/translations/it_IT/doc-guide/kernel-doc.rst",
+        "Documentation/translations/sp_SP/process/coding-style.rst",
+        "Documentation/translations/zh_CN/doc-guide/kernel-doc.rst",
+        "Documentation/translations/zh_CN/kbuild/kbuild.rst",
+        "Documentation/translations/zh_CN/process/coding-style.rst",
+        "Documentation/translations/zh_TW/process/coding-style.rst",
+        "MAINTAINERS",
+        "Makefile",
+        "drivers/gpu/drm/i915/Makefile",
+        "scripts/find-unused-docs.sh",
+        "scripts/kernel-doc",
+        "tools/docs/kernel-doc"
+      ],
+      "patchId": "581b137d39bd0c18e506ac4cd9f7c6cf67e86008",
+      "trailers": [
+        {
+          "type": "Acked-by",
+          "value": "Jani Nikula <jani.nikula@intel.com>",
+          "messageId": "<20251024200834.20644-7-corbet@lwn.net>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 7,
+      "total": 8,
+      "subject": "docs: move find-unused-docs.sh to tools/docs",
+      "messageId": "<20251024200834.20644-8-corbet@lwn.net>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251024200834.20644-8-corbet@lwn.net/",
+      "changedFiles": [
+        "Documentation/doc-guide/contributing.rst",
+        "Documentation/translations/zh_CN/doc-guide/contributing.rst",
+        "tools/docs/find-unused-docs.sh"
+      ],
+      "patchId": "ca13656f0657d49c48c1050463f8d00ab916837c",
+      "trailers": [
+        {
+          "type": "Acked-by",
+          "value": "Jani Nikula <jani.nikula@intel.com>",
+          "messageId": "<20251024200834.20644-8-corbet@lwn.net>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "184414c6a6cac78ad6c46037a8afad5c9f04fba5"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "184414c6a6cac78ad6c46037a8afad5c9f04fba5"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "184414c6a6cac78ad6c46037a8afad5c9f04fba5"
+        }
+      }
+    }
+  ]
+}

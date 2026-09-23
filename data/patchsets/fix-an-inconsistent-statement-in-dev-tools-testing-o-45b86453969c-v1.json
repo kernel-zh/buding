@@ -1,0 +1,87 @@
+{
+  "id": "fix-an-inconsistent-statement-in-dev-tools-testing-o-45b86453969c-v1",
+  "subject": "[PATCH] docs/zh_CN: fix an inconsistent statement in dev-tools/testing-overview",
+  "authorName": "TurtleRuss",
+  "authorEmail": "tttturtleruss@gmail.com",
+  "revision": 1,
+  "postedAt": "2026-03-05T19:20:40.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "waiting",
+  "reviewReplies": 0,
+  "latestRevision": false,
+  "messageIds": [
+    "<20260305192048.16405-1-tttturtleruss@gmail.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "29442165759cd557194815cdba391a4bf37db05e"
+    },
+    "corbet": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "29442165759cd557194815cdba391a4bf37db05e"
+    },
+    "linus": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "29442165759cd557194815cdba391a4bf37db05e"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260305192048.16405-1-tttturtleruss@gmail.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260305192048.16405-1-tttturtleruss@gmail.com/raw",
+  "replies": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "fix-an-inconsistent-statement-in-dev-tools-testing-o-45b86453969c-v1",
+      "current": true
+    },
+    {
+      "revision": 2,
+      "id": "fix-an-inconsistent-statement-in-dev-tools-testing-o-186b1b07a5b6-v2",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "docs/zh_CN: fix an inconsistent statement in dev-tools/testing-overview",
+      "messageId": "<20260305192048.16405-1-tttturtleruss@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260305192048.16405-1-tttturtleruss@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/dev-tools/testing-overview.rst"
+      ],
+      "patchId": "b6158e40fcbde1863d3977424481421075d0f7b3",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "29442165759cd557194815cdba391a4bf37db05e"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "29442165759cd557194815cdba391a4bf37db05e"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "29442165759cd557194815cdba391a4bf37db05e"
+        }
+      }
+    }
+  ]
+}

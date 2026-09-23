@@ -1,0 +1,91 @@
+{
+  "id": "add-security-lsm-development-and-sctp-chinese-transl-72798bb31254-v1",
+  "subject": "[PATCH 0/2] Add security lsm-development and SCTP Chinese translation",
+  "authorName": "Shuo Zhao",
+  "authorEmail": "zhaoshuo@cqsoftware.com.cn",
+  "revision": 1,
+  "postedAt": "2025-03-21T07:49:31.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "applied",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 3,
+  "latestRevision": true,
+  "messageIds": [
+    "<cover.1742542887.git.zhaoshuo@cqsoftware.com.cn>",
+    "<be59d1786013dcac314949245132ff72e9deb827.1742542887.git.zhaoshuo@cqsoftware.com.cn>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "23713aa5b4ec101787477f80c91d7460a65eeb0c"
+    },
+    "corbet": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "23713aa5b4ec101787477f80c91d7460a65eeb0c"
+    },
+    "linus": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "23713aa5b4ec101787477f80c91d7460a65eeb0c"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/cover.1742542887.git.zhaoshuo@cqsoftware.com.cn/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/cover.1742542887.git.zhaoshuo@cqsoftware.com.cn/raw",
+  "replies": 3,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "add-security-lsm-development-and-sctp-chinese-transl-72798bb31254-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 2,
+      "total": 2,
+      "subject": "docs/zh_CN: Add security SCTP Chinese translation",
+      "messageId": "<be59d1786013dcac314949245132ff72e9deb827.1742542887.git.zhaoshuo@cqsoftware.com.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/be59d1786013dcac314949245132ff72e9deb827.1742542887.git.zhaoshuo@cqsoftware.com.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/security/SCTP.rst",
+        "Documentation/translations/zh_CN/security/index.rst"
+      ],
+      "patchId": "1209970f0af54b15cbf62d2570a619741597278b",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Yanteng Si <si.yanteng@linux.dev>",
+          "messageId": "<4fbf991a-f0ce-48e0-a408-f3d7ec2d561c@linux.dev>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "23713aa5b4ec101787477f80c91d7460a65eeb0c"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "23713aa5b4ec101787477f80c91d7460a65eeb0c"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "23713aa5b4ec101787477f80c91d7460a65eeb0c"
+        }
+      }
+    }
+  ]
+}

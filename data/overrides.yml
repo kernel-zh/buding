@@ -1,0 +1,8 @@
+# Manual, reviewable exceptions for patches edited while being applied.
+matches: []
+ignore: []
+
+# Preserve a patchset in the archive while changing its lifecycle state.
+# Patch authors and listed maintainers can set lifecycle with an exact
+# `Patch-status:` reply; use this reviewed override for corrections too.
+states: []

@@ -1,0 +1,92 @@
+{
+  "id": "add-trace-debugging-chinese-translation-e084e0feea2e-v3",
+  "subject": "[PATCH v3 0/1] docs/zh_CN: Add trace debugging Chinese translation",
+  "authorName": "Frank Cen",
+  "authorEmail": "focksor@gmail.com",
+  "revision": 3,
+  "postedAt": "2025-10-09T06:20:17.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 1,
+  "latestRevision": false,
+  "messageIds": [
+    "<cover.1759990204.git.focksor@gmail.com>",
+    "<9ce3ec27f9abd0b4373f53701a16aafebe404f53.1759990204.git.focksor@gmail.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/cover.1759990204.git.focksor@gmail.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/cover.1759990204.git.focksor@gmail.com/raw",
+  "replies": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "add-trace-debugging-chinese-translation-87f9cae1dd88-v1",
+      "current": false
+    },
+    {
+      "revision": 2,
+      "id": "add-trace-debugging-chinese-translation-e73ebfd9c5f3-v2",
+      "current": false
+    },
+    {
+      "revision": 3,
+      "id": "add-trace-debugging-chinese-translation-e084e0feea2e-v3",
+      "current": true
+    },
+    {
+      "revision": 4,
+      "id": "add-trace-debugging-chinese-translation-f49581a7366a-v4",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "docs/zh_CN: Add trace debugging Chinese translation",
+      "messageId": "<9ce3ec27f9abd0b4373f53701a16aafebe404f53.1759990204.git.focksor@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/9ce3ec27f9abd0b4373f53701a16aafebe404f53.1759990204.git.focksor@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/trace/debugging.rst"
+      ],
+      "patchId": "d05fb92a94accf05732f3b1b3807b233024941a4",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

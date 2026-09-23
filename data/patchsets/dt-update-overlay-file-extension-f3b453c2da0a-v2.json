@@ -1,0 +1,95 @@
+{
+  "id": "dt-update-overlay-file-extension-f3b453c2da0a-v2",
+  "subject": "[PATCH v2 resend 3] docs: dt: Update overlay file extension",
+  "authorName": "Geert Uytterhoeven",
+  "authorEmail": "geert+renesas@glider.be",
+  "revision": 2,
+  "postedAt": "2025-02-05T10:46:37.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "applied",
+  "lifecycle": "active",
+  "reviewState": "waiting",
+  "reviewReplies": 0,
+  "latestRevision": true,
+  "messageIds": [
+    "<ebce4d9591dd0259a636196dda31d40901dc04b0.1738752288.git.geert+renesas@glider.be>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "10fc30eaf381cc8a6351129d7a48c4bf979f6002"
+    },
+    "corbet": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "10fc30eaf381cc8a6351129d7a48c4bf979f6002"
+    },
+    "linus": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "10fc30eaf381cc8a6351129d7a48c4bf979f6002"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/ebce4d9591dd0259a636196dda31d40901dc04b0.1738752288.git.geert+renesas@glider.be/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/ebce4d9591dd0259a636196dda31d40901dc04b0.1738752288.git.geert+renesas@glider.be/raw",
+  "replies": 0,
+  "versions": [
+    {
+      "revision": 2,
+      "id": "dt-update-overlay-file-extension-f3b453c2da0a-v2",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "docs: dt: Update overlay file extension",
+      "messageId": "<ebce4d9591dd0259a636196dda31d40901dc04b0.1738752288.git.geert+renesas@glider.be>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/ebce4d9591dd0259a636196dda31d40901dc04b0.1738752288.git.geert+renesas@glider.be/",
+      "changedFiles": [
+        "Documentation/devicetree/overlay-notes.rst",
+        "Documentation/translations/zh_CN/devicetree/overlay-notes.rst"
+      ],
+      "patchId": "4ce264c2d7eb8e78e0eada7c7b1beb06833800bb",
+      "trailers": [
+        {
+          "type": "Acked-by",
+          "value": "Andrew Davis <afd@ti.com>",
+          "messageId": "<ebce4d9591dd0259a636196dda31d40901dc04b0.1738752288.git.geert+renesas@glider.be>"
+        },
+        {
+          "type": "Reviewed-by",
+          "value": "Yanteng Si <siyanteng@loongson.cn>",
+          "messageId": "<ebce4d9591dd0259a636196dda31d40901dc04b0.1738752288.git.geert+renesas@glider.be>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "10fc30eaf381cc8a6351129d7a48c4bf979f6002"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "10fc30eaf381cc8a6351129d7a48c4bf979f6002"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "10fc30eaf381cc8a6351129d7a48c4bf979f6002"
+        }
+      }
+    }
+  ]
+}

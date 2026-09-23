@@ -1,0 +1,77 @@
+{
+  "id": "add-scsi-rst-translation-1b27099b126c-v1",
+  "subject": "[PATCH 2/7] docs/zh_CN: add scsi.rst translation",
+  "authorName": "haodongdong",
+  "authorEmail": "doubled@leap-io.com",
+  "revision": 1,
+  "postedAt": "2025-07-08T02:41:34.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 1,
+  "latestRevision": true,
+  "messageIds": [
+    "<20250708024139.848025-3-doubled@leap-io.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250708024139.848025-3-doubled@leap-io.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250708024139.848025-3-doubled@leap-io.com/raw",
+  "replies": 2,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "add-scsi-rst-translation-1b27099b126c-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 2,
+      "total": 7,
+      "subject": "docs/zh_CN: add scsi.rst translation",
+      "messageId": "<20250708024139.848025-3-doubled@leap-io.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250708024139.848025-3-doubled@leap-io.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/scsi/index.rst",
+        "Documentation/translations/zh_CN/scsi/scsi.rst"
+      ],
+      "patchId": "7165f57b3465490f65eef6095a21d618458c1c46",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

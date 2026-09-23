@@ -1,0 +1,77 @@
+{
+  "id": "documentation-drop-cpu0-hotplug-mentions-8f25599fbe61-v1",
+  "subject": "[PATCH] Documentation: Drop cpu0_hotplug mentions",
+  "authorName": "Lucas De Marchi",
+  "authorEmail": "lucas.demarchi@intel.com",
+  "revision": 1,
+  "postedAt": "2025-01-21T18:18:56.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "proposed",
+  "lifecycle": "active",
+  "reviewState": "waiting",
+  "reviewReplies": 0,
+  "latestRevision": true,
+  "messageIds": [
+    "<20250121181856.743616-1-lucas.demarchi@intel.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250121181856.743616-1-lucas.demarchi@intel.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250121181856.743616-1-lucas.demarchi@intel.com/raw",
+  "replies": 0,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "documentation-drop-cpu0-hotplug-mentions-8f25599fbe61-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "Documentation: Drop cpu0_hotplug mentions",
+      "messageId": "<20250121181856.743616-1-lucas.demarchi@intel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250121181856.743616-1-lucas.demarchi@intel.com/",
+      "changedFiles": [
+        "Documentation/core-api/cpu_hotplug.rst",
+        "Documentation/translations/zh_CN/core-api/cpu_hotplug.rst"
+      ],
+      "patchId": "2456284047ff0ca4a9e3a179e3ab8b0f8bf283b9",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

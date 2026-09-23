@@ -1,0 +1,77 @@
+{
+  "id": "add-lsm-index-chinese-translation-0193cff101db-v1",
+  "subject": "[PATCH 01/10] docs/zh_CN: add LSM/index Chinese translation",
+  "authorName": "Yan Zhu",
+  "authorEmail": "zhuyan2015@qq.com",
+  "revision": 1,
+  "postedAt": "2026-06-12T15:58:20.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "proposed",
+  "lifecycle": "active",
+  "reviewState": "waiting",
+  "reviewReplies": 0,
+  "latestRevision": true,
+  "messageIds": [
+    "<tencent_7080BF6BB8F05936649DDC091FFD8C45210A@qq.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/tencent_7080BF6BB8F05936649DDC091FFD8C45210A@qq.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/tencent_7080BF6BB8F05936649DDC091FFD8C45210A@qq.com/raw",
+  "replies": 0,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "add-lsm-index-chinese-translation-0193cff101db-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 10,
+      "subject": "docs/zh_CN: add LSM/index Chinese translation",
+      "messageId": "<tencent_7080BF6BB8F05936649DDC091FFD8C45210A@qq.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/tencent_7080BF6BB8F05936649DDC091FFD8C45210A@qq.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/admin-guide/LSM/index.rst",
+        "Documentation/translations/zh_CN/admin-guide/index.rst"
+      ],
+      "patchId": "6146c7b92ed0b8b05d8e6b3dd7681b5df25f88c9",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

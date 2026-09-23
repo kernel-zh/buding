@@ -1,0 +1,92 @@
+{
+  "id": "update-the-chinese-translation-of-kbuild-rst-1a3a3c830905-v3",
+  "subject": "[PATCH v3] docs/zh_CN: Update the Chinese translation of kbuild.rst",
+  "authorName": "Chenguang Zhao",
+  "authorEmail": "zhaochenguang@kylinos.cn",
+  "revision": 3,
+  "postedAt": "2025-11-10T08:08:08.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 1,
+  "latestRevision": false,
+  "messageIds": [
+    "<20251110080808.388549-1-zhaochenguang@kylinos.cn>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "6132026df02a6bb95dc3d909946234910f099b8a"
+    },
+    "corbet": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "6132026df02a6bb95dc3d909946234910f099b8a"
+    },
+    "linus": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "6132026df02a6bb95dc3d909946234910f099b8a"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20251110080808.388549-1-zhaochenguang@kylinos.cn/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20251110080808.388549-1-zhaochenguang@kylinos.cn/raw",
+  "replies": 1,
+  "versions": [
+    {
+      "revision": 3,
+      "id": "update-the-chinese-translation-of-kbuild-rst-1a3a3c830905-v3",
+      "current": true
+    },
+    {
+      "revision": 4,
+      "id": "update-the-chinese-translation-of-kbuild-rst-347513e555fe-v4",
+      "current": false
+    },
+    {
+      "revision": 5,
+      "id": "update-the-chinese-translation-of-kbuild-rst-560eff5370ca-v5",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "docs/zh_CN: Update the Chinese translation of kbuild.rst",
+      "messageId": "<20251110080808.388549-1-zhaochenguang@kylinos.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251110080808.388549-1-zhaochenguang@kylinos.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/kbuild/kbuild.rst"
+      ],
+      "patchId": "0a6519a08b22c3b99277ab11e9f4eb7e75f7c770",
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "6132026df02a6bb95dc3d909946234910f099b8a"
+        },
+        "corbet": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "6132026df02a6bb95dc3d909946234910f099b8a"
+        },
+        "linus": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "6132026df02a6bb95dc3d909946234910f099b8a"
+        }
+      }
+    }
+  ]
+}

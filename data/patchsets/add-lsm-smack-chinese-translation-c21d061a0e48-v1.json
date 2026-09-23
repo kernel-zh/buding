@@ -1,0 +1,76 @@
+{
+  "id": "add-lsm-smack-chinese-translation-c21d061a0e48-v1",
+  "subject": "[PATCH 05/10] docs/zh_CN: add LSM/Smack Chinese translation",
+  "authorName": "Yan Zhu",
+  "authorEmail": "zhuyan2015@qq.com",
+  "revision": 1,
+  "postedAt": "2026-06-12T15:58:24.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "proposed",
+  "lifecycle": "active",
+  "reviewState": "waiting",
+  "reviewReplies": 0,
+  "latestRevision": true,
+  "messageIds": [
+    "<tencent_BABBA8A3BDB14504B377071745CBB3ACB607@qq.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/tencent_BABBA8A3BDB14504B377071745CBB3ACB607@qq.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/tencent_BABBA8A3BDB14504B377071745CBB3ACB607@qq.com/raw",
+  "replies": 0,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "add-lsm-smack-chinese-translation-c21d061a0e48-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 5,
+      "total": 10,
+      "subject": "docs/zh_CN: add LSM/Smack Chinese translation",
+      "messageId": "<tencent_BABBA8A3BDB14504B377071745CBB3ACB607@qq.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/tencent_BABBA8A3BDB14504B377071745CBB3ACB607@qq.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/admin-guide/LSM/Smack.rst"
+      ],
+      "patchId": "53864fa274e82cae0131ba2ccc972c000779effe",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

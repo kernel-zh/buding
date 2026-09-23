@@ -1,0 +1,108 @@
+{
+  "id": "documentation-fix-typos-e2cdb9a0843d-v1",
+  "subject": "[PATCH 0/9] Documentation: Fix typos",
+  "authorName": "Bjorn Helgaas",
+  "authorEmail": "helgaas@kernel.org",
+  "revision": 1,
+  "postedAt": "2025-08-13T20:04:56.000Z",
+  "language": "zh_TW",
+  "patchCount": 1,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 1,
+  "latestRevision": true,
+  "messageIds": [
+    "<20250813200526.290420-1-helgaas@kernel.org>",
+    "<20250813200526.290420-2-helgaas@kernel.org>",
+    "<20250813200526.290420-3-helgaas@kernel.org>",
+    "<20250813200526.290420-4-helgaas@kernel.org>",
+    "<20250813200526.290420-5-helgaas@kernel.org>",
+    "<20250813200526.290420-6-helgaas@kernel.org>",
+    "<20250813200526.290420-7-helgaas@kernel.org>",
+    "<20250813200526.290420-8-helgaas@kernel.org>",
+    "<20250813200526.290420-9-helgaas@kernel.org>",
+    "<20250813200526.290420-10-helgaas@kernel.org>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250813200526.290420-1-helgaas@kernel.org/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250813200526.290420-1-helgaas@kernel.org/raw",
+  "replies": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "documentation-fix-typos-63a2235ba3fe-v1",
+      "current": false
+    },
+    {
+      "revision": 1,
+      "id": "documentation-fix-typos-e2cdb9a0843d-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 9,
+      "total": 9,
+      "subject": "Documentation: Fix misc typos",
+      "messageId": "<20250813200526.290420-10-helgaas@kernel.org>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250813200526.290420-10-helgaas@kernel.org/",
+      "changedFiles": [
+        "Documentation/accel/qaic/aic100.rst",
+        "Documentation/accounting/taskstats.rst",
+        "Documentation/arch/arm/keystone/knav-qmss.rst",
+        "Documentation/arch/x86/cpuinfo.rst",
+        "Documentation/devicetree/usage-model.rst",
+        "Documentation/driver-api/vfio.rst",
+        "Documentation/hwmon/f71805f.rst",
+        "Documentation/misc-devices/apds990x.rst",
+        "Documentation/mm/hwpoison.rst",
+        "Documentation/sound/cards/emu-mixer.rst",
+        "Documentation/translations/zh_TW/process/5.Posting.rst",
+        "Documentation/userspace-api/media/rc/rc-protos.rst"
+      ],
+      "patchId": "3a4a99b5b7a6687a4720791a9b6f5a9fe9884d22",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Randy Dunlap <rdunlap@infradead.org>",
+          "messageId": "<20250813200526.290420-10-helgaas@kernel.org>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,594 @@
+{
+  "id": "localize-terminology-and-sync-process-documents-1a771c4396b0-v1",
+  "subject": "[PATCH 00/16] docs/zh_TW: localize terminology and sync process/ documents",
+  "authorName": "Chen-Yu Yeh",
+  "authorEmail": "chenyou910331@gmail.com",
+  "revision": 1,
+  "postedAt": "2026-07-21T21:55:26.000Z",
+  "language": "zh_TW",
+  "patchCount": 16,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 20,
+  "latestRevision": false,
+  "messageIds": [
+    "<20260721215542.98435-1-chenyou910331@gmail.com>",
+    "<20260721215542.98435-2-chenyou910331@gmail.com>",
+    "<20260721215542.98435-3-chenyou910331@gmail.com>",
+    "<20260721215542.98435-4-chenyou910331@gmail.com>",
+    "<20260721215542.98435-5-chenyou910331@gmail.com>",
+    "<20260721215542.98435-6-chenyou910331@gmail.com>",
+    "<20260721215542.98435-7-chenyou910331@gmail.com>",
+    "<20260721215542.98435-8-chenyou910331@gmail.com>",
+    "<20260721215542.98435-9-chenyou910331@gmail.com>",
+    "<20260721215542.98435-10-chenyou910331@gmail.com>",
+    "<20260721215542.98435-11-chenyou910331@gmail.com>",
+    "<20260721215542.98435-12-chenyou910331@gmail.com>",
+    "<20260721215542.98435-13-chenyou910331@gmail.com>",
+    "<20260721215542.98435-14-chenyou910331@gmail.com>",
+    "<20260721215542.98435-15-chenyou910331@gmail.com>",
+    "<20260721215542.98435-16-chenyou910331@gmail.com>",
+    "<20260721215542.98435-17-chenyou910331@gmail.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "partial",
+      "matched": 2,
+      "total": 16,
+      "commit": "24fef297c45e211860a4bd5c24708988e75822ef"
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 16
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 16
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260721215542.98435-1-chenyou910331@gmail.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260721215542.98435-1-chenyou910331@gmail.com/raw",
+  "replies": 33,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "localize-terminology-and-sync-process-documents-1a771c4396b0-v1",
+      "current": true
+    },
+    {
+      "revision": 2,
+      "id": "localize-terminology-and-sync-process-documents-2f6509ce9d5a-v2",
+      "current": false
+    },
+    {
+      "revision": 3,
+      "id": "localize-terminology-and-sync-process-documents-bee6a83e3f8a-v3",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 16,
+      "subject": "docs/zh_TW: process: localize terminology in 7.AdvancedTopics.rst",
+      "messageId": "<20260721215542.98435-2-chenyou910331@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260721215542.98435-2-chenyou910331@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_TW/process/7.AdvancedTopics.rst"
+      ],
+      "patchId": "61fb0fddb767ba83cd971d29c2d98f73c2abf896",
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "24fef297c45e211860a4bd5c24708988e75822ef"
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 2,
+      "total": 16,
+      "subject": "docs/zh_TW: process: localize terminology in 1.Intro.rst",
+      "messageId": "<20260721215542.98435-3-chenyou910331@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260721215542.98435-3-chenyou910331@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_TW/process/1.Intro.rst"
+      ],
+      "patchId": "bc57562ce69bdcc1a825d3774029a4cc00e2512c",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Weijie Yuan <wy@wyuan.org>",
+          "messageId": "<amB0YHlmmfqbJZXR@wyuan.org>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "0f13dda2c768e768e0644103d1a4a6711fe4d770"
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 3,
+      "total": 16,
+      "subject": "docs/zh_TW: process: localize terminology in code-of-conduct-interpretation.rst",
+      "messageId": "<20260721215542.98435-4-chenyou910331@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260721215542.98435-4-chenyou910331@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_TW/process/code-of-conduct-interpretation.rst"
+      ],
+      "patchId": "d37e7d87aff45032cde7c3aa9d66423a1d007e8b",
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "8bcd6adccb1205b01b3a6b3b6b1fb3013bd085c2"
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 4,
+      "total": 16,
+      "subject": "docs/zh_TW: process: localize terminology in license-rules.rst",
+      "messageId": "<20260721215542.98435-5-chenyou910331@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260721215542.98435-5-chenyou910331@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_TW/process/license-rules.rst"
+      ],
+      "patchId": "be167ac4f67555698eb3381aab1e55c205a6e788",
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "fde9618452737bc460d0659ae750df96a022644e"
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 5,
+      "total": 16,
+      "subject": "docs/zh_TW: process: localize terminology in email-clients.rst",
+      "messageId": "<20260721215542.98435-6-chenyou910331@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260721215542.98435-6-chenyou910331@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_TW/process/email-clients.rst"
+      ],
+      "patchId": "022815dca6d70ed4a2a6e09f0c991406b0d9c4fb",
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "3c7e3dfebb25bc5002c2b89a27e0efc31aeb769c"
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 6,
+      "total": 16,
+      "subject": "docs/zh_TW: process: localize terminology in programming-language.rst",
+      "messageId": "<20260721215542.98435-7-chenyou910331@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260721215542.98435-7-chenyou910331@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_TW/process/programming-language.rst"
+      ],
+      "patchId": "079e48344a72ec96fd638e85c06c9d9b10d8497c",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Weijie Yuan <wy@wyuan.org>",
+          "messageId": "<amDY41uKaPWM0Vqj@wyuan.org>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "4bd355a1409df553e95dfdab7c3cd54cd20e7cb9"
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 7,
+      "total": 16,
+      "subject": "docs/zh_TW: process: localize terminology in coding-style.rst",
+      "messageId": "<20260721215542.98435-8-chenyou910331@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260721215542.98435-8-chenyou910331@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_TW/process/coding-style.rst"
+      ],
+      "patchId": "1b073cfc1ccba37c397c4abc28546ac5e3f5b5ca",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Weijie Yuan <wy@wyuan.org>",
+          "messageId": "<amDYOmUlDWCOCa4M@wyuan.org>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "6d66d5aba9d4484eeb6718860d9797d4388b2f44"
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 8,
+      "total": 16,
+      "subject": "docs/zh_TW: process: localize terminology in stable-kernel-rules.rst",
+      "messageId": "<20260721215542.98435-9-chenyou910331@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260721215542.98435-9-chenyou910331@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_TW/process/stable-kernel-rules.rst"
+      ],
+      "patchId": "61c29d2bc43d000c8b0db43e3949f0c9b77ef95d",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "083ea3631a50c7261a9736abaf6dab5701fb352b"
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 9,
+      "total": 16,
+      "subject": "docs/zh_TW: process: localize terminology in 5.Posting.rst",
+      "messageId": "<20260721215542.98435-10-chenyou910331@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260721215542.98435-10-chenyou910331@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_TW/process/5.Posting.rst"
+      ],
+      "patchId": "125af510a7cba0e6eeaa36d18bb9870417d4f019",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Weijie Yuan <wy@wyuan.org>",
+          "messageId": "<amG8fvBhiB4qb7bV@wyuan.org>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "cdfb1d88f3265c0e34106e35d745d691245564c6"
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 10,
+      "total": 16,
+      "subject": "docs/zh_TW: process: localize terminology in 2.Process.rst",
+      "messageId": "<20260721215542.98435-11-chenyou910331@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260721215542.98435-11-chenyou910331@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_TW/process/2.Process.rst"
+      ],
+      "patchId": "f40f8893c7525c7533c42a5347d6d2406b08a186",
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "a8f04ca01ce2718dae540b9c3cb2d85a6bad7283"
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 11,
+      "total": 16,
+      "subject": "docs/zh_TW: process: localize terminology in howto.rst",
+      "messageId": "<20260721215542.98435-12-chenyou910331@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260721215542.98435-12-chenyou910331@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_TW/process/howto.rst"
+      ],
+      "patchId": "500d4255304282485c0194580307dd33859953c0",
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "ee3dba2e55056af024ce9b04740b4636073f1421"
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 12,
+      "total": 16,
+      "subject": "docs/zh_TW: process: localize terminology in embargoed-hardware-issues.rst",
+      "messageId": "<20260721215542.98435-13-chenyou910331@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260721215542.98435-13-chenyou910331@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_TW/process/embargoed-hardware-issues.rst"
+      ],
+      "patchId": "2d25c6de474707ce78d48468428d7982ed8f94a7",
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "76b2d59458709ba5a197e82c62306203dc1d548c"
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 13,
+      "total": 16,
+      "subject": "docs/zh_TW: process: localize terminology in submitting-patches.rst",
+      "messageId": "<20260721215542.98435-14-chenyou910331@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260721215542.98435-14-chenyou910331@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_TW/process/submitting-patches.rst"
+      ],
+      "patchId": "bdc4d239f6afdfddd39cd242c096e8ae09ecf232",
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "c2b111774b034b77c7010e8312eb19a63269060f"
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 14,
+      "total": 16,
+      "subject": "docs/zh_TW: process: localize terminology in 8.Conclusion.rst",
+      "messageId": "<20260721215542.98435-15-chenyou910331@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260721215542.98435-15-chenyou910331@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_TW/process/8.Conclusion.rst"
+      ],
+      "patchId": "268b42470d282a5607bc308cef766eb0b096b181",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Dongliang Mu <dzm91@hust.edu.cn>",
+          "messageId": "<20260721215542.98435-15-chenyou910331@gmail.com>"
+        },
+        {
+          "type": "Reviewed-by",
+          "value": "Weijie Yuan <wy@wyuan.org>",
+          "messageId": "<amNVpU-47HOO58Ir@wyuan.org>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "e3905fd8182cee290df8d3489005c0d75004c2d1"
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 15,
+      "total": 16,
+      "subject": "docs/zh_TW: process: localize terminology in index.rst",
+      "messageId": "<20260721215542.98435-16-chenyou910331@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260721215542.98435-16-chenyou910331@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_TW/process/index.rst"
+      ],
+      "patchId": "51e474f76888570fd63704781a9ba7d6c485e485",
+      "trailers": [
+        {
+          "type": "Acked-by",
+          "value": "Weijie Yuan <wy@wyuan.org>",
+          "messageId": "<amNaOvJKwrQb3HN3@wyuan.org>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "4b5b137b4f9363322b5addefb486af7ffcc27c3a"
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 16,
+      "total": 16,
+      "subject": "docs/zh_TW: Add a glossary for Traditional Chinese translations",
+      "messageId": "<20260721215542.98435-17-chenyou910331@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260721215542.98435-17-chenyou910331@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_TW/glossary.rst",
+        "Documentation/translations/zh_TW/index.rst"
+      ],
+      "patchId": "d5ab95b331109d3a49b21f9ea1867db837b51fae",
+      "trailers": [
+        {
+          "type": "Acked-by",
+          "value": "Weijie Yuan <wy@wyuan.org>",
+          "messageId": "<amNhDDzQk5toZsiF@wyuan.org>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "ba839bfe38d0ac2d8cbdc1272e2408dc35dafa6a"
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

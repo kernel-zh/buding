@@ -1,0 +1,93 @@
+{
+  "id": "add-security-digsig-chinese-translation-dcd6c0e71697-v1",
+  "subject": "[PATCH] docs/zh_CN: Add security digsig Chinese translation",
+  "authorName": "Shuo Zhao",
+  "authorEmail": "zhaoshuo@cqsoftware.com.cn",
+  "revision": 1,
+  "postedAt": "2024-12-27T08:28:18.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 1,
+  "latestRevision": false,
+  "messageIds": [
+    "<20241227082836.16078-1-zhaoshuo@cqsoftware.com.cn>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "d996d56d1254ad95642c4b0740e5ceaf56b65bb3"
+    },
+    "corbet": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "d996d56d1254ad95642c4b0740e5ceaf56b65bb3"
+    },
+    "linus": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "d996d56d1254ad95642c4b0740e5ceaf56b65bb3"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20241227082836.16078-1-zhaoshuo@cqsoftware.com.cn/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20241227082836.16078-1-zhaoshuo@cqsoftware.com.cn/raw",
+  "replies": 2,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "add-security-digsig-chinese-translation-dcd6c0e71697-v1",
+      "current": true
+    },
+    {
+      "revision": 2,
+      "id": "add-security-digsig-chinese-translation-5d1fccbbd727-v2",
+      "current": false
+    },
+    {
+      "revision": 3,
+      "id": "add-security-digsig-chinese-translation-eb4d4edc89aa-v3",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "docs/zh_CN: Add security digsig Chinese translation",
+      "messageId": "<20241227082836.16078-1-zhaoshuo@cqsoftware.com.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20241227082836.16078-1-zhaoshuo@cqsoftware.com.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/security/digsig.rst",
+        "Documentation/translations/zh_CN/security/index.rst"
+      ],
+      "patchId": "2c598fadbf7e42bc3392b0c2654a3ce75b2bb8cf",
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "d996d56d1254ad95642c4b0740e5ceaf56b65bb3"
+        },
+        "corbet": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "d996d56d1254ad95642c4b0740e5ceaf56b65bb3"
+        },
+        "linus": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "d996d56d1254ad95642c4b0740e5ceaf56b65bb3"
+        }
+      }
+    }
+  ]
+}

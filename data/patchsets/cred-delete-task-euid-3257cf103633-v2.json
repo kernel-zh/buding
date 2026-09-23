@@ -1,0 +1,96 @@
+{
+  "id": "cred-delete-task-euid-3257cf103633-v2",
+  "subject": "[PATCH v2] cred: delete task_euid()",
+  "authorName": "Alice Ryhl",
+  "authorEmail": "aliceryhl@google.com",
+  "revision": 2,
+  "postedAt": "2026-02-27T10:33:24.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "applied",
+  "lifecycle": "active",
+  "reviewState": "waiting",
+  "reviewReplies": 0,
+  "latestRevision": true,
+  "messageIds": [
+    "<20260227-remove-task-euid-v2-1-9a9c80a82eb6@google.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "15c1f17979712407a4a71f2129f89ecd625ccbe8"
+    },
+    "linus": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "15c1f17979712407a4a71f2129f89ecd625ccbe8"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260227-remove-task-euid-v2-1-9a9c80a82eb6@google.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260227-remove-task-euid-v2-1-9a9c80a82eb6@google.com/raw",
+  "replies": 0,
+  "versions": [
+    {
+      "revision": 2,
+      "id": "cred-delete-task-euid-3257cf103633-v2",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "cred: delete task_euid()",
+      "messageId": "<20260227-remove-task-euid-v2-1-9a9c80a82eb6@google.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260227-remove-task-euid-v2-1-9a9c80a82eb6@google.com/",
+      "changedFiles": [
+        "Documentation/security/credentials.rst",
+        "Documentation/translations/zh_CN/security/credentials.rst",
+        "include/linux/cred.h",
+        "rust/helpers/task.c",
+        "rust/kernel/task.rs"
+      ],
+      "patchId": "9aeadef26a8f8ac25ba39792a6bc767b607da8fd",
+      "trailers": [
+        {
+          "type": "Suggested-by",
+          "value": "Jann Horn <jannh@google.com>",
+          "messageId": "<20260227-remove-task-euid-v2-1-9a9c80a82eb6@google.com>"
+        },
+        {
+          "type": "Reviewed-by",
+          "value": "Gary Guo <gary@garyguo.net>",
+          "messageId": "<20260227-remove-task-euid-v2-1-9a9c80a82eb6@google.com>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "15c1f17979712407a4a71f2129f89ecd625ccbe8"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "15c1f17979712407a4a71f2129f89ecd625ccbe8"
+        }
+      }
+    }
+  ]
+}

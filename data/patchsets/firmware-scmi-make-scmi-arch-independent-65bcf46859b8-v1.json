@@ -1,0 +1,144 @@
+{
+  "id": "firmware-scmi-make-scmi-arch-independent-65bcf46859b8-v1",
+  "subject": "[RFC PATCH] firmware: scmi: Make SCMI arch independent",
+  "authorName": "Michal Simek",
+  "authorEmail": "michal.simek@amd.com",
+  "revision": 1,
+  "postedAt": "2026-07-09T13:27:00.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 10,
+  "latestRevision": true,
+  "messageIds": [
+    "<d7f7e8c9589d937b60e43168845ab4fda15037a3.1783603600.git.michal.simek@amd.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": true,
+  "loreUrl": "https://lore.kernel.org/linux-doc/d7f7e8c9589d937b60e43168845ab4fda15037a3.1783603600.git.michal.simek@amd.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/d7f7e8c9589d937b60e43168845ab4fda15037a3.1783603600.git.michal.simek@amd.com/raw",
+  "replies": 16,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "firmware-scmi-make-scmi-arch-independent-65bcf46859b8-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "firmware: scmi: Make SCMI arch independent",
+      "messageId": "<d7f7e8c9589d937b60e43168845ab4fda15037a3.1783603600.git.michal.simek@amd.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/d7f7e8c9589d937b60e43168845ab4fda15037a3.1783603600.git.michal.simek@amd.com/",
+      "changedFiles": [
+        "Documentation/power/energy-model.rst",
+        "Documentation/translations/zh_CN/power/energy-model.rst",
+        "MAINTAINERS",
+        "drivers/clk/clk-scmi.c",
+        "drivers/cpufreq/scmi-cpufreq.c",
+        "drivers/firmware/Kconfig",
+        "drivers/firmware/Makefile",
+        "drivers/firmware/scmi/Kconfig",
+        "drivers/firmware/scmi/Makefile",
+        "drivers/firmware/scmi/base.c",
+        "drivers/firmware/scmi/bus.c",
+        "drivers/firmware/scmi/clock.c",
+        "drivers/firmware/scmi/common.h",
+        "drivers/firmware/scmi/driver.c",
+        "drivers/firmware/scmi/msg.c",
+        "drivers/firmware/scmi/notify.c",
+        "drivers/firmware/scmi/notify.h",
+        "drivers/firmware/scmi/perf.c",
+        "drivers/firmware/scmi/pinctrl.c",
+        "drivers/firmware/scmi/power.c",
+        "drivers/firmware/scmi/powercap.c",
+        "drivers/firmware/scmi/protocols.h",
+        "drivers/firmware/scmi/quirks.c",
+        "drivers/firmware/scmi/quirks.h",
+        "drivers/firmware/scmi/raw_mode.c",
+        "drivers/firmware/scmi/raw_mode.h",
+        "drivers/firmware/scmi/reset.c",
+        "drivers/firmware/scmi/scmi_power_control.c",
+        "drivers/firmware/scmi/sensors.c",
+        "drivers/firmware/scmi/shmem.c",
+        "drivers/firmware/scmi/system.c",
+        "drivers/firmware/scmi/transports/Kconfig",
+        "drivers/firmware/scmi/transports/Makefile",
+        "drivers/firmware/scmi/transports/mailbox.c",
+        "drivers/firmware/scmi/transports/optee.c",
+        "drivers/firmware/scmi/transports/smc.c",
+        "drivers/firmware/scmi/transports/virtio.c",
+        "drivers/firmware/scmi/vendors/imx/Kconfig",
+        "drivers/firmware/scmi/vendors/imx/Makefile",
+        "drivers/firmware/scmi/vendors/imx/imx-sm-bbm.c",
+        "drivers/firmware/scmi/vendors/imx/imx-sm-cpu.c",
+        "drivers/firmware/scmi/vendors/imx/imx-sm-lmm.c",
+        "drivers/firmware/scmi/vendors/imx/imx-sm-misc.c",
+        "drivers/firmware/scmi/vendors/imx/imx95.rst",
+        "drivers/firmware/scmi/voltage.c",
+        "drivers/gpio/Kconfig",
+        "drivers/hwmon/Kconfig",
+        "drivers/iio/common/scmi_sensors/Kconfig",
+        "drivers/pinctrl/pinctrl-scmi.c",
+        "drivers/pmdomain/arm/scmi_perf_domain.c",
+        "drivers/pmdomain/arm/scmi_pm_domain.c",
+        "drivers/powercap/Kconfig",
+        "drivers/powercap/Makefile",
+        "drivers/powercap/scmi_powercap.c",
+        "drivers/regulator/scmi-regulator.c",
+        "drivers/reset/Kconfig",
+        "drivers/reset/reset-scmi.c"
+      ],
+      "patchId": "16a30a91d287c0c4af028fbf7a45e9c54cdb4313",
+      "trailers": [
+        {
+          "type": "Acked-by",
+          "value": "Mark Brown <broonie@kernel.org>",
+          "messageId": "<28cc462c-4c65-4de9-a9e2-965646eb4c83@sirena.org.uk>"
+        },
+        {
+          "type": "Acked-by",
+          "value": "Vincent Guittot <vincent.guittot@linaro.org>",
+          "messageId": "<CAKfTPtCQSjyGmqBOOV8BjqB5EEqjVjCQ8hihDFQ0umtaG1CWSg@mail.gmail.com>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

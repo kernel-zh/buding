@@ -1,0 +1,93 @@
+{
+  "id": "documentation-update-after-split-of-linux-mod-device-42cb0909dbd0-v3",
+  "subject": "[PATCH v3] Documentation: Update after split of <linux/mod_devicetable.h>",
+  "authorName": "Karl Mehltretter",
+  "authorEmail": "kmehltretter@gmail.com",
+  "revision": 3,
+  "postedAt": "2026-09-08T07:00:31.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 1,
+  "latestRevision": true,
+  "messageIds": [
+    "<20260908070031.32833-1-kmehltretter@gmail.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260908070031.32833-1-kmehltretter@gmail.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260908070031.32833-1-kmehltretter@gmail.com/raw",
+  "replies": 1,
+  "versions": [
+    {
+      "revision": 3,
+      "id": "documentation-update-after-split-of-linux-mod-device-42cb0909dbd0-v3",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "Documentation: Update after split of <linux/mod_devicetable.h>",
+      "messageId": "<20260908070031.32833-1-kmehltretter@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260908070031.32833-1-kmehltretter@gmail.com/",
+      "changedFiles": [
+        "Documentation/PCI/pci.rst",
+        "Documentation/driver-api/basics.rst",
+        "Documentation/driver-api/mei/mei-client-bus.rst",
+        "Documentation/pcmcia/driver.rst",
+        "Documentation/staging/rpmsg.rst",
+        "Documentation/translations/zh_CN/PCI/pci.rst"
+      ],
+      "patchId": "8e3afea6f59a56378a7e385de9f8a0830556530f",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Randy Dunlap <rdunlap@infradead.org>",
+          "messageId": "<20260908070031.32833-1-kmehltretter@gmail.com>"
+        },
+        {
+          "type": "Tested-by",
+          "value": "Randy Dunlap <rdunlap@infradead.org>",
+          "messageId": "<20260908070031.32833-1-kmehltretter@gmail.com>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

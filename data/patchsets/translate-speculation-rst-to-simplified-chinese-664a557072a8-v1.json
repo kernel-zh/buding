@@ -1,0 +1,93 @@
+{
+  "id": "translate-speculation-rst-to-simplified-chinese-664a557072a8-v1",
+  "subject": "[PATCH] Docs/zh_CN: Translate speculation.rst to Simplified Chinese",
+  "authorName": "chris.wei.cui@gmail.com",
+  "authorEmail": "chris.wei.cui@gmail.com",
+  "revision": 1,
+  "postedAt": "2025-06-04T09:50:34.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 1,
+  "latestRevision": false,
+  "messageIds": [
+    "<20250604095036.3100-1-chris.wei.cui@gmail.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "f98eec1fffc539616cb54aa3c464017f5cb789ab"
+    },
+    "corbet": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "f98eec1fffc539616cb54aa3c464017f5cb789ab"
+    },
+    "linus": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "f98eec1fffc539616cb54aa3c464017f5cb789ab"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250604095036.3100-1-chris.wei.cui@gmail.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250604095036.3100-1-chris.wei.cui@gmail.com/raw",
+  "replies": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "translate-speculation-rst-to-simplified-chinese-664a557072a8-v1",
+      "current": true
+    },
+    {
+      "revision": 2,
+      "id": "translate-speculation-rst-to-simplified-chinese-f0753bf59bfa-v2",
+      "current": false
+    },
+    {
+      "revision": 3,
+      "id": "translate-speculation-rst-to-simplified-chinese-3483e67a4d1e-v3",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "Docs/zh_CN: Translate speculation.rst to Simplified Chinese",
+      "messageId": "<20250604095036.3100-1-chris.wei.cui@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250604095036.3100-1-chris.wei.cui@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/staging/index.rst",
+        "Documentation/translations/zh_CN/staging/speculation.rst"
+      ],
+      "patchId": "10447450f4503bee186b96ed1d346951bcb3f469",
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "f98eec1fffc539616cb54aa3c464017f5cb789ab"
+        },
+        "corbet": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "f98eec1fffc539616cb54aa3c464017f5cb789ab"
+        },
+        "linus": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "f98eec1fffc539616cb54aa3c464017f5cb789ab"
+        }
+      }
+    }
+  ]
+}

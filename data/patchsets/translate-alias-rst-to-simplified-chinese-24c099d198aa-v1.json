@@ -1,0 +1,94 @@
+{
+  "id": "translate-alias-rst-to-simplified-chinese-24c099d198aa-v1",
+  "subject": "[PATCH] Docs/zh_CN: Translate alias.rst to Simplified Chinese",
+  "authorName": "jiang.kun2@zte.com.cn",
+  "authorEmail": "jiang.kun2@zte.com.cn",
+  "revision": 1,
+  "postedAt": "2025-06-24T08:50:39.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 1,
+  "latestRevision": false,
+  "messageIds": [
+    "<20250624165039911FXwVWbH9TM62kBeLnxzXg@zte.com.cn>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250624165039911FXwVWbH9TM62kBeLnxzXg@zte.com.cn/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250624165039911FXwVWbH9TM62kBeLnxzXg@zte.com.cn/raw",
+  "replies": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "translate-alias-rst-to-simplified-chinese-24c099d198aa-v1",
+      "current": true
+    },
+    {
+      "revision": 2,
+      "id": "translate-alias-rst-to-simplified-chinese-0b516f9e62e8-v2",
+      "current": false
+    },
+    {
+      "revision": 3,
+      "id": "translate-alias-rst-to-simplified-chinese-651a9474978e-v3",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "Docs/zh_CN: Translate alias.rst to Simplified Chinese",
+      "messageId": "<20250624165039911FXwVWbH9TM62kBeLnxzXg@zte.com.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250624165039911FXwVWbH9TM62kBeLnxzXg@zte.com.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/networking/alias.rst",
+        "Documentation/translations/zh_CN/networking/index.rst"
+      ],
+      "patchId": "3455260040235b3546b47985d8bd3eac2f7c0242",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Yanteng Si <siyanteng@cqsoftware.com.cn>",
+          "messageId": "<4f065ba5-f861-42be-b066-f31fff54ff67@linux.dev>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

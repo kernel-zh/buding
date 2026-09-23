@@ -1,0 +1,91 @@
+{
+  "id": "add-trace-debugging-chinese-translation-87f9cae1dd88-v1",
+  "subject": "[PATCH] docs/zh_CN: Add trace debugging Chinese translation",
+  "authorName": "Frank Cen",
+  "authorEmail": "focksor@gmail.com",
+  "revision": 1,
+  "postedAt": "2025-09-17T09:40:35.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 1,
+  "latestRevision": false,
+  "messageIds": [
+    "<20250917094052.593829-2-focksor@gmail.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250917094052.593829-2-focksor@gmail.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250917094052.593829-2-focksor@gmail.com/raw",
+  "replies": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "add-trace-debugging-chinese-translation-87f9cae1dd88-v1",
+      "current": true
+    },
+    {
+      "revision": 2,
+      "id": "add-trace-debugging-chinese-translation-e73ebfd9c5f3-v2",
+      "current": false
+    },
+    {
+      "revision": 3,
+      "id": "add-trace-debugging-chinese-translation-e084e0feea2e-v3",
+      "current": false
+    },
+    {
+      "revision": 4,
+      "id": "add-trace-debugging-chinese-translation-f49581a7366a-v4",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "docs/zh_CN: Add trace debugging Chinese translation",
+      "messageId": "<20250917094052.593829-2-focksor@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250917094052.593829-2-focksor@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/trace/debugging.rst"
+      ],
+      "patchId": "4a0c4b6b5fa465cc03c724dcf85e13c1353ef8b0",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

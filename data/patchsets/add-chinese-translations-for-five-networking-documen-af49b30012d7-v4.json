@@ -1,0 +1,279 @@
+{
+  "id": "add-chinese-translations-for-five-networking-documen-af49b30012d7-v4",
+  "subject": "[PATCH v4 0/5] docs/zh_CN: Add Chinese translations for five networking documents",
+  "authorName": "Siwei Chen",
+  "authorEmail": "anka@stu.cdut.edu.cn",
+  "revision": 4,
+  "postedAt": "2026-08-17T02:13:34.000Z",
+  "language": "zh_CN",
+  "patchCount": 5,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 16,
+  "latestRevision": false,
+  "messageIds": [
+    "<20260817021340.17318-1-anka@stu.cdut.edu.cn>",
+    "<20260817021340.17318-2-anka@stu.cdut.edu.cn>",
+    "<20260817021340.17318-3-anka@stu.cdut.edu.cn>",
+    "<20260817021340.17318-4-anka@stu.cdut.edu.cn>",
+    "<20260817021340.17318-5-anka@stu.cdut.edu.cn>",
+    "<20260817021340.17318-6-anka@stu.cdut.edu.cn>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "partial",
+      "matched": 3,
+      "total": 5,
+      "commit": "b8b9219ad4a6496bab49c6208ed0645149268461"
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 5
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 5
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260817021340.17318-1-anka@stu.cdut.edu.cn/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260817021340.17318-1-anka@stu.cdut.edu.cn/raw",
+  "replies": 16,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "add-chinese-translations-for-five-networking-documen-64bfb0aad774-v1",
+      "current": false
+    },
+    {
+      "revision": 2,
+      "id": "add-chinese-translations-for-five-networking-documen-18fdb4f2593e-v2",
+      "current": false
+    },
+    {
+      "revision": 3,
+      "id": "add-chinese-translations-for-five-networking-documen-5b9569e52791-v3",
+      "current": false
+    },
+    {
+      "revision": 4,
+      "id": "add-chinese-translations-for-five-networking-documen-af49b30012d7-v4",
+      "current": true
+    },
+    {
+      "revision": 5,
+      "id": "add-chinese-translations-for-five-networking-documen-6531728727c8-v5",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 5,
+      "subject": "docs/zh_CN: Add networking team documentation Chinese translation",
+      "messageId": "<20260817021340.17318-2-anka@stu.cdut.edu.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260817021340.17318-2-anka@stu.cdut.edu.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/networking/index.rst",
+        "Documentation/translations/zh_CN/networking/team.rst"
+      ],
+      "patchId": "dfed1ffcf23638f643de1bde589ea3d45b4b87d2",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Weijie Yuan <wy@wyuan.org>",
+          "messageId": "<178720820738.15514.375136753647232336.b4-review@b4>"
+        },
+        {
+          "type": "Reviewed-by",
+          "value": "Dongliang Mu <dzm91@hust.edu.cn>",
+          "messageId": "<9d06be71-370d-412f-8f6e-b770360cf9dc@hust.edu.cn>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "b8b9219ad4a6496bab49c6208ed0645149268461"
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 2,
+      "total": 5,
+      "subject": "docs/zh_CN: Add NIC SR-IOV APIs Chinese translation",
+      "messageId": "<20260817021340.17318-3-anka@stu.cdut.edu.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260817021340.17318-3-anka@stu.cdut.edu.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/networking/index.rst",
+        "Documentation/translations/zh_CN/networking/sriov.rst"
+      ],
+      "patchId": "557d7c27b1b76afe72d74d77d5981287e817a3ba",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Weijie Yuan <wy@wyuan.org>",
+          "messageId": "<178720820739.15514.16965152760079041552.b4-review@b4>"
+        },
+        {
+          "type": "Reviewed-by",
+          "value": "Dongliang Mu <dzm91@hust.edu.cn>",
+          "messageId": "<48580a29-4c47-4b3c-9f90-e5be30b5fccf@hust.edu.cn>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "b0fc69669752b5c36dd35afa64cd9e1256744554"
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 3,
+      "total": 5,
+      "subject": "docs/zh_CN: Add Softnet Driver Issues Chinese translation",
+      "messageId": "<20260817021340.17318-4-anka@stu.cdut.edu.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260817021340.17318-4-anka@stu.cdut.edu.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/networking/driver.rst",
+        "Documentation/translations/zh_CN/networking/index.rst"
+      ],
+      "patchId": "bdd0cb7150900d3e982233b8df903b7766f1d5cc",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Weijie Yuan <wy@wyuan.org>",
+          "messageId": "<178720820740.15514.6673190672007432287.b4-review@b4>"
+        },
+        {
+          "type": "Reviewed-by",
+          "value": "Dongliang Mu <dzm91@hust.edu.cn>",
+          "messageId": "<729f48a6-ada5-4164-9d35-a0035f858ca6@hust.edu.cn>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "862ee3b06696db8b04850148551402f4392ea495"
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 4,
+      "total": 5,
+      "subject": "docs/zh_CN: Add ipv6 Chinese translation",
+      "messageId": "<20260817021340.17318-5-anka@stu.cdut.edu.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260817021340.17318-5-anka@stu.cdut.edu.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/networking/index.rst",
+        "Documentation/translations/zh_CN/networking/ipv6.rst"
+      ],
+      "patchId": "06bdaf60d7d61bd1871b6ed6e8ea0c2a5622552f",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Weijie Yuan <wy@wyuan.org>",
+          "messageId": "<178720820741.15514.14083099247593040153.b4-review@b4>"
+        },
+        {
+          "type": "Reviewed-by",
+          "value": "Dongliang Mu <dzm91@hust.edu.cn>",
+          "messageId": "<f28dccd4-0c7f-47ac-8a5f-f532f42b7dd0@hust.edu.cn>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "9efc5c7f545ad5ba583da438b464748b89650e50"
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 5,
+      "total": 5,
+      "subject": "docs/zh_CN: Add LSM/SeLinux secid Chinese translation",
+      "messageId": "<20260817021340.17318-6-anka@stu.cdut.edu.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260817021340.17318-6-anka@stu.cdut.edu.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/networking/index.rst",
+        "Documentation/translations/zh_CN/networking/secid.rst"
+      ],
+      "patchId": "a458a07a7aec5a7f95ce41025c87c4958418da81",
+      "trailers": [
+        {
+          "type": "Acked-by",
+          "value": "Weijie Yuan <wy@wyuan.org>",
+          "messageId": "<178720820741.15514.10299503411650270853.b4-review@b4>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "1c58436b8f13282523911e29103d197738e0160c"
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

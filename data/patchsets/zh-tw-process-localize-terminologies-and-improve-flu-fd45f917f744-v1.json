@@ -1,0 +1,88 @@
+{
+  "id": "zh-tw-process-localize-terminologies-and-improve-flu-fd45f917f744-v1",
+  "subject": "[PATCH] docs: zh_TW: process: localize terminologies and improve fluency in 8.Conclusion",
+  "authorName": "CHEN-YOU-0331",
+  "authorEmail": "chenyou910331@gmail.com",
+  "revision": 1,
+  "postedAt": "2026-05-28T04:13:30.000Z",
+  "language": "zh_TW",
+  "patchCount": 1,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 4,
+  "latestRevision": false,
+  "messageIds": [
+    "<20260528041330.23247-1-chenyou910331@gmail.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260528041330.23247-1-chenyou910331@gmail.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260528041330.23247-1-chenyou910331@gmail.com/raw",
+  "replies": 5,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "zh-tw-process-localize-terminologies-and-improve-flu-fd45f917f744-v1",
+      "current": true
+    },
+    {
+      "revision": 2,
+      "id": "zh-tw-process-localize-terminologies-and-improve-flu-950692a705bf-v2",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "docs: zh_TW: process: localize terminologies and improve fluency in 8.Conclusion",
+      "messageId": "<20260528041330.23247-1-chenyou910331@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260528041330.23247-1-chenyou910331@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_TW/process/8.Conclusion.rst"
+      ],
+      "patchId": "cd06f6e7e304dd6b753dbf884544d65faeb20ee3",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Dongliang Mu <dzm91@hust.edu.cn>",
+          "messageId": "<CAD-N9QV_PtHgPGJzOfkfX-uCT3kP1Bw2d4YvAjgZa-D=GJZizw@mail.gmail.com>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

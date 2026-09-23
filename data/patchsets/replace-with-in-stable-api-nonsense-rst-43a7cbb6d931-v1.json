@@ -1,0 +1,89 @@
+{
+  "id": "replace-with-in-stable-api-nonsense-rst-43a7cbb6d931-v1",
+  "subject": "[PATCH] docs/zh_TW: replace 接口  with 介面 in stable-api-nonsense.rst",
+  "authorName": "panzhipop",
+  "authorEmail": "kipp455187@gmail.com",
+  "revision": 1,
+  "postedAt": "2026-06-03T19:34:08.000Z",
+  "language": "zh_TW",
+  "patchCount": 1,
+  "status": "applied",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 3,
+  "latestRevision": true,
+  "messageIds": [
+    "<20260603193408.140445-1-kipp455187@gmail.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "bb94c0c3c20dc3f0d2b3b6fb646ab47491a07e3f"
+    },
+    "corbet": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "bb94c0c3c20dc3f0d2b3b6fb646ab47491a07e3f"
+    },
+    "linus": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "bb94c0c3c20dc3f0d2b3b6fb646ab47491a07e3f"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260603193408.140445-1-kipp455187@gmail.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260603193408.140445-1-kipp455187@gmail.com/raw",
+  "replies": 3,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "replace-with-in-stable-api-nonsense-rst-43a7cbb6d931-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "docs/zh_TW: replace 接口 with 介面 in stable-api-nonsense.rst",
+      "messageId": "<20260603193408.140445-1-kipp455187@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260603193408.140445-1-kipp455187@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_TW/process/stable-api-nonsense.rst"
+      ],
+      "patchId": "e47a51bc38f58be5d81c17dc2cc1757b5ddf5277",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Dongliang Mu <dzm91@hust.edu.cn>",
+          "messageId": "<7b6913d0-921f-4f46-8d97-adf18eddb5d1@hust.edu.cn>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "bb94c0c3c20dc3f0d2b3b6fb646ab47491a07e3f"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "bb94c0c3c20dc3f0d2b3b6fb646ab47491a07e3f"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "bb94c0c3c20dc3f0d2b3b6fb646ab47491a07e3f"
+        }
+      }
+    }
+  ]
+}

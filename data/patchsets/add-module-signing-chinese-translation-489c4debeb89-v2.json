@@ -1,0 +1,102 @@
+{
+  "id": "add-module-signing-chinese-translation-489c4debeb89-v2",
+  "subject": "[PATCH v2] docs/zh_CN: add module-signing Chinese translation",
+  "authorName": "Yan Zhu",
+  "authorEmail": "zhuyan2015@qq.com",
+  "revision": 2,
+  "postedAt": "2026-04-13T15:33:18.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "waiting",
+  "reviewReplies": 0,
+  "latestRevision": false,
+  "messageIds": [
+    "<tencent_0101EEFDDBC5D532222BFE0EF2487DCC0805@qq.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "2cbd7a3de5d40fd22bc27f9356461e144d0bdf2d"
+    },
+    "corbet": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "2cbd7a3de5d40fd22bc27f9356461e144d0bdf2d"
+    },
+    "linus": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "2cbd7a3de5d40fd22bc27f9356461e144d0bdf2d"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/tencent_0101EEFDDBC5D532222BFE0EF2487DCC0805@qq.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/tencent_0101EEFDDBC5D532222BFE0EF2487DCC0805@qq.com/raw",
+  "replies": 0,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "add-module-signing-chinese-translation-eb83c9f8b091-v1",
+      "current": false
+    },
+    {
+      "revision": 2,
+      "id": "add-module-signing-chinese-translation-489c4debeb89-v2",
+      "current": true
+    },
+    {
+      "revision": 3,
+      "id": "add-module-signing-chinese-translation-c08bedddeb06-v3",
+      "current": false
+    },
+    {
+      "revision": 4,
+      "id": "add-module-signing-chinese-translation-88539ad46e8a-v4",
+      "current": false
+    },
+    {
+      "revision": 5,
+      "id": "add-module-signing-chinese-translation-e24008c80751-v5",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "docs/zh_CN: add module-signing Chinese translation",
+      "messageId": "<tencent_0101EEFDDBC5D532222BFE0EF2487DCC0805@qq.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/tencent_0101EEFDDBC5D532222BFE0EF2487DCC0805@qq.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/admin-guide/module-signing.rst"
+      ],
+      "patchId": "6174ef9b7a26dc72c73a3e0f8e0b90924a2c68e1",
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "2cbd7a3de5d40fd22bc27f9356461e144d0bdf2d"
+        },
+        "corbet": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "2cbd7a3de5d40fd22bc27f9356461e144d0bdf2d"
+        },
+        "linus": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "2cbd7a3de5d40fd22bc27f9356461e144d0bdf2d"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": "collect-most-documentation-related-tools-under-tools-bcfcfede2529-v4",
+  "subject": "[PATCH v4 0/7] Collect (most) documentation-related tools under /tools/docs",
+  "authorName": "Jonathan Corbet",
+  "authorEmail": "corbet@lwn.net",
+  "revision": 4,
+  "postedAt": "2025-10-28T22:10:08.000Z",
+  "language": "zh_CN",
+  "patchCount": 2,
+  "status": "applied",
+  "lifecycle": "active",
+  "reviewState": "waiting",
+  "reviewReplies": 0,
+  "latestRevision": true,
+  "messageIds": [
+    "<20251028221017.5785-1-corbet@lwn.net>",
+    "<20251028221017.5785-2-corbet@lwn.net>",
+    "<20251028221017.5785-3-corbet@lwn.net>",
+    "<20251028221017.5785-4-corbet@lwn.net>",
+    "<20251028221017.5785-5-corbet@lwn.net>",
+    "<20251028221017.5785-6-corbet@lwn.net>",
+    "<20251028221017.5785-7-corbet@lwn.net>",
+    "<20251028221017.5785-8-corbet@lwn.net>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "confirmed",
+      "matched": 2,
+      "total": 2,
+      "commit": "d37366cac4ccfb71c77e9620f63e3a6fcdf3816c"
+    },
+    "corbet": {
+      "state": "confirmed",
+      "matched": 2,
+      "total": 2,
+      "commit": "d37366cac4ccfb71c77e9620f63e3a6fcdf3816c"
+    },
+    "linus": {
+      "state": "confirmed",
+      "matched": 2,
+      "total": 2,
+      "commit": "d37366cac4ccfb71c77e9620f63e3a6fcdf3816c"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20251028221017.5785-1-corbet@lwn.net/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20251028221017.5785-1-corbet@lwn.net/raw",
+  "replies": 0,
+  "versions": [
+    {
+      "revision": 4,
+      "id": "collect-most-documentation-related-tools-under-tools-bcfcfede2529-v4",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 2,
+      "total": 7,
+      "subject": "docs: move checktransupdate.py to tools/docs",
+      "messageId": "<20251028221017.5785-3-corbet@lwn.net>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251028221017.5785-3-corbet@lwn.net/",
+      "changedFiles": [
+        "Documentation/doc-guide/checktransupdate.rst",
+        "Documentation/translations/zh_CN/doc-guide/checktransupdate.rst",
+        "Documentation/translations/zh_CN/how-to.rst",
+        "MAINTAINERS",
+        "tools/docs/checktransupdate.py"
+      ],
+      "patchId": "59c631a4237b3b0c897792cf8eb3cfbadbb255b5",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Mauro Carvalho Chehab <mchehab+huawei@kernel.org>",
+          "messageId": "<20251028221017.5785-3-corbet@lwn.net>"
+        },
+        {
+          "type": "Acked-by",
+          "value": "Jani Nikula <jani.nikula@intel.com>",
+          "messageId": "<20251028221017.5785-3-corbet@lwn.net>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "d37366cac4ccfb71c77e9620f63e3a6fcdf3816c"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "d37366cac4ccfb71c77e9620f63e3a6fcdf3816c"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "d37366cac4ccfb71c77e9620f63e3a6fcdf3816c"
+        }
+      }
+    },
+    {
+      "index": 6,
+      "total": 7,
+      "subject": "docs: move find-unused-docs.sh to tools/docs",
+      "messageId": "<20251028221017.5785-7-corbet@lwn.net>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251028221017.5785-7-corbet@lwn.net/",
+      "changedFiles": [
+        "Documentation/doc-guide/contributing.rst",
+        "Documentation/translations/zh_CN/doc-guide/contributing.rst",
+        "tools/docs/find-unused-docs.sh"
+      ],
+      "patchId": "ca13656f0657d49c48c1050463f8d00ab916837c",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Mauro Carvalho Chehab <mchehab+huawei@kernel.org>",
+          "messageId": "<20251028221017.5785-7-corbet@lwn.net>"
+        },
+        {
+          "type": "Acked-by",
+          "value": "Jani Nikula <jani.nikula@intel.com>",
+          "messageId": "<20251028221017.5785-7-corbet@lwn.net>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "184414c6a6cac78ad6c46037a8afad5c9f04fba5"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "184414c6a6cac78ad6c46037a8afad5c9f04fba5"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "184414c6a6cac78ad6c46037a8afad5c9f04fba5"
+        }
+      }
+    }
+  ]
+}

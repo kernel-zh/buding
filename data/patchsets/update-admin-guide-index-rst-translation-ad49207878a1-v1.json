@@ -1,0 +1,87 @@
+{
+  "id": "update-admin-guide-index-rst-translation-ad49207878a1-v1",
+  "subject": "[PATCH] docs/zh_CN: update admin-guide/index.rst translation",
+  "authorName": "Yan Zhu",
+  "authorEmail": "zhuyan2015@qq.com",
+  "revision": 1,
+  "postedAt": "2026-05-10T06:48:28.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 3,
+  "latestRevision": false,
+  "messageIds": [
+    "<tencent_7ADF2D1EBD8EAD2028BC93BA7858EA655D0A@qq.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "96bb72c9503066ed38567682ec94585c9c838fd6"
+    },
+    "corbet": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "96bb72c9503066ed38567682ec94585c9c838fd6"
+    },
+    "linus": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "96bb72c9503066ed38567682ec94585c9c838fd6"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/tencent_7ADF2D1EBD8EAD2028BC93BA7858EA655D0A@qq.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/tencent_7ADF2D1EBD8EAD2028BC93BA7858EA655D0A@qq.com/raw",
+  "replies": 6,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "update-admin-guide-index-rst-translation-ad49207878a1-v1",
+      "current": true
+    },
+    {
+      "revision": 2,
+      "id": "update-admin-guide-index-rst-translation-d908cdb79a1c-v2",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "docs/zh_CN: update admin-guide/index.rst translation",
+      "messageId": "<tencent_7ADF2D1EBD8EAD2028BC93BA7858EA655D0A@qq.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/tencent_7ADF2D1EBD8EAD2028BC93BA7858EA655D0A@qq.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/admin-guide/index.rst"
+      ],
+      "patchId": "2521f065a3538e756716630f6a3a0f709c13d047",
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "96bb72c9503066ed38567682ec94585c9c838fd6"
+        },
+        "corbet": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "96bb72c9503066ed38567682ec94585c9c838fd6"
+        },
+        "linus": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "96bb72c9503066ed38567682ec94585c9c838fd6"
+        }
+      }
+    }
+  ]
+}

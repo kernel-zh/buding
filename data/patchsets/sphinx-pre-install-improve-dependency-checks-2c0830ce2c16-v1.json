@@ -1,0 +1,127 @@
+{
+  "id": "sphinx-pre-install-improve-dependency-checks-2c0830ce2c16-v1",
+  "subject": "[PATCH v1 0/2] docs: sphinx-pre-install: improve dependency checks",
+  "authorName": "Chen Miao",
+  "authorEmail": "chenmiao.ku@gmail.com",
+  "revision": 1,
+  "postedAt": "2026-08-09T10:19:19.000Z",
+  "language": "zh_CN",
+  "patchCount": 2,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 6,
+  "latestRevision": false,
+  "messageIds": [
+    "<20260809101923.13176-1-chenmiao.ku@gmail.com>",
+    "<20260809101923.13176-2-chenmiao.ku@gmail.com>",
+    "<20260809101923.13176-3-chenmiao.ku@gmail.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 2
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 2
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 2
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260809101923.13176-1-chenmiao.ku@gmail.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260809101923.13176-1-chenmiao.ku@gmail.com/raw",
+  "replies": 10,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "sphinx-pre-install-improve-dependency-checks-2c0830ce2c16-v1",
+      "current": true
+    },
+    {
+      "revision": 2,
+      "id": "sphinx-pre-install-improve-dependency-checks-ebf3fcdf4215-v2",
+      "current": false
+    },
+    {
+      "revision": 3,
+      "id": "sphinx-pre-install-improve-dependency-checks-699c82984234-v3",
+      "current": false
+    },
+    {
+      "revision": 4,
+      "id": "sphinx-pre-install-improve-dependency-checks-dbe026549334-v4",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 2,
+      "subject": "docs: sphinx-pre-install: add macOS Homebrew support",
+      "messageId": "<20260809101923.13176-2-chenmiao.ku@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260809101923.13176-2-chenmiao.ku@gmail.com/",
+      "changedFiles": [
+        "Documentation/doc-guide/sphinx.rst",
+        "Documentation/translations/zh_CN/doc-guide/sphinx.rst",
+        "Documentation/translations/zh_CN/how-to.rst",
+        "tools/docs/sphinx-pre-install"
+      ],
+      "patchId": "828b59e53d4fa74626883414d8ea8407db9920ca",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 2,
+      "total": 2,
+      "subject": "docs: sphinx-pre-install: check GNU Make version",
+      "messageId": "<20260809101923.13176-3-chenmiao.ku@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260809101923.13176-3-chenmiao.ku@gmail.com/",
+      "changedFiles": [
+        "Documentation/doc-guide/sphinx.rst",
+        "Documentation/translations/zh_CN/doc-guide/sphinx.rst",
+        "Documentation/translations/zh_CN/how-to.rst",
+        "tools/docs/sphinx-pre-install"
+      ],
+      "patchId": "bc179289d3b24290a0b2676afeb7d295ea28996c",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

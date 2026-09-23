@@ -1,0 +1,121 @@
+{
+  "id": "translate-process-applying-patches-rst-into-chinese-61ad6099a021-v3",
+  "subject": "[PATCH v3 0/2] docs/zh_CN: translate process/applying-patches.rst into Chinese",
+  "authorName": "Weijie Yuan",
+  "authorEmail": "wy@wyuan.org",
+  "revision": 3,
+  "postedAt": "2026-08-16T17:47:44.000Z",
+  "language": "zh_CN",
+  "patchCount": 2,
+  "status": "applied",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 1,
+  "latestRevision": true,
+  "messageIds": [
+    "<20260817-apply-patches-v3-0-45e3bd2b1ccc@wyuan.org>",
+    "<20260817-apply-patches-v3-1-45e3bd2b1ccc@wyuan.org>",
+    "<20260817-apply-patches-v3-2-45e3bd2b1ccc@wyuan.org>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "confirmed",
+      "matched": 2,
+      "total": 2,
+      "commit": "f8688fe01bff2754f441d0f34329561b7552754e"
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 2
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 2
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260817-apply-patches-v3-0-45e3bd2b1ccc@wyuan.org/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260817-apply-patches-v3-0-45e3bd2b1ccc@wyuan.org/raw",
+  "replies": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "translate-process-applying-patches-rst-into-chinese-8cf371f1589e-v1",
+      "current": false
+    },
+    {
+      "revision": 2,
+      "id": "translate-process-applying-patches-rst-into-chinese-43d74d9c99aa-v2",
+      "current": false
+    },
+    {
+      "revision": 3,
+      "id": "translate-process-applying-patches-rst-into-chinese-61ad6099a021-v3",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 2,
+      "subject": "docs/zh_CN: add process/applying-patches Chinese translation",
+      "messageId": "<20260817-apply-patches-v3-1-45e3bd2b1ccc@wyuan.org>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260817-apply-patches-v3-1-45e3bd2b1ccc@wyuan.org/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/process/applying-patches.rst",
+        "Documentation/translations/zh_CN/process/index.rst"
+      ],
+      "patchId": "aa7e1ac50a084d3bc7bd704a9b2c034606934e0e",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "f8688fe01bff2754f441d0f34329561b7552754e"
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 2,
+      "total": 2,
+      "subject": "docs/zh_CN: link to Chinese applying-patches translation",
+      "messageId": "<20260817-apply-patches-v3-2-45e3bd2b1ccc@wyuan.org>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260817-apply-patches-v3-2-45e3bd2b1ccc@wyuan.org/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/admin-guide/README.rst",
+        "Documentation/translations/zh_CN/process/howto.rst"
+      ],
+      "patchId": "307c053b2fc2fc2126fee89791fa9fb8661da666",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "b0b415dcdd84732d24f16fb0758450897e30cd64"
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

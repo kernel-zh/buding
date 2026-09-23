@@ -1,0 +1,117 @@
+{
+  "id": "documentation-adopt-new-coding-style-of-type-aware-k-80e457a32971-v3",
+  "subject": "[PATCH v3 0/3] Documentation: adopt new coding style of type-aware kmalloc-family",
+  "authorName": "Manuel Ebner",
+  "authorEmail": "manuelebner@mailbox.org",
+  "revision": 3,
+  "postedAt": "2026-04-24T17:47:44.000Z",
+  "language": "mixed",
+  "patchCount": 1,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 1,
+  "latestRevision": false,
+  "messageIds": [
+    "<20260424174743.257951-2-manuelebner@mailbox.org>",
+    "<20260424175141.258168-2-manuelebner@mailbox.org>",
+    "<20260424175553.258412-3-manuelebner@mailbox.org>",
+    "<20260424175740.258522-2-manuelebner@mailbox.org>",
+    "<20260425054630.272707-2-manuelebner@mailbox.org>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "7c6d969d5349c40348276d5c301b2d200afa623d"
+    },
+    "corbet": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "7c6d969d5349c40348276d5c301b2d200afa623d"
+    },
+    "linus": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "7c6d969d5349c40348276d5c301b2d200afa623d"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260424174743.257951-2-manuelebner@mailbox.org/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260424174743.257951-2-manuelebner@mailbox.org/raw",
+  "replies": 2,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "documentation-adopt-new-coding-style-of-type-aware-k-1e4289a76674-v1",
+      "current": false
+    },
+    {
+      "revision": 2,
+      "id": "documentation-adopt-new-coding-style-of-type-aware-k-c0ae40086770-v2",
+      "current": false
+    },
+    {
+      "revision": 3,
+      "id": "documentation-adopt-new-coding-style-of-type-aware-k-80e457a32971-v3",
+      "current": true
+    },
+    {
+      "revision": 4,
+      "id": "documentation-adopt-new-coding-style-of-type-aware-k-9430e1a02a7e-v4",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 3,
+      "subject": "Documentation: adopt new coding style of type-aware kmalloc-family",
+      "messageId": "<20260424175141.258168-2-manuelebner@mailbox.org>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260424175141.258168-2-manuelebner@mailbox.org/",
+      "changedFiles": [
+        "Documentation/core-api/kref.rst",
+        "Documentation/core-api/list.rst",
+        "Documentation/driver-api/mailbox.rst",
+        "Documentation/driver-api/media/v4l2-fh.rst",
+        "Documentation/kernel-hacking/locking.rst",
+        "Documentation/locking/locktypes.rst",
+        "Documentation/process/coding-style.rst",
+        "Documentation/sound/kernel-api/writing-an-alsa-driver.rst",
+        "Documentation/spi/spi-summary.rst",
+        "Documentation/translations/it_IT/kernel-hacking/locking.rst",
+        "Documentation/translations/it_IT/locking/locktypes.rst",
+        "Documentation/translations/it_IT/process/coding-style.rst",
+        "Documentation/translations/sp_SP/process/coding-style.rst",
+        "Documentation/translations/zh_CN/core-api/kref.rst",
+        "Documentation/translations/zh_CN/process/coding-style.rst",
+        "Documentation/translations/zh_CN/video4linux/v4l2-framework.txt",
+        "Documentation/translations/zh_TW/process/coding-style.rst"
+      ],
+      "patchId": "e8336525f88a607c5712e35c237280bdfd3d8adc",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "7c6d969d5349c40348276d5c301b2d200afa623d"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "7c6d969d5349c40348276d5c301b2d200afa623d"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "7c6d969d5349c40348276d5c301b2d200afa623d"
+        }
+      }
+    }
+  ]
+}

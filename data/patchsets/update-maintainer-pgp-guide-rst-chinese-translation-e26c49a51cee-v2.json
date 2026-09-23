@@ -1,0 +1,198 @@
+{
+  "id": "update-maintainer-pgp-guide-rst-chinese-translation-e26c49a51cee-v2",
+  "subject": "[PATCH v2 0/5] Update maintainer-pgp-guide.rst Chinese translation",
+  "authorName": "Weijie Yuan",
+  "authorEmail": "wy@wyuan.org",
+  "revision": 2,
+  "postedAt": "2026-08-23T07:14:56.000Z",
+  "language": "zh_CN",
+  "patchCount": 5,
+  "status": "proposed",
+  "lifecycle": "active",
+  "reviewState": "waiting",
+  "reviewReplies": 0,
+  "latestRevision": true,
+  "messageIds": [
+    "<20260823-maintainer-pgp-guide-v2-0-bea33b2ece54@wyuan.org>",
+    "<20260823-maintainer-pgp-guide-v2-1-bea33b2ece54@wyuan.org>",
+    "<20260823-maintainer-pgp-guide-v2-2-bea33b2ece54@wyuan.org>",
+    "<20260823-maintainer-pgp-guide-v2-3-bea33b2ece54@wyuan.org>",
+    "<20260823-maintainer-pgp-guide-v2-4-bea33b2ece54@wyuan.org>",
+    "<20260823-maintainer-pgp-guide-v2-5-bea33b2ece54@wyuan.org>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 5
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 5
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 5
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260823-maintainer-pgp-guide-v2-0-bea33b2ece54@wyuan.org/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260823-maintainer-pgp-guide-v2-0-bea33b2ece54@wyuan.org/raw",
+  "replies": 0,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "update-maintainer-pgp-guide-rst-chinese-translation-e3d1c2cb3e5d-v1",
+      "current": false
+    },
+    {
+      "revision": 2,
+      "id": "update-maintainer-pgp-guide-rst-chinese-translation-e26c49a51cee-v2",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 5,
+      "subject": "docs/zh_CN: update maintainer-pgp-guide translation",
+      "messageId": "<20260823-maintainer-pgp-guide-v2-1-bea33b2ece54@wyuan.org>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260823-maintainer-pgp-guide-v2-1-bea33b2ece54@wyuan.org/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/process/maintainer-pgp-guide.rst"
+      ],
+      "patchId": "ac7d807a7f72ddc707de41f8888be650ddf79ce1",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 2,
+      "total": 5,
+      "subject": "docs/zh_CN: clarify free Nitrokey requirements",
+      "messageId": "<20260823-maintainer-pgp-guide-v2-2-bea33b2ece54@wyuan.org>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260823-maintainer-pgp-guide-v2-2-bea33b2ece54@wyuan.org/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/process/maintainer-pgp-guide.rst"
+      ],
+      "patchId": "85f5fd3f3dc1f062772fb28472b14998e780ae0b",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 3,
+      "total": 5,
+      "subject": "docs/zh_CN: update maintainer-pgp-guide kernel.org link",
+      "messageId": "<20260823-maintainer-pgp-guide-v2-3-bea33b2ece54@wyuan.org>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260823-maintainer-pgp-guide-v2-3-bea33b2ece54@wyuan.org/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/process/maintainer-pgp-guide.rst"
+      ],
+      "patchId": "9eae3b9774b26f840b0701ca6fdbac37f9005e48",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 4,
+      "total": 5,
+      "subject": "docs/zh_CN: add kernel.org trust repository reference",
+      "messageId": "<20260823-maintainer-pgp-guide-v2-4-bea33b2ece54@wyuan.org>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260823-maintainer-pgp-guide-v2-4-bea33b2ece54@wyuan.org/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/process/maintainer-pgp-guide.rst"
+      ],
+      "patchId": "cdc81a169fab8bd813c6a312580a8bb69fa57e3e",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 5,
+      "total": 5,
+      "subject": "docs/zh_CN: remove empty proofreader field from maintainer PGP guide",
+      "messageId": "<20260823-maintainer-pgp-guide-v2-5-bea33b2ece54@wyuan.org>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260823-maintainer-pgp-guide-v2-5-bea33b2ece54@wyuan.org/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/process/maintainer-pgp-guide.rst"
+      ],
+      "patchId": "c10c65f35f847c4af60b00c33b110ed2cc8d8665",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

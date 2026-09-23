@@ -1,0 +1,108 @@
+{
+  "id": "delete-task-euid-8f5676bd0c80-v3",
+  "subject": "[PATCH v3 0/2] Delete task_euid()",
+  "authorName": "Alice Ryhl",
+  "authorEmail": "aliceryhl@google.com",
+  "revision": 3,
+  "postedAt": "2026-05-07T09:48:21.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 1,
+  "latestRevision": false,
+  "messageIds": [
+    "<20260507-remove-task-euid-v3-0-27f22f335c2c@google.com>",
+    "<20260507-remove-task-euid-v3-1-27f22f335c2c@google.com>",
+    "<20260507-remove-task-euid-v3-2-27f22f335c2c@google.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "15c1f17979712407a4a71f2129f89ecd625ccbe8"
+    },
+    "linus": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "15c1f17979712407a4a71f2129f89ecd625ccbe8"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260507-remove-task-euid-v3-0-27f22f335c2c@google.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260507-remove-task-euid-v3-0-27f22f335c2c@google.com/raw",
+  "replies": 2,
+  "versions": [
+    {
+      "revision": 3,
+      "id": "delete-task-euid-8f5676bd0c80-v3",
+      "current": true
+    },
+    {
+      "revision": 4,
+      "id": "delete-task-euid-aab4cf0daffb-v4",
+      "current": false
+    },
+    {
+      "revision": 5,
+      "id": "delete-task-euid-6ddb959b4fec-v5",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 2,
+      "total": 2,
+      "subject": "cred: delete task_euid()",
+      "messageId": "<20260507-remove-task-euid-v3-2-27f22f335c2c@google.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260507-remove-task-euid-v3-2-27f22f335c2c@google.com/",
+      "changedFiles": [
+        "Documentation/security/credentials.rst",
+        "Documentation/translations/zh_CN/security/credentials.rst",
+        "include/linux/cred.h",
+        "rust/helpers/task.c",
+        "rust/kernel/task.rs"
+      ],
+      "patchId": "9aeadef26a8f8ac25ba39792a6bc767b607da8fd",
+      "trailers": [
+        {
+          "type": "Suggested-by",
+          "value": "Jann Horn <jannh@google.com>",
+          "messageId": "<20260507-remove-task-euid-v3-2-27f22f335c2c@google.com>"
+        },
+        {
+          "type": "Reviewed-by",
+          "value": "Gary Guo <gary@garyguo.net>",
+          "messageId": "<20260507-remove-task-euid-v3-2-27f22f335c2c@google.com>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "15c1f17979712407a4a71f2129f89ecd625ccbe8"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "15c1f17979712407a4a71f2129f89ecd625ccbe8"
+        }
+      }
+    }
+  ]
+}

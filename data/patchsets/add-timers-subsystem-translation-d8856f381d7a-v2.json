@@ -1,0 +1,268 @@
+{
+  "id": "add-timers-subsystem-translation-d8856f381d7a-v2",
+  "subject": "[PATCH v2 0/7] docs/zh_CN: Add timers subsystem translation",
+  "authorName": "Xingqiu Xu",
+  "authorEmail": "hilbertanjou83@gmail.com",
+  "revision": 2,
+  "postedAt": "2025-12-30T19:02:05.000Z",
+  "language": "zh_CN",
+  "patchCount": 7,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 1,
+  "latestRevision": false,
+  "messageIds": [
+    "<cover.1767118457.git.hilbertanjou83@gmail.com>",
+    "<f5e1f24ac6aed222a95bfeeef7df66b753e3b512.1767118457.git.hilbertanjou83@gmail.com>",
+    "<6f8a022173941e2478806e5606a0a7ba3124a65b.1767118457.git.hilbertanjou83@gmail.com>",
+    "<c1504ef8f30bf0fa3195246e481d1f4cd009fd8c.1767118457.git.hilbertanjou83@gmail.com>",
+    "<13b522614af92e2f9f2dd94455890900d41572c7.1767118457.git.hilbertanjou83@gmail.com>",
+    "<cddbec3b666c0ba23cdc09d635b907ce04243ae9.1767118457.git.hilbertanjou83@gmail.com>",
+    "<b3d77a7eef83314f34d41d6df584a24229dbe52a.1767118457.git.hilbertanjou83@gmail.com>",
+    "<e6e5b25d48ddad02ad9de1679d789b2309e7307c.1767118457.git.hilbertanjou83@gmail.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 7
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 7
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 7
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/cover.1767118457.git.hilbertanjou83@gmail.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/cover.1767118457.git.hilbertanjou83@gmail.com/raw",
+  "replies": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "add-timers-subsystem-translation-648629c58f29-v1",
+      "current": false
+    },
+    {
+      "revision": 2,
+      "id": "add-timers-subsystem-translation-d8856f381d7a-v2",
+      "current": true
+    },
+    {
+      "revision": 3,
+      "id": "add-timers-subsystem-translation-9b14247c4995-v3",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 7,
+      "subject": "docs/zh_CN: Add timers directory Chinese translation",
+      "messageId": "<f5e1f24ac6aed222a95bfeeef7df66b753e3b512.1767118457.git.hilbertanjou83@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/f5e1f24ac6aed222a95bfeeef7df66b753e3b512.1767118457.git.hilbertanjou83@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/subsystem-apis.rst",
+        "Documentation/translations/zh_CN/timers/index.rst"
+      ],
+      "patchId": "b34350a84755d1f92cf5036a0bbdad1a080a5103",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 2,
+      "total": 7,
+      "subject": "docs/zh_CN: Translate timers/timekeeping.rst",
+      "messageId": "<6f8a022173941e2478806e5606a0a7ba3124a65b.1767118457.git.hilbertanjou83@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/6f8a022173941e2478806e5606a0a7ba3124a65b.1767118457.git.hilbertanjou83@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/timers/index.rst",
+        "Documentation/translations/zh_CN/timers/timekeeping.rst"
+      ],
+      "patchId": "c8f05cb34fbd80eafe75262d0c0343c97480db42",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 3,
+      "total": 7,
+      "subject": "docs/zh_CN: Translate timers/hpet.rst",
+      "messageId": "<c1504ef8f30bf0fa3195246e481d1f4cd009fd8c.1767118457.git.hilbertanjou83@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/c1504ef8f30bf0fa3195246e481d1f4cd009fd8c.1767118457.git.hilbertanjou83@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/timers/hpet.rst",
+        "Documentation/translations/zh_CN/timers/index.rst"
+      ],
+      "patchId": "11f4fefe42945ed22a70278bd3efff1d86baf52f",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 4,
+      "total": 7,
+      "subject": "docs/zh_CN: Translate timers/hrtimers.rst",
+      "messageId": "<13b522614af92e2f9f2dd94455890900d41572c7.1767118457.git.hilbertanjou83@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/13b522614af92e2f9f2dd94455890900d41572c7.1767118457.git.hilbertanjou83@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/timers/hrtimers.rst",
+        "Documentation/translations/zh_CN/timers/index.rst"
+      ],
+      "patchId": "435ed989a93e21029dd10e0f9c6c58f98ef05318",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 5,
+      "total": 7,
+      "subject": "docs/zh_CN: Translate timers/highres.rst",
+      "messageId": "<cddbec3b666c0ba23cdc09d635b907ce04243ae9.1767118457.git.hilbertanjou83@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/cddbec3b666c0ba23cdc09d635b907ce04243ae9.1767118457.git.hilbertanjou83@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/timers/highres.rst",
+        "Documentation/translations/zh_CN/timers/index.rst"
+      ],
+      "patchId": "fb418ec1263059f4befafdb1c9194402f2cb2f2f",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 6,
+      "total": 7,
+      "subject": "docs/zh_CN: Translate timers/no_hz.rst",
+      "messageId": "<b3d77a7eef83314f34d41d6df584a24229dbe52a.1767118457.git.hilbertanjou83@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/b3d77a7eef83314f34d41d6df584a24229dbe52a.1767118457.git.hilbertanjou83@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/timers/index.rst",
+        "Documentation/translations/zh_CN/timers/no_hz.rst"
+      ],
+      "patchId": "fe7dcb28d14199b15629fb94095d93dbee3f0ad4",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 7,
+      "total": 7,
+      "subject": "docs/zh_CN: Translate timers delay_sleep_functions",
+      "messageId": "<e6e5b25d48ddad02ad9de1679d789b2309e7307c.1767118457.git.hilbertanjou83@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/e6e5b25d48ddad02ad9de1679d789b2309e7307c.1767118457.git.hilbertanjou83@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/timers/delay_sleep_functions.rst",
+        "Documentation/translations/zh_CN/timers/index.rst"
+      ],
+      "patchId": "4cd1082965caab881661ec4af183a4ed37f2ab28",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

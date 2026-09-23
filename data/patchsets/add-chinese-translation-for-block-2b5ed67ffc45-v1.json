@@ -1,0 +1,175 @@
+{
+  "id": "add-chinese-translation-for-block-2b5ed67ffc45-v1",
+  "subject": "[PATCH 0/3] Add chinese translation for block",
+  "authorName": "ke zijie",
+  "authorEmail": "kezijie@leap-io-kernel.com",
+  "revision": 1,
+  "postedAt": "2025-11-14T07:37:18.000Z",
+  "language": "zh_CN",
+  "patchCount": 3,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 2,
+  "latestRevision": false,
+  "messageIds": [
+    "<cover.1763105050.git.kezijie@leap-io-kernel.com>",
+    "<2d67aafd9626ce9ba85037b79fc425123a455acd.1763105050.git.kezijie@leap-io-kernel.com>",
+    "<f90d639dcb2a8064c6a5e85614c4da263b9942dc.1763105050.git.kezijie@leap-io-kernel.com>",
+    "<fd6695a54cfaedd6c40bf58a6f0cafdc7d1b96f9.1763105050.git.kezijie@leap-io-kernel.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 3,
+      "commit": "a41b1f1521d5d1cfdd983d38a5e02a2bf9b06182"
+    },
+    "corbet": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 3,
+      "commit": "a41b1f1521d5d1cfdd983d38a5e02a2bf9b06182"
+    },
+    "linus": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 3,
+      "commit": "a41b1f1521d5d1cfdd983d38a5e02a2bf9b06182"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/cover.1763105050.git.kezijie@leap-io-kernel.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/cover.1763105050.git.kezijie@leap-io-kernel.com/raw",
+  "replies": 3,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "add-chinese-translation-for-block-2b5ed67ffc45-v1",
+      "current": true
+    },
+    {
+      "revision": 2,
+      "id": "add-chinese-translation-for-block-99dd34a4e18d-v2",
+      "current": false
+    },
+    {
+      "revision": 3,
+      "id": "add-chinese-translation-for-block-544d27bbb671-v3",
+      "current": false
+    },
+    {
+      "revision": 4,
+      "id": "add-chinese-translation-for-block-37b692a25813-v4",
+      "current": false
+    },
+    {
+      "revision": 5,
+      "id": "add-chinese-translation-for-block-cc1fc067b477-v5",
+      "current": false
+    },
+    {
+      "revision": 6,
+      "id": "add-chinese-translation-for-block-7ceff11f515c-v6",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 3,
+      "subject": "docs/zh_CN: Add block/index.rst translation",
+      "messageId": "<2d67aafd9626ce9ba85037b79fc425123a455acd.1763105050.git.kezijie@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/2d67aafd9626ce9ba85037b79fc425123a455acd.1763105050.git.kezijie@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/block/index.rst",
+        "Documentation/translations/zh_CN/subsystem-apis.rst"
+      ],
+      "patchId": "26b5d26963f6fba647e2a5bd27e0b0b740dad300",
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "a41b1f1521d5d1cfdd983d38a5e02a2bf9b06182"
+        },
+        "corbet": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "a41b1f1521d5d1cfdd983d38a5e02a2bf9b06182"
+        },
+        "linus": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "a41b1f1521d5d1cfdd983d38a5e02a2bf9b06182"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "total": 3,
+      "subject": "docs/zh_CN: Add blk-mq.rst translation",
+      "messageId": "<f90d639dcb2a8064c6a5e85614c4da263b9942dc.1763105050.git.kezijie@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/f90d639dcb2a8064c6a5e85614c4da263b9942dc.1763105050.git.kezijie@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/block/blk-mq.rst",
+        "Documentation/translations/zh_CN/block/index.rst"
+      ],
+      "patchId": "9d437c5c57f811454ea6e240b1b77549ea34a8f3",
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "dcb7fefe5296f6673da1d9101169a45d1fdc31da"
+        },
+        "corbet": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "dcb7fefe5296f6673da1d9101169a45d1fdc31da"
+        },
+        "linus": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "dcb7fefe5296f6673da1d9101169a45d1fdc31da"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "total": 3,
+      "subject": "docs/zh_CN: Add data-integrity.rst translation",
+      "messageId": "<fd6695a54cfaedd6c40bf58a6f0cafdc7d1b96f9.1763105050.git.kezijie@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/fd6695a54cfaedd6c40bf58a6f0cafdc7d1b96f9.1763105050.git.kezijie@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/block/data-integrity.rst",
+        "Documentation/translations/zh_CN/block/index.rst"
+      ],
+      "patchId": "8e64712e4623e1c7352ae0c96e07f8f54cf795da",
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "862f670205f718bf54a8f3b54b5ca28de33ff33e"
+        },
+        "corbet": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "862f670205f718bf54a8f3b54b5ca28de33ff33e"
+        },
+        "linus": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "862f670205f718bf54a8f3b54b5ca28de33ff33e"
+        }
+      }
+    }
+  ]
+}

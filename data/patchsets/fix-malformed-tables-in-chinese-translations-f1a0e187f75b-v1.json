@@ -1,0 +1,180 @@
+{
+  "id": "fix-malformed-tables-in-chinese-translations-f1a0e187f75b-v1",
+  "subject": "[PATCH 0/2] docs: fix malformed tables in Chinese translations",
+  "authorName": "Gopi Krishna Menon",
+  "authorEmail": "krishnagopi487@gmail.com",
+  "revision": 1,
+  "postedAt": "2025-10-03T16:26:09.000Z",
+  "language": "mixed",
+  "patchCount": 4,
+  "status": "applied",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 1,
+  "latestRevision": true,
+  "messageIds": [
+    "<20251003162626.6737-1-krishnagopi487@gmail.com>",
+    "<20251003162626.6737-2-krishnagopi487@gmail.com>",
+    "<20251003162626.6737-3-krishnagopi487@gmail.com>",
+    "<20251003173926.10048-1-krishnagopi487@gmail.com>",
+    "<20251003173926.10048-2-krishnagopi487@gmail.com>",
+    "<20251003173926.10048-3-krishnagopi487@gmail.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "confirmed",
+      "matched": 4,
+      "total": 4,
+      "commit": "7e8f305a081e22ce81aab7f7b9ce01437cbd38b3"
+    },
+    "corbet": {
+      "state": "confirmed",
+      "matched": 4,
+      "total": 4,
+      "commit": "7e8f305a081e22ce81aab7f7b9ce01437cbd38b3"
+    },
+    "linus": {
+      "state": "confirmed",
+      "matched": 4,
+      "total": 4,
+      "commit": "7e8f305a081e22ce81aab7f7b9ce01437cbd38b3"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20251003162626.6737-1-krishnagopi487@gmail.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20251003162626.6737-1-krishnagopi487@gmail.com/raw",
+  "replies": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "fix-malformed-tables-in-chinese-translations-f1a0e187f75b-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 2,
+      "subject": "docs/zh_CN: Fix malformed table",
+      "messageId": "<20251003162626.6737-2-krishnagopi487@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251003162626.6737-2-krishnagopi487@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/cpu-freq/cpu-drivers.rst"
+      ],
+      "patchId": "520c463f03863508446a60c43de13857055dce27",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "7e8f305a081e22ce81aab7f7b9ce01437cbd38b3"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "7e8f305a081e22ce81aab7f7b9ce01437cbd38b3"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "7e8f305a081e22ce81aab7f7b9ce01437cbd38b3"
+        }
+      }
+    },
+    {
+      "index": 1,
+      "total": 2,
+      "subject": "docs/zh_CN: Fix malformed table",
+      "messageId": "<20251003173926.10048-2-krishnagopi487@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251003173926.10048-2-krishnagopi487@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/cpu-freq/cpu-drivers.rst"
+      ],
+      "patchId": "520c463f03863508446a60c43de13857055dce27",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "7e8f305a081e22ce81aab7f7b9ce01437cbd38b3"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "7e8f305a081e22ce81aab7f7b9ce01437cbd38b3"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "7e8f305a081e22ce81aab7f7b9ce01437cbd38b3"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "total": 2,
+      "subject": "docs/zh_TW: Fix malformed table",
+      "messageId": "<20251003162626.6737-3-krishnagopi487@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251003162626.6737-3-krishnagopi487@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_TW/cpu-freq/cpu-drivers.rst"
+      ],
+      "patchId": "5a11f3b2c6967ad8b294fcf40671ee17f41b69db",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "989ed3cad2fdb7921bf0f9f0f730e1bb065946c2"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "989ed3cad2fdb7921bf0f9f0f730e1bb065946c2"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "989ed3cad2fdb7921bf0f9f0f730e1bb065946c2"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "total": 2,
+      "subject": "docs/zh_TW: Fix malformed table",
+      "messageId": "<20251003173926.10048-3-krishnagopi487@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251003173926.10048-3-krishnagopi487@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_TW/cpu-freq/cpu-drivers.rst"
+      ],
+      "patchId": "5a11f3b2c6967ad8b294fcf40671ee17f41b69db",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "989ed3cad2fdb7921bf0f9f0f730e1bb065946c2"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "989ed3cad2fdb7921bf0f9f0f730e1bb065946c2"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "989ed3cad2fdb7921bf0f9f0f730e1bb065946c2"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "sync-page-table-check-rst-translation-554a9d89df18-v2",
+  "subject": "[RESEND PATCH v2] docs/zh_CN: sync page_table_check.rst translation",
+  "authorName": "Ye Liu",
+  "authorEmail": "ye.liu@linux.dev",
+  "revision": 2,
+  "postedAt": "2026-08-19T02:55:35.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 1,
+  "latestRevision": true,
+  "messageIds": [
+    "<20260819025535.2967566-1-ye.liu@linux.dev>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260819025535.2967566-1-ye.liu@linux.dev/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260819025535.2967566-1-ye.liu@linux.dev/raw",
+  "replies": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "sync-page-table-check-rst-translation-6ec8544c2211-v1",
+      "current": false
+    },
+    {
+      "revision": 2,
+      "id": "sync-page-table-check-rst-translation-e505576ec098-v2",
+      "current": false
+    },
+    {
+      "revision": 2,
+      "id": "sync-page-table-check-rst-translation-554a9d89df18-v2",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "docs/zh_CN: sync page_table_check.rst translation",
+      "messageId": "<20260819025535.2967566-1-ye.liu@linux.dev>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260819025535.2967566-1-ye.liu@linux.dev/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/mm/page_table_check.rst"
+      ],
+      "patchId": "4472927ac4af6dc7a4117b6b2c56578d369b35d1",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

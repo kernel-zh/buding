@@ -1,0 +1,77 @@
+{
+  "id": "mm-balloon-compaction-update-chinese-docs-for-movabl-5c3182dad1e5-v1",
+  "subject": "[PATCH] mm/balloon_compaction: update Chinese docs for movable_ops",
+  "authorName": "Nick Huang",
+  "authorEmail": "sef1548@gmail.com",
+  "revision": 1,
+  "postedAt": "2025-06-22T00:42:47.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 7,
+  "latestRevision": true,
+  "messageIds": [
+    "<20250622004249.9083-1-sef1548@gmail.com>",
+    "<20250622133308.13413-1-sef1548@gmail.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250622004249.9083-1-sef1548@gmail.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250622004249.9083-1-sef1548@gmail.com/raw",
+  "replies": 8,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "mm-balloon-compaction-update-chinese-docs-for-movabl-5c3182dad1e5-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "mm/balloon_compaction: update Chinese docs for movable_ops",
+      "messageId": "<20250622004249.9083-1-sef1548@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250622004249.9083-1-sef1548@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/mm/page_migration.rst"
+      ],
+      "patchId": "be9ae3b3ee173b1e88b70ab3bb8d62b96d513443",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

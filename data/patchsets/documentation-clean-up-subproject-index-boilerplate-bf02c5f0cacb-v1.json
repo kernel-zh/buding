@@ -1,0 +1,197 @@
+{
+  "id": "documentation-clean-up-subproject-index-boilerplate-bf02c5f0cacb-v1",
+  "subject": "[PATCH 0/4] Documentation: clean up subproject index boilerplate",
+  "authorName": "Jani Nikula",
+  "authorEmail": "jani.nikula@intel.com",
+  "revision": 1,
+  "postedAt": "2025-11-12T11:56:50.000Z",
+  "language": "mixed",
+  "patchCount": 2,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 8,
+  "latestRevision": true,
+  "messageIds": [
+    "<cover.1762948491.git.jani.nikula@intel.com>",
+    "<c7f9fa7545d1048d7f173d819aa1c4f3c8f050c1.1762948491.git.jani.nikula@intel.com>",
+    "<643adf4e5bc0d7638b4f51d2542c7983cf5cff69.1762948491.git.jani.nikula@intel.com>",
+    "<87e4998a80a32d447555d35940bee77aa14a6813.1762948491.git.jani.nikula@intel.com>",
+    "<e404d14ad5e9ed0ddc3f8920efb5d156dff99021.1762948491.git.jani.nikula@intel.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 2
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 2
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 2
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/cover.1762948491.git.jani.nikula@intel.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/cover.1762948491.git.jani.nikula@intel.com/raw",
+  "replies": 12,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "documentation-clean-up-subproject-index-boilerplate-bf02c5f0cacb-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 4,
+      "subject": "Documentation: remove subproject index links deep in the structure",
+      "messageId": "<c7f9fa7545d1048d7f173d819aa1c4f3c8f050c1.1762948491.git.jani.nikula@intel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/c7f9fa7545d1048d7f173d819aa1c4f3c8f050c1.1762948491.git.jani.nikula@intel.com/",
+      "changedFiles": [
+        "Documentation/admin-guide/aoe/index.rst",
+        "Documentation/admin-guide/auxdisplay/index.rst",
+        "Documentation/admin-guide/cgroup-v1/index.rst",
+        "Documentation/admin-guide/cifs/index.rst",
+        "Documentation/admin-guide/device-mapper/index.rst",
+        "Documentation/admin-guide/gpio/index.rst",
+        "Documentation/admin-guide/kdump/index.rst",
+        "Documentation/arch/arc/index.rst",
+        "Documentation/arch/arm/index.rst",
+        "Documentation/arch/arm64/index.rst",
+        "Documentation/arch/loongarch/index.rst",
+        "Documentation/arch/m68k/index.rst",
+        "Documentation/arch/mips/index.rst",
+        "Documentation/arch/openrisc/index.rst",
+        "Documentation/arch/parisc/index.rst",
+        "Documentation/arch/powerpc/index.rst",
+        "Documentation/arch/riscv/index.rst",
+        "Documentation/arch/s390/index.rst",
+        "Documentation/core-api/kho/index.rst",
+        "Documentation/driver-api/80211/index.rst",
+        "Documentation/driver-api/coco/index.rst",
+        "Documentation/driver-api/crypto/iaa/index.rst",
+        "Documentation/driver-api/crypto/index.rst",
+        "Documentation/driver-api/cxl/index.rst",
+        "Documentation/driver-api/dmaengine/index.rst",
+        "Documentation/driver-api/driver-model/index.rst",
+        "Documentation/driver-api/early-userspace/index.rst",
+        "Documentation/driver-api/firmware/index.rst",
+        "Documentation/driver-api/memory-devices/index.rst",
+        "Documentation/driver-api/pci/index.rst",
+        "Documentation/driver-api/phy/index.rst",
+        "Documentation/driver-api/pm/index.rst",
+        "Documentation/driver-api/serial/index.rst",
+        "Documentation/driver-api/soundwire/index.rst",
+        "Documentation/driver-api/surface_aggregator/clients/index.rst",
+        "Documentation/driver-api/surface_aggregator/index.rst",
+        "Documentation/driver-api/usb/index.rst",
+        "Documentation/driver-api/xilinx/index.rst",
+        "Documentation/input/devices/index.rst",
+        "Documentation/networking/device_drivers/atm/index.rst",
+        "Documentation/networking/device_drivers/can/index.rst",
+        "Documentation/networking/device_drivers/cellular/index.rst",
+        "Documentation/networking/device_drivers/ethernet/index.rst",
+        "Documentation/networking/device_drivers/ethernet/mellanox/mlx5/index.rst",
+        "Documentation/networking/device_drivers/fddi/index.rst",
+        "Documentation/networking/device_drivers/hamradio/index.rst",
+        "Documentation/networking/device_drivers/index.rst",
+        "Documentation/networking/device_drivers/wifi/index.rst",
+        "Documentation/networking/device_drivers/wwan/index.rst",
+        "Documentation/networking/diagnostic/index.rst",
+        "Documentation/process/debugging/index.rst",
+        "Documentation/tools/rtla/index.rst",
+        "Documentation/tools/rv/index.rst",
+        "Documentation/translations/zh_CN/arch/loongarch/index.rst",
+        "Documentation/translations/zh_CN/arch/mips/index.rst",
+        "Documentation/translations/zh_CN/arch/openrisc/index.rst",
+        "Documentation/translations/zh_CN/arch/parisc/index.rst",
+        "Documentation/translations/zh_CN/arch/riscv/index.rst",
+        "Documentation/translations/zh_CN/driver-api/phy/index.rst",
+        "Documentation/translations/zh_TW/arch/loongarch/index.rst",
+        "Documentation/translations/zh_TW/arch/mips/index.rst",
+        "Documentation/translations/zh_TW/arch/openrisc/index.rst",
+        "Documentation/translations/zh_TW/arch/parisc/index.rst",
+        "Documentation/userspace-api/gpio/index.rst",
+        "Documentation/wmi/devices/index.rst"
+      ],
+      "patchId": "99922a9672241208f543f97fa03a0d2c60ae1d8e",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 2,
+      "total": 4,
+      "subject": "Documentation: streamline subproject index link in translations",
+      "messageId": "<643adf4e5bc0d7638b4f51d2542c7983cf5cff69.1762948491.git.jani.nikula@intel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/643adf4e5bc0d7638b4f51d2542c7983cf5cff69.1762948491.git.jani.nikula@intel.com/",
+      "changedFiles": [
+        "Documentation/translations/index.rst",
+        "Documentation/translations/it_IT/RCU/index.rst",
+        "Documentation/translations/it_IT/core-api/index.rst",
+        "Documentation/translations/it_IT/doc-guide/index.rst",
+        "Documentation/translations/it_IT/i2c/index.rst",
+        "Documentation/translations/it_IT/index.rst",
+        "Documentation/translations/it_IT/locking/index.rst",
+        "Documentation/translations/it_IT/process/index.rst",
+        "Documentation/translations/zh_CN/admin-guide/index.rst",
+        "Documentation/translations/zh_CN/core-api/index.rst",
+        "Documentation/translations/zh_CN/doc-guide/index.rst",
+        "Documentation/translations/zh_CN/driver-api/index.rst",
+        "Documentation/translations/zh_CN/infiniband/index.rst",
+        "Documentation/translations/zh_CN/kbuild/index.rst",
+        "Documentation/translations/zh_CN/locking/index.rst",
+        "Documentation/translations/zh_CN/networking/index.rst",
+        "Documentation/translations/zh_CN/peci/index.rst",
+        "Documentation/translations/zh_CN/power/index.rst",
+        "Documentation/translations/zh_CN/process/index.rst",
+        "Documentation/translations/zh_CN/rust/index.rst",
+        "Documentation/translations/zh_CN/scheduler/index.rst",
+        "Documentation/translations/zh_CN/sound/index.rst",
+        "Documentation/translations/zh_CN/userspace-api/index.rst",
+        "Documentation/translations/zh_CN/virt/index.rst",
+        "Documentation/translations/zh_TW/admin-guide/index.rst",
+        "Documentation/translations/zh_TW/process/index.rst"
+      ],
+      "patchId": "f81aa986477aed3d9805e360e88d7b2645b15829",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

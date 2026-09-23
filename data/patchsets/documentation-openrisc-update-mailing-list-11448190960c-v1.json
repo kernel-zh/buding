@@ -1,0 +1,84 @@
+{
+  "id": "documentation-openrisc-update-mailing-list-11448190960c-v1",
+  "subject": "[PATCH 1/2] Documentation: openrisc: Update mailing list",
+  "authorName": "Stafford Horne",
+  "authorEmail": "shorne@gmail.com",
+  "revision": 1,
+  "postedAt": "2025-04-17T08:02:31.000Z",
+  "language": "mixed",
+  "patchCount": 1,
+  "status": "applied",
+  "lifecycle": "active",
+  "reviewState": "waiting",
+  "reviewReplies": 0,
+  "latestRevision": true,
+  "messageIds": [
+    "<20250417080236.4021257-2-shorne@gmail.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "20a43732736ac270c35601f7f22a0bcd2db4cba4"
+    },
+    "corbet": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "20a43732736ac270c35601f7f22a0bcd2db4cba4"
+    },
+    "linus": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "20a43732736ac270c35601f7f22a0bcd2db4cba4"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250417080236.4021257-2-shorne@gmail.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250417080236.4021257-2-shorne@gmail.com/raw",
+  "replies": 0,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "documentation-openrisc-update-mailing-list-11448190960c-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 2,
+      "subject": "Documentation: openrisc: Update mailing list",
+      "messageId": "<20250417080236.4021257-2-shorne@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250417080236.4021257-2-shorne@gmail.com/",
+      "changedFiles": [
+        "Documentation/arch/openrisc/openrisc_port.rst",
+        "Documentation/translations/zh_CN/arch/openrisc/openrisc_port.rst",
+        "Documentation/translations/zh_TW/arch/openrisc/openrisc_port.rst"
+      ],
+      "patchId": "c73ad40f501c5b189ec84b08fb44ad2dbc371310",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "20a43732736ac270c35601f7f22a0bcd2db4cba4"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "20a43732736ac270c35601f7f22a0bcd2db4cba4"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "20a43732736ac270c35601f7f22a0bcd2db4cba4"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "add-staging-crc32-chinese-translation-43420adb0786-v1",
+  "subject": "[PATCH] docs/zh_CN: Add staging/crc32 Chinese translation",
+  "authorName": "Xingqiu Xu",
+  "authorEmail": "hilbertanjou83@gmail.com",
+  "revision": 1,
+  "postedAt": "2025-12-15T21:06:24.000Z",
+  "language": "zh_CN",
+  "patchCount": 2,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 1,
+  "latestRevision": true,
+  "messageIds": [
+    "<20251215210624.7814-1-hilbertanjou83@gmail.com>",
+    "<20251231193058.91749-1-hilbertanjou83@gmail.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 2
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 2
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 2
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20251215210624.7814-1-hilbertanjou83@gmail.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20251215210624.7814-1-hilbertanjou83@gmail.com/raw",
+  "replies": 2,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "add-staging-crc32-chinese-translation-43420adb0786-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 2,
+      "subject": "docs/zh_CN: Add staging/crc32 Chinese translation",
+      "messageId": "<20251215210624.7814-1-hilbertanjou83@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251215210624.7814-1-hilbertanjou83@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/staging/crc32.rst",
+        "Documentation/translations/zh_CN/staging/index.rst"
+      ],
+      "patchId": "b8ea95fdc9e73ccb294f32c7e0722d3548f2fef8",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 2,
+      "total": 2,
+      "subject": "docs/zh_CN: Add crc32.rst translation",
+      "messageId": "<20251231193058.91749-1-hilbertanjou83@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251231193058.91749-1-hilbertanjou83@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/staging/crc32.rst",
+        "Documentation/translations/zh_CN/staging/index.rst"
+      ],
+      "patchId": "18820491d14c4e26724780a6010c03bb575159d5",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

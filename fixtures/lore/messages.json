@@ -1,0 +1,165 @@
+{
+  "messages": [
+    {
+      "messageId": "<cover-v1-memory@example.com>",
+      "subject": "[PATCH v1 0/2] docs/zh_CN: refresh memory barriers translation",
+      "from": { "name": "Wu XiangCheng", "email": "bobwxc@example.com" },
+      "date": "2026-08-25T08:00:00Z",
+      "references": [],
+      "body": "This series refreshes the Chinese memory barriers translation.",
+      "loreUrl": "https://lore.kernel.org/linux-doc/cover-v1-memory@example.com/",
+      "rawUrl": "https://lore.kernel.org/linux-doc/cover-v1-memory@example.com/raw"
+    },
+    {
+      "messageId": "<patch-v1-memory-1@example.com>",
+      "subject": "[PATCH v1 1/2] docs/zh_CN: update memory ordering introduction",
+      "from": { "name": "Wu XiangCheng", "email": "bobwxc@example.com" },
+      "date": "2026-08-25T08:01:00Z",
+      "inReplyTo": "<cover-v1-memory@example.com>",
+      "references": ["<cover-v1-memory@example.com>"],
+      "body": "diff --git a/Documentation/translations/zh_CN/core-api/wrappers/memory-barriers.rst b/Documentation/translations/zh_CN/core-api/wrappers/memory-barriers.rst\n--- a/Documentation/translations/zh_CN/core-api/wrappers/memory-barriers.rst\n+++ b/Documentation/translations/zh_CN/core-api/wrappers/memory-barriers.rst",
+      "loreUrl": "https://lore.kernel.org/linux-doc/patch-v1-memory-1@example.com/",
+      "rawUrl": "https://lore.kernel.org/linux-doc/patch-v1-memory-1@example.com/raw",
+      "patchId": "1111111111111111111111111111111111111111"
+    },
+    {
+      "messageId": "<patch-v1-memory-2@example.com>",
+      "subject": "[PATCH v1 2/2] docs/zh_CN: sync barrier examples",
+      "from": { "name": "Wu XiangCheng", "email": "bobwxc@example.com" },
+      "date": "2026-08-25T08:02:00Z",
+      "inReplyTo": "<cover-v1-memory@example.com>",
+      "references": ["<cover-v1-memory@example.com>"],
+      "body": "diff --git a/Documentation/translations/zh_CN/core-api/wrappers/memory-barriers.rst b/Documentation/translations/zh_CN/core-api/wrappers/memory-barriers.rst\n+++ b/Documentation/translations/zh_CN/core-api/wrappers/memory-barriers.rst",
+      "loreUrl": "https://lore.kernel.org/linux-doc/patch-v1-memory-2@example.com/",
+      "rawUrl": "https://lore.kernel.org/linux-doc/patch-v1-memory-2@example.com/raw",
+      "patchId": "2222222222222222222222222222222222222222"
+    },
+    {
+      "messageId": "<reply-v1-memory@example.com>",
+      "subject": "Re: [PATCH v1 1/2] docs/zh_CN: update memory ordering introduction",
+      "from": { "name": "Reviewer", "email": "reviewer@example.org" },
+      "date": "2026-08-25T10:00:00Z",
+      "inReplyTo": "<patch-v1-memory-1@example.com>",
+      "references": ["<cover-v1-memory@example.com>", "<patch-v1-memory-1@example.com>"],
+      "body": "Reviewed-by: Reviewer <reviewer@example.org>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/reply-v1-memory@example.com/",
+      "rawUrl": "https://lore.kernel.org/linux-doc/reply-v1-memory@example.com/raw"
+    },
+    {
+      "messageId": "<cover-v2-memory@example.com>",
+      "subject": "[PATCH v2 0/2] docs/zh_CN: refresh memory barriers translation",
+      "from": { "name": "Wu XiangCheng", "email": "bobwxc@example.com" },
+      "date": "2026-09-05T08:00:00Z",
+      "references": [],
+      "body": "Changes since v1: incorporate review comments.",
+      "loreUrl": "https://lore.kernel.org/linux-doc/cover-v2-memory@example.com/",
+      "rawUrl": "https://lore.kernel.org/linux-doc/cover-v2-memory@example.com/raw"
+    },
+    {
+      "messageId": "<patch-v2-memory-1@example.com>",
+      "subject": "[PATCH v2 1/2] docs/zh_CN: update memory ordering introduction",
+      "from": { "name": "Wu XiangCheng", "email": "bobwxc@example.com" },
+      "date": "2026-09-05T08:01:00Z",
+      "inReplyTo": "<cover-v2-memory@example.com>",
+      "references": ["<cover-v2-memory@example.com>"],
+      "body": "diff --git a/Documentation/translations/zh_CN/core-api/wrappers/memory-barriers.rst b/Documentation/translations/zh_CN/core-api/wrappers/memory-barriers.rst\n+++ b/Documentation/translations/zh_CN/core-api/wrappers/memory-barriers.rst",
+      "loreUrl": "https://lore.kernel.org/linux-doc/patch-v2-memory-1@example.com/",
+      "rawUrl": "https://lore.kernel.org/linux-doc/patch-v2-memory-1@example.com/raw",
+      "patchId": "3333333333333333333333333333333333333333"
+    },
+    {
+      "messageId": "<patch-v2-memory-2@example.com>",
+      "subject": "[PATCH v2 2/2] docs/zh_CN: sync barrier examples",
+      "from": { "name": "Wu XiangCheng", "email": "bobwxc@example.com" },
+      "date": "2026-09-05T08:02:00Z",
+      "inReplyTo": "<cover-v2-memory@example.com>",
+      "references": ["<cover-v2-memory@example.com>"],
+      "body": "diff --git a/Documentation/translations/zh_CN/core-api/wrappers/memory-barriers.rst b/Documentation/translations/zh_CN/core-api/wrappers/memory-barriers.rst\n+++ b/Documentation/translations/zh_CN/core-api/wrappers/memory-barriers.rst",
+      "loreUrl": "https://lore.kernel.org/linux-doc/patch-v2-memory-2@example.com/",
+      "rawUrl": "https://lore.kernel.org/linux-doc/patch-v2-memory-2@example.com/raw",
+      "patchId": "4444444444444444444444444444444444444444"
+    },
+    {
+      "messageId": "<reply-v2-memory@example.com>",
+      "subject": "Re: [PATCH v2 2/2] docs/zh_CN: sync barrier examples",
+      "from": { "name": "Jonathan Corbet", "email": "corbet@example.org" },
+      "date": "2026-09-05T11:00:00Z",
+      "inReplyTo": "<patch-v2-memory-2@example.com>",
+      "references": ["<cover-v2-memory@example.com>", "<patch-v2-memory-2@example.com>"],
+      "body": "Thanks for the update.",
+      "loreUrl": "https://lore.kernel.org/linux-doc/reply-v2-memory@example.com/",
+      "rawUrl": "https://lore.kernel.org/linux-doc/reply-v2-memory@example.com/raw"
+    },
+    {
+      "messageId": "<single-zh-tw@example.com>",
+      "subject": "[PATCH] docs/zh_TW: fix admin-guide typo",
+      "from": { "name": "Yung-Chuan Liao", "email": "liao@example.org" },
+      "date": "2026-09-04T13:18:00Z",
+      "references": [],
+      "body": "diff --git a/Documentation/translations/zh_TW/admin-guide/index.rst b/Documentation/translations/zh_TW/admin-guide/index.rst\n+++ b/Documentation/translations/zh_TW/admin-guide/index.rst",
+      "loreUrl": "https://lore.kernel.org/linux-doc/single-zh-tw@example.com/",
+      "rawUrl": "https://lore.kernel.org/linux-doc/single-zh-tw@example.com/raw",
+      "patchId": "5555555555555555555555555555555555555555"
+    },
+    {
+      "messageId": "<cover-mixed@example.com>",
+      "subject": "[RFC PATCH 0/2] docs: align zh_CN and zh_TW indexes",
+      "from": { "name": "Mei Lin", "email": "mei.lin@example.net" },
+      "date": "2026-09-02T15:07:00Z",
+      "references": [],
+      "body": "Align the two Chinese translation indexes.",
+      "loreUrl": "https://lore.kernel.org/linux-doc/cover-mixed@example.com/",
+      "rawUrl": "https://lore.kernel.org/linux-doc/cover-mixed@example.com/raw"
+    },
+    {
+      "messageId": "<patch-mixed-cn@example.com>",
+      "subject": "[RFC PATCH 1/2] docs/zh_CN: align translation index",
+      "from": { "name": "Mei Lin", "email": "mei.lin@example.net" },
+      "date": "2026-09-02T15:08:00Z",
+      "inReplyTo": "<cover-mixed@example.com>",
+      "references": ["<cover-mixed@example.com>"],
+      "body": "diff --git a/Documentation/translations/zh_CN/index.rst b/Documentation/translations/zh_CN/index.rst\n+++ b/Documentation/translations/zh_CN/index.rst",
+      "loreUrl": "https://lore.kernel.org/linux-doc/patch-mixed-cn@example.com/",
+      "rawUrl": "https://lore.kernel.org/linux-doc/patch-mixed-cn@example.com/raw",
+      "patchId": "6666666666666666666666666666666666666666"
+    },
+    {
+      "messageId": "<patch-mixed-tw@example.com>",
+      "subject": "[RFC PATCH 2/2] docs/zh_TW: align translation index",
+      "from": { "name": "Mei Lin", "email": "mei.lin@example.net" },
+      "date": "2026-09-02T15:09:00Z",
+      "inReplyTo": "<cover-mixed@example.com>",
+      "references": ["<cover-mixed@example.com>"],
+      "body": "diff --git a/Documentation/translations/zh_TW/index.rst b/Documentation/translations/zh_TW/index.rst\n+++ b/Documentation/translations/zh_TW/index.rst",
+      "loreUrl": "https://lore.kernel.org/linux-doc/patch-mixed-tw@example.com/",
+      "rawUrl": "https://lore.kernel.org/linux-doc/patch-mixed-tw@example.com/raw",
+      "patchId": "7777777777777777777777777777777777777777"
+    },
+    {
+      "messageId": "<single-zh-tw@example.com>",
+      "subject": "[PATCH] docs/zh_TW: fix admin-guide typo",
+      "from": { "name": "Yung-Chuan Liao", "email": "liao@example.org" },
+      "date": "2026-09-04T13:18:00Z",
+      "references": [],
+      "body": "diff --git a/Documentation/translations/zh_TW/admin-guide/index.rst b/Documentation/translations/zh_TW/admin-guide/index.rst\n+++ b/Documentation/translations/zh_TW/admin-guide/index.rst",
+      "loreUrl": "https://lore.kernel.org/linux-doc/single-zh-tw@example.com/",
+      "rawUrl": "https://lore.kernel.org/linux-doc/single-zh-tw@example.com/raw",
+      "patchId": "5555555555555555555555555555555555555555"
+    }
+  ],
+  "matches": {
+    "<patch-v2-memory-1@example.com>": {
+      "alex": { "state": "confirmed", "commit": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" },
+      "corbet": { "state": "confirmed", "commit": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb" }
+    },
+    "<patch-v2-memory-2@example.com>": {
+      "alex": { "state": "confirmed", "commit": "cccccccccccccccccccccccccccccccccccccccc" },
+      "corbet": { "state": "candidate", "commit": "dddddddddddddddddddddddddddddddddddddddd" }
+    },
+    "<single-zh-tw@example.com>": {
+      "alex": { "state": "confirmed", "commit": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee" },
+      "corbet": { "state": "confirmed", "commit": "ffffffffffffffffffffffffffffffffffffffff" },
+      "linus": { "state": "confirmed", "commit": "0123456789abcdef0123456789abcdef01234567" }
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "id": "sphinx-pre-install-improve-dependency-checks-dbe026549334-v4",
+  "subject": "[PATCH v4 0/6] docs: sphinx-pre-install: improve dependency checks",
+  "authorName": "Chen Miao",
+  "authorEmail": "chenmiao.ku@gmail.com",
+  "revision": 4,
+  "postedAt": "2026-08-14T21:44:12.000Z",
+  "language": "zh_CN",
+  "patchCount": 2,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 5,
+  "latestRevision": true,
+  "messageIds": [
+    "<20260814214419.49925-1-chenmiao.ku@gmail.com>",
+    "<20260814214419.49925-2-chenmiao.ku@gmail.com>",
+    "<20260814214419.49925-3-chenmiao.ku@gmail.com>",
+    "<20260814214419.49925-4-chenmiao.ku@gmail.com>",
+    "<20260814214419.49925-5-chenmiao.ku@gmail.com>",
+    "<20260814214419.49925-6-chenmiao.ku@gmail.com>",
+    "<20260814214419.49925-7-chenmiao.ku@gmail.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 2
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 2
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 2
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260814214419.49925-1-chenmiao.ku@gmail.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260814214419.49925-1-chenmiao.ku@gmail.com/raw",
+  "replies": 5,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "sphinx-pre-install-improve-dependency-checks-2c0830ce2c16-v1",
+      "current": false
+    },
+    {
+      "revision": 2,
+      "id": "sphinx-pre-install-improve-dependency-checks-ebf3fcdf4215-v2",
+      "current": false
+    },
+    {
+      "revision": 3,
+      "id": "sphinx-pre-install-improve-dependency-checks-699c82984234-v3",
+      "current": false
+    },
+    {
+      "revision": 4,
+      "id": "sphinx-pre-install-improve-dependency-checks-dbe026549334-v4",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 5,
+      "total": 6,
+      "subject": "docs/zh_CN: doc-guide: document macOS Sphinx setup",
+      "messageId": "<20260814214419.49925-6-chenmiao.ku@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260814214419.49925-6-chenmiao.ku@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/doc-guide/sphinx.rst"
+      ],
+      "patchId": "7855311b30dd1d247b2a4e580e629377c5e941c1",
+      "trailers": [
+        {
+          "type": "Acked-by",
+          "value": "Weijie Yuan <wy@wyuan.org>",
+          "messageId": "<20260814214419.49925-6-chenmiao.ku@gmail.com>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 6,
+      "total": 6,
+      "subject": "docs/zh_CN: how-to: document case-sensitive APFS setup",
+      "messageId": "<20260814214419.49925-7-chenmiao.ku@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260814214419.49925-7-chenmiao.ku@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/how-to.rst"
+      ],
+      "patchId": "71f05f86b2d4f2b7cf36ad44ade7037cc80fa29f",
+      "trailers": [
+        {
+          "type": "Acked-by",
+          "value": "Weijie Yuan <wy@wyuan.org>",
+          "messageId": "<20260814214419.49925-7-chenmiao.ku@gmail.com>"
+        },
+        {
+          "type": "Reviewed-by",
+          "value": "Dongliang Mu <dzm91@hust.edu.cn>",
+          "messageId": "<1043962f-69e1-40cd-8f67-cc91f2f1c488@hust.edu.cn>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

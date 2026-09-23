@@ -1,0 +1,83 @@
+{
+  "id": "add-translation-of-scsi-subsystem-363986c148bc-v1",
+  "subject": "[PATCH] docs/zh_CN: add translation of scsi subsystem",
+  "authorName": "haodongdong",
+  "authorEmail": "doubled@leap-io.com",
+  "revision": 1,
+  "postedAt": "2025-06-30T02:29:34.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 3,
+  "latestRevision": true,
+  "messageIds": [
+    "<20250630022934.1600937-1-doubled@leap-io.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250630022934.1600937-1-doubled@leap-io.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250630022934.1600937-1-doubled@leap-io.com/raw",
+  "replies": 3,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "add-translation-of-scsi-subsystem-363986c148bc-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "docs/zh_CN: add translation of scsi subsystem",
+      "messageId": "<20250630022934.1600937-1-doubled@leap-io.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250630022934.1600937-1-doubled@leap-io.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/scsi/index.rst",
+        "Documentation/translations/zh_CN/scsi/link_power_management_policy.rst",
+        "Documentation/translations/zh_CN/scsi/scsi-parameters.rst",
+        "Documentation/translations/zh_CN/scsi/scsi.rst",
+        "Documentation/translations/zh_CN/scsi/scsi_eh.rst",
+        "Documentation/translations/zh_CN/scsi/scsi_mid_low_api.rst",
+        "Documentation/translations/zh_CN/scsi/sd-parameters.rst",
+        "Documentation/translations/zh_CN/subsystem-apis.rst"
+      ],
+      "patchId": "16df2e725334c7acc4f569b343ac091b50f53124",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

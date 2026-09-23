@@ -1,0 +1,82 @@
+{
+  "id": "add-configurable-error-injection-translation-78e5453d3a24-v3",
+  "subject": "[PATCH v3] docs/zh_CN: Add configurable error injection translation",
+  "authorName": "cuishuang",
+  "authorEmail": "imcusg@gmail.com",
+  "revision": 3,
+  "postedAt": "2026-07-22T12:32:40.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 1,
+  "latestRevision": true,
+  "messageIds": [
+    "<20260722123240.22979-1-imcusg@gmail.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260722123240.22979-1-imcusg@gmail.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260722123240.22979-1-imcusg@gmail.com/raw",
+  "replies": 1,
+  "versions": [
+    {
+      "revision": 2,
+      "id": "add-configurable-error-injection-translation-6e330fc97ea0-v2",
+      "current": false
+    },
+    {
+      "revision": 3,
+      "id": "add-configurable-error-injection-translation-78e5453d3a24-v3",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "docs/zh_CN: Add configurable error injection translation",
+      "messageId": "<20260722123240.22979-1-imcusg@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260722123240.22979-1-imcusg@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/block/error-injection.rst",
+        "Documentation/translations/zh_CN/block/index.rst"
+      ],
+      "patchId": "2dd87c96eae3c089b056fff9eaffdc2683571d42",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

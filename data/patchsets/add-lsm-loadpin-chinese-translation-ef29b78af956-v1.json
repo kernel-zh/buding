@@ -1,0 +1,81 @@
+{
+  "id": "add-lsm-loadpin-chinese-translation-ef29b78af956-v1",
+  "subject": "[PATCH 03/10] docs/zh_CN: add LSM/LoadPin Chinese translation",
+  "authorName": "Yan Zhu",
+  "authorEmail": "zhuyan2015@qq.com",
+  "revision": 1,
+  "postedAt": "2026-06-12T16:03:39.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "proposed",
+  "lifecycle": "active",
+  "reviewState": "waiting",
+  "reviewReplies": 0,
+  "latestRevision": true,
+  "messageIds": [
+    "<tencent_F5C99221ABE8EEE4A8610C0DE1E1BDD8E505@qq.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/tencent_F5C99221ABE8EEE4A8610C0DE1E1BDD8E505@qq.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/tencent_F5C99221ABE8EEE4A8610C0DE1E1BDD8E505@qq.com/raw",
+  "replies": 0,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "add-lsm-loadpin-chinese-translation-1d09344a6cb4-v1",
+      "current": false
+    },
+    {
+      "revision": 1,
+      "id": "add-lsm-loadpin-chinese-translation-ef29b78af956-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 3,
+      "total": 10,
+      "subject": "docs/zh_CN: add LSM/LoadPin Chinese translation",
+      "messageId": "<tencent_F5C99221ABE8EEE4A8610C0DE1E1BDD8E505@qq.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/tencent_F5C99221ABE8EEE4A8610C0DE1E1BDD8E505@qq.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/admin-guide/LSM/LoadPin.rst"
+      ],
+      "patchId": "2f24412a20043e1be5577b90a640e8bd6c85b0b1",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

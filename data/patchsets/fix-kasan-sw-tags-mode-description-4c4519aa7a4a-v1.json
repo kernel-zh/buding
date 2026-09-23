@@ -1,0 +1,94 @@
+{
+  "id": "fix-kasan-sw-tags-mode-description-4c4519aa7a4a-v1",
+  "subject": "[PATCH] docs/zh_CN: fix KASAN SW_TAGS mode description",
+  "authorName": "chengyaqiang",
+  "authorEmail": "chengyaqiang@chengyaqiang.com",
+  "revision": 1,
+  "postedAt": "2026-05-22T07:57:35.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "applied",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 3,
+  "latestRevision": true,
+  "messageIds": [
+    "<20260522075735.2022734-1-chengyaqiang@chengyaqiang.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "292646b19a7c6c9756f979092d6ed3e26c1a1ad3"
+    },
+    "corbet": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "292646b19a7c6c9756f979092d6ed3e26c1a1ad3"
+    },
+    "linus": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "292646b19a7c6c9756f979092d6ed3e26c1a1ad3"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260522075735.2022734-1-chengyaqiang@chengyaqiang.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260522075735.2022734-1-chengyaqiang@chengyaqiang.com/raw",
+  "replies": 3,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "fix-kasan-sw-tags-mode-description-4c4519aa7a4a-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "docs/zh_CN: fix KASAN SW_TAGS mode description",
+      "messageId": "<20260522075735.2022734-1-chengyaqiang@chengyaqiang.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260522075735.2022734-1-chengyaqiang@chengyaqiang.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/dev-tools/kasan.rst"
+      ],
+      "patchId": "dfd9d01d283c1f141ebc1e2f872d97a8a358d7b7",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Dongliang Mu <dzm91@hust.edu.cn>",
+          "messageId": "<b67b9d63-7cc7-460a-ada3-630c8686e1e1@hust.edu.cn>"
+        },
+        {
+          "type": "Reviewed-by",
+          "value": "Zenghui Yu <zenghui.yu@linux.dev>",
+          "messageId": "<05ee738e-37ea-4697-99de-4cec914066b4@linux.dev>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "292646b19a7c6c9756f979092d6ed3e26c1a1ad3"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "292646b19a7c6c9756f979092d6ed3e26c1a1ad3"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "292646b19a7c6c9756f979092d6ed3e26c1a1ad3"
+        }
+      }
+    }
+  ]
+}

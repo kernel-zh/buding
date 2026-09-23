@@ -1,0 +1,125 @@
+{
+  "id": "add-maintainer-tree-for-chinese-doc-pickup-a0003d820942-v1",
+  "subject": "[PATCH 1/2] docs/zh_CN: add maintainer tree for Chinese doc pickup",
+  "authorName": "alexs@kernel.org",
+  "authorEmail": "alexs@kernel.org",
+  "revision": 1,
+  "postedAt": "2025-02-13T05:42:14.000Z",
+  "language": "zh_CN",
+  "patchCount": 2,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 12,
+  "latestRevision": true,
+  "messageIds": [
+    "<20250213054222.21776-1-alexs@kernel.org>",
+    "<20250213054222.21776-2-alexs@kernel.org>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "partial",
+      "matched": 1,
+      "total": 2,
+      "commit": "83b029482d97676233c57582c347b516e96b6786"
+    },
+    "corbet": {
+      "state": "partial",
+      "matched": 1,
+      "total": 2,
+      "commit": "83b029482d97676233c57582c347b516e96b6786"
+    },
+    "linus": {
+      "state": "partial",
+      "matched": 1,
+      "total": 2,
+      "commit": "83b029482d97676233c57582c347b516e96b6786"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250213054222.21776-1-alexs@kernel.org/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250213054222.21776-1-alexs@kernel.org/raw",
+  "replies": 12,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "add-maintainer-tree-for-chinese-doc-pickup-a0003d820942-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 2,
+      "subject": "docs/zh_CN: add maintainer tree for Chinese doc pickup",
+      "messageId": "<20250213054222.21776-1-alexs@kernel.org>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250213054222.21776-1-alexs@kernel.org/",
+      "changedFiles": [
+        "MAINTAINERS"
+      ],
+      "patchId": "3d9689d5014d77fa23d34dcf12e4eeb09b16b871",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Yanteng Si <si.yanteng@linux.dev>",
+          "messageId": "<632baf9c-773f-4bb0-b01f-cd689e0ed1e2@linux.dev>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 2,
+      "total": 2,
+      "subject": "docs/zh_CN: add few request for Chinese translation",
+      "messageId": "<20250213054222.21776-2-alexs@kernel.org>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250213054222.21776-2-alexs@kernel.org/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/index.rst"
+      ],
+      "patchId": "cf3aad4e9b2566ae0c4c0bab5fcd0a9acfdb6562",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Yanteng Si <si.yanteng@linux.dev>",
+          "messageId": "<5d35c3f6-a52f-4e63-a972-50ee2898947e@linux.dev>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "83b029482d97676233c57582c347b516e96b6786"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "83b029482d97676233c57582c347b516e96b6786"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "83b029482d97676233c57582c347b516e96b6786"
+        }
+      }
+    }
+  ]
+}

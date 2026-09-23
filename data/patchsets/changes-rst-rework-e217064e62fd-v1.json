@@ -1,0 +1,103 @@
+{
+  "id": "changes-rst-rework-e217064e62fd-v1",
+  "subject": "[PATCH 0/5] Docs: changes.rst: Rework",
+  "authorName": "Manuel Ebner",
+  "authorEmail": "manuelebnerli@mailbox.org",
+  "revision": 1,
+  "postedAt": "2026-08-12T12:08:04.000Z",
+  "language": "mixed",
+  "patchCount": 1,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 8,
+  "latestRevision": true,
+  "messageIds": [
+    "<20260812120805.1631430-3-manuelebnerli@mailbox.org>",
+    "<20260812121603.1633270-2-manuelebnerli@mailbox.org>",
+    "<20260812121945.1635085-2-manuelebnerli@mailbox.org>",
+    "<20260812122149.1635408-2-manuelebnerli@mailbox.org>",
+    "<20260812122248.1635676-2-manuelebnerli@mailbox.org>",
+    "<20260812122426.1636227-2-manuelebnerli@mailbox.org>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260812120805.1631430-3-manuelebnerli@mailbox.org/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260812120805.1631430-3-manuelebnerli@mailbox.org/raw",
+  "replies": 10,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "changes-rst-rework-e217064e62fd-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 5,
+      "subject": "Docs: changes.rst: rename file and references and add links",
+      "messageId": "<20260812121603.1633270-2-manuelebnerli@mailbox.org>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260812121603.1633270-2-manuelebnerli@mailbox.org/",
+      "changedFiles": [
+        "Documentation/Changes",
+        "Documentation/admin-guide/README.rst",
+        "Documentation/doc-guide/sphinx.rst",
+        "Documentation/filesystems/locks.rst",
+        "Documentation/process/changes.rst",
+        "Documentation/process/howto.rst",
+        "Documentation/process/software-requirements.rst",
+        "Documentation/translations/it_IT/process/changes.rst",
+        "Documentation/translations/it_IT/process/howto.rst",
+        "Documentation/translations/it_IT/process/software-requirements.rst",
+        "Documentation/translations/ja_JP/process/howto.rst",
+        "Documentation/translations/ko_KR/process/howto.rst",
+        "Documentation/translations/pt_BR/process/changes.rst",
+        "Documentation/translations/pt_BR/process/software-requirements.rst",
+        "Documentation/translations/sp_SP/process/howto.rst",
+        "Documentation/translations/zh_CN/admin-guide/README.rst",
+        "Documentation/translations/zh_CN/process/howto.rst",
+        "Documentation/translations/zh_TW/admin-guide/README.rst",
+        "Documentation/translations/zh_TW/process/howto.rst",
+        "README",
+        "samples/bpf/README.rst",
+        "scripts/min-tool-version.sh",
+        "scripts/ver_linux"
+      ],
+      "patchId": "7c358ed9b8e14e564ac655b8f8d1ad50a94d75b2",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

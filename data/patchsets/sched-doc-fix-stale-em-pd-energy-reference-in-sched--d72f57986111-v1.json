@@ -1,0 +1,100 @@
+{
+  "id": "sched-doc-fix-stale-em-pd-energy-reference-in-sched--d72f57986111-v1",
+  "subject": "[PATCH] sched/doc: Fix stale em_pd_energy() reference in sched-energy",
+  "authorName": "luoliang@kylinos.cn",
+  "authorEmail": "luoliang@kylinos.cn",
+  "revision": 1,
+  "postedAt": "2026-07-07T08:53:35.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "applied",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 4,
+  "latestRevision": true,
+  "messageIds": [
+    "<20260707085335.2942128-1-luoliang@kylinos.cn>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "75f7551b073cc164f2837490490d13beac663ee0"
+    },
+    "corbet": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "75f7551b073cc164f2837490490d13beac663ee0"
+    },
+    "linus": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "75f7551b073cc164f2837490490d13beac663ee0"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260707085335.2942128-1-luoliang@kylinos.cn/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260707085335.2942128-1-luoliang@kylinos.cn/raw",
+  "replies": 5,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "sched-doc-fix-stale-em-pd-energy-reference-in-sched--d72f57986111-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "sched/doc: Fix stale em_pd_energy() reference in sched-energy",
+      "messageId": "<20260707085335.2942128-1-luoliang@kylinos.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260707085335.2942128-1-luoliang@kylinos.cn/",
+      "changedFiles": [
+        "Documentation/scheduler/sched-energy.rst",
+        "Documentation/translations/zh_CN/scheduler/sched-energy.rst"
+      ],
+      "patchId": "5e4fc082b439997481e0018a495bff14b0e5ce2c",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Alex Shi <alexs@kernel.org>",
+          "messageId": "<e4a47268-33d6-4d64-9401-e13e2b13b375@gmail.com>"
+        },
+        {
+          "type": "Reviewed-by",
+          "value": "Lukasz Luba <lukasz.luba@arm.com>",
+          "messageId": "<a6339f25-41b5-4186-a9d1-d46b5b36c998@arm.com>"
+        },
+        {
+          "type": "Reviewed-by",
+          "value": "Dongliang Mu <dzm91@hust.edu.cn>",
+          "messageId": "<ec8a1a82-c5b1-4e5b-a103-7e4b91348630@hust.edu.cn>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "75f7551b073cc164f2837490490d13beac663ee0"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "75f7551b073cc164f2837490490d13beac663ee0"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "75f7551b073cc164f2837490490d13beac663ee0"
+        }
+      }
+    }
+  ]
+}

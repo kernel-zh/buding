@@ -1,0 +1,89 @@
+{
+  "id": "update-git-command-examples-in-how-to-rst-558710bf197b-v1",
+  "subject": "[PATCH] docs/zh_CN: update git command examples in how-to.rst",
+  "authorName": "Dongliang Mu",
+  "authorEmail": "dzm91@hust.edu.cn",
+  "revision": 1,
+  "postedAt": "2025-06-16T13:40:01.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 2,
+  "latestRevision": true,
+  "messageIds": [
+    "<20250616134003.3981866-1-dzm91@hust.edu.cn>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "31df8330ee3f161e589896aeca0cbf5a5edcd5db"
+    },
+    "corbet": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "31df8330ee3f161e589896aeca0cbf5a5edcd5db"
+    },
+    "linus": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "31df8330ee3f161e589896aeca0cbf5a5edcd5db"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250616134003.3981866-1-dzm91@hust.edu.cn/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250616134003.3981866-1-dzm91@hust.edu.cn/raw",
+  "replies": 2,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "update-git-command-examples-in-how-to-rst-558710bf197b-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "docs/zh_CN: update git command examples in how-to.rst",
+      "messageId": "<20250616134003.3981866-1-dzm91@hust.edu.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250616134003.3981866-1-dzm91@hust.edu.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/how-to.rst"
+      ],
+      "patchId": "4c5d6e56607855f1c2b2966bfce7323c1b860d5c",
+      "trailers": [
+        {
+          "type": "Acked-by",
+          "value": "Yanteng Si <si.yanteng@linux.dev>",
+          "messageId": "<9aa4278e-0f43-420b-b6b5-78a32263d7ec@linux.dev>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "31df8330ee3f161e589896aeca0cbf5a5edcd5db"
+        },
+        "corbet": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "31df8330ee3f161e589896aeca0cbf5a5edcd5db"
+        },
+        "linus": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "31df8330ee3f161e589896aeca0cbf5a5edcd5db"
+        }
+      }
+    }
+  ]
+}

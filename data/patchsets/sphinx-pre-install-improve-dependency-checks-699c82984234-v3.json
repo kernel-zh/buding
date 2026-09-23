@@ -1,0 +1,139 @@
+{
+  "id": "sphinx-pre-install-improve-dependency-checks-699c82984234-v3",
+  "subject": "[PATCH v3 0/6] docs: sphinx-pre-install: improve dependency checks",
+  "authorName": "Chen Miao",
+  "authorEmail": "chenmiao.ku@gmail.com",
+  "revision": 3,
+  "postedAt": "2026-08-12T18:23:17.000Z",
+  "language": "zh_CN",
+  "patchCount": 2,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 9,
+  "latestRevision": false,
+  "messageIds": [
+    "<20260812182327.53694-1-chenmiao.ku@gmail.com>",
+    "<20260812182327.53694-2-chenmiao.ku@gmail.com>",
+    "<20260812182327.53694-3-chenmiao.ku@gmail.com>",
+    "<20260812182327.53694-4-chenmiao.ku@gmail.com>",
+    "<20260812182327.53694-5-chenmiao.ku@gmail.com>",
+    "<20260812182327.53694-6-chenmiao.ku@gmail.com>",
+    "<20260812182327.53694-7-chenmiao.ku@gmail.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 2
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 2
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 2
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260812182327.53694-1-chenmiao.ku@gmail.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260812182327.53694-1-chenmiao.ku@gmail.com/raw",
+  "replies": 14,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "sphinx-pre-install-improve-dependency-checks-2c0830ce2c16-v1",
+      "current": false
+    },
+    {
+      "revision": 2,
+      "id": "sphinx-pre-install-improve-dependency-checks-ebf3fcdf4215-v2",
+      "current": false
+    },
+    {
+      "revision": 3,
+      "id": "sphinx-pre-install-improve-dependency-checks-699c82984234-v3",
+      "current": true
+    },
+    {
+      "revision": 4,
+      "id": "sphinx-pre-install-improve-dependency-checks-dbe026549334-v4",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 5,
+      "total": 6,
+      "subject": "docs/zh_CN: doc-guide: document macOS Sphinx setup",
+      "messageId": "<20260812182327.53694-6-chenmiao.ku@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260812182327.53694-6-chenmiao.ku@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/doc-guide/sphinx.rst"
+      ],
+      "patchId": "7855311b30dd1d247b2a4e580e629377c5e941c1",
+      "trailers": [
+        {
+          "type": "Acked-by",
+          "value": "Weijie Yuan <wy@wyuan.org>",
+          "messageId": "<an3khZbPdI0in3Sq@wyuan.org>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 6,
+      "total": 6,
+      "subject": "docs/zh_CN: how-to: document case-sensitive APFS setup",
+      "messageId": "<20260812182327.53694-7-chenmiao.ku@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260812182327.53694-7-chenmiao.ku@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/how-to.rst"
+      ],
+      "patchId": "71f05f86b2d4f2b7cf36ad44ade7037cc80fa29f",
+      "trailers": [
+        {
+          "type": "Acked-by",
+          "value": "Weijie Yuan <wy@wyuan.org>",
+          "messageId": "<an3m2mN3Wq-OSGKv@wyuan.org>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

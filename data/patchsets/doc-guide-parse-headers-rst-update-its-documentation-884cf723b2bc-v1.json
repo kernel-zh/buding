@@ -1,0 +1,106 @@
+{
+  "id": "doc-guide-parse-headers-rst-update-its-documentation-884cf723b2bc-v1",
+  "subject": "[PATCH] docs: doc-guide: parse-headers.rst update its documentation",
+  "authorName": "Mauro Carvalho Chehab",
+  "authorEmail": "mchehab+huawei@kernel.org",
+  "revision": 1,
+  "postedAt": "2025-10-19T10:28:04.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 1,
+  "latestRevision": false,
+  "messageIds": [
+    "<4da6a180fcbc107a0c15fafed4e1d57a70976876.1760869676.git.mchehab+huawei@kernel.org>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "d69a03a97a2d9a85d344b5988640d7f5cf6f598b"
+    },
+    "corbet": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "d69a03a97a2d9a85d344b5988640d7f5cf6f598b"
+    },
+    "linus": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "d69a03a97a2d9a85d344b5988640d7f5cf6f598b"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/4da6a180fcbc107a0c15fafed4e1d57a70976876.1760869676.git.mchehab+huawei@kernel.org/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/4da6a180fcbc107a0c15fafed4e1d57a70976876.1760869676.git.mchehab+huawei@kernel.org/raw",
+  "replies": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "doc-guide-parse-headers-rst-update-its-documentation-884cf723b2bc-v1",
+      "current": true
+    },
+    {
+      "revision": 2,
+      "id": "doc-guide-parse-headers-rst-update-its-documentation-28644ee67e3b-v2",
+      "current": false
+    },
+    {
+      "revision": 3,
+      "id": "doc-guide-parse-headers-rst-update-its-documentation-50c2a162dcf5-v3",
+      "current": false
+    },
+    {
+      "revision": 4,
+      "id": "doc-guide-parse-headers-rst-update-its-documentation-e36840da7e29-v4",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "docs: doc-guide: parse-headers.rst update its documentation",
+      "messageId": "<4da6a180fcbc107a0c15fafed4e1d57a70976876.1760869676.git.mchehab+huawei@kernel.org>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/4da6a180fcbc107a0c15fafed4e1d57a70976876.1760869676.git.mchehab+huawei@kernel.org/",
+      "changedFiles": [
+        "Documentation/doc-guide/parse-headers.rst",
+        "Documentation/translations/it_IT/doc-guide/parse-headers.rst",
+        "Documentation/translations/zh_CN/doc-guide/parse-headers.rst"
+      ],
+      "patchId": "c7840002b7cd8be9f4047dba6a3ec0e2467b4f7f",
+      "trailers": [
+        {
+          "type": "Reported-by",
+          "value": "Randy Dunlap <rdunlap@infradead.org>",
+          "messageId": "<4da6a180fcbc107a0c15fafed4e1d57a70976876.1760869676.git.mchehab+huawei@kernel.org>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "d69a03a97a2d9a85d344b5988640d7f5cf6f598b"
+        },
+        "corbet": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "d69a03a97a2d9a85d344b5988640d7f5cf6f598b"
+        },
+        "linus": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "d69a03a97a2d9a85d344b5988640d7f5cf6f598b"
+        }
+      }
+    }
+  ]
+}

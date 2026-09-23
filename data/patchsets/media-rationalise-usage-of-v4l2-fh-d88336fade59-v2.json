@@ -1,0 +1,318 @@
+{
+  "id": "media-rationalise-usage-of-v4l2-fh-d88336fade59-v2",
+  "subject": "[PATCH v2 00/76] media: Rationalise usage of v4l2_fh",
+  "authorName": "Laurent Pinchart",
+  "authorEmail": "laurent.pinchart@ideasonboard.com",
+  "revision": 2,
+  "postedAt": "2025-08-09T21:15:37.000Z",
+  "language": "zh_CN",
+  "patchCount": 4,
+  "status": "proposed",
+  "lifecycle": "active",
+  "reviewState": "waiting",
+  "reviewReplies": 0,
+  "latestRevision": true,
+  "messageIds": [
+    "<20250809211654.28887-1-laurent.pinchart@ideasonboard.com>",
+    "<20250809211654.28887-9-laurent.pinchart@ideasonboard.com>",
+    "<20250809211654.28887-27-laurent.pinchart@ideasonboard.com>",
+    "<20250809211654.28887-28-laurent.pinchart@ideasonboard.com>",
+    "<20250809211654.28887-33-laurent.pinchart@ideasonboard.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "partial",
+      "matched": 2,
+      "total": 4,
+      "commit": "618882c92681de18e9bd99d2a88bb21c897283f3"
+    },
+    "corbet": {
+      "state": "partial",
+      "matched": 2,
+      "total": 4,
+      "commit": "618882c92681de18e9bd99d2a88bb21c897283f3"
+    },
+    "linus": {
+      "state": "partial",
+      "matched": 2,
+      "total": 4,
+      "commit": "618882c92681de18e9bd99d2a88bb21c897283f3"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250809211654.28887-1-laurent.pinchart@ideasonboard.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250809211654.28887-1-laurent.pinchart@ideasonboard.com/raw",
+  "replies": 0,
+  "versions": [
+    {
+      "revision": 2,
+      "id": "media-rationalise-usage-of-v4l2-fh-d88336fade59-v2",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 8,
+      "total": 76,
+      "subject": "media: Wrap file->private_data access with a helper function",
+      "messageId": "<20250809211654.28887-9-laurent.pinchart@ideasonboard.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250809211654.28887-9-laurent.pinchart@ideasonboard.com/",
+      "changedFiles": [
+        "Documentation/driver-api/media/v4l2-fh.rst",
+        "Documentation/translations/zh_CN/video4linux/v4l2-framework.txt",
+        "drivers/media/common/videobuf2/videobuf2-v4l2.c",
+        "drivers/media/pci/cx18/cx18-fileops.c",
+        "drivers/media/pci/ivtv/ivtv-fileops.c",
+        "drivers/media/platform/allegro-dvt/allegro-core.c",
+        "drivers/media/platform/mediatek/jpeg/mtk_jpeg_core.c",
+        "drivers/media/platform/nvidia/tegra-vde/v4l2.c",
+        "drivers/media/platform/nxp/imx-jpeg/mxc-jpeg.c",
+        "drivers/media/platform/renesas/vsp1/vsp1_histo.c",
+        "drivers/media/platform/renesas/vsp1/vsp1_video.c",
+        "drivers/media/platform/ti/omap3isp/ispvideo.c",
+        "drivers/media/platform/xilinx/xilinx-dma.c",
+        "drivers/media/usb/uvc/uvc_metadata.c",
+        "drivers/media/v4l2-core/v4l2-ctrls-api.c",
+        "drivers/media/v4l2-core/v4l2-fh.c",
+        "drivers/media/v4l2-core/v4l2-mem2mem.c",
+        "drivers/media/v4l2-core/v4l2-subdev.c",
+        "include/media/v4l2-fh.h"
+      ],
+      "patchId": "4327a1e6906372b58cc62ac991c999f59b434b02",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "618882c92681de18e9bd99d2a88bb21c897283f3"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "618882c92681de18e9bd99d2a88bb21c897283f3"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "618882c92681de18e9bd99d2a88bb21c897283f3"
+        }
+      }
+    },
+    {
+      "index": 26,
+      "total": 76,
+      "subject": "media: Set file->private_data in v4l2_fh_add()",
+      "messageId": "<20250809211654.28887-27-laurent.pinchart@ideasonboard.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250809211654.28887-27-laurent.pinchart@ideasonboard.com/",
+      "changedFiles": [
+        "Documentation/driver-api/media/v4l2-fh.rst",
+        "Documentation/translations/zh_CN/video4linux/v4l2-framework.txt",
+        "drivers/media/pci/cx18/cx18-fileops.c",
+        "drivers/media/pci/ivtv/ivtv-fileops.c",
+        "drivers/media/pci/saa7164/saa7164-encoder.c",
+        "drivers/media/pci/saa7164/saa7164-vbi.c",
+        "drivers/media/platform/allegro-dvt/allegro-core.c",
+        "drivers/media/platform/amlogic/meson-ge2d/ge2d.c",
+        "drivers/media/platform/amphion/vpu_v4l2.c",
+        "drivers/media/platform/chips-media/coda/coda-common.c",
+        "drivers/media/platform/chips-media/wave5/wave5-vpu-dec.c",
+        "drivers/media/platform/chips-media/wave5/wave5-vpu-enc.c",
+        "drivers/media/platform/imagination/e5010-jpeg-enc.c",
+        "drivers/media/platform/m2m-deinterlace.c",
+        "drivers/media/platform/mediatek/jpeg/mtk_jpeg_core.c",
+        "drivers/media/platform/mediatek/mdp/mtk_mdp_m2m.c",
+        "drivers/media/platform/mediatek/mdp3/mtk-mdp3-m2m.c",
+        "drivers/media/platform/mediatek/vcodec/decoder/mtk_vcodec_dec_drv.c",
+        "drivers/media/platform/mediatek/vcodec/encoder/mtk_vcodec_enc_drv.c",
+        "drivers/media/platform/nvidia/tegra-vde/v4l2.c",
+        "drivers/media/platform/nxp/dw100/dw100.c",
+        "drivers/media/platform/nxp/imx-jpeg/mxc-jpeg.c",
+        "drivers/media/platform/nxp/imx-pxp.c",
+        "drivers/media/platform/nxp/imx8-isi/imx8-isi-m2m.c",
+        "drivers/media/platform/nxp/mx2_emmaprp.c",
+        "drivers/media/platform/qcom/iris/iris_vidc.c",
+        "drivers/media/platform/qcom/venus/vdec.c",
+        "drivers/media/platform/qcom/venus/venc.c",
+        "drivers/media/platform/renesas/rcar_fdp1.c",
+        "drivers/media/platform/renesas/rcar_jpu.c",
+        "drivers/media/platform/renesas/vsp1/vsp1_video.c",
+        "drivers/media/platform/rockchip/rga/rga.c",
+        "drivers/media/platform/rockchip/rkvdec/rkvdec.c",
+        "drivers/media/platform/samsung/exynos-gsc/gsc-m2m.c",
+        "drivers/media/platform/samsung/exynos4-is/fimc-m2m.c",
+        "drivers/media/platform/samsung/s5p-g2d/g2d.c",
+        "drivers/media/platform/samsung/s5p-jpeg/jpeg-core.c",
+        "drivers/media/platform/samsung/s5p-mfc/s5p_mfc.c",
+        "drivers/media/platform/st/sti/bdisp/bdisp-v4l2.c",
+        "drivers/media/platform/st/sti/delta/delta-v4l2.c",
+        "drivers/media/platform/st/sti/hva/hva-v4l2.c",
+        "drivers/media/platform/st/stm32/dma2d/dma2d.c",
+        "drivers/media/platform/sunxi/sun8i-di/sun8i-di.c",
+        "drivers/media/platform/sunxi/sun8i-rotate/sun8i_rotate.c",
+        "drivers/media/platform/ti/omap3isp/ispvideo.c",
+        "drivers/media/platform/ti/vpe/vpe.c",
+        "drivers/media/platform/verisilicon/hantro_drv.c",
+        "drivers/media/test-drivers/vicodec/vicodec-core.c",
+        "drivers/media/test-drivers/vim2m.c",
+        "drivers/media/test-drivers/visl/visl-core.c",
+        "drivers/media/usb/hdpvr/hdpvr-video.c",
+        "drivers/media/usb/pvrusb2/pvrusb2-v4l2.c",
+        "drivers/media/usb/uvc/uvc_v4l2.c",
+        "drivers/media/v4l2-core/v4l2-fh.c",
+        "drivers/media/v4l2-core/v4l2-subdev.c",
+        "drivers/staging/media/imx/imx-media-csc-scaler.c",
+        "drivers/staging/media/meson/vdec/vdec.c",
+        "drivers/staging/media/sunxi/cedrus/cedrus.c",
+        "drivers/staging/most/video/video.c",
+        "drivers/usb/gadget/function/uvc_v4l2.c",
+        "include/media/v4l2-fh.h"
+      ],
+      "patchId": "801249bbc5fe822ee53cf650f376b03d075410b3",
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "47f4b1acb4d505b1e7e81d8e0ebce774422b8c2e"
+        },
+        "corbet": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "47f4b1acb4d505b1e7e81d8e0ebce774422b8c2e"
+        },
+        "linus": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "47f4b1acb4d505b1e7e81d8e0ebce774422b8c2e"
+        }
+      }
+    },
+    {
+      "index": 27,
+      "total": 76,
+      "subject": "media: Reset file->private_data to NULL in v4l2_fh_del()",
+      "messageId": "<20250809211654.28887-28-laurent.pinchart@ideasonboard.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250809211654.28887-28-laurent.pinchart@ideasonboard.com/",
+      "changedFiles": [
+        "Documentation/driver-api/media/v4l2-fh.rst",
+        "Documentation/translations/zh_CN/video4linux/v4l2-framework.txt",
+        "drivers/media/pci/cx18/cx18-fileops.c",
+        "drivers/media/pci/ivtv/ivtv-fileops.c",
+        "drivers/media/pci/saa7164/saa7164-encoder.c",
+        "drivers/media/pci/saa7164/saa7164-vbi.c",
+        "drivers/media/platform/allegro-dvt/allegro-core.c",
+        "drivers/media/platform/amlogic/meson-ge2d/ge2d.c",
+        "drivers/media/platform/amphion/vpu_v4l2.c",
+        "drivers/media/platform/chips-media/coda/coda-common.c",
+        "drivers/media/platform/chips-media/wave5/wave5-helper.c",
+        "drivers/media/platform/imagination/e5010-jpeg-enc.c",
+        "drivers/media/platform/m2m-deinterlace.c",
+        "drivers/media/platform/mediatek/jpeg/mtk_jpeg_core.c",
+        "drivers/media/platform/mediatek/mdp/mtk_mdp_m2m.c",
+        "drivers/media/platform/mediatek/mdp3/mtk-mdp3-m2m.c",
+        "drivers/media/platform/mediatek/vcodec/decoder/mtk_vcodec_dec_drv.c",
+        "drivers/media/platform/mediatek/vcodec/encoder/mtk_vcodec_enc_drv.c",
+        "drivers/media/platform/nvidia/tegra-vde/v4l2.c",
+        "drivers/media/platform/nxp/dw100/dw100.c",
+        "drivers/media/platform/nxp/imx-jpeg/mxc-jpeg.c",
+        "drivers/media/platform/nxp/imx-pxp.c",
+        "drivers/media/platform/nxp/imx8-isi/imx8-isi-m2m.c",
+        "drivers/media/platform/nxp/mx2_emmaprp.c",
+        "drivers/media/platform/qcom/iris/iris_vidc.c",
+        "drivers/media/platform/qcom/venus/core.c",
+        "drivers/media/platform/renesas/rcar_fdp1.c",
+        "drivers/media/platform/renesas/rcar_jpu.c",
+        "drivers/media/platform/renesas/vsp1/vsp1_video.c",
+        "drivers/media/platform/rockchip/rga/rga.c",
+        "drivers/media/platform/rockchip/rkvdec/rkvdec.c",
+        "drivers/media/platform/samsung/exynos-gsc/gsc-m2m.c",
+        "drivers/media/platform/samsung/exynos4-is/fimc-m2m.c",
+        "drivers/media/platform/samsung/s5p-g2d/g2d.c",
+        "drivers/media/platform/samsung/s5p-jpeg/jpeg-core.c",
+        "drivers/media/platform/samsung/s5p-mfc/s5p_mfc.c",
+        "drivers/media/platform/st/sti/bdisp/bdisp-v4l2.c",
+        "drivers/media/platform/st/sti/delta/delta-v4l2.c",
+        "drivers/media/platform/st/sti/hva/hva-v4l2.c",
+        "drivers/media/platform/st/stm32/dma2d/dma2d.c",
+        "drivers/media/platform/sunxi/sun8i-di/sun8i-di.c",
+        "drivers/media/platform/sunxi/sun8i-rotate/sun8i_rotate.c",
+        "drivers/media/platform/ti/omap3isp/ispvideo.c",
+        "drivers/media/platform/ti/vpe/vpe.c",
+        "drivers/media/platform/verisilicon/hantro_drv.c",
+        "drivers/media/test-drivers/vicodec/vicodec-core.c",
+        "drivers/media/test-drivers/vim2m.c",
+        "drivers/media/test-drivers/visl/visl-core.c",
+        "drivers/media/usb/pvrusb2/pvrusb2-v4l2.c",
+        "drivers/media/v4l2-core/v4l2-fh.c",
+        "drivers/media/v4l2-core/v4l2-subdev.c",
+        "drivers/staging/media/imx/imx-media-csc-scaler.c",
+        "drivers/staging/media/meson/vdec/vdec.c",
+        "drivers/staging/media/sunxi/cedrus/cedrus.c",
+        "drivers/staging/most/video/video.c",
+        "drivers/usb/gadget/function/uvc_v4l2.c",
+        "include/media/v4l2-fh.h"
+      ],
+      "patchId": "4e540c10b5c03c9f0f85010bb3861f1df8fd365a",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "277966749f46bc6292c4052b4e66a554f193a78a"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "277966749f46bc6292c4052b4e66a554f193a78a"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "277966749f46bc6292c4052b4e66a554f193a78a"
+        }
+      }
+    },
+    {
+      "index": 32,
+      "total": 76,
+      "subject": "media: Drop V4L2_FL_USES_V4L2_FH checks",
+      "messageId": "<20250809211654.28887-33-laurent.pinchart@ideasonboard.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250809211654.28887-33-laurent.pinchart@ideasonboard.com/",
+      "changedFiles": [
+        "Documentation/driver-api/media/v4l2-fh.rst",
+        "Documentation/translations/zh_CN/video4linux/v4l2-framework.txt",
+        "drivers/media/common/videobuf2/videobuf2-v4l2.c",
+        "drivers/media/v4l2-core/v4l2-compat-ioctl32.c",
+        "drivers/media/v4l2-core/v4l2-ctrls-api.c",
+        "drivers/media/v4l2-core/v4l2-dev.c",
+        "drivers/media/v4l2-core/v4l2-ioctl.c",
+        "drivers/media/v4l2-core/v4l2-mem2mem.c",
+        "include/media/v4l2-dev.h"
+      ],
+      "patchId": "989954917b9440ab8f630c1635e106a143cf7cf7",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

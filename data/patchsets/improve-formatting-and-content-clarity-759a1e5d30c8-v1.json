@@ -1,0 +1,89 @@
+{
+  "id": "improve-formatting-and-content-clarity-759a1e5d30c8-v1",
+  "subject": "[PATCH] docs/zh_CN: improve formatting and content clarity",
+  "authorName": "Dongliang Mu",
+  "authorEmail": "dzm91@hust.edu.cn",
+  "revision": 1,
+  "postedAt": "2025-06-11T04:36:13.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "applied",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 2,
+  "latestRevision": true,
+  "messageIds": [
+    "<20250611043616.264245-1-dzm91@hust.edu.cn>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "75e72234c84822832ebb8c5835f913dd310cb797"
+    },
+    "corbet": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "75e72234c84822832ebb8c5835f913dd310cb797"
+    },
+    "linus": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "75e72234c84822832ebb8c5835f913dd310cb797"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250611043616.264245-1-dzm91@hust.edu.cn/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250611043616.264245-1-dzm91@hust.edu.cn/raw",
+  "replies": 2,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "improve-formatting-and-content-clarity-759a1e5d30c8-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "docs/zh_CN: improve formatting and content clarity",
+      "messageId": "<20250611043616.264245-1-dzm91@hust.edu.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250611043616.264245-1-dzm91@hust.edu.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/how-to.rst"
+      ],
+      "patchId": "1fb0cb7d3fa436c863c5b0e01ed95fffd95dfffb",
+      "trailers": [
+        {
+          "type": "Acked-by",
+          "value": "Yanteng Si <si.yanteng@linux.dev>",
+          "messageId": "<04b07c6a-9b9a-41c2-b7ee-9d544e649565@linux.dev>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "75e72234c84822832ebb8c5835f913dd310cb797"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "75e72234c84822832ebb8c5835f913dd310cb797"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "75e72234c84822832ebb8c5835f913dd310cb797"
+        }
+      }
+    }
+  ]
+}

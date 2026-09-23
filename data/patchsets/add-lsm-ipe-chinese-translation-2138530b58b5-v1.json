@@ -1,0 +1,76 @@
+{
+  "id": "add-lsm-ipe-chinese-translation-2138530b58b5-v1",
+  "subject": "[PATCH 09/10] docs/zh_CN: add LSM/ipe Chinese translation",
+  "authorName": "Yan Zhu",
+  "authorEmail": "zhuyan2015@qq.com",
+  "revision": 1,
+  "postedAt": "2026-06-12T15:58:28.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 2,
+  "latestRevision": true,
+  "messageIds": [
+    "<tencent_DADDE291CA580302EB7BB40B83A552D6F006@qq.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/tencent_DADDE291CA580302EB7BB40B83A552D6F006@qq.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/tencent_DADDE291CA580302EB7BB40B83A552D6F006@qq.com/raw",
+  "replies": 3,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "add-lsm-ipe-chinese-translation-2138530b58b5-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 9,
+      "total": 10,
+      "subject": "docs/zh_CN: add LSM/ipe Chinese translation",
+      "messageId": "<tencent_DADDE291CA580302EB7BB40B83A552D6F006@qq.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/tencent_DADDE291CA580302EB7BB40B83A552D6F006@qq.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/admin-guide/LSM/ipe.rst"
+      ],
+      "patchId": "171902c4affd0f5605e4e6d0fdbcd1fff4f83151",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

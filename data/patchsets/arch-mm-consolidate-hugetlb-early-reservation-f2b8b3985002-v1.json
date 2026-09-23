@@ -1,0 +1,140 @@
+{
+  "id": "arch-mm-consolidate-hugetlb-early-reservation-f2b8b3985002-v1",
+  "subject": "[PATCH 00/28] arch, mm: consolidate hugetlb early reservation",
+  "authorName": "Mike Rapoport",
+  "authorEmail": "rppt@kernel.org",
+  "revision": 1,
+  "postedAt": "2025-12-28T12:39:30.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 8,
+  "latestRevision": false,
+  "messageIds": [
+    "<20251228124001.3624742-1-rppt@kernel.org>",
+    "<20251228124001.3624742-2-rppt@kernel.org>",
+    "<20251228124001.3624742-3-rppt@kernel.org>",
+    "<20251228124001.3624742-4-rppt@kernel.org>",
+    "<20251228124001.3624742-5-rppt@kernel.org>",
+    "<20251228124001.3624742-6-rppt@kernel.org>",
+    "<20251228124001.3624742-7-rppt@kernel.org>",
+    "<20251228124001.3624742-8-rppt@kernel.org>",
+    "<20251228124001.3624742-9-rppt@kernel.org>",
+    "<20251228124001.3624742-10-rppt@kernel.org>",
+    "<20251228124001.3624742-11-rppt@kernel.org>",
+    "<20251228124001.3624742-12-rppt@kernel.org>",
+    "<20251228124001.3624742-13-rppt@kernel.org>",
+    "<20251228124001.3624742-14-rppt@kernel.org>",
+    "<20251228124001.3624742-15-rppt@kernel.org>",
+    "<20251228124001.3624742-16-rppt@kernel.org>",
+    "<20251228124001.3624742-17-rppt@kernel.org>",
+    "<20251228124001.3624742-18-rppt@kernel.org>",
+    "<20251228124001.3624742-19-rppt@kernel.org>",
+    "<20251228124001.3624742-20-rppt@kernel.org>",
+    "<20251228124001.3624742-21-rppt@kernel.org>",
+    "<20251228124001.3624742-22-rppt@kernel.org>",
+    "<20251228124001.3624742-23-rppt@kernel.org>",
+    "<20251228124001.3624742-24-rppt@kernel.org>",
+    "<20251228124001.3624742-25-rppt@kernel.org>",
+    "<20251228124001.3624742-26-rppt@kernel.org>",
+    "<20251228124001.3624742-27-rppt@kernel.org>",
+    "<20251228124001.3624742-28-rppt@kernel.org>",
+    "<20251228124001.3624742-29-rppt@kernel.org>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "4267739cabb82da75780c4699fe8208821929944"
+    },
+    "corbet": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "4267739cabb82da75780c4699fe8208821929944"
+    },
+    "linus": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "4267739cabb82da75780c4699fe8208821929944"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20251228124001.3624742-1-rppt@kernel.org/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20251228124001.3624742-1-rppt@kernel.org/raw",
+  "replies": 9,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "arch-mm-consolidate-hugetlb-early-reservation-f2b8b3985002-v1",
+      "current": true
+    },
+    {
+      "revision": 2,
+      "id": "arch-mm-consolidate-hugetlb-early-reservation-f6b5216c655f-v2",
+      "current": false
+    },
+    {
+      "revision": 3,
+      "id": "arch-mm-consolidate-hugetlb-early-reservation-477d92b69990-v3",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 23,
+      "total": 28,
+      "subject": "arch, mm: consolidate initialization of SPARSE memory model",
+      "messageId": "<20251228124001.3624742-24-rppt@kernel.org>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251228124001.3624742-24-rppt@kernel.org/",
+      "changedFiles": [
+        "Documentation/mm/memory-model.rst",
+        "Documentation/translations/zh_CN/mm/memory-model.rst",
+        "arch/alpha/kernel/setup.c",
+        "arch/arm/mm/init.c",
+        "arch/arm64/mm/init.c",
+        "arch/csky/kernel/setup.c",
+        "arch/loongarch/kernel/setup.c",
+        "arch/mips/kernel/setup.c",
+        "arch/parisc/mm/init.c",
+        "arch/powerpc/include/asm/setup.h",
+        "arch/powerpc/mm/mem.c",
+        "arch/powerpc/mm/numa.c",
+        "arch/riscv/mm/init.c",
+        "arch/s390/mm/init.c",
+        "arch/sh/mm/init.c",
+        "arch/sparc/mm/init_64.c",
+        "arch/x86/mm/init_32.c",
+        "arch/x86/mm/init_64.c",
+        "include/linux/mmzone.h",
+        "mm/internal.h",
+        "mm/mm_init.c"
+      ],
+      "patchId": "2393a6614040207dbab44f14fab957492a5a2b89",
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "4267739cabb82da75780c4699fe8208821929944"
+        },
+        "corbet": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "4267739cabb82da75780c4699fe8208821929944"
+        },
+        "linus": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "4267739cabb82da75780c4699fe8208821929944"
+        }
+      }
+    }
+  ]
+}

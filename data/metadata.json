@@ -1,0 +1,25 @@
+{
+  "mode": "live",
+  "generatedAt": "2026-09-15T12:03:07.113Z",
+  "sources": {
+    "lore": {
+      "status": "ok",
+      "lastSuccessfulSync": "2026-09-15T12:03:05.111Z"
+    },
+    "alex": {
+      "status": "ok",
+      "head": "b0b415dcdd84732d24f16fb0758450897e30cd64",
+      "lastSuccessfulSync": "2026-09-15T12:03:07.113Z"
+    },
+    "corbet": {
+      "status": "ok",
+      "head": "d793bcfca6bb493eb8e93900285f951a0c9dbf7c",
+      "lastSuccessfulSync": "2026-09-15T12:03:07.113Z"
+    },
+    "linus": {
+      "status": "ok",
+      "head": "587858367581b9c55c3690f4e63382ad622719d4",
+      "lastSuccessfulSync": "2026-09-15T12:03:07.113Z"
+    }
+  }
+}

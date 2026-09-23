@@ -1,0 +1,90 @@
+{
+  "id": "update-rust-index-translation-and-add-reference-labe-6f8696718cec-v1",
+  "subject": "[PATCH] docs/zh_CN: Update Rust index translation and add reference label",
+  "authorName": "Ben Guo",
+  "authorEmail": "benx.guo@gmail.com",
+  "revision": 1,
+  "postedAt": "2025-09-24T23:51:12.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "applied",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 2,
+  "latestRevision": true,
+  "messageIds": [
+    "<20250924235114.209967-1-benx.guo@gmail.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "11441336dc0256adc14a5e160b558aacee75b2f9"
+    },
+    "corbet": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "11441336dc0256adc14a5e160b558aacee75b2f9"
+    },
+    "linus": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "11441336dc0256adc14a5e160b558aacee75b2f9"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250924235114.209967-1-benx.guo@gmail.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250924235114.209967-1-benx.guo@gmail.com/raw",
+  "replies": 2,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "update-rust-index-translation-and-add-reference-labe-6f8696718cec-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "docs/zh_CN: Update Rust index translation and add reference label",
+      "messageId": "<20250924235114.209967-1-benx.guo@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250924235114.209967-1-benx.guo@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/rust/general-information.rst",
+        "Documentation/translations/zh_CN/rust/index.rst"
+      ],
+      "patchId": "4cd67d0275972eda4e7ac45ebf38c5d61f53ab94",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Yanteng Si <si.yanteng@linux.dev>",
+          "messageId": "<82c7e76c-326f-45c9-bff7-1f27bf0c689c@linux.dev>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "11441336dc0256adc14a5e160b558aacee75b2f9"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "11441336dc0256adc14a5e160b558aacee75b2f9"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "11441336dc0256adc14a5e160b558aacee75b2f9"
+        }
+      }
+    }
+  ]
+}

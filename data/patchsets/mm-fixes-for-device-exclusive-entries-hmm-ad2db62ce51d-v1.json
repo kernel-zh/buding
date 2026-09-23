@@ -1,0 +1,117 @@
+{
+  "id": "mm-fixes-for-device-exclusive-entries-hmm-ad2db62ce51d-v1",
+  "subject": "[PATCH v1 00/12] mm: fixes for device-exclusive entries (hmm)",
+  "authorName": "David Hildenbrand",
+  "authorEmail": "david@redhat.com",
+  "revision": 1,
+  "postedAt": "2025-01-29T11:53:58.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 25,
+  "latestRevision": false,
+  "messageIds": [
+    "<20250129115411.2077152-1-david@redhat.com>",
+    "<20250129115411.2077152-2-david@redhat.com>",
+    "<20250129115411.2077152-3-david@redhat.com>",
+    "<20250129115411.2077152-4-david@redhat.com>",
+    "<20250129115411.2077152-5-david@redhat.com>",
+    "<20250129115411.2077152-6-david@redhat.com>",
+    "<20250129115411.2077152-7-david@redhat.com>",
+    "<20250129115411.2077152-8-david@redhat.com>",
+    "<20250129115411.2077152-9-david@redhat.com>",
+    "<20250129115411.2077152-10-david@redhat.com>",
+    "<20250129115411.2077152-11-david@redhat.com>",
+    "<20250129115411.2077152-12-david@redhat.com>",
+    "<20250129115411.2077152-13-david@redhat.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "599b684a7854e51a51358fe59bbdfea281f0b461"
+    },
+    "corbet": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "599b684a7854e51a51358fe59bbdfea281f0b461"
+    },
+    "linus": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "599b684a7854e51a51358fe59bbdfea281f0b461"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250129115411.2077152-1-david@redhat.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250129115411.2077152-1-david@redhat.com/raw",
+  "replies": 43,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "mm-fixes-for-device-exclusive-entries-hmm-ad2db62ce51d-v1",
+      "current": true
+    },
+    {
+      "revision": 2,
+      "id": "mm-fixes-for-device-exclusive-entries-hmm-cbd77a9d9b5c-v2",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 3,
+      "total": 12,
+      "subject": "mm/rmap: convert make_device_exclusive_range() to make_device_exclusive()",
+      "messageId": "<20250129115411.2077152-4-david@redhat.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250129115411.2077152-4-david@redhat.com/",
+      "changedFiles": [
+        "Documentation/mm/hmm.rst",
+        "Documentation/translations/zh_CN/mm/hmm.rst",
+        "drivers/gpu/drm/nouveau/nouveau_svm.c",
+        "include/linux/mmu_notifier.h",
+        "include/linux/rmap.h",
+        "lib/test_hmm.c",
+        "mm/rmap.c"
+      ],
+      "patchId": "bcd109b1a398a7f738ae050b4487af3ee8f41cbf",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Alistair Popple <apopple@nvidia.com>",
+          "messageId": "<b3stuhf2s6236zawaa6zt6x3fg6oamrtj3pwajlyoxlaxdmdtf@arqxcoemsjfg>"
+        },
+        {
+          "type": "Acked-by",
+          "value": "Simona Vetter <simona.vetter@ffwll.ch>",
+          "messageId": "<Z5uCw9nzN81B4N8Z@phenom.ffwll.local>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "599b684a7854e51a51358fe59bbdfea281f0b461"
+        },
+        "corbet": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "599b684a7854e51a51358fe59bbdfea281f0b461"
+        },
+        "linus": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "599b684a7854e51a51358fe59bbdfea281f0b461"
+        }
+      }
+    }
+  ]
+}

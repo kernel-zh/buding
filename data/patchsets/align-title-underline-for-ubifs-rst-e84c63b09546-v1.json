@@ -1,0 +1,89 @@
+{
+  "id": "align-title-underline-for-ubifs-rst-e84c63b09546-v1",
+  "subject": "[PATCH] Docs/zh_CN: align title underline for ubifs.rst",
+  "authorName": "shao.mingyin@zte.com.cn",
+  "authorEmail": "shao.mingyin@zte.com.cn",
+  "revision": 1,
+  "postedAt": "2025-09-18T06:36:43.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 1,
+  "latestRevision": true,
+  "messageIds": [
+    "<20250918143643417OPRH_RjCXkCa3aCtQEX3Y@zte.com.cn>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "46b194beeecfbda9577038ac272a4955fea443df"
+    },
+    "corbet": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "46b194beeecfbda9577038ac272a4955fea443df"
+    },
+    "linus": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "46b194beeecfbda9577038ac272a4955fea443df"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250918143643417OPRH_RjCXkCa3aCtQEX3Y@zte.com.cn/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250918143643417OPRH_RjCXkCa3aCtQEX3Y@zte.com.cn/raw",
+  "replies": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "align-title-underline-for-ubifs-rst-e84c63b09546-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "Docs/zh_CN: align title underline for ubifs.rst",
+      "messageId": "<20250918143643417OPRH_RjCXkCa3aCtQEX3Y@zte.com.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250918143643417OPRH_RjCXkCa3aCtQEX3Y@zte.com.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/filesystems/ubifs.rst"
+      ],
+      "patchId": "67c77d525e2acd18d9e98a7d8dedde19d2581028",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Dongliang Mu <dzm91@hust.edu.cn>",
+          "messageId": "<5631b0e1-03e4-43a2-9586-77bb20690520@hust.edu.cn>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "46b194beeecfbda9577038ac272a4955fea443df"
+        },
+        "corbet": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "46b194beeecfbda9577038ac272a4955fea443df"
+        },
+        "linus": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "46b194beeecfbda9577038ac272a4955fea443df"
+        }
+      }
+    }
+  ]
+}

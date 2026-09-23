@@ -1,0 +1,84 @@
+{
+  "id": "docs-core-api-symbol-namespaces-drop-table-of-conten-e8ef7ada6092-v1",
+  "subject": "[PATCH 3/3] docs/core-api/symbol-namespaces: drop table of contents and section numbering",
+  "authorName": "Masahiro Yamada",
+  "authorEmail": "masahiroy@kernel.org",
+  "revision": 1,
+  "postedAt": "2025-05-22T07:17:22.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "applied",
+  "lifecycle": "active",
+  "reviewState": "waiting",
+  "reviewReplies": 0,
+  "latestRevision": true,
+  "messageIds": [
+    "<20250522071744.2362563-3-masahiroy@kernel.org>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "40617439d572645207c1866dfb086de0be438a14"
+    },
+    "corbet": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "40617439d572645207c1866dfb086de0be438a14"
+    },
+    "linus": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "40617439d572645207c1866dfb086de0be438a14"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250522071744.2362563-3-masahiroy@kernel.org/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250522071744.2362563-3-masahiroy@kernel.org/raw",
+  "replies": 0,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "docs-core-api-symbol-namespaces-drop-table-of-conten-e8ef7ada6092-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 3,
+      "total": 3,
+      "subject": "docs/core-api/symbol-namespaces: drop table of contents and section numbering",
+      "messageId": "<20250522071744.2362563-3-masahiroy@kernel.org>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250522071744.2362563-3-masahiroy@kernel.org/",
+      "changedFiles": [
+        "Documentation/core-api/symbol-namespaces.rst",
+        "Documentation/translations/it_IT/core-api/symbol-namespaces.rst",
+        "Documentation/translations/zh_CN/core-api/symbol-namespaces.rst"
+      ],
+      "patchId": "fc57cc5a22304d6e99fbad2fb92ca3185f3677c1",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "40617439d572645207c1866dfb086de0be438a14"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "40617439d572645207c1866dfb086de0be438a14"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "40617439d572645207c1866dfb086de0be438a14"
+        }
+      }
+    }
+  ]
+}

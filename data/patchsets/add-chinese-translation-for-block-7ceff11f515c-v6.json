@@ -1,0 +1,211 @@
+{
+  "id": "add-chinese-translation-for-block-7ceff11f515c-v6",
+  "subject": "[PATCH v6 0/3] Add chinese translation for block",
+  "authorName": "ke zijie",
+  "authorEmail": "kezijie@leap-io-kernel.com",
+  "revision": 6,
+  "postedAt": "2025-11-20T02:27:25.000Z",
+  "language": "zh_CN",
+  "patchCount": 3,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 1,
+  "latestRevision": true,
+  "messageIds": [
+    "<cover.1763605033.git.kezijie@leap-io-kernel.com>",
+    "<3e4c8bab2c3d5f55daea8dca604981d486256d19.1763605033.git.kezijie@leap-io-kernel.com>",
+    "<3574ae90ee3ea6fbe00643cf485d4d8b630fb863.1763605033.git.kezijie@leap-io-kernel.com>",
+    "<0a77b351575619cf504c2711753f62893407c605.1763605033.git.kezijie@leap-io-kernel.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 3,
+      "commit": "a41b1f1521d5d1cfdd983d38a5e02a2bf9b06182"
+    },
+    "corbet": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 3,
+      "commit": "a41b1f1521d5d1cfdd983d38a5e02a2bf9b06182"
+    },
+    "linus": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 3,
+      "commit": "a41b1f1521d5d1cfdd983d38a5e02a2bf9b06182"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/cover.1763605033.git.kezijie@leap-io-kernel.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/cover.1763605033.git.kezijie@leap-io-kernel.com/raw",
+  "replies": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "add-chinese-translation-for-block-2b5ed67ffc45-v1",
+      "current": false
+    },
+    {
+      "revision": 2,
+      "id": "add-chinese-translation-for-block-99dd34a4e18d-v2",
+      "current": false
+    },
+    {
+      "revision": 3,
+      "id": "add-chinese-translation-for-block-544d27bbb671-v3",
+      "current": false
+    },
+    {
+      "revision": 4,
+      "id": "add-chinese-translation-for-block-37b692a25813-v4",
+      "current": false
+    },
+    {
+      "revision": 5,
+      "id": "add-chinese-translation-for-block-cc1fc067b477-v5",
+      "current": false
+    },
+    {
+      "revision": 6,
+      "id": "add-chinese-translation-for-block-7ceff11f515c-v6",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 3,
+      "subject": "docs/zh_CN: Add block/index.rst translation",
+      "messageId": "<3e4c8bab2c3d5f55daea8dca604981d486256d19.1763605033.git.kezijie@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/3e4c8bab2c3d5f55daea8dca604981d486256d19.1763605033.git.kezijie@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/block/index.rst",
+        "Documentation/translations/zh_CN/subsystem-apis.rst"
+      ],
+      "patchId": "58bd3204812a1b17e0b4538f0967f8645ccb912c",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Yanteng Si <siyanteng@cqsoftware.com.cn>",
+          "messageId": "<3e4c8bab2c3d5f55daea8dca604981d486256d19.1763605033.git.kezijie@leap-io-kernel.com>"
+        },
+        {
+          "type": "Reviewed-by",
+          "value": "WangYuli <wangyl5933@chinaunicom.cn>",
+          "messageId": "<3e4c8bab2c3d5f55daea8dca604981d486256d19.1763605033.git.kezijie@leap-io-kernel.com>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "a41b1f1521d5d1cfdd983d38a5e02a2bf9b06182"
+        },
+        "corbet": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "a41b1f1521d5d1cfdd983d38a5e02a2bf9b06182"
+        },
+        "linus": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "a41b1f1521d5d1cfdd983d38a5e02a2bf9b06182"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "total": 3,
+      "subject": "docs/zh_CN: Add blk-mq.rst translation",
+      "messageId": "<3574ae90ee3ea6fbe00643cf485d4d8b630fb863.1763605033.git.kezijie@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/3574ae90ee3ea6fbe00643cf485d4d8b630fb863.1763605033.git.kezijie@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/block/blk-mq.rst",
+        "Documentation/translations/zh_CN/block/index.rst"
+      ],
+      "patchId": "f235078b152f76b9cccd0fb65bba48fc3ed14e02",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Yanteng Si <siyanteng@cqsoftware.com.cn>",
+          "messageId": "<3574ae90ee3ea6fbe00643cf485d4d8b630fb863.1763605033.git.kezijie@leap-io-kernel.com>"
+        },
+        {
+          "type": "Reviewed-by",
+          "value": "WangYuli <wangyl5933@chinaunicom.cn>",
+          "messageId": "<3574ae90ee3ea6fbe00643cf485d4d8b630fb863.1763605033.git.kezijie@leap-io-kernel.com>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "dcb7fefe5296f6673da1d9101169a45d1fdc31da"
+        },
+        "corbet": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "dcb7fefe5296f6673da1d9101169a45d1fdc31da"
+        },
+        "linus": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "dcb7fefe5296f6673da1d9101169a45d1fdc31da"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "total": 3,
+      "subject": "docs/zh_CN: Add data-integrity.rst translation",
+      "messageId": "<0a77b351575619cf504c2711753f62893407c605.1763605033.git.kezijie@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/0a77b351575619cf504c2711753f62893407c605.1763605033.git.kezijie@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/block/data-integrity.rst",
+        "Documentation/translations/zh_CN/block/index.rst"
+      ],
+      "patchId": "82942dcf39edda6d08b56f20158e1c6604ec092e",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Yanteng Si <siyanteng@cqsoftware.com.cn>",
+          "messageId": "<0a77b351575619cf504c2711753f62893407c605.1763605033.git.kezijie@leap-io-kernel.com>"
+        },
+        {
+          "type": "Reviewed-by",
+          "value": "WangYuli <wangyl5933@chinaunicom.cn>",
+          "messageId": "<0a77b351575619cf504c2711753f62893407c605.1763605033.git.kezijie@leap-io-kernel.com>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "862f670205f718bf54a8f3b54b5ca28de33ff33e"
+        },
+        "corbet": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "862f670205f718bf54a8f3b54b5ca28de33ff33e"
+        },
+        "linus": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "862f670205f718bf54a8f3b54b5ca28de33ff33e"
+        }
+      }
+    }
+  ]
+}

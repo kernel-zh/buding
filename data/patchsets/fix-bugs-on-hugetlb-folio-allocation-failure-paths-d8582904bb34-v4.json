@@ -1,0 +1,96 @@
+{
+  "id": "fix-bugs-on-hugetlb-folio-allocation-failure-paths-d8582904bb34-v4",
+  "subject": "[PATCH v4 00/16] Fix bugs on HugeTLB folio allocation failure paths",
+  "authorName": "Ackerley Tng via B4 Relay",
+  "authorEmail": "devnull+ackerleytng.google.com@kernel.org",
+  "revision": 4,
+  "postedAt": "2026-07-22T23:41:08.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 1,
+  "latestRevision": true,
+  "messageIds": [
+    "<20260722-hugetlb-alloc-failure-fixes-v4-0-88e8b81970dc@google.com>",
+    "<20260722-hugetlb-alloc-failure-fixes-v4-1-88e8b81970dc@google.com>",
+    "<20260722-hugetlb-alloc-failure-fixes-v4-2-88e8b81970dc@google.com>",
+    "<20260722-hugetlb-alloc-failure-fixes-v4-3-88e8b81970dc@google.com>",
+    "<20260722-hugetlb-alloc-failure-fixes-v4-4-88e8b81970dc@google.com>",
+    "<20260722-hugetlb-alloc-failure-fixes-v4-5-88e8b81970dc@google.com>",
+    "<20260722-hugetlb-alloc-failure-fixes-v4-6-88e8b81970dc@google.com>",
+    "<20260722-hugetlb-alloc-failure-fixes-v4-7-88e8b81970dc@google.com>",
+    "<20260722-hugetlb-alloc-failure-fixes-v4-8-88e8b81970dc@google.com>",
+    "<20260722-hugetlb-alloc-failure-fixes-v4-9-88e8b81970dc@google.com>",
+    "<20260722-hugetlb-alloc-failure-fixes-v4-10-88e8b81970dc@google.com>",
+    "<20260722-hugetlb-alloc-failure-fixes-v4-11-88e8b81970dc@google.com>",
+    "<20260722-hugetlb-alloc-failure-fixes-v4-12-88e8b81970dc@google.com>",
+    "<20260722-hugetlb-alloc-failure-fixes-v4-13-88e8b81970dc@google.com>",
+    "<20260722-hugetlb-alloc-failure-fixes-v4-14-88e8b81970dc@google.com>",
+    "<20260722-hugetlb-alloc-failure-fixes-v4-15-88e8b81970dc@google.com>",
+    "<20260722-hugetlb-alloc-failure-fixes-v4-16-88e8b81970dc@google.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260722-hugetlb-alloc-failure-fixes-v4-0-88e8b81970dc@google.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260722-hugetlb-alloc-failure-fixes-v4-0-88e8b81970dc@google.com/raw",
+  "replies": 1,
+  "versions": [
+    {
+      "revision": 4,
+      "id": "fix-bugs-on-hugetlb-folio-allocation-failure-paths-d8582904bb34-v4",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 16,
+      "subject": "mm: hugetlb: Track used_hpages when getting/putting pages from subpool",
+      "messageId": "<20260722-hugetlb-alloc-failure-fixes-v4-1-88e8b81970dc@google.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260722-hugetlb-alloc-failure-fixes-v4-1-88e8b81970dc@google.com/",
+      "changedFiles": [
+        "Documentation/mm/hugetlbfs_reserv.rst",
+        "Documentation/translations/zh_CN/mm/hugetlbfs_reserv.rst",
+        "fs/hugetlbfs/inode.c",
+        "include/linux/hugetlb.h",
+        "mm/hugetlb.c"
+      ],
+      "patchId": "b59d6fc691c63741889c9552ffff49162d9f7c71",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

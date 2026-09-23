@@ -1,0 +1,113 @@
+{
+  "id": "add-snp-tdx-threat-model-index-chinese-translation-1e0a0cfb25d2-v5",
+  "subject": "[PATCH v5] docs/zh_CN: Add snp-tdx-threat-model index Chinese translation",
+  "authorName": "Yuxian Mao",
+  "authorEmail": "maoyuxian@cqsoftware.com.cn",
+  "revision": 5,
+  "postedAt": "2025-02-07T05:21:53.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "waiting",
+  "reviewReplies": 0,
+  "latestRevision": false,
+  "messageIds": [
+    "<20250207052154.224907-1-maoyuxian@cqsoftware.com.cn>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "8d57fd6f096a48e62c546da94d4332e1ab161be2"
+    },
+    "corbet": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "8d57fd6f096a48e62c546da94d4332e1ab161be2"
+    },
+    "linus": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "8d57fd6f096a48e62c546da94d4332e1ab161be2"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250207052154.224907-1-maoyuxian@cqsoftware.com.cn/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250207052154.224907-1-maoyuxian@cqsoftware.com.cn/raw",
+  "replies": 0,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "add-snp-tdx-threat-model-index-chinese-translation-e675ac6006aa-v1",
+      "current": false
+    },
+    {
+      "revision": 1,
+      "id": "add-snp-tdx-threat-model-index-chinese-translation-30300c741ab2-v1",
+      "current": false
+    },
+    {
+      "revision": 3,
+      "id": "add-snp-tdx-threat-model-index-chinese-translation-4e708a6cf601-v3",
+      "current": false
+    },
+    {
+      "revision": 4,
+      "id": "add-snp-tdx-threat-model-index-chinese-translation-61d8bf918b71-v4",
+      "current": false
+    },
+    {
+      "revision": 4,
+      "id": "add-snp-tdx-threat-model-index-chinese-translation-c4b06f92dee0-v4",
+      "current": false
+    },
+    {
+      "revision": 5,
+      "id": "add-snp-tdx-threat-model-index-chinese-translation-1e0a0cfb25d2-v5",
+      "current": true
+    },
+    {
+      "revision": 6,
+      "id": "add-snp-tdx-threat-model-index-chinese-translation-6fa156bfa7e2-v6",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "docs/zh_CN: Add snp-tdx-threat-model index Chinese translation",
+      "messageId": "<20250207052154.224907-1-maoyuxian@cqsoftware.com.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250207052154.224907-1-maoyuxian@cqsoftware.com.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/security/index.rst",
+        "Documentation/translations/zh_CN/security/snp-tdx-threat-model.rst"
+      ],
+      "patchId": "7392389b827a719b000a1595c7c06a0d59879930",
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "8d57fd6f096a48e62c546da94d4332e1ab161be2"
+        },
+        "corbet": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "8d57fd6f096a48e62c546da94d4332e1ab161be2"
+        },
+        "linus": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "8d57fd6f096a48e62c546da94d4332e1ab161be2"
+        }
+      }
+    }
+  ]
+}

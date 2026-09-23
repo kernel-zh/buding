@@ -1,0 +1,101 @@
+{
+  "id": "documentation-treewide-replace-marc-info-links-with--a725484241c6-v1",
+  "subject": "[PATCH] Documentation: treewide: Replace marc.info links with lore",
+  "authorName": "Bagas Sanjaya",
+  "authorEmail": "bagasdotme@gmail.com",
+  "revision": 1,
+  "postedAt": "2025-10-31T04:33:56.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "applied",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 4,
+  "latestRevision": true,
+  "messageIds": [
+    "<20251031043358.23709-1-bagasdotme@gmail.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "e849217cf376ece0f43e7a454d9e80a1a337d9b0"
+    },
+    "corbet": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "e849217cf376ece0f43e7a454d9e80a1a337d9b0"
+    },
+    "linus": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "e849217cf376ece0f43e7a454d9e80a1a337d9b0"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20251031043358.23709-1-bagasdotme@gmail.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20251031043358.23709-1-bagasdotme@gmail.com/raw",
+  "replies": 4,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "documentation-treewide-replace-marc-info-links-with--a725484241c6-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "Documentation: treewide: Replace marc.info links with lore",
+      "messageId": "<20251031043358.23709-1-bagasdotme@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251031043358.23709-1-bagasdotme@gmail.com/",
+      "changedFiles": [
+        "Documentation/driver-api/usb/writing_musb_glue_layer.rst",
+        "Documentation/mm/active_mm.rst",
+        "Documentation/translations/zh_CN/mm/active_mm.rst"
+      ],
+      "patchId": "c9a63c5a324aa43a171b7d2948ca5b4be7f2ec9a",
+      "trailers": [
+        {
+          "type": "Acked-by",
+          "value": "SeongJae Park <sj@kernel.org>",
+          "messageId": "<20251101013019.68183-1-sj@kernel.org>"
+        },
+        {
+          "type": "Reviewed-by",
+          "value": "Lance Yang <lance.yang@linux.dev>",
+          "messageId": "<20251101034145.31515-1-ioworker0@gmail.com>"
+        },
+        {
+          "type": "Acked-by",
+          "value": "Randy Dunlap <rdunlap@infradead.org>",
+          "messageId": "<7fd1c990-d96e-49ba-9bbb-ebddebf684aa@infradead.org>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "e849217cf376ece0f43e7a454d9e80a1a337d9b0"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "e849217cf376ece0f43e7a454d9e80a1a337d9b0"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "e849217cf376ece0f43e7a454d9e80a1a337d9b0"
+        }
+      }
+    }
+  ]
+}

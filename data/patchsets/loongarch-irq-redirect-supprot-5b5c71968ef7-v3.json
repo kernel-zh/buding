@@ -1,0 +1,106 @@
+{
+  "id": "loongarch-irq-redirect-supprot-5b5c71968ef7-v3",
+  "subject": "[PATCH v3 0/2]  Loongarch irq-redirect supprot",
+  "authorName": "Tianyang Zhang",
+  "authorEmail": "zhangtianyang@loongson.cn",
+  "revision": 3,
+  "postedAt": "2025-05-23T10:18:31.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 3,
+  "latestRevision": false,
+  "messageIds": [
+    "<20250523101833.17940-1-zhangtianyang@loongson.cn>",
+    "<20250523101833.17940-2-zhangtianyang@loongson.cn>",
+    "<20250523101833.17940-3-zhangtianyang@loongson.cn>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250523101833.17940-1-zhangtianyang@loongson.cn/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250523101833.17940-1-zhangtianyang@loongson.cn/raw",
+  "replies": 4,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "loongarch-irq-redirect-supprot-934b7bba8c04-v1",
+      "current": false
+    },
+    {
+      "revision": 1,
+      "id": "loongarch-irq-redirect-supprot-9b339f433ff8-v1",
+      "current": false
+    },
+    {
+      "revision": 2,
+      "id": "loongarch-irq-redirect-supprot-9db4495c7161-v2",
+      "current": false
+    },
+    {
+      "revision": 3,
+      "id": "loongarch-irq-redirect-supprot-5b5c71968ef7-v3",
+      "current": true
+    },
+    {
+      "revision": 4,
+      "id": "loongarch-irq-redirect-supprot-9e1606c22daf-v4",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 2,
+      "subject": "Docs/LoongArch: Add Advanced Extended-Redirect IRQ model description",
+      "messageId": "<20250523101833.17940-2-zhangtianyang@loongson.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250523101833.17940-2-zhangtianyang@loongson.cn/",
+      "changedFiles": [
+        "Documentation/arch/loongarch/irq-chip-model.rst",
+        "Documentation/translations/zh_CN/arch/loongarch/irq-chip-model.rst"
+      ],
+      "patchId": "6a3e26443652efa74b069d33d5bf46baaf9c8214",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Yanteng Si <si.yanteng@linux.dev>",
+          "messageId": "<2b8810d1-b312-4ee6-928c-e078b8c52000@linux.dev>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

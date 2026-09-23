@@ -1,0 +1,90 @@
+{
+  "id": "add-chinese-trans-guide-and-change-yanteng-s-email-fdc4214c2be4-v3",
+  "subject": "[PATCH v3 0/2] docs/zh_CN: add Chinese trans guide and change Yanteng's email",
+  "authorName": "Yanteng Si",
+  "authorEmail": "si.yanteng@linux.dev",
+  "revision": 3,
+  "postedAt": "2025-03-28T10:06:42.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 1,
+  "latestRevision": true,
+  "messageIds": [
+    "<cover.1743156287.git.si.yanteng@linux.dev>",
+    "<0443c86e10d900a4d752d103265c948360563d43.1743156287.git.si.yanteng@linux.dev>",
+    "<403fa4722ad008800086e41d412cd322243b9089.1743156287.git.si.yanteng@linux.dev>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "4f0145e9ea41cc5d0f80b79a60ce39757d3b47d6"
+    },
+    "corbet": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "4f0145e9ea41cc5d0f80b79a60ce39757d3b47d6"
+    },
+    "linus": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "4f0145e9ea41cc5d0f80b79a60ce39757d3b47d6"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/cover.1743156287.git.si.yanteng@linux.dev/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/cover.1743156287.git.si.yanteng@linux.dev/raw",
+  "replies": 1,
+  "versions": [
+    {
+      "revision": 2,
+      "id": "add-chinese-trans-guide-and-change-yanteng-s-email-21fb029bd33c-v2",
+      "current": false
+    },
+    {
+      "revision": 3,
+      "id": "add-chinese-trans-guide-and-change-yanteng-s-email-fdc4214c2be4-v3",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 2,
+      "subject": "docs/zh_CN: Add how-to of Chinese translation",
+      "messageId": "<0443c86e10d900a4d752d103265c948360563d43.1743156287.git.si.yanteng@linux.dev>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/0443c86e10d900a4d752d103265c948360563d43.1743156287.git.si.yanteng@linux.dev/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/how-to.rst",
+        "Documentation/translations/zh_CN/index.rst"
+      ],
+      "patchId": "7cab3b350ff36ac89aabf0d9812c04e211c82730",
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "4f0145e9ea41cc5d0f80b79a60ce39757d3b47d6"
+        },
+        "corbet": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "4f0145e9ea41cc5d0f80b79a60ce39757d3b47d6"
+        },
+        "linus": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "4f0145e9ea41cc5d0f80b79a60ce39757d3b47d6"
+        }
+      }
+    }
+  ]
+}

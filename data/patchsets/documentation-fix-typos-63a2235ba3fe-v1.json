@@ -1,0 +1,139 @@
+{
+  "id": "documentation-fix-typos-63a2235ba3fe-v1",
+  "subject": "[PATCH 0/2] Documentation: Fix typos",
+  "authorName": "Bjorn Helgaas",
+  "authorEmail": "helgaas@kernel.org",
+  "revision": 1,
+  "postedAt": "2025-07-23T20:32:40.000Z",
+  "language": "zh_TW",
+  "patchCount": 1,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 4,
+  "latestRevision": false,
+  "messageIds": [
+    "<20250723203250.2909894-1-helgaas@kernel.org>",
+    "<20250723203250.2909894-2-helgaas@kernel.org>",
+    "<20250723203250.2909894-3-helgaas@kernel.org>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250723203250.2909894-1-helgaas@kernel.org/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250723203250.2909894-1-helgaas@kernel.org/raw",
+  "replies": 5,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "documentation-fix-typos-63a2235ba3fe-v1",
+      "current": true
+    },
+    {
+      "revision": 1,
+      "id": "documentation-fix-typos-e2cdb9a0843d-v1",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 2,
+      "subject": "Documentation: Fix typos",
+      "messageId": "<20250723203250.2909894-2-helgaas@kernel.org>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250723203250.2909894-2-helgaas@kernel.org/",
+      "changedFiles": [
+        "Documentation/PCI/endpoint/pci-endpoint-cfs.rst",
+        "Documentation/PCI/endpoint/pci-endpoint.rst",
+        "Documentation/RCU/lockdep.rst",
+        "Documentation/RCU/stallwarn.rst",
+        "Documentation/accel/qaic/aic100.rst",
+        "Documentation/accounting/taskstats.rst",
+        "Documentation/admin-guide/LSM/SafeSetID.rst",
+        "Documentation/admin-guide/RAS/main.rst",
+        "Documentation/admin-guide/blockdev/paride.rst",
+        "Documentation/admin-guide/device-mapper/vdo-design.rst",
+        "Documentation/admin-guide/hw-vuln/mds.rst",
+        "Documentation/admin-guide/kdump/kdump.rst",
+        "Documentation/admin-guide/kernel-parameters.txt",
+        "Documentation/admin-guide/laptops/sonypi.rst",
+        "Documentation/admin-guide/media/imx.rst",
+        "Documentation/admin-guide/media/si4713.rst",
+        "Documentation/admin-guide/mm/damon/usage.rst",
+        "Documentation/admin-guide/perf/hisi-pmu.rst",
+        "Documentation/admin-guide/quickly-build-trimmed-linux.rst",
+        "Documentation/admin-guide/reporting-issues.rst",
+        "Documentation/admin-guide/verify-bugs-and-bisect-regressions.rst",
+        "Documentation/arch/arm/keystone/knav-qmss.rst",
+        "Documentation/arch/x86/cpuinfo.rst",
+        "Documentation/core-api/irq/irq-affinity.rst",
+        "Documentation/core-api/irq/irq-domain.rst",
+        "Documentation/devicetree/bindings/sound/davinci-evm-audio.txt",
+        "Documentation/devicetree/usage-model.rst",
+        "Documentation/driver-api/vfio.rst",
+        "Documentation/filesystems/erofs.rst",
+        "Documentation/filesystems/gfs2-glocks.rst",
+        "Documentation/filesystems/hpfs.rst",
+        "Documentation/filesystems/resctrl.rst",
+        "Documentation/filesystems/xfs/xfs-online-fsck-design.rst",
+        "Documentation/firmware-guide/acpi/gpio-properties.rst",
+        "Documentation/hwmon/f71805f.rst",
+        "Documentation/misc-devices/apds990x.rst",
+        "Documentation/mm/hwpoison.rst",
+        "Documentation/networking/can.rst",
+        "Documentation/networking/device_drivers/ethernet/ti/am65_nuss_cpsw_switchdev.rst",
+        "Documentation/networking/device_drivers/ethernet/ti/cpsw_switchdev.rst",
+        "Documentation/networking/rds.rst",
+        "Documentation/power/pci.rst",
+        "Documentation/power/suspend-and-cpuhotplug.rst",
+        "Documentation/sound/cards/emu-mixer.rst",
+        "Documentation/trace/fprobe.rst",
+        "Documentation/trace/ftrace-uses.rst",
+        "Documentation/trace/ftrace.rst",
+        "Documentation/trace/histogram.rst",
+        "Documentation/translations/zh_TW/process/5.Posting.rst",
+        "Documentation/userspace-api/media/rc/rc-protos.rst"
+      ],
+      "patchId": "5d03e25bf8998cf4bf939d80900899fb3125a9aa",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Randy Dunlap <rdunlap@infradead.org>",
+          "messageId": "<1412ff8c-50ff-4e51-b1c5-a4a404aafb86@infradead.org>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "documentation-fix-dev-tools-broken-links-in-translat-43fbad389aef-v2",
+  "subject": "[PATCH v2] Documentation: fix dev-tools broken links in translations",
+  "authorName": "Ally Heev",
+  "authorEmail": "allyheev@gmail.com",
+  "revision": 2,
+  "postedAt": "2025-10-20T10:46:30.000Z",
+  "language": "mixed",
+  "patchCount": 1,
+  "status": "applied",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 1,
+  "latestRevision": true,
+  "messageIds": [
+    "<20251020-aheev-fix-docs-dev-tools-broken-links-v2-1-7db64bf0405a@gmail.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "d0ef999061213a45188bb03d2b185158bfa22909"
+    },
+    "corbet": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "d0ef999061213a45188bb03d2b185158bfa22909"
+    },
+    "linus": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "d0ef999061213a45188bb03d2b185158bfa22909"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20251020-aheev-fix-docs-dev-tools-broken-links-v2-1-7db64bf0405a@gmail.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20251020-aheev-fix-docs-dev-tools-broken-links-v2-1-7db64bf0405a@gmail.com/raw",
+  "replies": 2,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "documentation-fix-dev-tools-broken-links-in-translat-e4ad38380290-v1",
+      "current": false
+    },
+    {
+      "revision": 2,
+      "id": "documentation-fix-dev-tools-broken-links-in-translat-43fbad389aef-v2",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "Documentation: fix dev-tools broken links in translations",
+      "messageId": "<20251020-aheev-fix-docs-dev-tools-broken-links-v2-1-7db64bf0405a@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251020-aheev-fix-docs-dev-tools-broken-links-v2-1-7db64bf0405a@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/admin-guide/README.rst",
+        "Documentation/translations/zh_CN/dev-tools/gdb-kernel-debugging.rst",
+        "Documentation/translations/zh_TW/admin-guide/README.rst",
+        "Documentation/translations/zh_TW/dev-tools/gdb-kernel-debugging.rst"
+      ],
+      "patchId": "0eb9d60f81910d988d5d50d60a6233040f60dd36",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "d0ef999061213a45188bb03d2b185158bfa22909"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "d0ef999061213a45188bb03d2b185158bfa22909"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "d0ef999061213a45188bb03d2b185158bfa22909"
+        }
+      }
+    }
+  ]
+}

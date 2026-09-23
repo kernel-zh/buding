@@ -1,0 +1,94 @@
+{
+  "id": "translate-alias-rst-to-simplified-chinese-0b516f9e62e8-v2",
+  "subject": "[PATCH v2] Docs/zh_CN: Translate alias.rst to Simplified Chinese",
+  "authorName": "jiang.kun2@zte.com.cn",
+  "authorEmail": "jiang.kun2@zte.com.cn",
+  "revision": 2,
+  "postedAt": "2025-06-27T06:32:12.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 2,
+  "latestRevision": false,
+  "messageIds": [
+    "<20250627143212435mZ2WRnqC77Y-XxvFKrGsy@zte.com.cn>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250627143212435mZ2WRnqC77Y-XxvFKrGsy@zte.com.cn/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250627143212435mZ2WRnqC77Y-XxvFKrGsy@zte.com.cn/raw",
+  "replies": 2,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "translate-alias-rst-to-simplified-chinese-24c099d198aa-v1",
+      "current": false
+    },
+    {
+      "revision": 2,
+      "id": "translate-alias-rst-to-simplified-chinese-0b516f9e62e8-v2",
+      "current": true
+    },
+    {
+      "revision": 3,
+      "id": "translate-alias-rst-to-simplified-chinese-651a9474978e-v3",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "Docs/zh_CN: Translate alias.rst to Simplified Chinese",
+      "messageId": "<20250627143212435mZ2WRnqC77Y-XxvFKrGsy@zte.com.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250627143212435mZ2WRnqC77Y-XxvFKrGsy@zte.com.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/networking/alias.rst",
+        "Documentation/translations/zh_CN/networking/index.rst"
+      ],
+      "patchId": "ff40c5205686c3af546ad038137488b13ba85dd0",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "xu xin <xu.xin16@zte.com.cn>",
+          "messageId": "<20250628121917249q9r3rXmnBmRqbgFtJuDHW@zte.com.cn>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

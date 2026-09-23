@@ -1,0 +1,206 @@
+{
+  "id": "net-remove-ax25-and-amateur-radio-hamradio-subsystem-641fd2e410b4-v1",
+  "subject": "[PATCH net-deletions] net: remove ax25 and amateur radio (hamradio) subsystem",
+  "authorName": "Jakub Kicinski",
+  "authorEmail": "kuba@kernel.org",
+  "revision": 1,
+  "postedAt": "2026-04-21T02:18:23.000Z",
+  "language": "mixed",
+  "patchCount": 1,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 15,
+  "latestRevision": true,
+  "messageIds": [
+    "<20260421021824.1293976-1-kuba@kernel.org>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "dd8d4bc28ad7252610d8e79c1313a2d1e3499a51"
+    },
+    "corbet": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "dd8d4bc28ad7252610d8e79c1313a2d1e3499a51"
+    },
+    "linus": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "dd8d4bc28ad7252610d8e79c1313a2d1e3499a51"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260421021824.1293976-1-kuba@kernel.org/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260421021824.1293976-1-kuba@kernel.org/raw",
+  "replies": 16,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "net-remove-ax25-and-amateur-radio-hamradio-subsystem-641fd2e410b4-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "net: remove ax25 and amateur radio (hamradio) subsystem",
+      "messageId": "<20260421021824.1293976-1-kuba@kernel.org>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260421021824.1293976-1-kuba@kernel.org/",
+      "changedFiles": [
+        "Documentation/.renames.txt",
+        "Documentation/admin-guide/kernel-parameters.txt",
+        "Documentation/networking/6pack.rst",
+        "Documentation/networking/ax25.rst",
+        "Documentation/networking/device_drivers/hamradio/baycom.rst",
+        "Documentation/networking/device_drivers/hamradio/index.rst",
+        "Documentation/networking/device_drivers/hamradio/z8530drv.rst",
+        "Documentation/networking/device_drivers/index.rst",
+        "Documentation/networking/index.rst",
+        "Documentation/staging/magic-number.rst",
+        "Documentation/translations/it_IT/staging/magic-number.rst",
+        "Documentation/translations/sp_SP/process/magic-number.rst",
+        "Documentation/translations/zh_CN/process/magic-number.rst",
+        "Documentation/translations/zh_TW/process/magic-number.rst",
+        "MAINTAINERS",
+        "arch/mips/configs/bcm47xx_defconfig",
+        "arch/mips/configs/bigsur_defconfig",
+        "arch/mips/configs/gpr_defconfig",
+        "arch/mips/configs/mtx1_defconfig",
+        "arch/mips/configs/rb532_defconfig",
+        "arch/mips/configs/rm200_defconfig",
+        "arch/mips/configs/rt305x_defconfig",
+        "arch/mips/configs/xway_defconfig",
+        "drivers/net/Makefile",
+        "drivers/net/hamradio/6pack.c",
+        "drivers/net/hamradio/Kconfig",
+        "drivers/net/hamradio/Makefile",
+        "drivers/net/hamradio/baycom_epp.c",
+        "drivers/net/hamradio/baycom_par.c",
+        "drivers/net/hamradio/baycom_ser_fdx.c",
+        "drivers/net/hamradio/baycom_ser_hdx.c",
+        "drivers/net/hamradio/bpqether.c",
+        "drivers/net/hamradio/hdlcdrv.c",
+        "drivers/net/hamradio/mkiss.c",
+        "drivers/net/hamradio/scc.c",
+        "drivers/net/hamradio/yam.c",
+        "drivers/net/hamradio/z8530.h",
+        "include/linux/hdlcdrv.h",
+        "include/linux/netdevice.h",
+        "include/linux/scc.h",
+        "include/linux/yam.h",
+        "include/net/ax25.h",
+        "include/net/netrom.h",
+        "include/net/rose.h",
+        "include/uapi/linux/baycom.h",
+        "include/uapi/linux/hdlcdrv.h",
+        "include/uapi/linux/netrom.h",
+        "include/uapi/linux/rose.h",
+        "include/uapi/linux/scc.h",
+        "net/Kconfig",
+        "net/Makefile",
+        "net/ax25/Kconfig",
+        "net/ax25/Makefile",
+        "net/ax25/af_ax25.c",
+        "net/ax25/ax25_addr.c",
+        "net/ax25/ax25_dev.c",
+        "net/ax25/ax25_ds_in.c",
+        "net/ax25/ax25_ds_subr.c",
+        "net/ax25/ax25_ds_timer.c",
+        "net/ax25/ax25_iface.c",
+        "net/ax25/ax25_in.c",
+        "net/ax25/ax25_ip.c",
+        "net/ax25/ax25_out.c",
+        "net/ax25/ax25_route.c",
+        "net/ax25/ax25_std_in.c",
+        "net/ax25/ax25_std_subr.c",
+        "net/ax25/ax25_std_timer.c",
+        "net/ax25/ax25_subr.c",
+        "net/ax25/ax25_timer.c",
+        "net/ax25/ax25_uid.c",
+        "net/ax25/sysctl_net_ax25.c",
+        "net/ipv4/arp.c",
+        "net/netrom/Makefile",
+        "net/netrom/af_netrom.c",
+        "net/netrom/nr_dev.c",
+        "net/netrom/nr_in.c",
+        "net/netrom/nr_loopback.c",
+        "net/netrom/nr_out.c",
+        "net/netrom/nr_route.c",
+        "net/netrom/nr_subr.c",
+        "net/netrom/nr_timer.c",
+        "net/netrom/sysctl_net_netrom.c",
+        "net/rose/Makefile",
+        "net/rose/af_rose.c",
+        "net/rose/rose_dev.c",
+        "net/rose/rose_in.c",
+        "net/rose/rose_link.c",
+        "net/rose/rose_loopback.c",
+        "net/rose/rose_out.c",
+        "net/rose/rose_route.c",
+        "net/rose/rose_subr.c",
+        "net/rose/rose_timer.c",
+        "net/rose/sysctl_net_rose.c"
+      ],
+      "patchId": "ec38a888b1671bf6c62c363898b5b9a0b983e4c3",
+      "trailers": [
+        {
+          "type": "Acked-by",
+          "value": "Greg Kroah-Hartman <gregkh@linuxfoundation.org>",
+          "messageId": "<2026042158-upward-obsessive-0c8f@gregkh>"
+        },
+        {
+          "type": "Acked-by",
+          "value": "Stephen Hemminger <stephen@networkplumber.org>",
+          "messageId": "<20260421064501.4d71b943@phoenix.local>"
+        },
+        {
+          "type": "Acked-by",
+          "value": "Carlos Bilbao <carlos.bilbao@kernel.org>",
+          "messageId": "<3e6a83f8-0070-4dce-8b91-5e28204739f6@gmail.com>"
+        },
+        {
+          "type": "Reviewed-by",
+          "value": "Simon Horman <horms@kernel.org>",
+          "messageId": "<20260422104522.GK651125@horms.kernel.org>"
+        },
+        {
+          "type": "Reviewed-by",
+          "value": "Kuniyuki Iwashima <kuniyu@google.com>",
+          "messageId": "<CAAVpQUC8N5+V+ZSq_=TVf5N2f=L71vrRsyo65U96V17as8+0kQ@mail.gmail.com>"
+        },
+        {
+          "type": "Acked-by",
+          "value": "Toke Høiland-Jørgensen <toke@toke.dk>",
+          "messageId": "<87se8mytvv.fsf@toke.dk>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "dd8d4bc28ad7252610d8e79c1313a2d1e3499a51"
+        },
+        "corbet": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "dd8d4bc28ad7252610d8e79c1313a2d1e3499a51"
+        },
+        "linus": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "dd8d4bc28ad7252610d8e79c1313a2d1e3499a51"
+        }
+      }
+    }
+  ]
+}

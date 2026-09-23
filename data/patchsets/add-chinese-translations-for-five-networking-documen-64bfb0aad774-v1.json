@@ -1,0 +1,213 @@
+{
+  "id": "add-chinese-translations-for-five-networking-documen-64bfb0aad774-v1",
+  "subject": "[PATCH 0/5] docs/zh_CN: Add Chinese translations for five networking documents",
+  "authorName": "Siwei Chen",
+  "authorEmail": "anka@stu.cdut.edu.cn",
+  "revision": 1,
+  "postedAt": "2026-07-24T05:13:36.000Z",
+  "language": "zh_CN",
+  "patchCount": 5,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 2,
+  "latestRevision": false,
+  "messageIds": [
+    "<cover.1784866896.git.businiaoanka@anka1.top>",
+    "<2aa998eee1428ef5bcaeb9673ecbe0693e8a790c.1784866896.git.businiaoanka@anka1.top>",
+    "<e8b43e2bdb7b8000b8cc9869114dab8adaa424e7.1784866896.git.businiaoanka@anka1.top>",
+    "<8681cbc121de53ef1afab18f138f02e12fd25de6.1784866896.git.businiaoanka@anka1.top>",
+    "<5c8524623ad3faf1eb9eff13c2ed9813672aa351.1784866896.git.businiaoanka@anka1.top>",
+    "<51e5bef10ab3af01a0dcca9697dd94e386a5f7f1.1784866896.git.businiaoanka@anka1.top>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 5
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 5
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 5
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/cover.1784866896.git.businiaoanka@anka1.top/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/cover.1784866896.git.businiaoanka@anka1.top/raw",
+  "replies": 2,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "add-chinese-translations-for-five-networking-documen-64bfb0aad774-v1",
+      "current": true
+    },
+    {
+      "revision": 2,
+      "id": "add-chinese-translations-for-five-networking-documen-18fdb4f2593e-v2",
+      "current": false
+    },
+    {
+      "revision": 3,
+      "id": "add-chinese-translations-for-five-networking-documen-5b9569e52791-v3",
+      "current": false
+    },
+    {
+      "revision": 4,
+      "id": "add-chinese-translations-for-five-networking-documen-af49b30012d7-v4",
+      "current": false
+    },
+    {
+      "revision": 5,
+      "id": "add-chinese-translations-for-five-networking-documen-6531728727c8-v5",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 5,
+      "subject": "docs/zh_CN: Add networking team documentation Chinese translation",
+      "messageId": "<2aa998eee1428ef5bcaeb9673ecbe0693e8a790c.1784866896.git.businiaoanka@anka1.top>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/2aa998eee1428ef5bcaeb9673ecbe0693e8a790c.1784866896.git.businiaoanka@anka1.top/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/networking/team.rst"
+      ],
+      "patchId": "1c7276141acacfdfb9fcda752dfd889296c8e0d6",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 2,
+      "total": 5,
+      "subject": "docs/zh_CN: Add NIC SR-IOV APIs Chinese translation",
+      "messageId": "<e8b43e2bdb7b8000b8cc9869114dab8adaa424e7.1784866896.git.businiaoanka@anka1.top>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/e8b43e2bdb7b8000b8cc9869114dab8adaa424e7.1784866896.git.businiaoanka@anka1.top/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/networking/sriov.rst"
+      ],
+      "patchId": "990289917e8c8d2d2d2598322264941ab707d75c",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 3,
+      "total": 5,
+      "subject": "docs/zh_CN: Add Softnet Driver Issues Chinese translation",
+      "messageId": "<8681cbc121de53ef1afab18f138f02e12fd25de6.1784866896.git.businiaoanka@anka1.top>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/8681cbc121de53ef1afab18f138f02e12fd25de6.1784866896.git.businiaoanka@anka1.top/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/networking/driver.rst"
+      ],
+      "patchId": "3a91f1ffddeb6e0bcc4c41402edf4f4102564a50",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 4,
+      "total": 5,
+      "subject": "docs/zh_CN: Add ipv6 Chinese translation",
+      "messageId": "<5c8524623ad3faf1eb9eff13c2ed9813672aa351.1784866896.git.businiaoanka@anka1.top>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/5c8524623ad3faf1eb9eff13c2ed9813672aa351.1784866896.git.businiaoanka@anka1.top/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/networking/ipv6.rst"
+      ],
+      "patchId": "89ae1b82a3698b1722c0ee3b0e245a4b37df6c10",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 5,
+      "total": 5,
+      "subject": "docs/zh_CN: Add LSM/SeLinux secid Chinese translation",
+      "messageId": "<51e5bef10ab3af01a0dcca9697dd94e386a5f7f1.1784866896.git.businiaoanka@anka1.top>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/51e5bef10ab3af01a0dcca9697dd94e386a5f7f1.1784866896.git.businiaoanka@anka1.top/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/networking/secid.rst"
+      ],
+      "patchId": "782aea6acde744a32ad44cf583a79bf10cdf4144",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

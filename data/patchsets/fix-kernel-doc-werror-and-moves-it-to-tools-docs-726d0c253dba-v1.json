@@ -1,0 +1,107 @@
+{
+  "id": "fix-kernel-doc-werror-and-moves-it-to-tools-docs-726d0c253dba-v1",
+  "subject": "[PATCH 0/9] docs: Fix kernel-doc -Werror and moves it to tools/docs",
+  "authorName": "Mauro Carvalho Chehab",
+  "authorEmail": "mchehab+huawei@kernel.org",
+  "revision": 1,
+  "postedAt": "2026-01-19T12:04:55.000Z",
+  "language": "mixed",
+  "patchCount": 1,
+  "status": "applied",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 1,
+  "latestRevision": true,
+  "messageIds": [
+    "<cover.1768823489.git.mchehab+huawei@kernel.org>",
+    "<95109a6585171da4d6900049deaa2634b41ee743.1768823489.git.mchehab+huawei@kernel.org>",
+    "<233d1674db99ed8feb405a2f781de350f0fba0ac.1768823489.git.mchehab+huawei@kernel.org>",
+    "<50e430acd333a500719205e80ab3b2d297edcd7d.1768823489.git.mchehab+huawei@kernel.org>",
+    "<ec08727f22ad35e6c58519c1f425f216f14b701c.1768823489.git.mchehab+huawei@kernel.org>",
+    "<a97a8361546648906344457a7e92e4db533048a9.1768823489.git.mchehab+huawei@kernel.org>",
+    "<311d17e403524349940a8b12de6b5e91e554b1f4.1768823489.git.mchehab+huawei@kernel.org>",
+    "<3bcfa48016770929fcd073376515e3ff0b777ea8.1768823489.git.mchehab+huawei@kernel.org>",
+    "<94269990e2d665bec08a1b6f4d28d84939cb9d83.1768823489.git.mchehab+huawei@kernel.org>",
+    "<c0fa9f561c1dd4370f9096de4195a9214763c51c.1768823489.git.mchehab+huawei@kernel.org>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "eba6ffd126cd52358181ed5a179644a161f9c65f"
+    },
+    "corbet": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "eba6ffd126cd52358181ed5a179644a161f9c65f"
+    },
+    "linus": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "eba6ffd126cd52358181ed5a179644a161f9c65f"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/cover.1768823489.git.mchehab+huawei@kernel.org/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/cover.1768823489.git.mchehab+huawei@kernel.org/raw",
+  "replies": 2,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "fix-kernel-doc-werror-and-moves-it-to-tools-docs-726d0c253dba-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 6,
+      "total": 9,
+      "subject": "docs: kdoc: move kernel-doc to tools/docs",
+      "messageId": "<311d17e403524349940a8b12de6b5e91e554b1f4.1768823489.git.mchehab+huawei@kernel.org>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/311d17e403524349940a8b12de6b5e91e554b1f4.1768823489.git.mchehab+huawei@kernel.org/",
+      "changedFiles": [
+        "Documentation/conf.py",
+        "Documentation/doc-guide/kernel-doc.rst",
+        "Documentation/kbuild/kbuild.rst",
+        "Documentation/process/coding-style.rst",
+        "Documentation/translations/it_IT/doc-guide/kernel-doc.rst",
+        "Documentation/translations/sp_SP/process/coding-style.rst",
+        "Documentation/translations/zh_CN/doc-guide/kernel-doc.rst",
+        "Documentation/translations/zh_CN/kbuild/kbuild.rst",
+        "Documentation/translations/zh_CN/process/coding-style.rst",
+        "Documentation/translations/zh_TW/process/coding-style.rst",
+        "MAINTAINERS",
+        "Makefile",
+        "drivers/gpu/drm/i915/Makefile",
+        "scripts/kernel-doc",
+        "tools/docs/find-unused-docs.sh",
+        "tools/docs/kernel-doc",
+        "tools/docs/sphinx-build-wrapper"
+      ],
+      "patchId": "d0a90df3c3a2755b7e6d24d23fdba712302f855b",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "eba6ffd126cd52358181ed5a179644a161f9c65f"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "eba6ffd126cd52358181ed5a179644a161f9c65f"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "eba6ffd126cd52358181ed5a179644a161f9c65f"
+        }
+      }
+    }
+  ]
+}

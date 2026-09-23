@@ -1,0 +1,576 @@
+{
+  "id": "add-chinese-translation-for-usb-subsystem-bb2f8661860d-v7",
+  "subject": "[PATCH v7 0/8] Add Chinese translation for USB subsystem",
+  "authorName": "Kefan Bai",
+  "authorEmail": "baikefan@leap-io-kernel.com",
+  "revision": 7,
+  "postedAt": "2026-05-21T09:55:05.000Z",
+  "language": "zh_CN",
+  "patchCount": 12,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 4,
+  "latestRevision": true,
+  "messageIds": [
+    "<cover.1779355170.git.baikefan@leap-io-kernel.com>",
+    "<27f8c02f2d78b37dd5d640fbafaa60d0f0ea9c95.1779355170.git.baikefan@leap-io-kernel.com>",
+    "<9f865599e837c90d3048b9a8004efd65b2e3f9d3.1779355170.git.baikefan@leap-io-kernel.com>",
+    "<81ba1ef4d22d6e5104614987b09dfce85af6ed0e.1779355170.git.baikefan@leap-io-kernel.com>",
+    "<62f3a25c6695bb3b6ef61d430e5858ba6513939e.1779355170.git.baikefan@leap-io-kernel.com>",
+    "<1fd5678e36ebeb4f37e224a59136ef4f4dcc8340.1779355170.git.baikefan@leap-io-kernel.com>",
+    "<7323e9def418415c3eab67bc539ceec0e986f3cb.1779355170.git.baikefan@leap-io-kernel.com>",
+    "<f81ab69649d6cc2b0481db6eb73978e725005f3a.1779355170.git.baikefan@leap-io-kernel.com>",
+    "<634084009a0833a70efd269229919476ffe81b22.1779355170.git.baikefan@leap-io-kernel.com>",
+    "<20260531130648.242262-1-baikefan@leap-io-kernel.com>",
+    "<20260531140605.246446-1-baikefan@leap-io-kernel.com>",
+    "<20260601033945.555210-1-baikefan@leap-io-kernel.com>",
+    "<20260601082652.650303-1-baikefan@leap-io-kernel.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "partial",
+      "matched": 1,
+      "total": 12,
+      "commit": "cb8b9537901be8c17e8d5b2f09da0e7f8bb4393f"
+    },
+    "corbet": {
+      "state": "partial",
+      "matched": 2,
+      "total": 12,
+      "commit": "cb8b9537901be8c17e8d5b2f09da0e7f8bb4393f"
+    },
+    "linus": {
+      "state": "partial",
+      "matched": 2,
+      "total": 12,
+      "commit": "cb8b9537901be8c17e8d5b2f09da0e7f8bb4393f"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/cover.1779355170.git.baikefan@leap-io-kernel.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/cover.1779355170.git.baikefan@leap-io-kernel.com/raw",
+  "replies": 7,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "add-chinese-translation-for-usb-subsystem-99074d198921-v1",
+      "current": false
+    },
+    {
+      "revision": 2,
+      "id": "add-chinese-translation-for-usb-subsystem-2acf283d1135-v2",
+      "current": false
+    },
+    {
+      "revision": 3,
+      "id": "add-chinese-translation-for-usb-subsystem-ea5671fb5b99-v3",
+      "current": false
+    },
+    {
+      "revision": 4,
+      "id": "add-chinese-translation-for-usb-subsystem-a7c94c7cef20-v4",
+      "current": false
+    },
+    {
+      "revision": 5,
+      "id": "add-chinese-translation-for-usb-subsystem-4c8eac4f2e60-v5",
+      "current": false
+    },
+    {
+      "revision": 6,
+      "id": "add-chinese-translation-for-usb-subsystem-19bcbddfb203-v6",
+      "current": false
+    },
+    {
+      "revision": 7,
+      "id": "add-chinese-translation-for-usb-subsystem-bb2f8661860d-v7",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 8,
+      "subject": "docs/zh_CN: Add index.rst translation",
+      "messageId": "<27f8c02f2d78b37dd5d640fbafaa60d0f0ea9c95.1779355170.git.baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/27f8c02f2d78b37dd5d640fbafaa60d0f0ea9c95.1779355170.git.baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/subsystem-apis.rst",
+        "Documentation/translations/zh_CN/usb/index.rst"
+      ],
+      "patchId": "a04ad52ff433a3715cbf2235e984b7305a2a6d72",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Yanteng Si <siyanteng@cqsoftware.com.cn>",
+          "messageId": "<27f8c02f2d78b37dd5d640fbafaa60d0f0ea9c95.1779355170.git.baikefan@leap-io-kernel.com>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "cb8b9537901be8c17e8d5b2f09da0e7f8bb4393f"
+        },
+        "corbet": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "cb8b9537901be8c17e8d5b2f09da0e7f8bb4393f"
+        },
+        "linus": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "cb8b9537901be8c17e8d5b2f09da0e7f8bb4393f"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "total": 12,
+      "subject": "docs/zh_CN: usb: cleanup translated wording and formatting",
+      "messageId": "<20260531130648.242262-1-baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260531130648.242262-1-baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/CREDITS",
+        "Documentation/translations/zh_CN/usb/acm.rst",
+        "Documentation/translations/zh_CN/usb/authorization.rst",
+        "Documentation/translations/zh_CN/usb/chipidea.rst",
+        "Documentation/translations/zh_CN/usb/dwc3.rst",
+        "Documentation/translations/zh_CN/usb/ehci.rst",
+        "Documentation/translations/zh_CN/usb/index.rst",
+        "Documentation/translations/zh_CN/usb/usbmon.rst"
+      ],
+      "patchId": "ad47bb43637a6660c9cd80f40097335aa0e9cb42",
+      "trailers": [
+        {
+          "type": "Suggested-by",
+          "value": "Alex Shi <seakeel@gmail.com>",
+          "messageId": "<20260531130648.242262-1-baikefan@leap-io-kernel.com>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 3,
+      "total": 12,
+      "subject": "docs/zh_CN: usb: cleanup translated wording and formatting",
+      "messageId": "<20260531140605.246446-1-baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260531140605.246446-1-baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/CREDITS",
+        "Documentation/translations/zh_CN/usb/acm.rst",
+        "Documentation/translations/zh_CN/usb/authorization.rst",
+        "Documentation/translations/zh_CN/usb/chipidea.rst",
+        "Documentation/translations/zh_CN/usb/dwc3.rst",
+        "Documentation/translations/zh_CN/usb/ehci.rst",
+        "Documentation/translations/zh_CN/usb/index.rst",
+        "Documentation/translations/zh_CN/usb/usbmon.rst"
+      ],
+      "patchId": "3cb5de409a0bf9947f2190bd69cdcb6a6e51e478",
+      "trailers": [
+        {
+          "type": "Suggested-by",
+          "value": "Alex Shi <seakeel@gmail.com>",
+          "messageId": "<20260531140605.246446-1-baikefan@leap-io-kernel.com>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 4,
+      "total": 12,
+      "subject": "docs/zh_CN: usb: refine translated wording and formatting",
+      "messageId": "<20260601033945.555210-1-baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260601033945.555210-1-baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/CREDITS",
+        "Documentation/translations/zh_CN/usb/acm.rst",
+        "Documentation/translations/zh_CN/usb/authorization.rst",
+        "Documentation/translations/zh_CN/usb/chipidea.rst",
+        "Documentation/translations/zh_CN/usb/dwc3.rst",
+        "Documentation/translations/zh_CN/usb/ehci.rst",
+        "Documentation/translations/zh_CN/usb/index.rst",
+        "Documentation/translations/zh_CN/usb/usbmon.rst"
+      ],
+      "patchId": "3cb5de409a0bf9947f2190bd69cdcb6a6e51e478",
+      "trailers": [
+        {
+          "type": "Suggested-by",
+          "value": "Alex Shi <seakeel@gmail.com>",
+          "messageId": "<20260601033945.555210-1-baikefan@leap-io-kernel.com>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "38ae123357127c1673ebd221ff58b66d7a6987e3"
+        },
+        "linus": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "38ae123357127c1673ebd221ff58b66d7a6987e3"
+        }
+      }
+    },
+    {
+      "index": 5,
+      "total": 12,
+      "subject": "docs/zh_CN: usb: refine translated wording and formatting",
+      "messageId": "<20260601082652.650303-1-baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260601082652.650303-1-baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/CREDITS",
+        "Documentation/translations/zh_CN/usb/acm.rst",
+        "Documentation/translations/zh_CN/usb/authorization.rst",
+        "Documentation/translations/zh_CN/usb/chipidea.rst",
+        "Documentation/translations/zh_CN/usb/dwc3.rst",
+        "Documentation/translations/zh_CN/usb/ehci.rst",
+        "Documentation/translations/zh_CN/usb/index.rst",
+        "Documentation/translations/zh_CN/usb/usbmon.rst"
+      ],
+      "patchId": "bd21c0d703c470d74ddb570502a78f189afc844e",
+      "trailers": [
+        {
+          "type": "Suggested-by",
+          "value": "Alex Shi <seakeel@gmail.com>",
+          "messageId": "<20260601082652.650303-1-baikefan@leap-io-kernel.com>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "38ae123357127c1673ebd221ff58b66d7a6987e3"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "38ae123357127c1673ebd221ff58b66d7a6987e3"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "total": 8,
+      "subject": "docs/zh_CN: Add acm.rst translation",
+      "messageId": "<9f865599e837c90d3048b9a8004efd65b2e3f9d3.1779355170.git.baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/9f865599e837c90d3048b9a8004efd65b2e3f9d3.1779355170.git.baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/acm.rst",
+        "Documentation/translations/zh_CN/usb/index.rst"
+      ],
+      "patchId": "bd54237a96cf06ac2f66c0164bd03432bc070987",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Yanteng Si <siyanteng@cqsoftware.com.cn>",
+          "messageId": "<9f865599e837c90d3048b9a8004efd65b2e3f9d3.1779355170.git.baikefan@leap-io-kernel.com>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "07ee5cf9fe4bf2b0c12a25ad327d997e09fd8c30"
+        },
+        "corbet": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "07ee5cf9fe4bf2b0c12a25ad327d997e09fd8c30"
+        },
+        "linus": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "07ee5cf9fe4bf2b0c12a25ad327d997e09fd8c30"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "total": 8,
+      "subject": "docs/zh_CN: Add authorization.rst translation",
+      "messageId": "<81ba1ef4d22d6e5104614987b09dfce85af6ed0e.1779355170.git.baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/81ba1ef4d22d6e5104614987b09dfce85af6ed0e.1779355170.git.baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/authorization.rst",
+        "Documentation/translations/zh_CN/usb/index.rst"
+      ],
+      "patchId": "884c91978364f70fe63abc1acec6fe8ebb569b2f",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Yanteng Si <siyanteng@cqsoftware.com.cn>",
+          "messageId": "<81ba1ef4d22d6e5104614987b09dfce85af6ed0e.1779355170.git.baikefan@leap-io-kernel.com>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "5aded7536f4bbc1e3f33be721755a3427668ac9a"
+        },
+        "corbet": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "5aded7536f4bbc1e3f33be721755a3427668ac9a"
+        },
+        "linus": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "5aded7536f4bbc1e3f33be721755a3427668ac9a"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "total": 8,
+      "subject": "docs/zh_CN: Add chipidea.rst translation",
+      "messageId": "<62f3a25c6695bb3b6ef61d430e5858ba6513939e.1779355170.git.baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/62f3a25c6695bb3b6ef61d430e5858ba6513939e.1779355170.git.baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/chipidea.rst",
+        "Documentation/translations/zh_CN/usb/index.rst"
+      ],
+      "patchId": "c9b65101019a3f446b6b7545282b1a09f31dc049",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Yanteng Si <siyanteng@cqsoftware.com.cn>",
+          "messageId": "<62f3a25c6695bb3b6ef61d430e5858ba6513939e.1779355170.git.baikefan@leap-io-kernel.com>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "d361fb4bc2c71d239a6fbae108ce8a109630cb1b"
+        },
+        "corbet": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "d361fb4bc2c71d239a6fbae108ce8a109630cb1b"
+        },
+        "linus": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "d361fb4bc2c71d239a6fbae108ce8a109630cb1b"
+        }
+      }
+    },
+    {
+      "index": 5,
+      "total": 8,
+      "subject": "docs/zh_CN: Add dwc3.rst translation",
+      "messageId": "<1fd5678e36ebeb4f37e224a59136ef4f4dcc8340.1779355170.git.baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/1fd5678e36ebeb4f37e224a59136ef4f4dcc8340.1779355170.git.baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/dwc3.rst",
+        "Documentation/translations/zh_CN/usb/index.rst"
+      ],
+      "patchId": "df89a7b8a93afb57a9defc52f8d21b22bde1fe75",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Yanteng Si <siyanteng@cqsoftware.com.cn>",
+          "messageId": "<1fd5678e36ebeb4f37e224a59136ef4f4dcc8340.1779355170.git.baikefan@leap-io-kernel.com>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "c5ae290c534e916252510c0e92b857c3523e7e7c"
+        },
+        "corbet": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "c5ae290c534e916252510c0e92b857c3523e7e7c"
+        },
+        "linus": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "c5ae290c534e916252510c0e92b857c3523e7e7c"
+        }
+      }
+    },
+    {
+      "index": 6,
+      "total": 8,
+      "subject": "docs/zh_CN: Add ehci.rst translation",
+      "messageId": "<7323e9def418415c3eab67bc539ceec0e986f3cb.1779355170.git.baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/7323e9def418415c3eab67bc539ceec0e986f3cb.1779355170.git.baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/ehci.rst",
+        "Documentation/translations/zh_CN/usb/index.rst"
+      ],
+      "patchId": "de88e6b26d87f579af9392bc25d1e3c1ef9008d4",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Yanteng Si <siyanteng@cqsoftware.com.cn>",
+          "messageId": "<7323e9def418415c3eab67bc539ceec0e986f3cb.1779355170.git.baikefan@leap-io-kernel.com>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "db5f8b5bc629a57fe0115286d2cb58d12717f7a0"
+        },
+        "corbet": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "db5f8b5bc629a57fe0115286d2cb58d12717f7a0"
+        },
+        "linus": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "db5f8b5bc629a57fe0115286d2cb58d12717f7a0"
+        }
+      }
+    },
+    {
+      "index": 7,
+      "total": 8,
+      "subject": "docs/zh_CN: Add usbmon.rst translation",
+      "messageId": "<f81ab69649d6cc2b0481db6eb73978e725005f3a.1779355170.git.baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/f81ab69649d6cc2b0481db6eb73978e725005f3a.1779355170.git.baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/index.rst",
+        "Documentation/translations/zh_CN/usb/usbmon.rst"
+      ],
+      "patchId": "f2726edd8ea9ccb40c2b924dd27edf7d1995acdc",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Yanteng Si <siyanteng@cqsoftware.com.cn>",
+          "messageId": "<f81ab69649d6cc2b0481db6eb73978e725005f3a.1779355170.git.baikefan@leap-io-kernel.com>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "a8d61e443fafcd1a7c03cb0cdb6c697be59560a4"
+        },
+        "corbet": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "a8d61e443fafcd1a7c03cb0cdb6c697be59560a4"
+        },
+        "linus": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "a8d61e443fafcd1a7c03cb0cdb6c697be59560a4"
+        }
+      }
+    },
+    {
+      "index": 8,
+      "total": 8,
+      "subject": "docs/zh_CN: Add CREDITS translation",
+      "messageId": "<634084009a0833a70efd269229919476ffe81b22.1779355170.git.baikefan@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/634084009a0833a70efd269229919476ffe81b22.1779355170.git.baikefan@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/usb/CREDITS"
+      ],
+      "patchId": "ebb86a68ca7a14afa937e1f5f9af2adfe4eefc08",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Yanteng Si <siyanteng@cqsoftware.com.cn>",
+          "messageId": "<634084009a0833a70efd269229919476ffe81b22.1779355170.git.baikefan@leap-io-kernel.com>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "84d2b46ec18ac897cf39ea4b51d085df5e2f4bf4"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "84d2b46ec18ac897cf39ea4b51d085df5e2f4bf4"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "84d2b46ec18ac897cf39ea4b51d085df5e2f4bf4"
+        }
+      }
+    }
+  ]
+}

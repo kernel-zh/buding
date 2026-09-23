@@ -1,0 +1,105 @@
+{
+  "id": "add-sak-index-chinese-translation-29bde5a8362f-v3",
+  "subject": "[PATCH v3] docs/zh_CN: Add sak index Chinese translation",
+  "authorName": "zhangwei",
+  "authorEmail": "zhangwei@cqsoftware.com.cn",
+  "revision": 3,
+  "postedAt": "2025-01-10T10:04:04.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "applied",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 1,
+  "latestRevision": true,
+  "messageIds": [
+    "<20250110100405.2225-1-zhangwei@cqsoftware.com.cn>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "a2f80991e5ef78ee3ef47f01b85496e02e95de93"
+    },
+    "corbet": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "a2f80991e5ef78ee3ef47f01b85496e02e95de93"
+    },
+    "linus": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "a2f80991e5ef78ee3ef47f01b85496e02e95de93"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250110100405.2225-1-zhangwei@cqsoftware.com.cn/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250110100405.2225-1-zhangwei@cqsoftware.com.cn/raw",
+  "replies": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "add-sak-index-chinese-translation-200422fccfee-v1",
+      "current": false
+    },
+    {
+      "revision": 2,
+      "id": "add-sak-index-chinese-translation-8b1221b950e5-v2",
+      "current": false
+    },
+    {
+      "revision": 3,
+      "id": "add-sak-index-chinese-translation-29bde5a8362f-v3",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "docs/zh_CN: Add sak index Chinese translation",
+      "messageId": "<20250110100405.2225-1-zhangwei@cqsoftware.com.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250110100405.2225-1-zhangwei@cqsoftware.com.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/security/index.rst",
+        "Documentation/translations/zh_CN/security/sak.rst"
+      ],
+      "patchId": "d8be50db571d7e8d6f8f0e278f0982fa7c31f057",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Yanteng Si <si.yanteng@linux.dev>",
+          "messageId": "<20250110100405.2225-1-zhangwei@cqsoftware.com.cn>"
+        },
+        {
+          "type": "Reviewed-by",
+          "value": "Alex Shi <alexs@kernel.org>",
+          "messageId": "<20250110100405.2225-1-zhangwei@cqsoftware.com.cn>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "a2f80991e5ef78ee3ef47f01b85496e02e95de93"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "a2f80991e5ef78ee3ef47f01b85496e02e95de93"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "a2f80991e5ef78ee3ef47f01b85496e02e95de93"
+        }
+      }
+    }
+  ]
+}

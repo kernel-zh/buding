@@ -1,0 +1,88 @@
+{
+  "id": "fix-hugetlb-subpool-used-hpages-tracking-f98fef9d2d5c-v1",
+  "subject": "[PATCH 0/3] Fix HugeTLB subpool used_hpages tracking",
+  "authorName": "Ackerley Tng via B4 Relay",
+  "authorEmail": "devnull+ackerleytng.google.com@kernel.org",
+  "revision": 1,
+  "postedAt": "2026-09-02T23:30:46.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "waiting",
+  "reviewReplies": 0,
+  "latestRevision": false,
+  "messageIds": [
+    "<20260902-hugetlb-subpool-always-track-used-v1-0-de1cd14bd713@google.com>",
+    "<20260902-hugetlb-subpool-always-track-used-v1-1-de1cd14bd713@google.com>",
+    "<20260902-hugetlb-subpool-always-track-used-v1-2-de1cd14bd713@google.com>",
+    "<20260902-hugetlb-subpool-always-track-used-v1-3-de1cd14bd713@google.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260902-hugetlb-subpool-always-track-used-v1-0-de1cd14bd713@google.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260902-hugetlb-subpool-always-track-used-v1-0-de1cd14bd713@google.com/raw",
+  "replies": 0,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "fix-hugetlb-subpool-used-hpages-tracking-f98fef9d2d5c-v1",
+      "current": true
+    },
+    {
+      "revision": 2,
+      "id": "fix-hugetlb-subpool-used-hpages-tracking-ada9e8b71893-v2",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 3,
+      "subject": "mm: hugetlb: Track used_hpages when getting/putting pages from subpool",
+      "messageId": "<20260902-hugetlb-subpool-always-track-used-v1-1-de1cd14bd713@google.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260902-hugetlb-subpool-always-track-used-v1-1-de1cd14bd713@google.com/",
+      "changedFiles": [
+        "Documentation/mm/hugetlbfs_reserv.rst",
+        "Documentation/translations/zh_CN/mm/hugetlbfs_reserv.rst",
+        "fs/hugetlbfs/inode.c",
+        "include/linux/hugetlb.h",
+        "mm/hugetlb.c"
+      ],
+      "patchId": "de3f346f900ae68233f7a263fd23686618465914",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

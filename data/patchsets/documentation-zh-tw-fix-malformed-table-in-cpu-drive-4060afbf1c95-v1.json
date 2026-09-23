@@ -1,0 +1,82 @@
+{
+  "id": "documentation-zh-tw-fix-malformed-table-in-cpu-drive-4060afbf1c95-v1",
+  "subject": "[PATCH] Documentation/zh_TW: fix malformed table in cpu-drivers.rst",
+  "authorName": "Swaraj Gaikwad",
+  "authorEmail": "swarajgaikwad1925@gmail.com",
+  "revision": 1,
+  "postedAt": "2025-10-06T12:01:50.000Z",
+  "language": "zh_TW",
+  "patchCount": 1,
+  "status": "applied",
+  "lifecycle": "active",
+  "reviewState": "waiting",
+  "reviewReplies": 0,
+  "latestRevision": true,
+  "messageIds": [
+    "<20251006120154.18348-2-swarajgaikwad1925@gmail.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "989ed3cad2fdb7921bf0f9f0f730e1bb065946c2"
+    },
+    "corbet": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "989ed3cad2fdb7921bf0f9f0f730e1bb065946c2"
+    },
+    "linus": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "989ed3cad2fdb7921bf0f9f0f730e1bb065946c2"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20251006120154.18348-2-swarajgaikwad1925@gmail.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20251006120154.18348-2-swarajgaikwad1925@gmail.com/raw",
+  "replies": 0,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "documentation-zh-tw-fix-malformed-table-in-cpu-drive-4060afbf1c95-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "Documentation/zh_TW: fix malformed table in cpu-drivers.rst",
+      "messageId": "<20251006120154.18348-2-swarajgaikwad1925@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251006120154.18348-2-swarajgaikwad1925@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_TW/cpu-freq/cpu-drivers.rst"
+      ],
+      "patchId": "5a11f3b2c6967ad8b294fcf40671ee17f41b69db",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "989ed3cad2fdb7921bf0f9f0f730e1bb065946c2"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "989ed3cad2fdb7921bf0f9f0f730e1bb065946c2"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "989ed3cad2fdb7921bf0f9f0f730e1bb065946c2"
+        }
+      }
+    }
+  ]
+}

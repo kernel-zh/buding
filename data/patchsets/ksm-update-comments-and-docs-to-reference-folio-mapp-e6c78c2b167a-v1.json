@@ -1,0 +1,99 @@
+{
+  "id": "ksm-update-comments-and-docs-to-reference-folio-mapp-e6c78c2b167a-v1",
+  "subject": "[PATCH] ksm: update comments and docs to reference folio->mapping",
+  "authorName": "Hongfu Li",
+  "authorEmail": "hongfu.li@linux.dev",
+  "revision": 1,
+  "postedAt": "2026-08-05T10:59:07.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "applied",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 3,
+  "latestRevision": true,
+  "messageIds": [
+    "<20260805105927.41987-1-hongfu.li@linux.dev>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "a44ab4bd1ec0432d686c25f9c160379ffa1e694c"
+    },
+    "linus": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "a44ab4bd1ec0432d686c25f9c160379ffa1e694c"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260805105927.41987-1-hongfu.li@linux.dev/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260805105927.41987-1-hongfu.li@linux.dev/raw",
+  "replies": 3,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "ksm-update-comments-and-docs-to-reference-folio-mapp-e6c78c2b167a-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "ksm: update comments and docs to reference folio->mapping",
+      "messageId": "<20260805105927.41987-1-hongfu.li@linux.dev>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260805105927.41987-1-hongfu.li@linux.dev/",
+      "changedFiles": [
+        "Documentation/mm/ksm.rst",
+        "Documentation/translations/zh_CN/mm/ksm.rst",
+        "mm/ksm.c"
+      ],
+      "patchId": "00f89c9db5282a3e8ecdef49f741042c07115088",
+      "trailers": [
+        {
+          "type": "Acked-by",
+          "value": "David Hildenbrand (Arm) <david@kernel.org>",
+          "messageId": "<720f8b30-73fb-4983-9bfd-96fc22ebee3b@kernel.org>"
+        },
+        {
+          "type": "Reviewed-by",
+          "value": "Xu Xin <xu.xin16@zte.com.cn>",
+          "messageId": "<20260805210045739XrZB2Gyax_ujkhlLwsFAN@zte.com.cn>"
+        },
+        {
+          "type": "Reviewed-by",
+          "value": "Dongliang Mu <dzm91@hust.edu.cn>",
+          "messageId": "<328d031a-14ae-4cc3-a200-462094f0e2e1@hust.edu.cn>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "a44ab4bd1ec0432d686c25f9c160379ffa1e694c"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "a44ab4bd1ec0432d686c25f9c160379ffa1e694c"
+        }
+      }
+    }
+  ]
+}

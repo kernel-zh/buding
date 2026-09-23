@@ -1,0 +1,232 @@
+{
+  "id": "update-rust-subsystem-translations-3410839d5b08-v1",
+  "subject": "[PATCH 0/4] docs/zh_CN: update rust/ subsystem translations",
+  "authorName": "Ben Guo",
+  "authorEmail": "ben.guo@openatom.club",
+  "revision": 1,
+  "postedAt": "2026-04-08T05:05:42.000Z",
+  "language": "zh_CN",
+  "patchCount": 4,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 10,
+  "latestRevision": false,
+  "messageIds": [
+    "<cover.1775619061.git.ben.guo@openatom.club>",
+    "<0e367d0dc8d74287dee1605a48ea80159fa464cb.1775619061.git.ben.guo@openatom.club>",
+    "<83b72c91f7ba2a9ca2ae73ab42fd94fcc369220a.1775619061.git.ben.guo@openatom.club>",
+    "<b5e1246269848fc95d118a722fb11eee88961053.1775619061.git.ben.guo@openatom.club>",
+    "<0be03ec18f006837e45cf900eef4c653e2f0151f.1775619061.git.ben.guo@openatom.club>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "confirmed",
+      "matched": 4,
+      "total": 4,
+      "commit": "4c361fc63d89cd2f8ca1a49d2c552664ed1793c1"
+    },
+    "corbet": {
+      "state": "confirmed",
+      "matched": 4,
+      "total": 4,
+      "commit": "4c361fc63d89cd2f8ca1a49d2c552664ed1793c1"
+    },
+    "linus": {
+      "state": "confirmed",
+      "matched": 4,
+      "total": 4,
+      "commit": "4c361fc63d89cd2f8ca1a49d2c552664ed1793c1"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/cover.1775619061.git.ben.guo@openatom.club/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/cover.1775619061.git.ben.guo@openatom.club/raw",
+  "replies": 12,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "update-rust-subsystem-translations-3410839d5b08-v1",
+      "current": true
+    },
+    {
+      "revision": 2,
+      "id": "update-rust-subsystem-translations-fe9df57955d7-v2",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 4,
+      "subject": "docs/zh_CN: update rust/arch-support.rst translation",
+      "messageId": "<0e367d0dc8d74287dee1605a48ea80159fa464cb.1775619061.git.ben.guo@openatom.club>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/0e367d0dc8d74287dee1605a48ea80159fa464cb.1775619061.git.ben.guo@openatom.club/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/rust/arch-support.rst"
+      ],
+      "patchId": "5101e872f2f184ea5768ffd771acf9725ac1cab4",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Dongliang Mu <dzm91@hust.edu.cn>",
+          "messageId": "<0e367d0dc8d74287dee1605a48ea80159fa464cb.1775619061.git.ben.guo@openatom.club>"
+        },
+        {
+          "type": "Reviewed-by",
+          "value": "Gary Guo <gary@garyguo.net>",
+          "messageId": "<DHNQN8UBPL47.MF7V44YM7M1O@garyguo.net>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "4c361fc63d89cd2f8ca1a49d2c552664ed1793c1"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "4c361fc63d89cd2f8ca1a49d2c552664ed1793c1"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "4c361fc63d89cd2f8ca1a49d2c552664ed1793c1"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "total": 4,
+      "subject": "docs/zh_CN: update rust/coding-guidelines.rst translation",
+      "messageId": "<83b72c91f7ba2a9ca2ae73ab42fd94fcc369220a.1775619061.git.ben.guo@openatom.club>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/83b72c91f7ba2a9ca2ae73ab42fd94fcc369220a.1775619061.git.ben.guo@openatom.club/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/rust/coding-guidelines.rst"
+      ],
+      "patchId": "bf73ab7bd6648218848f17b71692371a55e0120a",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Dongliang Mu <dzm91@hust.edu.cn>",
+          "messageId": "<83b72c91f7ba2a9ca2ae73ab42fd94fcc369220a.1775619061.git.ben.guo@openatom.club>"
+        },
+        {
+          "type": "Reviewed-by",
+          "value": "Gary Guo <gary@garyguo.net>",
+          "messageId": "<DHNQNZ3L4B3Q.2MUD8JBT90ESN@garyguo.net>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "a32ee1a808fe7dd9c3fa48d2af83334d47e76b78"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "a32ee1a808fe7dd9c3fa48d2af83334d47e76b78"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "a32ee1a808fe7dd9c3fa48d2af83334d47e76b78"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "total": 4,
+      "subject": "docs/zh_CN: update rust/quick-start.rst translation",
+      "messageId": "<b5e1246269848fc95d118a722fb11eee88961053.1775619061.git.ben.guo@openatom.club>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/b5e1246269848fc95d118a722fb11eee88961053.1775619061.git.ben.guo@openatom.club/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/rust/quick-start.rst"
+      ],
+      "patchId": "c3b1351467714171ad6c01be32c87de72d3a6fbc",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Dongliang Mu <dzm91@hust.edu.cn>",
+          "messageId": "<b5e1246269848fc95d118a722fb11eee88961053.1775619061.git.ben.guo@openatom.club>"
+        },
+        {
+          "type": "Acked-by",
+          "value": "Gary Guo <gary@garyguo.net> # Rust",
+          "messageId": "<DHOJEMI0WBYX.2Y6HFZ2PYD7HS@garyguo.net>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "1e75555ee443b8d4c654535fa79435982c0b3722"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "1e75555ee443b8d4c654535fa79435982c0b3722"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "1e75555ee443b8d4c654535fa79435982c0b3722"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "total": 4,
+      "subject": "docs/zh_CN: update rust/index.rst translation",
+      "messageId": "<0be03ec18f006837e45cf900eef4c653e2f0151f.1775619061.git.ben.guo@openatom.club>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/0be03ec18f006837e45cf900eef4c653e2f0151f.1775619061.git.ben.guo@openatom.club/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/rust/index.rst"
+      ],
+      "patchId": "2867d95baa09cc9801c2fd67c3a535d5d2be8b0e",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Dongliang Mu <dzm91@hust.edu.cn>",
+          "messageId": "<0be03ec18f006837e45cf900eef4c653e2f0151f.1775619061.git.ben.guo@openatom.club>"
+        },
+        {
+          "type": "Reviewed-by",
+          "value": "Gary Guo <gary@garyguo.net>",
+          "messageId": "<DHNQOVBO1FAA.3LY8890EQ1NK3@garyguo.net>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "78405e7f42fa9127325c65aec9289187f67ac5ce"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "78405e7f42fa9127325c65aec9289187f67ac5ce"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "78405e7f42fa9127325c65aec9289187f67ac5ce"
+        }
+      }
+    }
+  ]
+}

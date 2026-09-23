@@ -1,0 +1,87 @@
+{
+  "id": "scripts-gdb-fixes-related-to-lx-per-cpu-f39605942c34-v1",
+  "subject": "[PATCH 0/2] scripts/gdb: Fixes related to lx_per_cpu()",
+  "authorName": "Illia Ostapyshyn",
+  "authorEmail": "illia@yshyn.com",
+  "revision": 1,
+  "postedAt": "2025-05-03T12:32:30.000Z",
+  "language": "mixed",
+  "patchCount": 1,
+  "status": "applied",
+  "lifecycle": "active",
+  "reviewState": "waiting",
+  "reviewReplies": 0,
+  "latestRevision": true,
+  "messageIds": [
+    "<20250503123234.2407184-1-illia@yshyn.com>",
+    "<20250503123234.2407184-2-illia@yshyn.com>",
+    "<20250503123234.2407184-3-illia@yshyn.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "09e1d93a421fa5f6699a9dbdbfc09c1008de4b9a"
+    },
+    "corbet": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "09e1d93a421fa5f6699a9dbdbfc09c1008de4b9a"
+    },
+    "linus": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "09e1d93a421fa5f6699a9dbdbfc09c1008de4b9a"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250503123234.2407184-1-illia@yshyn.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250503123234.2407184-1-illia@yshyn.com/raw",
+  "replies": 0,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "scripts-gdb-fixes-related-to-lx-per-cpu-f39605942c34-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 2,
+      "total": 2,
+      "subject": "scripts/gdb: Update documentation for lx_per_cpu",
+      "messageId": "<20250503123234.2407184-3-illia@yshyn.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250503123234.2407184-3-illia@yshyn.com/",
+      "changedFiles": [
+        "Documentation/process/debugging/gdb-kernel-debugging.rst",
+        "Documentation/translations/zh_CN/dev-tools/gdb-kernel-debugging.rst",
+        "Documentation/translations/zh_TW/dev-tools/gdb-kernel-debugging.rst",
+        "scripts/gdb/linux/cpus.py"
+      ],
+      "patchId": "4a538c68570a2b21b98c8d005bec4571287596a7",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "09e1d93a421fa5f6699a9dbdbfc09c1008de4b9a"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "09e1d93a421fa5f6699a9dbdbfc09c1008de4b9a"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "09e1d93a421fa5f6699a9dbdbfc09c1008de4b9a"
+        }
+      }
+    }
+  ]
+}

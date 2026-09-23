@@ -1,0 +1,76 @@
+{
+  "id": "update-maintainer-configure-git-rst-translation-370f94a2b027-v1",
+  "subject": "[PATCH] docs/zh_CN: update maintainer/configure-git.rst translation",
+  "authorName": "Weijie Yuan",
+  "authorEmail": "wy@wyuan.org",
+  "revision": 1,
+  "postedAt": "2026-08-23T15:13:12.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 2,
+  "latestRevision": true,
+  "messageIds": [
+    "<20260823-configure-git-v1-1-3c65eefcc585@wyuan.org>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260823-configure-git-v1-1-3c65eefcc585@wyuan.org/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260823-configure-git-v1-1-3c65eefcc585@wyuan.org/raw",
+  "replies": 4,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "update-maintainer-configure-git-rst-translation-370f94a2b027-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "docs/zh_CN: update maintainer/configure-git.rst translation",
+      "messageId": "<20260823-configure-git-v1-1-3c65eefcc585@wyuan.org>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260823-configure-git-v1-1-3c65eefcc585@wyuan.org/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/maintainer/configure-git.rst"
+      ],
+      "patchId": "94d05f6319a2e0ab5de3372015411e78b262c304",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

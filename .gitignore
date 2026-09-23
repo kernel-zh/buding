@@ -1,0 +1,11 @@
+node_modules/
+.next/
+out/
+.cache/
+tmp/
+*.mbox
+*.log
+*.tsbuildinfo
+.DS_Store
+.env*
+!.env.example

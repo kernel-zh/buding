@@ -1,0 +1,79 @@
+{
+  "id": "lib-gcd-convert-to-rust-46dbf771d705-v1",
+  "subject": "[PATCH] lib/gcd: Convert to Rust",
+  "authorName": "Raymond Newman",
+  "authorEmail": "raymondcharlesnewman@gmail.com",
+  "revision": 1,
+  "postedAt": "2026-05-06T01:37:26.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 1,
+  "latestRevision": true,
+  "messageIds": [
+    "<CAC5penpL_yet9HHqC=BNV_EP2wDe3zpsjFw77T8356veNV0rsw@mail.gmail.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/CAC5penpL_yet9HHqC=BNV_EP2wDe3zpsjFw77T8356veNV0rsw@mail.gmail.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/CAC5penpL_yet9HHqC=BNV_EP2wDe3zpsjFw77T8356veNV0rsw@mail.gmail.com/raw",
+  "replies": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "lib-gcd-convert-to-rust-46dbf771d705-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "lib/gcd: Convert to Rust",
+      "messageId": "<CAC5penpL_yet9HHqC=BNV_EP2wDe3zpsjFw77T8356veNV0rsw@mail.gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/CAC5penpL_yet9HHqC=BNV_EP2wDe3zpsjFw77T8356veNV0rsw@mail.gmail.com/",
+      "changedFiles": [
+        "Documentation/core-api/kernel-api.rst",
+        "Documentation/translations/zh_CN/core-api/kernel-api.rst",
+        "lib/math/gcd.c",
+        "lib/math/gcd.rs"
+      ],
+      "patchId": "48e46be909deff79e0c4e1dcbc1d1629199a0d51",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

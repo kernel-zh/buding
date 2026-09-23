@@ -1,0 +1,100 @@
+{
+  "id": "translate-speculation-rst-to-simplified-chinese-3483e67a4d1e-v3",
+  "subject": "[PATCH v3] Docs/zh_CN: Translate speculation.rst to Simplified Chinese",
+  "authorName": "chris.wei.cui@gmail.com",
+  "authorEmail": "chris.wei.cui@gmail.com",
+  "revision": 3,
+  "postedAt": "2025-06-07T16:38:13.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "applied",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 2,
+  "latestRevision": true,
+  "messageIds": [
+    "<20250607163814.7800-1-chris.wei.cui@gmail.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "f98eec1fffc539616cb54aa3c464017f5cb789ab"
+    },
+    "corbet": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "f98eec1fffc539616cb54aa3c464017f5cb789ab"
+    },
+    "linus": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "f98eec1fffc539616cb54aa3c464017f5cb789ab"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250607163814.7800-1-chris.wei.cui@gmail.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250607163814.7800-1-chris.wei.cui@gmail.com/raw",
+  "replies": 2,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "translate-speculation-rst-to-simplified-chinese-664a557072a8-v1",
+      "current": false
+    },
+    {
+      "revision": 2,
+      "id": "translate-speculation-rst-to-simplified-chinese-f0753bf59bfa-v2",
+      "current": false
+    },
+    {
+      "revision": 3,
+      "id": "translate-speculation-rst-to-simplified-chinese-3483e67a4d1e-v3",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "Docs/zh_CN: Translate speculation.rst to Simplified Chinese",
+      "messageId": "<20250607163814.7800-1-chris.wei.cui@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250607163814.7800-1-chris.wei.cui@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/staging/index.rst",
+        "Documentation/translations/zh_CN/staging/speculation.rst"
+      ],
+      "patchId": "8256f7496cd730f07ba06e428862ba18acc9042f",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Dongliang Mu <dzm91@hust.edu.cn>",
+          "messageId": "<CAD-N9QU_OKc24ANr02=3SetjNwvaxeHM=2NfH__7bE3ZwQkiFw@mail.gmail.com>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "f98eec1fffc539616cb54aa3c464017f5cb789ab"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "f98eec1fffc539616cb54aa3c464017f5cb789ab"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "f98eec1fffc539616cb54aa3c464017f5cb789ab"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "translate-ubifs-authentication-rst-to-simplified-chi-584b2ff552ab-v1",
+  "subject": "[PATCH 2/5] Docs/zh_CN: Translate ubifs-authentication.rst to Simplified Chinese",
+  "authorName": "shao.mingyin@zte.com.cn",
+  "authorEmail": "shao.mingyin@zte.com.cn",
+  "revision": 1,
+  "postedAt": "2025-07-18T08:53:27.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "proposed",
+  "lifecycle": "active",
+  "reviewState": "waiting",
+  "reviewReplies": 0,
+  "latestRevision": true,
+  "messageIds": [
+    "<20250718165327644wT54xAeByO_X1pWdScPny@zte.com.cn>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "a46d47ae302304d41f4b7f52d183968659897573"
+    },
+    "corbet": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "a46d47ae302304d41f4b7f52d183968659897573"
+    },
+    "linus": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "a46d47ae302304d41f4b7f52d183968659897573"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250718165327644wT54xAeByO_X1pWdScPny@zte.com.cn/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250718165327644wT54xAeByO_X1pWdScPny@zte.com.cn/raw",
+  "replies": 0,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "translate-ubifs-authentication-rst-to-simplified-chi-5661c3b586fd-v1",
+      "current": false
+    },
+    {
+      "revision": 1,
+      "id": "translate-ubifs-authentication-rst-to-simplified-chi-584b2ff552ab-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 2,
+      "total": 5,
+      "subject": "Docs/zh_CN: Translate ubifs-authentication.rst to Simplified Chinese",
+      "messageId": "<20250718165327644wT54xAeByO_X1pWdScPny@zte.com.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250718165327644wT54xAeByO_X1pWdScPny@zte.com.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/filesystems/index.rst",
+        "Documentation/translations/zh_CN/filesystems/ubifs-authentication.rst"
+      ],
+      "patchId": "cda729e90e7f07c12daf42a4136b75dff9982313",
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "a46d47ae302304d41f4b7f52d183968659897573"
+        },
+        "corbet": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "a46d47ae302304d41f4b7f52d183968659897573"
+        },
+        "linus": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "a46d47ae302304d41f4b7f52d183968659897573"
+        }
+      }
+    }
+  ]
+}

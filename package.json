@@ -1,0 +1,44 @@
+{
+  "name": "buding",
+  "version": "0.1.0",
+  "private": true,
+  "license": "AGPL-3.0-only",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build --webpack",
+    "start": "next start",
+    "lint": "eslint .",
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "ingest:fixtures": "node --experimental-strip-types scripts/ingest-fixtures.ts",
+    "sync:lore": "node --experimental-strip-types scripts/sync-lore.ts",
+    "sync:git": "node --experimental-strip-types scripts/sync-git.ts",
+    "reconcile": "node --experimental-strip-types scripts/reconcile.ts",
+    "generate": "node --experimental-strip-types scripts/generate.ts",
+    "sync": "node --experimental-strip-types scripts/sync.ts",
+    "publish:supabase": "node --experimental-strip-types scripts/publish-supabase.ts",
+    "hydrate:supabase": "node --experimental-strip-types scripts/hydrate-supabase.ts",
+    "backfill:lore": "node --experimental-strip-types scripts/backfill-lore.ts",
+    "backfill": "node --experimental-strip-types scripts/backfill.ts",
+    "validate:data": "node --experimental-strip-types scripts/validate-data.ts"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "eslint": "9.39.2",
+    "eslint-config-next": "latest",
+    "tailwindcss": "latest",
+    "typescript": "6.0.2"
+  },
+  "packageManager": "pnpm@11.24.0"
+}

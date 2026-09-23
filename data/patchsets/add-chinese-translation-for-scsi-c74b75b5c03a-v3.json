@@ -1,0 +1,282 @@
+{
+  "id": "add-chinese-translation-for-scsi-c74b75b5c03a-v3",
+  "subject": "[PATCH v3 0/7] Add chinese translation for scsi",
+  "authorName": "doubled",
+  "authorEmail": "doubled@leap-io-kernel.com",
+  "revision": 3,
+  "postedAt": "2025-09-14T02:52:01.000Z",
+  "language": "zh_CN",
+  "patchCount": 7,
+  "status": "applied",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 2,
+  "latestRevision": true,
+  "messageIds": [
+    "<cover.1757686158.git.doubled@leap-io-kernel.com>",
+    "<e83c0c993642dbb0a4530c8aa557c1436aac6152.1757686158.git.doubled@leap-io-kernel.com>",
+    "<0032a24782119ea2900fc38dabcb7e58ba627b90.1757686158.git.doubled@leap-io-kernel.com>",
+    "<3034906a3df52b0b68eed9937e052a40493992fd.1757686158.git.doubled@leap-io-kernel.com>",
+    "<e63267d517955450f40033a8367804ab5b279fae.1757686158.git.doubled@leap-io-kernel.com>",
+    "<9820908a686528e7795a7bd2ba8a5ef1d70c76e3.1757686158.git.doubled@leap-io-kernel.com>",
+    "<2d9ceae5cdca7330395f90af563def824aa63457.1757686158.git.doubled@leap-io-kernel.com>",
+    "<616b8c6ed6313647bd02fc4c8cd17b40c2bcfc5a.1757686158.git.doubled@leap-io-kernel.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "confirmed",
+      "matched": 7,
+      "total": 7,
+      "commit": "791ca5860b12c297a0cec0640fb1ffb4f433756a"
+    },
+    "corbet": {
+      "state": "confirmed",
+      "matched": 7,
+      "total": 7,
+      "commit": "791ca5860b12c297a0cec0640fb1ffb4f433756a"
+    },
+    "linus": {
+      "state": "confirmed",
+      "matched": 7,
+      "total": 7,
+      "commit": "791ca5860b12c297a0cec0640fb1ffb4f433756a"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/cover.1757686158.git.doubled@leap-io-kernel.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/cover.1757686158.git.doubled@leap-io-kernel.com/raw",
+  "replies": 2,
+  "versions": [
+    {
+      "revision": 3,
+      "id": "add-chinese-translation-for-scsi-c74b75b5c03a-v3",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 7,
+      "subject": "docs/zh_CN: Add scsi/index.rst translation",
+      "messageId": "<e83c0c993642dbb0a4530c8aa557c1436aac6152.1757686158.git.doubled@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/e83c0c993642dbb0a4530c8aa557c1436aac6152.1757686158.git.doubled@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/scsi/index.rst",
+        "Documentation/translations/zh_CN/subsystem-apis.rst"
+      ],
+      "patchId": "737013bfffceb1e807a712f2b2c3c07325fc02f6",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "791ca5860b12c297a0cec0640fb1ffb4f433756a"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "791ca5860b12c297a0cec0640fb1ffb4f433756a"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "791ca5860b12c297a0cec0640fb1ffb4f433756a"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "total": 7,
+      "subject": "docs/zh_CN: Add scsi.rst translation",
+      "messageId": "<0032a24782119ea2900fc38dabcb7e58ba627b90.1757686158.git.doubled@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/0032a24782119ea2900fc38dabcb7e58ba627b90.1757686158.git.doubled@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/scsi/index.rst",
+        "Documentation/translations/zh_CN/scsi/scsi.rst"
+      ],
+      "patchId": "83bec9991c41cb641cb258d884f67b823b97b83e",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "301e7b86d69af98bf06238f22c2ba3efe57c634c"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "301e7b86d69af98bf06238f22c2ba3efe57c634c"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "301e7b86d69af98bf06238f22c2ba3efe57c634c"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "total": 7,
+      "subject": "docs/zh_CN: Add scsi_mid_low_api.rst translation",
+      "messageId": "<3034906a3df52b0b68eed9937e052a40493992fd.1757686158.git.doubled@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/3034906a3df52b0b68eed9937e052a40493992fd.1757686158.git.doubled@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/scsi/index.rst",
+        "Documentation/translations/zh_CN/scsi/scsi_mid_low_api.rst"
+      ],
+      "patchId": "1669874a2f58c3c1224ee0a1b8203aa34acc38bb",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "4e841f7e418d8d0187951ae017672d27aa5a17fe"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "4e841f7e418d8d0187951ae017672d27aa5a17fe"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "4e841f7e418d8d0187951ae017672d27aa5a17fe"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "total": 7,
+      "subject": "docs/zh_CN: Add scsi_eh.rst translation",
+      "messageId": "<e63267d517955450f40033a8367804ab5b279fae.1757686158.git.doubled@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/e63267d517955450f40033a8367804ab5b279fae.1757686158.git.doubled@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/scsi/index.rst",
+        "Documentation/translations/zh_CN/scsi/scsi_eh.rst"
+      ],
+      "patchId": "c26f8c9b3cf054f2b931952f4627ec7379d5adb4",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "fdca4c262abeb565cb8d2d2e79ec0611f9e32c7d"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "fdca4c262abeb565cb8d2d2e79ec0611f9e32c7d"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "fdca4c262abeb565cb8d2d2e79ec0611f9e32c7d"
+        }
+      }
+    },
+    {
+      "index": 5,
+      "total": 7,
+      "subject": "docs/zh_CN: Add scsi-parameters.rst translation",
+      "messageId": "<9820908a686528e7795a7bd2ba8a5ef1d70c76e3.1757686158.git.doubled@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/9820908a686528e7795a7bd2ba8a5ef1d70c76e3.1757686158.git.doubled@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/scsi/index.rst",
+        "Documentation/translations/zh_CN/scsi/scsi-parameters.rst"
+      ],
+      "patchId": "daf7a6b3f4fe6aee1c50166374d51ca2a8ba2aa6",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "f7c2e7108e0cf87d04d2f28078b5fefe1af47383"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "f7c2e7108e0cf87d04d2f28078b5fefe1af47383"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "f7c2e7108e0cf87d04d2f28078b5fefe1af47383"
+        }
+      }
+    },
+    {
+      "index": 6,
+      "total": 7,
+      "subject": "docs/zh_CN: Add link_power_management_policy.rst translation",
+      "messageId": "<2d9ceae5cdca7330395f90af563def824aa63457.1757686158.git.doubled@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/2d9ceae5cdca7330395f90af563def824aa63457.1757686158.git.doubled@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/scsi/index.rst",
+        "Documentation/translations/zh_CN/scsi/link_power_management_policy.rst"
+      ],
+      "patchId": "bb335c95a9504307e63b89a0be1c910b067401bc",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "dca85d5916f002504850c947db3a92ffabc52b3f"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "dca85d5916f002504850c947db3a92ffabc52b3f"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "dca85d5916f002504850c947db3a92ffabc52b3f"
+        }
+      }
+    },
+    {
+      "index": 7,
+      "total": 7,
+      "subject": "docs/zh_CN: Add sd-parameters.rst translation",
+      "messageId": "<616b8c6ed6313647bd02fc4c8cd17b40c2bcfc5a.1757686158.git.doubled@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/616b8c6ed6313647bd02fc4c8cd17b40c2bcfc5a.1757686158.git.doubled@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/scsi/index.rst",
+        "Documentation/translations/zh_CN/scsi/sd-parameters.rst"
+      ],
+      "patchId": "9944caaca8d8a25c8dd2eec158cc73a97e71d404",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "89ac14006fdebc8d83ac420e7d1a9fa785cfdab7"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "89ac14006fdebc8d83ac420e7d1a9fa785cfdab7"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "89ac14006fdebc8d83ac420e7d1a9fa785cfdab7"
+        }
+      }
+    }
+  ]
+}

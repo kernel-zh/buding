@@ -1,0 +1,95 @@
+{
+  "id": "add-translation-of-rust-testing-rst-e6a79ceb742d-v3",
+  "subject": "[PATCH v3] docs/zh_CN: Add translation of rust/testing.rst",
+  "authorName": "Ben Guo",
+  "authorEmail": "benx.guo@gmail.com",
+  "revision": 3,
+  "postedAt": "2025-10-13T23:44:01.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "applied",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 2,
+  "latestRevision": true,
+  "messageIds": [
+    "<20251013234416.6172-1-benx.guo@gmail.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "9b31970e1a422d88106fdfdc7791c4dcfa34e112"
+    },
+    "corbet": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "9b31970e1a422d88106fdfdc7791c4dcfa34e112"
+    },
+    "linus": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "9b31970e1a422d88106fdfdc7791c4dcfa34e112"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20251013234416.6172-1-benx.guo@gmail.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20251013234416.6172-1-benx.guo@gmail.com/raw",
+  "replies": 2,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "add-translation-of-rust-testing-rst-b33a4641e124-v1",
+      "current": false
+    },
+    {
+      "revision": 3,
+      "id": "add-translation-of-rust-testing-rst-e6a79ceb742d-v3",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "docs/zh_CN: Add translation of rust/testing.rst",
+      "messageId": "<20251013234416.6172-1-benx.guo@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251013234416.6172-1-benx.guo@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/rust/index.rst",
+        "Documentation/translations/zh_CN/rust/testing.rst"
+      ],
+      "patchId": "bdcb2bceea9a33e4da00b2c3a46aca167be7a075",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Yanteng Si <siyanteng@cqsoftware.com.cm>",
+          "messageId": "<4011ea47-ce74-4a0c-a45d-e8ded75f45a8@linux.dev>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "9b31970e1a422d88106fdfdc7791c4dcfa34e112"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "9b31970e1a422d88106fdfdc7791c4dcfa34e112"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "9b31970e1a422d88106fdfdc7791c4dcfa34e112"
+        }
+      }
+    }
+  ]
+}

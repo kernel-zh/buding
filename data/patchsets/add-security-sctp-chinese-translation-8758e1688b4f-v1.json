@@ -1,0 +1,87 @@
+{
+  "id": "add-security-sctp-chinese-translation-8758e1688b4f-v1",
+  "subject": "[PATCH] docs/zh_CN: Add security SCTP Chinese translation",
+  "authorName": "Shuo Zhao",
+  "authorEmail": "zhaoshuo@cqsoftware.com.cn",
+  "revision": 1,
+  "postedAt": "2025-03-12T08:50:32.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 1,
+  "latestRevision": false,
+  "messageIds": [
+    "<20250312085033.83716-1-zhaoshuo@cqsoftware.com.cn>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250312085033.83716-1-zhaoshuo@cqsoftware.com.cn/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250312085033.83716-1-zhaoshuo@cqsoftware.com.cn/raw",
+  "replies": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "add-security-sctp-chinese-translation-8758e1688b4f-v1",
+      "current": true
+    },
+    {
+      "revision": 1,
+      "id": "add-security-sctp-chinese-translation-26e8be03d640-v1",
+      "current": false
+    },
+    {
+      "revision": 2,
+      "id": "add-security-sctp-chinese-translation-409a6418a5fe-v2",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "docs/zh_CN: Add security SCTP Chinese translation",
+      "messageId": "<20250312085033.83716-1-zhaoshuo@cqsoftware.com.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250312085033.83716-1-zhaoshuo@cqsoftware.com.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/security/SCTP.rst",
+        "Documentation/translations/zh_CN/security/index.rst"
+      ],
+      "patchId": "5f35a4fdf201cbbd8f08e92b87d577308303bbe1",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "translate-process-applying-patches-rst-into-traditio-66cca3d3dc4b-v1",
+  "subject": "[PATCH 0/2] docs/zh_TW: translate process/applying-patches.rst into Traditional Chinese",
+  "authorName": "Weijie Yuan",
+  "authorEmail": "wy@wyuan.org",
+  "revision": 1,
+  "postedAt": "2026-08-17T14:09:56.000Z",
+  "language": "zh_TW",
+  "patchCount": 2,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 3,
+  "latestRevision": true,
+  "messageIds": [
+    "<20260817-apply-patches-tw-v1-0-c182c1c425ba@wyuan.org>",
+    "<20260817-apply-patches-tw-v1-1-c182c1c425ba@wyuan.org>",
+    "<20260817-apply-patches-tw-v1-2-c182c1c425ba@wyuan.org>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 2
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 2
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 2
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260817-apply-patches-tw-v1-0-c182c1c425ba@wyuan.org/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260817-apply-patches-tw-v1-0-c182c1c425ba@wyuan.org/raw",
+  "replies": 5,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "translate-process-applying-patches-rst-into-traditio-66cca3d3dc4b-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 2,
+      "subject": "docs/zh_TW: add process/applying-patches Traditional Chinese translation",
+      "messageId": "<20260817-apply-patches-tw-v1-1-c182c1c425ba@wyuan.org>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260817-apply-patches-tw-v1-1-c182c1c425ba@wyuan.org/",
+      "changedFiles": [
+        "Documentation/translations/zh_TW/process/applying-patches.rst",
+        "Documentation/translations/zh_TW/process/index.rst"
+      ],
+      "patchId": "d36176507e7da63a2f3a2f67899dedb188e79748",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 2,
+      "total": 2,
+      "subject": "docs/zh_TW: link to Traditional Chinese applying-patches translation",
+      "messageId": "<20260817-apply-patches-tw-v1-2-c182c1c425ba@wyuan.org>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260817-apply-patches-tw-v1-2-c182c1c425ba@wyuan.org/",
+      "changedFiles": [
+        "Documentation/translations/zh_TW/admin-guide/README.rst",
+        "Documentation/translations/zh_TW/process/howto.rst"
+      ],
+      "patchId": "85437ce5322542e1c8a7059446f1c2bd1c35f847",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

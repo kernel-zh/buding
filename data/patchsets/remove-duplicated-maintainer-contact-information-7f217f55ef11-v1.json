@@ -1,0 +1,339 @@
+{
+  "id": "remove-duplicated-maintainer-contact-information-7f217f55ef11-v1",
+  "subject": "[PATCH 0/7] docs/zh_TW: remove duplicated maintainer contact information",
+  "authorName": "Chen-Yu Yeh",
+  "authorEmail": "chenyou910331@gmail.com",
+  "revision": 1,
+  "postedAt": "2026-08-19T14:57:59.000Z",
+  "language": "zh_TW",
+  "patchCount": 7,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 8,
+  "latestRevision": true,
+  "messageIds": [
+    "<20260819145808.291567-1-chenyou910331@gmail.com>",
+    "<20260819145808.291567-2-chenyou910331@gmail.com>",
+    "<20260819145808.291567-3-chenyou910331@gmail.com>",
+    "<20260819145808.291567-4-chenyou910331@gmail.com>",
+    "<20260819145808.291567-5-chenyou910331@gmail.com>",
+    "<20260819145808.291567-6-chenyou910331@gmail.com>",
+    "<20260819145808.291567-7-chenyou910331@gmail.com>",
+    "<20260819145808.291567-8-chenyou910331@gmail.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 7
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 7
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 7
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260819145808.291567-1-chenyou910331@gmail.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260819145808.291567-1-chenyou910331@gmail.com/raw",
+  "replies": 11,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "remove-duplicated-maintainer-contact-information-7f217f55ef11-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 7,
+      "subject": "docs/zh_TW: process: remove maintainer contact information",
+      "messageId": "<20260819145808.291567-2-chenyou910331@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260819145808.291567-2-chenyou910331@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_TW/process/1.Intro.rst",
+        "Documentation/translations/zh_TW/process/2.Process.rst",
+        "Documentation/translations/zh_TW/process/3.Early-stage.rst",
+        "Documentation/translations/zh_TW/process/4.Coding.rst",
+        "Documentation/translations/zh_TW/process/5.Posting.rst",
+        "Documentation/translations/zh_TW/process/6.Followthrough.rst",
+        "Documentation/translations/zh_TW/process/7.AdvancedTopics.rst",
+        "Documentation/translations/zh_TW/process/8.Conclusion.rst",
+        "Documentation/translations/zh_TW/process/code-of-conduct-interpretation.rst",
+        "Documentation/translations/zh_TW/process/code-of-conduct.rst",
+        "Documentation/translations/zh_TW/process/coding-style.rst",
+        "Documentation/translations/zh_TW/process/development-process.rst",
+        "Documentation/translations/zh_TW/process/email-clients.rst",
+        "Documentation/translations/zh_TW/process/embargoed-hardware-issues.rst",
+        "Documentation/translations/zh_TW/process/howto.rst",
+        "Documentation/translations/zh_TW/process/index.rst",
+        "Documentation/translations/zh_TW/process/kernel-driver-statement.rst",
+        "Documentation/translations/zh_TW/process/kernel-enforcement-statement.rst",
+        "Documentation/translations/zh_TW/process/license-rules.rst",
+        "Documentation/translations/zh_TW/process/magic-number.rst",
+        "Documentation/translations/zh_TW/process/management-style.rst",
+        "Documentation/translations/zh_TW/process/programming-language.rst",
+        "Documentation/translations/zh_TW/process/stable-api-nonsense.rst",
+        "Documentation/translations/zh_TW/process/stable-kernel-rules.rst",
+        "Documentation/translations/zh_TW/process/submit-checklist.rst",
+        "Documentation/translations/zh_TW/process/submitting-patches.rst",
+        "Documentation/translations/zh_TW/process/volatile-considered-harmful.rst"
+      ],
+      "patchId": "0c87727fb14250996e31592bbaa57ac349e3c407",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 2,
+      "total": 7,
+      "subject": "docs/zh_TW: admin-guide: remove maintainer contact information",
+      "messageId": "<20260819145808.291567-3-chenyou910331@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260819145808.291567-3-chenyou910331@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_TW/admin-guide/README.rst",
+        "Documentation/translations/zh_TW/admin-guide/bootconfig.rst",
+        "Documentation/translations/zh_TW/admin-guide/bug-bisect.rst",
+        "Documentation/translations/zh_TW/admin-guide/bug-hunting.rst",
+        "Documentation/translations/zh_TW/admin-guide/clearing-warn-once.rst",
+        "Documentation/translations/zh_TW/admin-guide/cpu-load.rst",
+        "Documentation/translations/zh_TW/admin-guide/cputopology.rst",
+        "Documentation/translations/zh_TW/admin-guide/index.rst",
+        "Documentation/translations/zh_TW/admin-guide/init.rst",
+        "Documentation/translations/zh_TW/admin-guide/lockup-watchdogs.rst",
+        "Documentation/translations/zh_TW/admin-guide/mm/damon/index.rst",
+        "Documentation/translations/zh_TW/admin-guide/mm/damon/lru_sort.rst",
+        "Documentation/translations/zh_TW/admin-guide/mm/damon/reclaim.rst",
+        "Documentation/translations/zh_TW/admin-guide/mm/damon/start.rst",
+        "Documentation/translations/zh_TW/admin-guide/mm/damon/usage.rst",
+        "Documentation/translations/zh_TW/admin-guide/mm/index.rst",
+        "Documentation/translations/zh_TW/admin-guide/mm/ksm.rst",
+        "Documentation/translations/zh_TW/admin-guide/reporting-issues.rst",
+        "Documentation/translations/zh_TW/admin-guide/reporting-regressions.rst",
+        "Documentation/translations/zh_TW/admin-guide/security-bugs.rst",
+        "Documentation/translations/zh_TW/admin-guide/sysrq.rst",
+        "Documentation/translations/zh_TW/admin-guide/tainted-kernels.rst",
+        "Documentation/translations/zh_TW/admin-guide/unicode.rst"
+      ],
+      "patchId": "5c4b72a3eff7b812abfdf120bd4fb73af1218330",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 3,
+      "total": 7,
+      "subject": "docs/zh_TW: arch: remove maintainer contact information",
+      "messageId": "<20260819145808.291567-4-chenyou910331@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260819145808.291567-4-chenyou910331@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_TW/arch/arm/Booting",
+        "Documentation/translations/zh_TW/arch/arm/kernel_user_helpers.txt",
+        "Documentation/translations/zh_TW/arch/arm64/amu.rst",
+        "Documentation/translations/zh_TW/arch/arm64/booting.txt",
+        "Documentation/translations/zh_TW/arch/arm64/elf_hwcaps.rst",
+        "Documentation/translations/zh_TW/arch/arm64/hugetlbpage.rst",
+        "Documentation/translations/zh_TW/arch/arm64/index.rst",
+        "Documentation/translations/zh_TW/arch/arm64/legacy_instructions.txt",
+        "Documentation/translations/zh_TW/arch/arm64/memory.txt",
+        "Documentation/translations/zh_TW/arch/arm64/perf.rst",
+        "Documentation/translations/zh_TW/arch/arm64/silicon-errata.txt",
+        "Documentation/translations/zh_TW/arch/arm64/tagged-pointers.txt",
+        "Documentation/translations/zh_TW/arch/loongarch/booting.rst",
+        "Documentation/translations/zh_TW/arch/loongarch/features.rst",
+        "Documentation/translations/zh_TW/arch/loongarch/index.rst",
+        "Documentation/translations/zh_TW/arch/loongarch/introduction.rst",
+        "Documentation/translations/zh_TW/arch/loongarch/irq-chip-model.rst",
+        "Documentation/translations/zh_TW/arch/mips/booting.rst",
+        "Documentation/translations/zh_TW/arch/mips/features.rst",
+        "Documentation/translations/zh_TW/arch/mips/index.rst",
+        "Documentation/translations/zh_TW/arch/mips/ingenic-tcu.rst",
+        "Documentation/translations/zh_TW/arch/openrisc/index.rst",
+        "Documentation/translations/zh_TW/arch/openrisc/openrisc_port.rst",
+        "Documentation/translations/zh_TW/arch/openrisc/todo.rst",
+        "Documentation/translations/zh_TW/arch/parisc/debugging.rst",
+        "Documentation/translations/zh_TW/arch/parisc/index.rst",
+        "Documentation/translations/zh_TW/arch/parisc/registers.rst"
+      ],
+      "patchId": "0181f1a76499bfd12ac79178d7666de42748339a",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 4,
+      "total": 7,
+      "subject": "docs/zh_TW: dev-tools: remove maintainer contact information",
+      "messageId": "<20260819145808.291567-5-chenyou910331@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260819145808.291567-5-chenyou910331@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_TW/dev-tools/gcov.rst",
+        "Documentation/translations/zh_TW/dev-tools/gdb-kernel-debugging.rst",
+        "Documentation/translations/zh_TW/dev-tools/index.rst",
+        "Documentation/translations/zh_TW/dev-tools/kasan.rst",
+        "Documentation/translations/zh_TW/dev-tools/sparse.rst",
+        "Documentation/translations/zh_TW/dev-tools/testing-overview.rst"
+      ],
+      "patchId": "5dd9aba1831a030fba99019c7a2553405d2696f5",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 5,
+      "total": 7,
+      "subject": "docs/zh_TW: filesystems: remove maintainer contact information",
+      "messageId": "<20260819145808.291567-6-chenyou910331@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260819145808.291567-6-chenyou910331@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_TW/filesystems/debugfs.rst",
+        "Documentation/translations/zh_TW/filesystems/index.rst",
+        "Documentation/translations/zh_TW/filesystems/sysfs.txt",
+        "Documentation/translations/zh_TW/filesystems/virtiofs.rst"
+      ],
+      "patchId": "7c223b8fcf4e5c850ba82093cfd920e744bd38c0",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 6,
+      "total": 7,
+      "subject": "docs/zh_TW: cpu-freq: remove maintainer contact information",
+      "messageId": "<20260819145808.291567-7-chenyou910331@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260819145808.291567-7-chenyou910331@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_TW/cpu-freq/core.rst",
+        "Documentation/translations/zh_TW/cpu-freq/cpu-drivers.rst",
+        "Documentation/translations/zh_TW/cpu-freq/cpufreq-stats.rst",
+        "Documentation/translations/zh_TW/cpu-freq/index.rst"
+      ],
+      "patchId": "b18fadd70005d5682940242b313af72af35c41ed",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 7,
+      "total": 7,
+      "subject": "docs/zh_TW: remove the last maintainer contact references",
+      "messageId": "<20260819145808.291567-8-chenyou910331@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260819145808.291567-8-chenyou910331@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_TW/IRQ.txt",
+        "Documentation/translations/zh_TW/disclaimer-zh_TW.rst",
+        "Documentation/translations/zh_TW/index.rst",
+        "Documentation/translations/zh_TW/io_ordering.txt"
+      ],
+      "patchId": "82b418b9f1359b2d9d7942683c9459b9fd9fcde3",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

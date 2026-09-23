@@ -1,0 +1,84 @@
+{
+  "id": "documentation-openrisc-update-toolchain-binaries-url-427af9b28c5c-v1",
+  "subject": "[PATCH 2/2] Documentation: openrisc: Update toolchain binaries URL",
+  "authorName": "Stafford Horne",
+  "authorEmail": "shorne@gmail.com",
+  "revision": 1,
+  "postedAt": "2025-04-17T08:02:32.000Z",
+  "language": "mixed",
+  "patchCount": 1,
+  "status": "applied",
+  "lifecycle": "active",
+  "reviewState": "waiting",
+  "reviewReplies": 0,
+  "latestRevision": true,
+  "messageIds": [
+    "<20250417080236.4021257-3-shorne@gmail.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "66ffd2f3161124f2f5019b55d8ef3add26a002a5"
+    },
+    "corbet": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "66ffd2f3161124f2f5019b55d8ef3add26a002a5"
+    },
+    "linus": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "66ffd2f3161124f2f5019b55d8ef3add26a002a5"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250417080236.4021257-3-shorne@gmail.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250417080236.4021257-3-shorne@gmail.com/raw",
+  "replies": 0,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "documentation-openrisc-update-toolchain-binaries-url-427af9b28c5c-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 2,
+      "total": 2,
+      "subject": "Documentation: openrisc: Update toolchain binaries URL",
+      "messageId": "<20250417080236.4021257-3-shorne@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250417080236.4021257-3-shorne@gmail.com/",
+      "changedFiles": [
+        "Documentation/arch/openrisc/openrisc_port.rst",
+        "Documentation/translations/zh_CN/arch/openrisc/openrisc_port.rst",
+        "Documentation/translations/zh_TW/arch/openrisc/openrisc_port.rst"
+      ],
+      "patchId": "9fce536ed9a75a03ef1af82d18b1d329c985b57f",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "66ffd2f3161124f2f5019b55d8ef3add26a002a5"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "66ffd2f3161124f2f5019b55d8ef3add26a002a5"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "66ffd2f3161124f2f5019b55d8ef3add26a002a5"
+        }
+      }
+    }
+  ]
+}

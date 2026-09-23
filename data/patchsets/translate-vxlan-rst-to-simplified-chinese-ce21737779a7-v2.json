@@ -1,0 +1,89 @@
+{
+  "id": "translate-vxlan-rst-to-simplified-chinese-ce21737779a7-v2",
+  "subject": "[PATCH linux next v2] Docs/zh_CN: Translate vxlan.rst to Simplified Chinese",
+  "authorName": "jiang.kun2@zte.com.cn",
+  "authorEmail": "jiang.kun2@zte.com.cn",
+  "revision": 2,
+  "postedAt": "2025-06-03T03:03:37.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 2,
+  "latestRevision": true,
+  "messageIds": [
+    "<20250603110337057ZRxTnZrzJ39S_CAoGTJ5D@zte.com.cn>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250603110337057ZRxTnZrzJ39S_CAoGTJ5D@zte.com.cn/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250603110337057ZRxTnZrzJ39S_CAoGTJ5D@zte.com.cn/raw",
+  "replies": 2,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "translate-vxlan-rst-to-simplified-chinese-1b900dc9f2a8-v1",
+      "current": false
+    },
+    {
+      "revision": 2,
+      "id": "translate-vxlan-rst-to-simplified-chinese-ce21737779a7-v2",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "Docs/zh_CN: Translate vxlan.rst to Simplified Chinese",
+      "messageId": "<20250603110337057ZRxTnZrzJ39S_CAoGTJ5D@zte.com.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250603110337057ZRxTnZrzJ39S_CAoGTJ5D@zte.com.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/networking/index.rst",
+        "Documentation/translations/zh_CN/networking/vxlan.rst"
+      ],
+      "patchId": "c4eb41c95ed72608b943daa1ee6c8810c3bffee1",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Dongliang Mu <dzm91@hust.edu.cn>",
+          "messageId": "<371b632f-3522-4b8e-8e2f-4e3c53a7c047@hust.edu.cn>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

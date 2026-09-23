@@ -1,0 +1,172 @@
+{
+  "id": "net-devmem-support-devmem-with-netkit-devices-459c71a8c4f1-v5",
+  "subject": "[PATCH net-next v5 0/8] net: devmem: support devmem with netkit devices",
+  "authorName": "Bobby Eshleman",
+  "authorEmail": "bobbyeshleman@gmail.com",
+  "revision": 5,
+  "postedAt": "2026-05-14T17:22:27.000Z",
+  "language": "zh_CN",
+  "patchCount": 2,
+  "status": "applied",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 1,
+  "latestRevision": true,
+  "messageIds": [
+    "<20260514-tcp-dm-netkit-v5-0-408c59b91e66@meta.com>",
+    "<20260514-tcp-dm-netkit-v5-1-408c59b91e66@meta.com>",
+    "<20260514-tcp-dm-netkit-v5-2-408c59b91e66@meta.com>",
+    "<20260514-tcp-dm-netkit-v5-3-408c59b91e66@meta.com>",
+    "<20260514-tcp-dm-netkit-v5-4-408c59b91e66@meta.com>",
+    "<20260514-tcp-dm-netkit-v5-5-408c59b91e66@meta.com>",
+    "<20260514-tcp-dm-netkit-v5-6-408c59b91e66@meta.com>",
+    "<20260514-tcp-dm-netkit-v5-7-408c59b91e66@meta.com>",
+    "<20260514-tcp-dm-netkit-v5-8-408c59b91e66@meta.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "confirmed",
+      "matched": 2,
+      "total": 2,
+      "commit": "7d3ab852dcd853692197a830d20052127754a087"
+    },
+    "corbet": {
+      "state": "confirmed",
+      "matched": 2,
+      "total": 2,
+      "commit": "7d3ab852dcd853692197a830d20052127754a087"
+    },
+    "linus": {
+      "state": "confirmed",
+      "matched": 2,
+      "total": 2,
+      "commit": "7d3ab852dcd853692197a830d20052127754a087"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260514-tcp-dm-netkit-v5-0-408c59b91e66@meta.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260514-tcp-dm-netkit-v5-0-408c59b91e66@meta.com/raw",
+  "replies": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "net-devmem-support-devmem-with-netkit-devices-f931f4ee29df-v1",
+      "current": false
+    },
+    {
+      "revision": 2,
+      "id": "net-devmem-support-devmem-with-netkit-devices-c4b05af882ed-v2",
+      "current": false
+    },
+    {
+      "revision": 3,
+      "id": "net-devmem-support-devmem-with-netkit-devices-9c25b9cd523f-v3",
+      "current": false
+    },
+    {
+      "revision": 4,
+      "id": "net-devmem-support-devmem-with-netkit-devices-679d8a60f4b5-v4",
+      "current": false
+    },
+    {
+      "revision": 5,
+      "id": "net-devmem-support-devmem-with-netkit-devices-459c71a8c4f1-v5",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 8,
+      "subject": "net: convert netmem_tx flag to enum",
+      "messageId": "<20260514-tcp-dm-netkit-v5-1-408c59b91e66@meta.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260514-tcp-dm-netkit-v5-1-408c59b91e66@meta.com/",
+      "changedFiles": [
+        "Documentation/networking/netmem.rst",
+        "Documentation/translations/zh_CN/networking/netmem.rst",
+        "drivers/net/ethernet/broadcom/bnxt/bnxt.c",
+        "drivers/net/ethernet/google/gve/gve_main.c",
+        "drivers/net/ethernet/mellanox/mlx5/core/en_main.c",
+        "drivers/net/ethernet/meta/fbnic/fbnic_netdev.c",
+        "include/linux/netdevice.h",
+        "net/core/dev.c",
+        "net/core/netdev-genl.c"
+      ],
+      "patchId": "3855197064326b6630267be329952b28b211b3d6",
+      "trailers": [
+        {
+          "type": "Acked-by",
+          "value": "Harshitha Ramamurthy <hramamurthy@google.com>",
+          "messageId": "<20260514-tcp-dm-netkit-v5-1-408c59b91e66@meta.com>"
+        },
+        {
+          "type": "Acked-by",
+          "value": "Stanislav Fomichev <sdf@fomichev.me>",
+          "messageId": "<20260514-tcp-dm-netkit-v5-1-408c59b91e66@meta.com>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "7d3ab852dcd853692197a830d20052127754a087"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "7d3ab852dcd853692197a830d20052127754a087"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "7d3ab852dcd853692197a830d20052127754a087"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "total": 8,
+      "subject": "net: netkit: declare NETMEM_TX_NO_DMA mode",
+      "messageId": "<20260514-tcp-dm-netkit-v5-2-408c59b91e66@meta.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260514-tcp-dm-netkit-v5-2-408c59b91e66@meta.com/",
+      "changedFiles": [
+        "Documentation/networking/net_cachelines/net_device.rst",
+        "Documentation/networking/netmem.rst",
+        "Documentation/translations/zh_CN/networking/netmem.rst",
+        "drivers/net/netkit.c",
+        "include/linux/netdevice.h"
+      ],
+      "patchId": "d44c9cd76d469f5e346166d4b0f08595ead10487",
+      "trailers": [
+        {
+          "type": "Acked-by",
+          "value": "Stanislav Fomichev <sdf@fomichev.me>",
+          "messageId": "<20260514-tcp-dm-netkit-v5-2-408c59b91e66@meta.com>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "6ce2bb048055ee599c0f35f1a90ff5db29ba5d65"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "6ce2bb048055ee599c0f35f1a90ff5db29ba5d65"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "6ce2bb048055ee599c0f35f1a90ff5db29ba5d65"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "translate-vxlan-rst-to-simplified-chinese-1b900dc9f2a8-v1",
+  "subject": "[PATCH linux next] Docs/zh_CN: Translate vxlan.rst to Simplified Chinese",
+  "authorName": "jiang.kun2@zte.com.cn",
+  "authorEmail": "jiang.kun2@zte.com.cn",
+  "revision": 1,
+  "postedAt": "2025-05-30T03:32:49.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 2,
+  "latestRevision": false,
+  "messageIds": [
+    "<202505301132492152dM75edlCkVrcPL71Omc5@zte.com.cn>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/202505301132492152dM75edlCkVrcPL71Omc5@zte.com.cn/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/202505301132492152dM75edlCkVrcPL71Omc5@zte.com.cn/raw",
+  "replies": 2,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "translate-vxlan-rst-to-simplified-chinese-1b900dc9f2a8-v1",
+      "current": true
+    },
+    {
+      "revision": 2,
+      "id": "translate-vxlan-rst-to-simplified-chinese-ce21737779a7-v2",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "Docs/zh_CN: Translate vxlan.rst to Simplified Chinese",
+      "messageId": "<202505301132492152dM75edlCkVrcPL71Omc5@zte.com.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/202505301132492152dM75edlCkVrcPL71Omc5@zte.com.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/networking/index.rst",
+        "Documentation/translations/zh_CN/networking/vxlan.rst"
+      ],
+      "patchId": "7462e216c96a216906174825519e4a9a8e49d247",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Yanteng Si <si.yanteng@linux.dev>",
+          "messageId": "<63cbb800-0040-4f41-8a82-90251da6914e@linux.dev>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

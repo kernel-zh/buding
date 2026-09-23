@@ -1,0 +1,89 @@
+{
+  "id": "fix-spelling-mistake-954bb5793e96-v1",
+  "subject": "[PATCH] docs/zh_CN: fix spelling mistake",
+  "authorName": "jiang.peng9@zte.com.cn",
+  "authorEmail": "jiang.peng9@zte.com.cn",
+  "revision": 1,
+  "postedAt": "2025-03-17T02:08:11.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 4,
+  "latestRevision": true,
+  "messageIds": [
+    "<20250317100811126QvOaWRPxSgm2ttU5faitl@zte.com.cn>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "82ac75237379041db3a63e5d354a58966a69ec84"
+    },
+    "corbet": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "82ac75237379041db3a63e5d354a58966a69ec84"
+    },
+    "linus": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "82ac75237379041db3a63e5d354a58966a69ec84"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250317100811126QvOaWRPxSgm2ttU5faitl@zte.com.cn/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250317100811126QvOaWRPxSgm2ttU5faitl@zte.com.cn/raw",
+  "replies": 5,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "fix-spelling-mistake-954bb5793e96-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "docs/zh_CN: fix spelling mistake",
+      "messageId": "<20250317100811126QvOaWRPxSgm2ttU5faitl@zte.com.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250317100811126QvOaWRPxSgm2ttU5faitl@zte.com.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/mm/balance.rst"
+      ],
+      "patchId": "0106b79a3bb6024428a62471c1425270a808630f",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Dongliang Mu <dzm91@hust.edu.cn>",
+          "messageId": "<f11afa64-1629-4005-8cb4-723d9b6ce6cb@hust.edu.cn>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "82ac75237379041db3a63e5d354a58966a69ec84"
+        },
+        "corbet": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "82ac75237379041db3a63e5d354a58966a69ec84"
+        },
+        "linus": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "82ac75237379041db3a63e5d354a58966a69ec84"
+        }
+      }
+    }
+  ]
+}

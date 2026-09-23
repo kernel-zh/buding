@@ -1,0 +1,89 @@
+{
+  "id": "fix-hugetlb-subpool-used-hpages-tracking-ada9e8b71893-v2",
+  "subject": "[PATCH v2 0/4] Fix HugeTLB subpool used_hpages tracking",
+  "authorName": "Ackerley Tng via B4 Relay",
+  "authorEmail": "devnull+ackerleytng.google.com@kernel.org",
+  "revision": 2,
+  "postedAt": "2026-09-09T21:49:25.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 2,
+  "latestRevision": true,
+  "messageIds": [
+    "<20260909-hugetlb-subpool-always-track-used-v2-0-30c5d83b572a@google.com>",
+    "<20260909-hugetlb-subpool-always-track-used-v2-1-30c5d83b572a@google.com>",
+    "<20260909-hugetlb-subpool-always-track-used-v2-2-30c5d83b572a@google.com>",
+    "<20260909-hugetlb-subpool-always-track-used-v2-3-30c5d83b572a@google.com>",
+    "<20260909-hugetlb-subpool-always-track-used-v2-4-30c5d83b572a@google.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260909-hugetlb-subpool-always-track-used-v2-0-30c5d83b572a@google.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260909-hugetlb-subpool-always-track-used-v2-0-30c5d83b572a@google.com/raw",
+  "replies": 2,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "fix-hugetlb-subpool-used-hpages-tracking-f98fef9d2d5c-v1",
+      "current": false
+    },
+    {
+      "revision": 2,
+      "id": "fix-hugetlb-subpool-used-hpages-tracking-ada9e8b71893-v2",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 4,
+      "subject": "mm: hugetlb: Track used_hpages when getting/putting pages from subpool",
+      "messageId": "<20260909-hugetlb-subpool-always-track-used-v2-1-30c5d83b572a@google.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260909-hugetlb-subpool-always-track-used-v2-1-30c5d83b572a@google.com/",
+      "changedFiles": [
+        "Documentation/mm/hugetlbfs_reserv.rst",
+        "Documentation/translations/zh_CN/mm/hugetlbfs_reserv.rst",
+        "fs/hugetlbfs/inode.c",
+        "include/linux/hugetlb.h",
+        "mm/hugetlb.c"
+      ],
+      "patchId": "de3f346f900ae68233f7a263fd23686618465914",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

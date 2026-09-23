@@ -1,0 +1,87 @@
+{
+  "id": "add-fixed-format-for-the-header-of-gfs2-glocks-rst-cde08404d5c8-v1",
+  "subject": "[PATCH] Docs/zh_CN: add fixed format for the header of gfs2-glocks.rst",
+  "authorName": "shao.mingyin@zte.com.cn",
+  "authorEmail": "shao.mingyin@zte.com.cn",
+  "revision": 1,
+  "postedAt": "2025-09-18T06:43:05.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 1,
+  "latestRevision": false,
+  "messageIds": [
+    "<20250918144305326x9mQuLPvqgyLm4WTJvZ9I@zte.com.cn>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "b8c1494b3223a0a81816791b18710b1a44b2a481"
+    },
+    "corbet": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "b8c1494b3223a0a81816791b18710b1a44b2a481"
+    },
+    "linus": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "b8c1494b3223a0a81816791b18710b1a44b2a481"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250918144305326x9mQuLPvqgyLm4WTJvZ9I@zte.com.cn/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250918144305326x9mQuLPvqgyLm4WTJvZ9I@zte.com.cn/raw",
+  "replies": 2,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "add-fixed-format-for-the-header-of-gfs2-glocks-rst-cde08404d5c8-v1",
+      "current": true
+    },
+    {
+      "revision": 2,
+      "id": "add-fixed-format-for-the-header-of-gfs2-glocks-rst-974335290f8e-v2",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "Docs/zh_CN: add fixed format for the header of gfs2-glocks.rst",
+      "messageId": "<20250918144305326x9mQuLPvqgyLm4WTJvZ9I@zte.com.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250918144305326x9mQuLPvqgyLm4WTJvZ9I@zte.com.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/filesystems/gfs2-glocks.rst"
+      ],
+      "patchId": "0a3e3a4a507ddcdd0204a9d070b8e705aa3584d3",
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "b8c1494b3223a0a81816791b18710b1a44b2a481"
+        },
+        "corbet": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "b8c1494b3223a0a81816791b18710b1a44b2a481"
+        },
+        "linus": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "b8c1494b3223a0a81816791b18710b1a44b2a481"
+        }
+      }
+    }
+  ]
+}

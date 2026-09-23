@@ -1,0 +1,81 @@
+{
+  "id": "assorted-documentation-fixes-f5fc8a66fe11-v2",
+  "subject": "[PATCH v2 0/3] docs: assorted documentation fixes",
+  "authorName": "Kit Dallege",
+  "authorEmail": "xaum.io@gmail.com",
+  "revision": 2,
+  "postedAt": "2026-03-15T17:05:18.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 2,
+  "latestRevision": true,
+  "messageIds": [
+    "<20260315170521.63794-1-xaum.io@gmail.com>",
+    "<20260315170521.63794-2-xaum.io@gmail.com>",
+    "<20260315170521.63794-3-xaum.io@gmail.com>",
+    "<20260315170521.63794-4-xaum.io@gmail.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260315170521.63794-1-xaum.io@gmail.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260315170521.63794-1-xaum.io@gmail.com/raw",
+  "replies": 2,
+  "versions": [
+    {
+      "revision": 2,
+      "id": "assorted-documentation-fixes-f5fc8a66fe11-v2",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 3,
+      "subject": "docs: kernel-doc: fix stale intel_audio.c path in examples",
+      "messageId": "<20260315170521.63794-2-xaum.io@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260315170521.63794-2-xaum.io@gmail.com/",
+      "changedFiles": [
+        "Documentation/doc-guide/kernel-doc.rst",
+        "Documentation/translations/it_IT/doc-guide/kernel-doc.rst",
+        "Documentation/translations/zh_CN/doc-guide/kernel-doc.rst"
+      ],
+      "patchId": "ea1066818c48df3ce87a2c500b82332c052f7c0d",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "id": "mm-zswap-remove-z3fold-and-zbud-2d3bdfedc0c2-v2",
+  "subject": "[PATCH v2 0/2] mm: zswap: remove z3fold and zbud",
+  "authorName": "Yosry Ahmed",
+  "authorEmail": "yosry.ahmed@linux.dev",
+  "revision": 2,
+  "postedAt": "2025-01-29T18:06:30.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "applied",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 3,
+  "latestRevision": true,
+  "messageIds": [
+    "<20250129180633.3501650-1-yosry.ahmed@linux.dev>",
+    "<20250129180633.3501650-2-yosry.ahmed@linux.dev>",
+    "<20250129180633.3501650-3-yosry.ahmed@linux.dev>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "58ba73e521b3d3a7a7612fc200beba1544a5100c"
+    },
+    "corbet": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "58ba73e521b3d3a7a7612fc200beba1544a5100c"
+    },
+    "linus": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "58ba73e521b3d3a7a7612fc200beba1544a5100c"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250129180633.3501650-1-yosry.ahmed@linux.dev/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250129180633.3501650-1-yosry.ahmed@linux.dev/raw",
+  "replies": 3,
+  "versions": [
+    {
+      "revision": 2,
+      "id": "mm-zswap-remove-z3fold-and-zbud-2d3bdfedc0c2-v2",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 2,
+      "subject": "mm: z3fold: remove z3fold",
+      "messageId": "<20250129180633.3501650-2-yosry.ahmed@linux.dev>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250129180633.3501650-2-yosry.ahmed@linux.dev/",
+      "changedFiles": [
+        "CREDITS",
+        "Documentation/mm/index.rst",
+        "Documentation/mm/z3fold.rst",
+        "Documentation/translations/zh_CN/mm/index.rst",
+        "Documentation/translations/zh_CN/mm/z3fold.rst",
+        "MAINTAINERS",
+        "mm/Kconfig",
+        "mm/Makefile",
+        "mm/z3fold.c"
+      ],
+      "patchId": "322e5e9041d5451b0380464aabb61006c4525f89",
+      "trailers": [
+        {
+          "type": "Acked-by",
+          "value": "Johannes Weiner <hannes@cmpxchg.org>",
+          "messageId": "<20250129180633.3501650-2-yosry.ahmed@linux.dev>"
+        },
+        {
+          "type": "Reviewed-by",
+          "value": "Shakeel Butt <shakeel.butt@linux.dev>",
+          "messageId": "<20250129180633.3501650-2-yosry.ahmed@linux.dev>"
+        },
+        {
+          "type": "Acked-by",
+          "value": "Nhat Pham <nphamcs@gmail.com>",
+          "messageId": "<20250129180633.3501650-2-yosry.ahmed@linux.dev>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "58ba73e521b3d3a7a7612fc200beba1544a5100c"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "58ba73e521b3d3a7a7612fc200beba1544a5100c"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "58ba73e521b3d3a7a7612fc200beba1544a5100c"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "documentation-loongarch-fix-typo-extention-extension-4a0dbdd00959-v1",
+  "subject": "[PATCH] Documentation: loongarch: Fix typo \"eXtention\" -> \"Extension\"",
+  "authorName": "Wang Zihan",
+  "authorEmail": "3772548978@qq.com",
+  "revision": 1,
+  "postedAt": "2026-05-02T11:19:12.000Z",
+  "language": "mixed",
+  "patchCount": 1,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 1,
+  "latestRevision": true,
+  "messageIds": [
+    "<tencent_ADC4AD99CFC8EFB26D25889B11D4864B9B05@qq.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/tencent_ADC4AD99CFC8EFB26D25889B11D4864B9B05@qq.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/tencent_ADC4AD99CFC8EFB26D25889B11D4864B9B05@qq.com/raw",
+  "replies": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "documentation-loongarch-fix-typo-extention-extension-4a0dbdd00959-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "Documentation: loongarch: Fix typo \"eXtention\" -> \"Extension\"",
+      "messageId": "<tencent_ADC4AD99CFC8EFB26D25889B11D4864B9B05@qq.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/tencent_ADC4AD99CFC8EFB26D25889B11D4864B9B05@qq.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/arch/loongarch/introduction.rst",
+        "Documentation/translations/zh_TW/arch/loongarch/introduction.rst"
+      ],
+      "patchId": "ab7aeab020fa38befe6456f4f800ba55751deed7",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

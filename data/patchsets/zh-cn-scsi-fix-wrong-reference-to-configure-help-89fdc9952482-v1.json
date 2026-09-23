@@ -1,0 +1,130 @@
+{
+  "id": "zh-cn-scsi-fix-wrong-reference-to-configure-help-89fdc9952482-v1",
+  "subject": "[PATCH] docs: zh_CN: scsi: fix wrong reference to Configure.help",
+  "authorName": "ke zijie",
+  "authorEmail": "kezijie@leap-io-kernel.com",
+  "revision": 1,
+  "postedAt": "2025-11-16T08:51:01.000Z",
+  "language": "zh_CN",
+  "patchCount": 2,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 1,
+  "latestRevision": false,
+  "messageIds": [
+    "<20251116085102.1740613-1-kezijie@leap-io-kernel.com>",
+    "<20251116085102.1740613-2-kezijie@leap-io-kernel.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 2,
+      "commit": "bd4b5902e7b647f0dbea1b9426d664ae00186159"
+    },
+    "corbet": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 2,
+      "commit": "bd4b5902e7b647f0dbea1b9426d664ae00186159"
+    },
+    "linus": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 2,
+      "commit": "bd4b5902e7b647f0dbea1b9426d664ae00186159"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20251116085102.1740613-1-kezijie@leap-io-kernel.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20251116085102.1740613-1-kezijie@leap-io-kernel.com/raw",
+  "replies": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "zh-cn-scsi-fix-wrong-reference-to-configure-help-89fdc9952482-v1",
+      "current": true
+    },
+    {
+      "revision": 1,
+      "id": "zh-cn-scsi-fix-wrong-reference-to-configure-help-7639350de5d3-v1",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 2,
+      "subject": "docs: zh_CN: scsi: fix wrong reference to Configure.help",
+      "messageId": "<20251116085102.1740613-1-kezijie@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251116085102.1740613-1-kezijie@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/scsi/scsi_mid_low_api.rst"
+      ],
+      "patchId": "7b6a63e54c50d3b1c1b89756aa30acfc90836721",
+      "trailers": [
+        {
+          "type": "Reported-by",
+          "value": "kernel test robot <lkp@intel.com>",
+          "messageId": "<20251116085102.1740613-1-kezijie@leap-io-kernel.com>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 2,
+      "total": 2,
+      "subject": "docs: zh_CN: scsi: fix broken references in scsi-parameters.rst",
+      "messageId": "<20251116085102.1740613-2-kezijie@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251116085102.1740613-2-kezijie@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/scsi/scsi-parameters.rst"
+      ],
+      "patchId": "09ba998ddc9ac289c6fe77385106700be6550e2d",
+      "trailers": [
+        {
+          "type": "Reported-by",
+          "value": "kernel test robot <lkp@intel.com>",
+          "messageId": "<20251116085102.1740613-2-kezijie@leap-io-kernel.com>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "bd4b5902e7b647f0dbea1b9426d664ae00186159"
+        },
+        "corbet": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "bd4b5902e7b647f0dbea1b9426d664ae00186159"
+        },
+        "linus": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "bd4b5902e7b647f0dbea1b9426d664ae00186159"
+        }
+      }
+    }
+  ]
+}

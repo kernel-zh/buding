@@ -1,0 +1,87 @@
+{
+  "id": "docs-submit-checklist-use-documentation-admin-guide--c8dcfe2d201b-v1",
+  "subject": "[PATCH] docs/.../submit-checklist: Use Documentation/admin-guide/abi.rst for cross-ref of README",
+  "authorName": "Akira Yokosawa",
+  "authorEmail": "akiyks@gmail.com",
+  "revision": 1,
+  "postedAt": "2025-03-04T07:57:34.000Z",
+  "language": "mixed",
+  "patchCount": 1,
+  "status": "applied",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 1,
+  "latestRevision": true,
+  "messageIds": [
+    "<20250304075734.56660-1-akiyks@gmail.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "5a63f0369bda46a7953cc6c41d3bf8f81ba4f17b"
+    },
+    "corbet": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "5a63f0369bda46a7953cc6c41d3bf8f81ba4f17b"
+    },
+    "linus": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "5a63f0369bda46a7953cc6c41d3bf8f81ba4f17b"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250304075734.56660-1-akiyks@gmail.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250304075734.56660-1-akiyks@gmail.com/raw",
+  "replies": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "docs-submit-checklist-use-documentation-admin-guide--c8dcfe2d201b-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "docs/.../submit-checklist: Use Documentation/admin-guide/abi.rst for cross-ref of README",
+      "messageId": "<20250304075734.56660-1-akiyks@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250304075734.56660-1-akiyks@gmail.com/",
+      "changedFiles": [
+        "Documentation/process/submit-checklist.rst",
+        "Documentation/translations/it_IT/process/submit-checklist.rst",
+        "Documentation/translations/ja_JP/process/submit-checklist.rst",
+        "Documentation/translations/sp_SP/process/submit-checklist.rst",
+        "Documentation/translations/zh_CN/process/submit-checklist.rst",
+        "Documentation/translations/zh_TW/process/submit-checklist.rst"
+      ],
+      "patchId": "db3aa36f76a58f0b93ebebb8a286fcce3d928558",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "5a63f0369bda46a7953cc6c41d3bf8f81ba4f17b"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "5a63f0369bda46a7953cc6c41d3bf8f81ba4f17b"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "5a63f0369bda46a7953cc6c41d3bf8f81ba4f17b"
+        }
+      }
+    }
+  ]
+}

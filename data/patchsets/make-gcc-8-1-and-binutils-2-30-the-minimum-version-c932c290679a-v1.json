@@ -1,0 +1,97 @@
+{
+  "id": "make-gcc-8-1-and-binutils-2-30-the-minimum-version-c932c290679a-v1",
+  "subject": "[PATCH 0/4] Make gcc-8.1 and binutils-2.30 the minimum version",
+  "authorName": "Arnd Bergmann",
+  "authorEmail": "arnd@kernel.org",
+  "revision": 1,
+  "postedAt": "2025-04-07T09:41:12.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "applied",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 13,
+  "latestRevision": true,
+  "messageIds": [
+    "<20250407094116.1339199-1-arnd@kernel.org>",
+    "<20250407094116.1339199-2-arnd@kernel.org>",
+    "<20250407094116.1339199-3-arnd@kernel.org>",
+    "<20250407094116.1339199-4-arnd@kernel.org>",
+    "<20250407094116.1339199-5-arnd@kernel.org>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "118c40b7b50340bf7ff7e0adee8e3bab6e552c82"
+    },
+    "corbet": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "118c40b7b50340bf7ff7e0adee8e3bab6e552c82"
+    },
+    "linus": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "118c40b7b50340bf7ff7e0adee8e3bab6e552c82"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250407094116.1339199-1-arnd@kernel.org/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250407094116.1339199-1-arnd@kernel.org/raw",
+  "replies": 13,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "make-gcc-8-1-and-binutils-2-30-the-minimum-version-c932c290679a-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 4,
+      "subject": "kbuild: require gcc-8 and binutils-2.30",
+      "messageId": "<20250407094116.1339199-2-arnd@kernel.org>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250407094116.1339199-2-arnd@kernel.org/",
+      "changedFiles": [
+        "Documentation/admin-guide/README.rst",
+        "Documentation/kbuild/makefiles.rst",
+        "Documentation/process/changes.rst",
+        "Documentation/translations/it_IT/process/changes.rst",
+        "Documentation/translations/zh_CN/admin-guide/README.rst",
+        "arch/um/Makefile",
+        "include/linux/unroll.h",
+        "kernel/gcov/gcc_4_7.c",
+        "lib/test_fortify/Makefile",
+        "scripts/Makefile.compiler",
+        "scripts/gcc-plugins/gcc-common.h",
+        "scripts/min-tool-version.sh"
+      ],
+      "patchId": "899ab0bb674bbceae1bf03361e7cf0bbe31e1811",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "118c40b7b50340bf7ff7e0adee8e3bab6e552c82"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "118c40b7b50340bf7ff7e0adee8e3bab6e552c82"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "118c40b7b50340bf7ff7e0adee8e3bab6e552c82"
+        }
+      }
+    }
+  ]
+}

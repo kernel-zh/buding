@@ -1,0 +1,140 @@
+{
+  "id": "update-translation-of-doc-guide-sphinx-rst-58b09f1cafdc-v1",
+  "subject": "[PATCH 0/3] docs/zh_CN: update translation of doc-guide/sphinx.rst",
+  "authorName": "Jiandong Qiu",
+  "authorEmail": "qiujiandong1998@gmail.com",
+  "revision": 1,
+  "postedAt": "2026-06-19T14:02:38.000Z",
+  "language": "zh_CN",
+  "patchCount": 3,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 3,
+  "latestRevision": false,
+  "messageIds": [
+    "<20260619140245.1982921-1-qiujiandong1998@gmail.com>",
+    "<20260619140245.1982921-2-qiujiandong1998@gmail.com>",
+    "<20260619140245.1982921-3-qiujiandong1998@gmail.com>",
+    "<20260619140245.1982921-4-qiujiandong1998@gmail.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 3
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 3
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 3
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260619140245.1982921-1-qiujiandong1998@gmail.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260619140245.1982921-1-qiujiandong1998@gmail.com/raw",
+  "replies": 5,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "update-translation-of-doc-guide-sphinx-rst-58b09f1cafdc-v1",
+      "current": true
+    },
+    {
+      "revision": 3,
+      "id": "update-translation-of-doc-guide-sphinx-rst-80935233e0ea-v3",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 3,
+      "subject": "docs/zh_CN: add llvm.rst translation anchor",
+      "messageId": "<20260619140245.1982921-2-qiujiandong1998@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260619140245.1982921-2-qiujiandong1998@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/kbuild/llvm.rst"
+      ],
+      "patchId": "ab12a59426da3b9d13acd33f5db9289c566cc135",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 2,
+      "total": 3,
+      "subject": "docs/zh_CN: add process/changes.rst translation",
+      "messageId": "<20260619140245.1982921-3-qiujiandong1998@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260619140245.1982921-3-qiujiandong1998@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/process/changes.rst"
+      ],
+      "patchId": "bd7e945aae42870dc47bafa1fa0d6e0f350d39a0",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 3,
+      "total": 3,
+      "subject": "docs/zh_CN: update sphinx.rst translation",
+      "messageId": "<20260619140245.1982921-4-qiujiandong1998@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260619140245.1982921-4-qiujiandong1998@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/doc-guide/sphinx.rst"
+      ],
+      "patchId": "c12479552fe50065aa3178c7faae95b1c27a1545",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

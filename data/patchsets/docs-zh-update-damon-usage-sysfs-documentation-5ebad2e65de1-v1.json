@@ -1,0 +1,258 @@
+{
+  "id": "docs-zh-update-damon-usage-sysfs-documentation-5ebad2e65de1-v1",
+  "subject": "[PATCH 0/2] docs/zh: update DAMON usage sysfs documentation",
+  "authorName": "Doehyun Baek",
+  "authorEmail": "doehyunbaek@gmail.com",
+  "revision": 1,
+  "postedAt": "2026-05-23T09:44:17.000Z",
+  "language": "mixed",
+  "patchCount": 7,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 5,
+  "latestRevision": true,
+  "messageIds": [
+    "<20260523094420.741003-1-doehyunbaek@gmail.com>",
+    "<20260523094420.741003-2-doehyunbaek@gmail.com>",
+    "<20260523094420.741003-3-doehyunbaek@gmail.com>",
+    "<20260608060302.1564003-1-doehyunbaek@gmail.com>",
+    "<20260608060302.1564003-2-doehyunbaek@gmail.com>",
+    "<20260608060302.1564003-3-doehyunbaek@gmail.com>",
+    "<20260608065745.1587885-1-doehyunbaek@gmail.com>",
+    "<20260608065745.1587885-2-doehyunbaek@gmail.com>",
+    "<20260608065745.1587885-3-doehyunbaek@gmail.com>",
+    "<cover.1781015560.git.doehyunbaek@gmail.com>",
+    "<2ef77f90822cdd3231b6d4b0acd5f4b458f9b1bc.1781015560.git.doehyunbaek@gmail.com>",
+    "<ef9e2347564b2ffebe231b20e4da049cbceb2374.1781015560.git.doehyunbaek@gmail.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 7
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 7
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 7
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260523094420.741003-1-doehyunbaek@gmail.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260523094420.741003-1-doehyunbaek@gmail.com/raw",
+  "replies": 5,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "docs-zh-update-damon-usage-sysfs-documentation-5ebad2e65de1-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 2,
+      "subject": "docs/zh_CN: update DAMON usage sysfs documentation",
+      "messageId": "<20260523094420.741003-2-doehyunbaek@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260523094420.741003-2-doehyunbaek@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/admin-guide/mm/damon/usage.rst"
+      ],
+      "patchId": "7049e20068bb1350993bc28de0a45edf9575c9ac",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 1,
+      "total": 2,
+      "subject": "docs/zh_CN: update DAMON usage Chinese translation",
+      "messageId": "<20260608060302.1564003-2-doehyunbaek@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260608060302.1564003-2-doehyunbaek@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/admin-guide/mm/damon/usage.rst"
+      ],
+      "patchId": "7049e20068bb1350993bc28de0a45edf9575c9ac",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 1,
+      "total": 2,
+      "subject": "docs/zh_CN: update DAMON usage Chinese translation",
+      "messageId": "<20260608065745.1587885-2-doehyunbaek@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260608065745.1587885-2-doehyunbaek@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/admin-guide/mm/damon/usage.rst"
+      ],
+      "patchId": "af3e2088381224c70d98eab3ebee9b250e26c5a7",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 2,
+      "total": 2,
+      "subject": "docs/zh_TW: update DAMON usage sysfs documentation",
+      "messageId": "<20260523094420.741003-3-doehyunbaek@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260523094420.741003-3-doehyunbaek@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_TW/admin-guide/mm/damon/usage.rst"
+      ],
+      "patchId": "4fad3429ca3eb16551da1150e7df45dc33fe7509",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 2,
+      "total": 2,
+      "subject": "docs/zh_TW: update DAMON usage Traditional Chinese translation",
+      "messageId": "<20260608060302.1564003-3-doehyunbaek@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260608060302.1564003-3-doehyunbaek@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_TW/admin-guide/mm/damon/usage.rst"
+      ],
+      "patchId": "4fad3429ca3eb16551da1150e7df45dc33fe7509",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 2,
+      "total": 2,
+      "subject": "docs/zh_TW: update DAMON usage Traditional Chinese translation",
+      "messageId": "<20260608065745.1587885-3-doehyunbaek@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260608065745.1587885-3-doehyunbaek@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_TW/admin-guide/mm/damon/usage.rst"
+      ],
+      "patchId": "05ae00e2cd40f97bd9180dfd7fe45e9c42bf2161",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 2,
+      "total": 2,
+      "subject": "docs/zh_CN: update DAMON documentation translation",
+      "messageId": "<ef9e2347564b2ffebe231b20e4da049cbceb2374.1781015560.git.doehyunbaek@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/ef9e2347564b2ffebe231b20e4da049cbceb2374.1781015560.git.doehyunbaek@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/admin-guide/mm/damon/index.rst",
+        "Documentation/translations/zh_CN/admin-guide/mm/damon/stat.rst",
+        "Documentation/translations/zh_CN/admin-guide/mm/damon/usage.rst",
+        "Documentation/translations/zh_CN/mm/damon/design.rst"
+      ],
+      "patchId": "7240685c25a243f2f1c752bac9b3b5726ef3dca4",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

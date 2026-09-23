@@ -1,0 +1,98 @@
+{
+  "id": "translate-ubifs-rst-to-simplified-chinese-acdb85edb5d4-v1",
+  "subject": "[PATCH 1/5] Docs/zh_CN: Translate ubifs.rst to Simplified Chinese",
+  "authorName": "shao.mingyin@zte.com.cn",
+  "authorEmail": "shao.mingyin@zte.com.cn",
+  "revision": 1,
+  "postedAt": "2025-07-18T08:51:46.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "waiting",
+  "reviewReplies": 0,
+  "latestRevision": false,
+  "messageIds": [
+    "<20250718165146589nw7ReAlsBvkwAr57nH5pr@zte.com.cn>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "0e6d01c464560b56139902dbf9bc4f075469fc51"
+    },
+    "corbet": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "0e6d01c464560b56139902dbf9bc4f075469fc51"
+    },
+    "linus": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "0e6d01c464560b56139902dbf9bc4f075469fc51"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250718165146589nw7ReAlsBvkwAr57nH5pr@zte.com.cn/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250718165146589nw7ReAlsBvkwAr57nH5pr@zte.com.cn/raw",
+  "replies": 0,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "translate-ubifs-rst-to-simplified-chinese-6235359d54bd-v1",
+      "current": false
+    },
+    {
+      "revision": 1,
+      "id": "translate-ubifs-rst-to-simplified-chinese-ab38cfb0c6d6-v1",
+      "current": false
+    },
+    {
+      "revision": 1,
+      "id": "translate-ubifs-rst-to-simplified-chinese-acdb85edb5d4-v1",
+      "current": true
+    },
+    {
+      "revision": 2,
+      "id": "translate-ubifs-rst-to-simplified-chinese-18d6c798f75a-v2",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 5,
+      "subject": "Docs/zh_CN: Translate ubifs.rst to Simplified Chinese",
+      "messageId": "<20250718165146589nw7ReAlsBvkwAr57nH5pr@zte.com.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250718165146589nw7ReAlsBvkwAr57nH5pr@zte.com.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/filesystems/index.rst",
+        "Documentation/translations/zh_CN/filesystems/ubifs.rst"
+      ],
+      "patchId": "7738024e7e500d3ff9c60232d32731384387a355",
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "0e6d01c464560b56139902dbf9bc4f075469fc51"
+        },
+        "corbet": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "0e6d01c464560b56139902dbf9bc4f075469fc51"
+        },
+        "linus": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "0e6d01c464560b56139902dbf9bc4f075469fc51"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "add-no-merges-to-git-log-example-in-how-to-rst-483ed799edf2-v1",
+  "subject": "[PATCH] docs/zh_CN: add --no-merges to git log example in how-to.rst",
+  "authorName": "Ben Guo",
+  "authorEmail": "ben.guo@openatom.club",
+  "revision": 1,
+  "postedAt": "2026-04-16T04:26:46.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "applied",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 2,
+  "latestRevision": true,
+  "messageIds": [
+    "<20260416042647.3646595-1-ben.guo@openatom.club>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "596b66b4f52db25169ab138a001b2b22952ff260"
+    },
+    "corbet": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "596b66b4f52db25169ab138a001b2b22952ff260"
+    },
+    "linus": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "596b66b4f52db25169ab138a001b2b22952ff260"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260416042647.3646595-1-ben.guo@openatom.club/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260416042647.3646595-1-ben.guo@openatom.club/raw",
+  "replies": 2,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "add-no-merges-to-git-log-example-in-how-to-rst-483ed799edf2-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "docs/zh_CN: add --no-merges to git log example in how-to.rst",
+      "messageId": "<20260416042647.3646595-1-ben.guo@openatom.club>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260416042647.3646595-1-ben.guo@openatom.club/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/how-to.rst"
+      ],
+      "patchId": "7031d020f6b421d07d01027845b629679dc33dc2",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Dongliang Mu <dzm91@hust.edu.cn>",
+          "messageId": "<218e1d00-6394-4d4e-a9f6-73e3d7c104a5@hust.edu.cn>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "596b66b4f52db25169ab138a001b2b22952ff260"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "596b66b4f52db25169ab138a001b2b22952ff260"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "596b66b4f52db25169ab138a001b2b22952ff260"
+        }
+      }
+    }
+  ]
+}

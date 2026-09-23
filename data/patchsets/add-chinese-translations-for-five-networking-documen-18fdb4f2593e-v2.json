@@ -1,0 +1,224 @@
+{
+  "id": "add-chinese-translations-for-five-networking-documen-18fdb4f2593e-v2",
+  "subject": "[PATCH v2 0/5] docs/zh_CN: Add Chinese translations for five networking documents",
+  "authorName": "Siwei Chen",
+  "authorEmail": "anka@stu.cdut.edu.cn",
+  "revision": 2,
+  "postedAt": "2026-07-27T07:35:31.000Z",
+  "language": "zh_CN",
+  "patchCount": 5,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 6,
+  "latestRevision": false,
+  "messageIds": [
+    "<20260727073538.56951-1-anka@stu.cdut.edu.cn>",
+    "<20260727073538.56951-2-anka@stu.cdut.edu.cn>",
+    "<20260727073538.56951-3-anka@stu.cdut.edu.cn>",
+    "<20260727073538.56951-4-anka@stu.cdut.edu.cn>",
+    "<20260727073538.56951-5-anka@stu.cdut.edu.cn>",
+    "<20260727073538.56951-6-anka@stu.cdut.edu.cn>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "partial",
+      "matched": 2,
+      "total": 5,
+      "commit": "b8b9219ad4a6496bab49c6208ed0645149268461"
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 5
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 5
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260727073538.56951-1-anka@stu.cdut.edu.cn/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260727073538.56951-1-anka@stu.cdut.edu.cn/raw",
+  "replies": 6,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "add-chinese-translations-for-five-networking-documen-64bfb0aad774-v1",
+      "current": false
+    },
+    {
+      "revision": 2,
+      "id": "add-chinese-translations-for-five-networking-documen-18fdb4f2593e-v2",
+      "current": true
+    },
+    {
+      "revision": 3,
+      "id": "add-chinese-translations-for-five-networking-documen-5b9569e52791-v3",
+      "current": false
+    },
+    {
+      "revision": 4,
+      "id": "add-chinese-translations-for-five-networking-documen-af49b30012d7-v4",
+      "current": false
+    },
+    {
+      "revision": 5,
+      "id": "add-chinese-translations-for-five-networking-documen-6531728727c8-v5",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 5,
+      "subject": "docs/zh_CN: Add networking team documentation Chinese translation",
+      "messageId": "<20260727073538.56951-2-anka@stu.cdut.edu.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260727073538.56951-2-anka@stu.cdut.edu.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/networking/index.rst",
+        "Documentation/translations/zh_CN/networking/team.rst"
+      ],
+      "patchId": "dfed1ffcf23638f643de1bde589ea3d45b4b87d2",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "b8b9219ad4a6496bab49c6208ed0645149268461"
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 2,
+      "total": 5,
+      "subject": "docs/zh_CN: Add NIC SR-IOV APIs Chinese translation",
+      "messageId": "<20260727073538.56951-3-anka@stu.cdut.edu.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260727073538.56951-3-anka@stu.cdut.edu.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/networking/index.rst",
+        "Documentation/translations/zh_CN/networking/sriov.rst"
+      ],
+      "patchId": "557d7c27b1b76afe72d74d77d5981287e817a3ba",
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "b0fc69669752b5c36dd35afa64cd9e1256744554"
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 3,
+      "total": 5,
+      "subject": "docs/zh_CN: Add Softnet Driver Issues Chinese translation",
+      "messageId": "<20260727073538.56951-4-anka@stu.cdut.edu.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260727073538.56951-4-anka@stu.cdut.edu.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/networking/driver.rst",
+        "Documentation/translations/zh_CN/networking/index.rst"
+      ],
+      "patchId": "bdd0cb7150900d3e982233b8df903b7766f1d5cc",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "862ee3b06696db8b04850148551402f4392ea495"
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 4,
+      "total": 5,
+      "subject": "docs/zh_CN: Add ipv6 Chinese translation",
+      "messageId": "<20260727073538.56951-5-anka@stu.cdut.edu.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260727073538.56951-5-anka@stu.cdut.edu.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/networking/index.rst",
+        "Documentation/translations/zh_CN/networking/ipv6.rst"
+      ],
+      "patchId": "913b2b46e81324cd93bf1a67ffa01d1f5fc7a70b",
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "9efc5c7f545ad5ba583da438b464748b89650e50"
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 5,
+      "total": 5,
+      "subject": "docs/zh_CN: Add LSM/SeLinux secid Chinese translation",
+      "messageId": "<20260727073538.56951-6-anka@stu.cdut.edu.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260727073538.56951-6-anka@stu.cdut.edu.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/networking/index.rst",
+        "Documentation/translations/zh_CN/networking/secid.rst"
+      ],
+      "patchId": "2848d86b676effa4997d6d32496d65970a84530d",
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "1c58436b8f13282523911e29103d197738e0160c"
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

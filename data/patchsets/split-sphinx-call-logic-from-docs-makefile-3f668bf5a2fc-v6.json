@@ -1,0 +1,124 @@
+{
+  "id": "split-sphinx-call-logic-from-docs-makefile-3f668bf5a2fc-v6",
+  "subject": "[PATCH v6 00/21] Split sphinx call logic from docs Makefile",
+  "authorName": "Mauro Carvalho Chehab",
+  "authorEmail": "mchehab+huawei@kernel.org",
+  "revision": 6,
+  "postedAt": "2025-09-16T10:22:36.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 7,
+  "latestRevision": false,
+  "messageIds": [
+    "<cover.1758018030.git.mchehab+huawei@kernel.org>",
+    "<79700002248605fa9ad45ade0165e67b04d457b0.1758018030.git.mchehab+huawei@kernel.org>",
+    "<d3401a49c732bf1337d39c9053a08de361aa973c.1758018030.git.mchehab+huawei@kernel.org>",
+    "<ce2b08ce249411d03a653961360f65767cd68374.1758018030.git.mchehab+huawei@kernel.org>",
+    "<8a77212d5459eac2a98db442691930425a2cbefd.1758018030.git.mchehab+huawei@kernel.org>",
+    "<ced1832519700eb2e20d01e31d0fae5af3a5aa66.1758018030.git.mchehab+huawei@kernel.org>",
+    "<c924970d3f52e50c8cc61f71021e657aed67a098.1758018030.git.mchehab+huawei@kernel.org>",
+    "<91b4fdce958c8004c8e8637699eaf971181694bc.1758018030.git.mchehab+huawei@kernel.org>",
+    "<b7083c2f1c2355e0b566f6d991328d12f193e4cd.1758018030.git.mchehab+huawei@kernel.org>",
+    "<aa3d5b0d4ea2a0e137116e4ec086677766e90bad.1758018030.git.mchehab+huawei@kernel.org>",
+    "<4d4dc78a4e29f2478fd1c1a746378dc61a090ca3.1758018030.git.mchehab+huawei@kernel.org>",
+    "<f17f59f65ed7109021ad1e2443ebf2be292c4f72.1758018030.git.mchehab+huawei@kernel.org>",
+    "<61f692a8d015b977bcf6c1ac95986cc5e090dc33.1758018030.git.mchehab+huawei@kernel.org>",
+    "<7238e04135bde9e98808ee1b35ec09e5df1fb10f.1758018030.git.mchehab+huawei@kernel.org>",
+    "<d2b15a3387c1de6d4aa7f3c59f3cf6afd78ad584.1758018030.git.mchehab+huawei@kernel.org>",
+    "<37b3aa7d059fc52a3cc89d17955143e65eb56241.1758018030.git.mchehab+huawei@kernel.org>",
+    "<3b22d3fde97520edd0120453ab44e23c90f1ae1f.1758018030.git.mchehab+huawei@kernel.org>",
+    "<1e9eee0691328604f0147b2ce192ff89a71126b7.1758018030.git.mchehab+huawei@kernel.org>",
+    "<057a16ff473f2f91267b5969f66d6618f2562221.1758018030.git.mchehab+huawei@kernel.org>",
+    "<64ed918564e9a6d19e6b3f83afb9584feb0821f5.1758018030.git.mchehab+huawei@kernel.org>",
+    "<70fa74eff82cefb3e56808154298e635c834c8b1.1758018030.git.mchehab+huawei@kernel.org>",
+    "<da30965e88d5b3ec6a69414b6d19546ee7f0e24a.1758018030.git.mchehab+huawei@kernel.org>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/cover.1758018030.git.mchehab+huawei@kernel.org/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/cover.1758018030.git.mchehab+huawei@kernel.org/raw",
+  "replies": 12,
+  "versions": [
+    {
+      "revision": 4,
+      "id": "split-sphinx-call-logic-from-docs-makefile-6fa43f395767-v4",
+      "current": false
+    },
+    {
+      "revision": 5,
+      "id": "split-sphinx-call-logic-from-docs-makefile-7c1433288c6b-v5",
+      "current": false
+    },
+    {
+      "revision": 6,
+      "id": "split-sphinx-call-logic-from-docs-makefile-3f668bf5a2fc-v6",
+      "current": true
+    },
+    {
+      "revision": 7,
+      "id": "split-sphinx-call-logic-from-docs-makefile-144c2169ae4f-v7",
+      "current": false
+    },
+    {
+      "revision": 8,
+      "id": "split-sphinx-call-logic-from-docs-makefile-fc83c7243147-v8",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 6,
+      "total": 21,
+      "subject": "scripts: sphinx-pre-install: move it to tools/docs",
+      "messageId": "<c924970d3f52e50c8cc61f71021e657aed67a098.1758018030.git.mchehab+huawei@kernel.org>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/c924970d3f52e50c8cc61f71021e657aed67a098.1758018030.git.mchehab+huawei@kernel.org/",
+      "changedFiles": [
+        "Documentation/Makefile",
+        "Documentation/doc-guide/sphinx.rst",
+        "Documentation/sphinx/kerneldoc-preamble.sty",
+        "Documentation/translations/it_IT/doc-guide/sphinx.rst",
+        "Documentation/translations/zh_CN/doc-guide/sphinx.rst",
+        "Documentation/translations/zh_CN/how-to.rst",
+        "MAINTAINERS",
+        "tools/docs/sphinx-pre-install"
+      ],
+      "patchId": "0a42107bbdf4604ccfd65508583ee4d0c0f925de",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

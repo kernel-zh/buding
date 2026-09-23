@@ -1,0 +1,78 @@
+{
+  "id": "kernel-doc-fix-stale-intel-audio-c-path-in-examples-728682f61f42-v1",
+  "subject": "[PATCH 1/3] docs: kernel-doc: fix stale intel_audio.c path in examples",
+  "authorName": "Kit Dallege",
+  "authorEmail": "xaum.io@gmail.com",
+  "revision": 1,
+  "postedAt": "2026-03-15T15:41:24.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 1,
+  "latestRevision": true,
+  "messageIds": [
+    "<20260315154124.49834-1-xaum.io@gmail.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260315154124.49834-1-xaum.io@gmail.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260315154124.49834-1-xaum.io@gmail.com/raw",
+  "replies": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "kernel-doc-fix-stale-intel-audio-c-path-in-examples-728682f61f42-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 3,
+      "subject": "docs: kernel-doc: fix stale intel_audio.c path in examples",
+      "messageId": "<20260315154124.49834-1-xaum.io@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260315154124.49834-1-xaum.io@gmail.com/",
+      "changedFiles": [
+        "Documentation/doc-guide/kernel-doc.rst",
+        "Documentation/translations/it_IT/doc-guide/kernel-doc.rst",
+        "Documentation/translations/zh_CN/doc-guide/kernel-doc.rst"
+      ],
+      "patchId": "ea1066818c48df3ce87a2c500b82332c052f7c0d",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

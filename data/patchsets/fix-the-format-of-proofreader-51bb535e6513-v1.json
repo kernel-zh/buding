@@ -1,0 +1,85 @@
+{
+  "id": "fix-the-format-of-proofreader-51bb535e6513-v1",
+  "subject": "[PATCH] Docs/zh_CN: fix the format of proofreader",
+  "authorName": "shao.mingyin@zte.com.cn",
+  "authorEmail": "shao.mingyin@zte.com.cn",
+  "revision": 1,
+  "postedAt": "2025-09-18T07:56:50.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "proposed",
+  "lifecycle": "active",
+  "reviewState": "waiting",
+  "reviewReplies": 0,
+  "latestRevision": true,
+  "messageIds": [
+    "<202509181556503857h2V0skOmjONfEzUrZ-ok@zte.com.cn>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "679e5d29b5b0b23ce2c7b7b5dc340901c05d5e44"
+    },
+    "corbet": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "679e5d29b5b0b23ce2c7b7b5dc340901c05d5e44"
+    },
+    "linus": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "679e5d29b5b0b23ce2c7b7b5dc340901c05d5e44"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/202509181556503857h2V0skOmjONfEzUrZ-ok@zte.com.cn/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/202509181556503857h2V0skOmjONfEzUrZ-ok@zte.com.cn/raw",
+  "replies": 0,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "fix-the-format-of-proofreader-51bb535e6513-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "Docs/zh_CN: fix the format of proofreader",
+      "messageId": "<202509181556503857h2V0skOmjONfEzUrZ-ok@zte.com.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/202509181556503857h2V0skOmjONfEzUrZ-ok@zte.com.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/filesystems/gfs2-uevents.rst",
+        "Documentation/translations/zh_CN/filesystems/gfs2.rst",
+        "Documentation/translations/zh_CN/filesystems/ubifs-authentication.rst",
+        "Documentation/translations/zh_CN/filesystems/ubifs.rst"
+      ],
+      "patchId": "3954bb54fc6c8c68b538a3200d1b65fee8648705",
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "679e5d29b5b0b23ce2c7b7b5dc340901c05d5e44"
+        },
+        "corbet": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "679e5d29b5b0b23ce2c7b7b5dc340901c05d5e44"
+        },
+        "linus": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "679e5d29b5b0b23ce2c7b7b5dc340901c05d5e44"
+        }
+      }
+    }
+  ]
+}

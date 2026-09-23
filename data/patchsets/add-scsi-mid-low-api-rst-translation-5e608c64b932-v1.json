@@ -1,0 +1,77 @@
+{
+  "id": "add-scsi-mid-low-api-rst-translation-5e608c64b932-v1",
+  "subject": "[PATCH 5/7] docs/zh_CN: add scsi_mid_low_api.rst translation",
+  "authorName": "haodongdong",
+  "authorEmail": "doubled@leap-io.com",
+  "revision": 1,
+  "postedAt": "2025-07-08T02:41:37.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "proposed",
+  "lifecycle": "active",
+  "reviewState": "waiting",
+  "reviewReplies": 0,
+  "latestRevision": true,
+  "messageIds": [
+    "<20250708024139.848025-6-doubled@leap-io.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250708024139.848025-6-doubled@leap-io.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250708024139.848025-6-doubled@leap-io.com/raw",
+  "replies": 0,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "add-scsi-mid-low-api-rst-translation-5e608c64b932-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 5,
+      "total": 7,
+      "subject": "docs/zh_CN: add scsi_mid_low_api.rst translation",
+      "messageId": "<20250708024139.848025-6-doubled@leap-io.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250708024139.848025-6-doubled@leap-io.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/scsi/index.rst",
+        "Documentation/translations/zh_CN/scsi/scsi_mid_low_api.rst"
+      ],
+      "patchId": "e688cc59786a079231cbbcbb1598c5581f488631",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

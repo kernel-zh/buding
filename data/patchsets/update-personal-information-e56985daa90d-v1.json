@@ -1,0 +1,170 @@
+{
+  "id": "update-personal-information-e56985daa90d-v1",
+  "subject": "[PATCH 1/2] docs/zh_TW: update personal information",
+  "authorName": "Haowen Hu",
+  "authorEmail": "srcres258@furdevs.cn",
+  "revision": 1,
+  "postedAt": "2026-02-20T16:01:25.000Z",
+  "language": "mixed",
+  "patchCount": 2,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 3,
+  "latestRevision": true,
+  "messageIds": [
+    "<20260220160201.41149-1-srcres258@furdevs.cn>",
+    "<20260220160201.41149-2-srcres258@furdevs.cn>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "partial",
+      "matched": 1,
+      "total": 2,
+      "commit": "32437123ee1c5a091adbf9531e3992c0ca0a97a1"
+    },
+    "corbet": {
+      "state": "partial",
+      "matched": 1,
+      "total": 2,
+      "commit": "32437123ee1c5a091adbf9531e3992c0ca0a97a1"
+    },
+    "linus": {
+      "state": "partial",
+      "matched": 1,
+      "total": 2,
+      "commit": "32437123ee1c5a091adbf9531e3992c0ca0a97a1"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260220160201.41149-1-srcres258@furdevs.cn/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260220160201.41149-1-srcres258@furdevs.cn/raw",
+  "replies": 5,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "update-personal-information-e56985daa90d-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 2,
+      "subject": "docs/zh_TW: update personal information",
+      "messageId": "<20260220160201.41149-1-srcres258@furdevs.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260220160201.41149-1-srcres258@furdevs.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/dev-tools/testing-overview.rst",
+        "Documentation/translations/zh_TW/IRQ.txt",
+        "Documentation/translations/zh_TW/admin-guide/README.rst",
+        "Documentation/translations/zh_TW/admin-guide/bug-bisect.rst",
+        "Documentation/translations/zh_TW/admin-guide/bug-hunting.rst",
+        "Documentation/translations/zh_TW/admin-guide/clearing-warn-once.rst",
+        "Documentation/translations/zh_TW/admin-guide/cpu-load.rst",
+        "Documentation/translations/zh_TW/admin-guide/index.rst",
+        "Documentation/translations/zh_TW/admin-guide/init.rst",
+        "Documentation/translations/zh_TW/admin-guide/reporting-issues.rst",
+        "Documentation/translations/zh_TW/admin-guide/security-bugs.rst",
+        "Documentation/translations/zh_TW/admin-guide/tainted-kernels.rst",
+        "Documentation/translations/zh_TW/admin-guide/unicode.rst",
+        "Documentation/translations/zh_TW/arch/arm64/amu.rst",
+        "Documentation/translations/zh_TW/arch/arm64/booting.txt",
+        "Documentation/translations/zh_TW/arch/arm64/elf_hwcaps.rst",
+        "Documentation/translations/zh_TW/arch/arm64/hugetlbpage.rst",
+        "Documentation/translations/zh_TW/arch/arm64/index.rst",
+        "Documentation/translations/zh_TW/arch/arm64/legacy_instructions.txt",
+        "Documentation/translations/zh_TW/arch/arm64/memory.txt",
+        "Documentation/translations/zh_TW/arch/arm64/perf.rst",
+        "Documentation/translations/zh_TW/arch/arm64/silicon-errata.txt",
+        "Documentation/translations/zh_TW/arch/arm64/tagged-pointers.txt",
+        "Documentation/translations/zh_TW/dev-tools/sparse.rst",
+        "Documentation/translations/zh_TW/dev-tools/testing-overview.rst",
+        "Documentation/translations/zh_TW/disclaimer-zh_TW.rst",
+        "Documentation/translations/zh_TW/filesystems/debugfs.rst",
+        "Documentation/translations/zh_TW/filesystems/index.rst",
+        "Documentation/translations/zh_TW/filesystems/sysfs.txt",
+        "Documentation/translations/zh_TW/filesystems/virtiofs.rst",
+        "Documentation/translations/zh_TW/index.rst",
+        "Documentation/translations/zh_TW/io_ordering.txt",
+        "Documentation/translations/zh_TW/process/1.Intro.rst",
+        "Documentation/translations/zh_TW/process/2.Process.rst",
+        "Documentation/translations/zh_TW/process/3.Early-stage.rst",
+        "Documentation/translations/zh_TW/process/4.Coding.rst",
+        "Documentation/translations/zh_TW/process/5.Posting.rst",
+        "Documentation/translations/zh_TW/process/6.Followthrough.rst",
+        "Documentation/translations/zh_TW/process/7.AdvancedTopics.rst",
+        "Documentation/translations/zh_TW/process/8.Conclusion.rst",
+        "Documentation/translations/zh_TW/process/code-of-conduct-interpretation.rst",
+        "Documentation/translations/zh_TW/process/code-of-conduct.rst",
+        "Documentation/translations/zh_TW/process/coding-style.rst",
+        "Documentation/translations/zh_TW/process/development-process.rst",
+        "Documentation/translations/zh_TW/process/email-clients.rst",
+        "Documentation/translations/zh_TW/process/embargoed-hardware-issues.rst",
+        "Documentation/translations/zh_TW/process/howto.rst",
+        "Documentation/translations/zh_TW/process/index.rst",
+        "Documentation/translations/zh_TW/process/kernel-driver-statement.rst",
+        "Documentation/translations/zh_TW/process/kernel-enforcement-statement.rst",
+        "Documentation/translations/zh_TW/process/license-rules.rst",
+        "Documentation/translations/zh_TW/process/magic-number.rst",
+        "Documentation/translations/zh_TW/process/management-style.rst",
+        "Documentation/translations/zh_TW/process/programming-language.rst",
+        "Documentation/translations/zh_TW/process/stable-api-nonsense.rst",
+        "Documentation/translations/zh_TW/process/stable-kernel-rules.rst",
+        "Documentation/translations/zh_TW/process/submit-checklist.rst",
+        "Documentation/translations/zh_TW/process/submitting-patches.rst",
+        "Documentation/translations/zh_TW/process/volatile-considered-harmful.rst",
+        "MAINTAINERS"
+      ],
+      "patchId": "075d81eb53531c908aec9e1aad4185e5a3d2ce09",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 2,
+      "total": 2,
+      "subject": "docs/zh_TW: remove trailing space",
+      "messageId": "<20260220160201.41149-2-srcres258@furdevs.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260220160201.41149-2-srcres258@furdevs.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_TW/admin-guide/README.rst"
+      ],
+      "patchId": "38c49a40e4f20e0c99f8e53cd84e9e3c1a50c3c6",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "32437123ee1c5a091adbf9531e3992c0ca0a97a1"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "32437123ee1c5a091adbf9531e3992c0ca0a97a1"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "32437123ee1c5a091adbf9531e3992c0ca0a97a1"
+        }
+      }
+    }
+  ]
+}

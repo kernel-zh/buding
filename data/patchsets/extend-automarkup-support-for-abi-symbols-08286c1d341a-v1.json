@@ -1,0 +1,94 @@
+{
+  "id": "extend-automarkup-support-for-abi-symbols-08286c1d341a-v1",
+  "subject": "[PATCH 0/9] Extend automarkup support for ABI symbols",
+  "authorName": "Mauro Carvalho Chehab",
+  "authorEmail": "mchehab+huawei@kernel.org",
+  "revision": 1,
+  "postedAt": "2025-02-11T06:22:54.000Z",
+  "language": "mixed",
+  "patchCount": 1,
+  "status": "applied",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 4,
+  "latestRevision": true,
+  "messageIds": [
+    "<cover.1739254867.git.mchehab+huawei@kernel.org>",
+    "<7c2f9a9970a15df8b5e3a6ecd21bcedcc8881ce1.1739254867.git.mchehab+huawei@kernel.org>",
+    "<5cb57d158e42957d4bff06db38be141d849ac13b.1739254867.git.mchehab+huawei@kernel.org>",
+    "<a655e770e1446f91088f579b79ae890a19771119.1739254867.git.mchehab+huawei@kernel.org>",
+    "<0a989eea90e5d03a36a07760f8b505e074e85c03.1739254867.git.mchehab+huawei@kernel.org>",
+    "<5faafb98c331e0c99433f36dd72badcc540a1baa.1739254867.git.mchehab+huawei@kernel.org>",
+    "<10e7d46360b5e5782d5c09e2706ba47c2315df4f.1739254867.git.mchehab+huawei@kernel.org>",
+    "<a34ab9bef8f4e6b89dcb15098557fd3a7a9aa353.1739254867.git.mchehab+huawei@kernel.org>",
+    "<76e60ee8717551f3d15d7c92b9c93bbf2ca8cff3.1739254867.git.mchehab+huawei@kernel.org>",
+    "<685461ca5834c0cd4f7830f354d7ee123afb3716.1739254867.git.mchehab+huawei@kernel.org>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "eb0c714120ba13557f820e8b3ccea99c1cc86be2"
+    },
+    "corbet": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "eb0c714120ba13557f820e8b3ccea99c1cc86be2"
+    },
+    "linus": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "eb0c714120ba13557f820e8b3ccea99c1cc86be2"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/cover.1739254867.git.mchehab+huawei@kernel.org/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/cover.1739254867.git.mchehab+huawei@kernel.org/raw",
+  "replies": 5,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "extend-automarkup-support-for-abi-symbols-08286c1d341a-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 9,
+      "total": 9,
+      "subject": "docs: translations: Allow creating cross-references for ABI README",
+      "messageId": "<685461ca5834c0cd4f7830f354d7ee123afb3716.1739254867.git.mchehab+huawei@kernel.org>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/685461ca5834c0cd4f7830f354d7ee123afb3716.1739254867.git.mchehab+huawei@kernel.org/",
+      "changedFiles": [
+        "Documentation/translations/it_IT/process/submit-checklist.rst",
+        "Documentation/translations/sp_SP/process/submit-checklist.rst",
+        "Documentation/translations/zh_CN/process/submit-checklist.rst",
+        "Documentation/translations/zh_TW/process/submit-checklist.rst"
+      ],
+      "patchId": "3ebfb60d0d4c5c33690833b4831a8e5bc234a223",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "eb0c714120ba13557f820e8b3ccea99c1cc86be2"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "eb0c714120ba13557f820e8b3ccea99c1cc86be2"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "eb0c714120ba13557f820e8b3ccea99c1cc86be2"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "sync-the-translation-of-changes-in-kbuild-rst-05e0578afa9b-v1",
+  "subject": "[PATCH linux-next] docs/zh_CN: Sync the translation of changes in kbuild.rst",
+  "authorName": "Chenguang Zhao",
+  "authorEmail": "zhaochenguang@kylinos.cn",
+  "revision": 1,
+  "postedAt": "2025-11-05T02:40:16.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 1,
+  "latestRevision": true,
+  "messageIds": [
+    "<20251105024016.104413-1-zhaochenguang@kylinos.cn>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20251105024016.104413-1-zhaochenguang@kylinos.cn/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20251105024016.104413-1-zhaochenguang@kylinos.cn/raw",
+  "replies": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "sync-the-translation-of-changes-in-kbuild-rst-05e0578afa9b-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "docs/zh_CN: Sync the translation of changes in kbuild.rst",
+      "messageId": "<20251105024016.104413-1-zhaochenguang@kylinos.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251105024016.104413-1-zhaochenguang@kylinos.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/kbuild/kbuild.rst"
+      ],
+      "patchId": "34b439c50cfbc6ed6888d8c29b0c03a7c71cb2b4",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

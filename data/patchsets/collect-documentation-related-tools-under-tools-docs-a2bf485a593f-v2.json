@@ -1,0 +1,212 @@
+{
+  "id": "collect-documentation-related-tools-under-tools-docs-a2bf485a593f-v2",
+  "subject": "[PATCH v2 00/10] Collect documentation-related tools under /tools/docs",
+  "authorName": "Jonathan Corbet",
+  "authorEmail": "corbet@lwn.net",
+  "revision": 2,
+  "postedAt": "2025-10-23T16:10:08.000Z",
+  "language": "mixed",
+  "patchCount": 4,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 6,
+  "latestRevision": false,
+  "messageIds": [
+    "<20251023161027.697135-1-corbet@lwn.net>",
+    "<20251023161027.697135-2-corbet@lwn.net>",
+    "<20251023161027.697135-3-corbet@lwn.net>",
+    "<20251023161027.697135-4-corbet@lwn.net>",
+    "<20251023161027.697135-5-corbet@lwn.net>",
+    "<20251023161027.697135-6-corbet@lwn.net>",
+    "<20251023161027.697135-7-corbet@lwn.net>",
+    "<20251023161027.697135-8-corbet@lwn.net>",
+    "<20251023161027.697135-9-corbet@lwn.net>",
+    "<20251023161027.697135-10-corbet@lwn.net>",
+    "<20251023161027.697135-11-corbet@lwn.net>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "partial",
+      "matched": 1,
+      "total": 4,
+      "commit": "184414c6a6cac78ad6c46037a8afad5c9f04fba5"
+    },
+    "corbet": {
+      "state": "partial",
+      "matched": 1,
+      "total": 4,
+      "commit": "184414c6a6cac78ad6c46037a8afad5c9f04fba5"
+    },
+    "linus": {
+      "state": "partial",
+      "matched": 1,
+      "total": 4,
+      "commit": "184414c6a6cac78ad6c46037a8afad5c9f04fba5"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20251023161027.697135-1-corbet@lwn.net/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20251023161027.697135-1-corbet@lwn.net/raw",
+  "replies": 8,
+  "versions": [
+    {
+      "revision": 2,
+      "id": "collect-documentation-related-tools-under-tools-docs-a2bf485a593f-v2",
+      "current": true
+    },
+    {
+      "revision": 3,
+      "id": "collect-documentation-related-tools-under-tools-docs-292bc7c2fa11-v3",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 2,
+      "total": 10,
+      "subject": "docs: move checktransupdate.py to tools/docs",
+      "messageId": "<20251023161027.697135-3-corbet@lwn.net>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251023161027.697135-3-corbet@lwn.net/",
+      "changedFiles": [
+        "Documentation/doc-guide/checktransupdate.rst",
+        "Documentation/translations/zh_CN/doc-guide/checktransupdate.rst",
+        "Documentation/translations/zh_CN/how-to.rst",
+        "MAINTAINERS",
+        "tools/docs/checktransupdate.py"
+      ],
+      "patchId": "cb3a24bf45dbdda0f15ff7f3d6cb44835d23e412",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Dongliang Mu <dzm91@hust.edu.cn>",
+          "messageId": "<CAD-N9QUyd0AbFpdOqxwGAvCoGwcCVVyE+2vcT4XopopcKoMU+A@mail.gmail.com>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 7,
+      "total": 10,
+      "subject": "docs: move kernel-doc to tools/docs",
+      "messageId": "<20251023161027.697135-8-corbet@lwn.net>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251023161027.697135-8-corbet@lwn.net/",
+      "changedFiles": [
+        "Documentation/conf.py",
+        "Documentation/doc-guide/kernel-doc.rst",
+        "Documentation/kbuild/kbuild.rst",
+        "Documentation/process/coding-style.rst",
+        "Documentation/translations/it_IT/doc-guide/kernel-doc.rst",
+        "Documentation/translations/sp_SP/process/coding-style.rst",
+        "Documentation/translations/zh_CN/doc-guide/kernel-doc.rst",
+        "Documentation/translations/zh_CN/kbuild/kbuild.rst",
+        "Documentation/translations/zh_CN/process/coding-style.rst",
+        "Documentation/translations/zh_TW/process/coding-style.rst",
+        "MAINTAINERS",
+        "Makefile",
+        "drivers/gpu/drm/i915/Makefile",
+        "scripts/find-unused-docs.sh",
+        "scripts/kernel-doc",
+        "tools/docs/kernel-doc"
+      ],
+      "patchId": "3010a9d181732531faed6166daf93ba9925c2e03",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 8,
+      "total": 10,
+      "subject": "docs: move split-man.pl to tools/docs",
+      "messageId": "<20251023161027.697135-9-corbet@lwn.net>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251023161027.697135-9-corbet@lwn.net/",
+      "changedFiles": [
+        "Documentation/doc-guide/kernel-doc.rst",
+        "Documentation/translations/it_IT/doc-guide/kernel-doc.rst",
+        "Documentation/translations/zh_CN/doc-guide/kernel-doc.rst",
+        "tools/docs/split-man.pl"
+      ],
+      "patchId": "1c3b82eea5a43de1b533e4f29e862b3201d0a49e",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 9,
+      "total": 10,
+      "subject": "docs: move find-unused-docs.sh to tools/docs",
+      "messageId": "<20251023161027.697135-10-corbet@lwn.net>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20251023161027.697135-10-corbet@lwn.net/",
+      "changedFiles": [
+        "Documentation/doc-guide/contributing.rst",
+        "Documentation/translations/zh_CN/doc-guide/contributing.rst",
+        "tools/docs/find-unused-docs.sh"
+      ],
+      "patchId": "ca13656f0657d49c48c1050463f8d00ab916837c",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "184414c6a6cac78ad6c46037a8afad5c9f04fba5"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "184414c6a6cac78ad6c46037a8afad5c9f04fba5"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "184414c6a6cac78ad6c46037a8afad5c9f04fba5"
+        }
+      }
+    }
+  ]
+}

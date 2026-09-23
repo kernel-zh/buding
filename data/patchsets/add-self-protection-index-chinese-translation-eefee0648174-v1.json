@@ -1,0 +1,88 @@
+{
+  "id": "add-self-protection-index-chinese-translation-eefee0648174-v1",
+  "subject": "[PATCH] docs/zh_CN: Add self-protection index Chinese translation",
+  "authorName": "zhangwei",
+  "authorEmail": "zhangwei@cqsoftware.com.cn",
+  "revision": 1,
+  "postedAt": "2025-01-20T10:13:49.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 1,
+  "latestRevision": false,
+  "messageIds": [
+    "<20250120101350.198697-1-zhangwei@cqsoftware.com.cn>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "24b330444886957ee8b4960b5f4c8e49909f15b1"
+    },
+    "corbet": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "24b330444886957ee8b4960b5f4c8e49909f15b1"
+    },
+    "linus": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "24b330444886957ee8b4960b5f4c8e49909f15b1"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250120101350.198697-1-zhangwei@cqsoftware.com.cn/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250120101350.198697-1-zhangwei@cqsoftware.com.cn/raw",
+  "replies": 2,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "add-self-protection-index-chinese-translation-eefee0648174-v1",
+      "current": true
+    },
+    {
+      "revision": 2,
+      "id": "add-self-protection-index-chinese-translation-bd33767e4c85-v2",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "docs/zh_CN: Add self-protection index Chinese translation",
+      "messageId": "<20250120101350.198697-1-zhangwei@cqsoftware.com.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250120101350.198697-1-zhangwei@cqsoftware.com.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/security/index.rst",
+        "Documentation/translations/zh_CN/security/self-protection.rst"
+      ],
+      "patchId": "4bbbb8fbe8b6e2b8bdcfe567833dd768b23aee6f",
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "24b330444886957ee8b4960b5f4c8e49909f15b1"
+        },
+        "corbet": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "24b330444886957ee8b4960b5f4c8e49909f15b1"
+        },
+        "linus": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "24b330444886957ee8b4960b5f4c8e49909f15b1"
+        }
+      }
+    }
+  ]
+}

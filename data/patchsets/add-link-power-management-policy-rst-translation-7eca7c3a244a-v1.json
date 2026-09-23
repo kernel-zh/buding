@@ -1,0 +1,77 @@
+{
+  "id": "add-link-power-management-policy-rst-translation-7eca7c3a244a-v1",
+  "subject": "[PATCH 3/7] docs/zh_CN: add link_power_management_policy.rst translation",
+  "authorName": "haodongdong",
+  "authorEmail": "doubled@leap-io.com",
+  "revision": 1,
+  "postedAt": "2025-07-08T02:41:35.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "proposed",
+  "lifecycle": "active",
+  "reviewState": "waiting",
+  "reviewReplies": 0,
+  "latestRevision": true,
+  "messageIds": [
+    "<20250708024139.848025-4-doubled@leap-io.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250708024139.848025-4-doubled@leap-io.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250708024139.848025-4-doubled@leap-io.com/raw",
+  "replies": 0,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "add-link-power-management-policy-rst-translation-7eca7c3a244a-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 3,
+      "total": 7,
+      "subject": "docs/zh_CN: add link_power_management_policy.rst translation",
+      "messageId": "<20250708024139.848025-4-doubled@leap-io.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250708024139.848025-4-doubled@leap-io.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/scsi/index.rst",
+        "Documentation/translations/zh_CN/scsi/link_power_management_policy.rst"
+      ],
+      "patchId": "470a5232fa6b62cbc70a9741db908ba9fbc9c1be",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

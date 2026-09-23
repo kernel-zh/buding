@@ -1,0 +1,366 @@
+{
+  "id": "add-all-chinese-translations-in-the-tpm-directory-a5ae005ed169-v3",
+  "subject": "[PATCH v3 0/7] Add all Chinese translations in the tpm directory",
+  "authorName": "Shuo Zhao",
+  "authorEmail": "zhaoshuo@cqsoftware.com.cn",
+  "revision": 3,
+  "postedAt": "2025-01-23T05:17:38.000Z",
+  "language": "zh_CN",
+  "patchCount": 7,
+  "status": "applied",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 8,
+  "latestRevision": true,
+  "messageIds": [
+    "<cover.1737603330.git.zhaoshuo@cqsoftware.com.cn>",
+    "<900d91e8a2c7c35259005de5cff99e7bb4e7adf6.1737603330.git.zhaoshuo@cqsoftware.com.cn>",
+    "<32c35c0504f262668996080b44dfe059a5266256.1737603330.git.zhaoshuo@cqsoftware.com.cn>",
+    "<a7d98aaf8bc1393fb38095a0d2a3bc3e43c1c543.1737603330.git.zhaoshuo@cqsoftware.com.cn>",
+    "<ac55092bc3f1b3ec51f3e2dd596616ade1a32076.1737603330.git.zhaoshuo@cqsoftware.com.cn>",
+    "<f9798eaec76b27cc02fa47970bf623879377d422.1737603330.git.zhaoshuo@cqsoftware.com.cn>",
+    "<570a7a7c6f55996c02dd2e474a4e8cbfa8f9ccc3.1737603330.git.zhaoshuo@cqsoftware.com.cn>",
+    "<5de6312d2b9d23646eb306e74bae3f80ff28941d.1737603330.git.zhaoshuo@cqsoftware.com.cn>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "confirmed",
+      "matched": 7,
+      "total": 7,
+      "commit": "512ca748e8f5509766159a7005f46617ba6b37ed"
+    },
+    "corbet": {
+      "state": "confirmed",
+      "matched": 7,
+      "total": 7,
+      "commit": "512ca748e8f5509766159a7005f46617ba6b37ed"
+    },
+    "linus": {
+      "state": "confirmed",
+      "matched": 7,
+      "total": 7,
+      "commit": "512ca748e8f5509766159a7005f46617ba6b37ed"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/cover.1737603330.git.zhaoshuo@cqsoftware.com.cn/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/cover.1737603330.git.zhaoshuo@cqsoftware.com.cn/raw",
+  "replies": 8,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "add-all-chinese-translations-in-the-tpm-directory-b8875a9f6df2-v1",
+      "current": false
+    },
+    {
+      "revision": 2,
+      "id": "add-all-chinese-translations-in-the-tpm-directory-25f48f7c4e39-v2",
+      "current": false
+    },
+    {
+      "revision": 3,
+      "id": "add-all-chinese-translations-in-the-tpm-directory-a5ae005ed169-v3",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 7,
+      "subject": "docs/zh_CN: Add tpm index Chinese translation",
+      "messageId": "<900d91e8a2c7c35259005de5cff99e7bb4e7adf6.1737603330.git.zhaoshuo@cqsoftware.com.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/900d91e8a2c7c35259005de5cff99e7bb4e7adf6.1737603330.git.zhaoshuo@cqsoftware.com.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/security/index.rst",
+        "Documentation/translations/zh_CN/security/tpm/index.rst"
+      ],
+      "patchId": "21e33132bc1fe36c940bbe3c49a7da1c0d14e262",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Alex Shi <alexs@kernel.org>",
+          "messageId": "<900d91e8a2c7c35259005de5cff99e7bb4e7adf6.1737603330.git.zhaoshuo@cqsoftware.com.cn>"
+        },
+        {
+          "type": "Reviewed-by",
+          "value": "Yanteng Si <si.yanteng@linux.dev>",
+          "messageId": "<004b7650-ee76-414a-90f2-376a8c3f4a27@linux.dev>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "512ca748e8f5509766159a7005f46617ba6b37ed"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "512ca748e8f5509766159a7005f46617ba6b37ed"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "512ca748e8f5509766159a7005f46617ba6b37ed"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "total": 7,
+      "subject": "docs/zh_CN: Add tpm tpm_event_log Chinese translation",
+      "messageId": "<32c35c0504f262668996080b44dfe059a5266256.1737603330.git.zhaoshuo@cqsoftware.com.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/32c35c0504f262668996080b44dfe059a5266256.1737603330.git.zhaoshuo@cqsoftware.com.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/security/tpm/index.rst",
+        "Documentation/translations/zh_CN/security/tpm/tpm_event_log.rst"
+      ],
+      "patchId": "8fa74d70e608bace3b1c865c3295c686a36ab1a4",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Alex Shi <alexs@kernel.org>",
+          "messageId": "<32c35c0504f262668996080b44dfe059a5266256.1737603330.git.zhaoshuo@cqsoftware.com.cn>"
+        },
+        {
+          "type": "Reviewed-by",
+          "value": "Yanteng Si <si.yanteng@linux.dev>",
+          "messageId": "<02ff0851-1db6-4b42-8a48-334830144ca7@linux.dev>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "4ad1ba0358b1b342a8233e6d70dd4f7bc5e1f152"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "4ad1ba0358b1b342a8233e6d70dd4f7bc5e1f152"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "4ad1ba0358b1b342a8233e6d70dd4f7bc5e1f152"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "total": 7,
+      "subject": "docs/zh_CN: Add tpm tpm-security Chinese translation",
+      "messageId": "<a7d98aaf8bc1393fb38095a0d2a3bc3e43c1c543.1737603330.git.zhaoshuo@cqsoftware.com.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/a7d98aaf8bc1393fb38095a0d2a3bc3e43c1c543.1737603330.git.zhaoshuo@cqsoftware.com.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/security/tpm/index.rst",
+        "Documentation/translations/zh_CN/security/tpm/tpm-security.rst"
+      ],
+      "patchId": "a445798a8c07012310b21d48877fafdc19d49bec",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Yanteng Si <si.yanteng@linux.dev>",
+          "messageId": "<56c3d3b5-8c0e-4bd4-8779-577935a1aba1@linux.dev>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "ece0788d589117c34cfd22fc07467c155aa78a89"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "ece0788d589117c34cfd22fc07467c155aa78a89"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "ece0788d589117c34cfd22fc07467c155aa78a89"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "total": 7,
+      "subject": "docs/zh_CN: Add tpm tpm_tis Chinese translation",
+      "messageId": "<ac55092bc3f1b3ec51f3e2dd596616ade1a32076.1737603330.git.zhaoshuo@cqsoftware.com.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/ac55092bc3f1b3ec51f3e2dd596616ade1a32076.1737603330.git.zhaoshuo@cqsoftware.com.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/security/tpm/index.rst",
+        "Documentation/translations/zh_CN/security/tpm/tpm_tis.rst"
+      ],
+      "patchId": "2acdf83e36ffc334e7e75de567d55f4fbd625fca",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Alex Shi <alexs@kernel.org>",
+          "messageId": "<ac55092bc3f1b3ec51f3e2dd596616ade1a32076.1737603330.git.zhaoshuo@cqsoftware.com.cn>"
+        },
+        {
+          "type": "Reviewed-by",
+          "value": "Yanteng Si <si.yanteng@linux.dev>",
+          "messageId": "<077ff96e-a0ca-4a71-93f0-93115181337f@linux.dev>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "98526e6969336cd42086963b0d2037b3d5dc0279"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "98526e6969336cd42086963b0d2037b3d5dc0279"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "98526e6969336cd42086963b0d2037b3d5dc0279"
+        }
+      }
+    },
+    {
+      "index": 5,
+      "total": 7,
+      "subject": "docs/zh_CN: Add tpm tpm_vtpm_proxy Chinese translation",
+      "messageId": "<f9798eaec76b27cc02fa47970bf623879377d422.1737603330.git.zhaoshuo@cqsoftware.com.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/f9798eaec76b27cc02fa47970bf623879377d422.1737603330.git.zhaoshuo@cqsoftware.com.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/security/tpm/index.rst",
+        "Documentation/translations/zh_CN/security/tpm/tpm_vtpm_proxy.rst"
+      ],
+      "patchId": "79d52b7ce071403bad67a8d84b0df1973c6cd852",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Yanteng Si <si.yanteng@linux.dev>",
+          "messageId": "<75dd7955-1216-4d20-926d-fe2b379b88a7@linux.dev>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "f7824b6917072306621aea8d3b51478de87c4e67"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "f7824b6917072306621aea8d3b51478de87c4e67"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "f7824b6917072306621aea8d3b51478de87c4e67"
+        }
+      }
+    },
+    {
+      "index": 6,
+      "total": 7,
+      "subject": "docs/zh_CN: Add tpm xen-tpmfront Chinese translation",
+      "messageId": "<570a7a7c6f55996c02dd2e474a4e8cbfa8f9ccc3.1737603330.git.zhaoshuo@cqsoftware.com.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/570a7a7c6f55996c02dd2e474a4e8cbfa8f9ccc3.1737603330.git.zhaoshuo@cqsoftware.com.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/security/tpm/index.rst",
+        "Documentation/translations/zh_CN/security/tpm/xen-tpmfront.rst"
+      ],
+      "patchId": "076ef5217863ac0063ec2af23f783017af0359a7",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Alex Shi <alexs@kernel.org>",
+          "messageId": "<570a7a7c6f55996c02dd2e474a4e8cbfa8f9ccc3.1737603330.git.zhaoshuo@cqsoftware.com.cn>"
+        },
+        {
+          "type": "Reviewed-by",
+          "value": "Yanteng Si <si.yanteng@linux.dev>",
+          "messageId": "<43863dec-89c7-4eb2-9cd3-8cf1f3b3e032@linux.dev>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "22ab45a82136bd8d5abd2a66951f58043351f461"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "22ab45a82136bd8d5abd2a66951f58043351f461"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "22ab45a82136bd8d5abd2a66951f58043351f461"
+        }
+      }
+    },
+    {
+      "index": 7,
+      "total": 7,
+      "subject": "docs/zh_CN: Add tpm tpm_ftpm_tee Chinese translation",
+      "messageId": "<5de6312d2b9d23646eb306e74bae3f80ff28941d.1737603330.git.zhaoshuo@cqsoftware.com.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/5de6312d2b9d23646eb306e74bae3f80ff28941d.1737603330.git.zhaoshuo@cqsoftware.com.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/security/tpm/index.rst",
+        "Documentation/translations/zh_CN/security/tpm/tpm_ftpm_tee.rst"
+      ],
+      "patchId": "16ac6db0e3aa6d9dc7cea92928190a444a52fceb",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Alex Shi <alexs@kernel.org>",
+          "messageId": "<5de6312d2b9d23646eb306e74bae3f80ff28941d.1737603330.git.zhaoshuo@cqsoftware.com.cn>"
+        },
+        {
+          "type": "Reviewed-by",
+          "value": "Yanteng Si <si.yanteng@linux.dev>",
+          "messageId": "<0ff0dd30-c401-43f8-aad2-e22b8c977dea@linux.dev>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "03069bf12823a950b9fe7b4903fc68eb0555c73d"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "03069bf12823a950b9fe7b4903fc68eb0555c73d"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "03069bf12823a950b9fe7b4903fc68eb0555c73d"
+        }
+      }
+    }
+  ]
+}

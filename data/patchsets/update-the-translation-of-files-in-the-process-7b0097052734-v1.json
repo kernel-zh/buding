@@ -1,0 +1,211 @@
+{
+  "id": "update-the-translation-of-files-in-the-process-7b0097052734-v1",
+  "subject": "[PATCH 0/5] update the translation of files in the process",
+  "authorName": "Dongliang Mu",
+  "authorEmail": "dzm91@hust.edu.cn",
+  "revision": 1,
+  "postedAt": "2025-06-10T12:30:25.000Z",
+  "language": "zh_CN",
+  "patchCount": 5,
+  "status": "applied",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 2,
+  "latestRevision": true,
+  "messageIds": [
+    "<cover.1749557444.git.dzm91@hust.edu.cn>",
+    "<a9a9c7f57db10713c477fcb0398a43687f92213e.1749557444.git.dzm91@hust.edu.cn>",
+    "<1c3590dfdbf0177c1735ff662270352b512531b4.1749557444.git.dzm91@hust.edu.cn>",
+    "<6cc2550da7ebfe597181d95b744abe22379f6fdb.1749557444.git.dzm91@hust.edu.cn>",
+    "<5e43fda6c7e3597e9e11192f959df65e9de57e7a.1749557444.git.dzm91@hust.edu.cn>",
+    "<ce5603d746e1d64847f572660ea7bc38fcbf74ef.1749557444.git.dzm91@hust.edu.cn>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "confirmed",
+      "matched": 5,
+      "total": 5,
+      "commit": "095fde67b94fc1037b5aa79427ae566b7b0e61be"
+    },
+    "corbet": {
+      "state": "confirmed",
+      "matched": 5,
+      "total": 5,
+      "commit": "095fde67b94fc1037b5aa79427ae566b7b0e61be"
+    },
+    "linus": {
+      "state": "confirmed",
+      "matched": 5,
+      "total": 5,
+      "commit": "095fde67b94fc1037b5aa79427ae566b7b0e61be"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/cover.1749557444.git.dzm91@hust.edu.cn/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/cover.1749557444.git.dzm91@hust.edu.cn/raw",
+  "replies": 2,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "update-the-translation-of-files-in-the-process-7b0097052734-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 5,
+      "subject": "docs/zh_CN: update the translation of process/1.Intro.rst",
+      "messageId": "<a9a9c7f57db10713c477fcb0398a43687f92213e.1749557444.git.dzm91@hust.edu.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/a9a9c7f57db10713c477fcb0398a43687f92213e.1749557444.git.dzm91@hust.edu.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/process/1.Intro.rst"
+      ],
+      "patchId": "55d6d4a7c6930989f9962b61845262180d3a419e",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "095fde67b94fc1037b5aa79427ae566b7b0e61be"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "095fde67b94fc1037b5aa79427ae566b7b0e61be"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "095fde67b94fc1037b5aa79427ae566b7b0e61be"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "total": 5,
+      "subject": "docs/zh_CN: update the translation of process/6.Followthrough.rst",
+      "messageId": "<1c3590dfdbf0177c1735ff662270352b512531b4.1749557444.git.dzm91@hust.edu.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/1c3590dfdbf0177c1735ff662270352b512531b4.1749557444.git.dzm91@hust.edu.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/process/6.Followthrough.rst"
+      ],
+      "patchId": "cca0a08b6c6c82ae8c4717a261300b790dff54d7",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "c4ab0c02a5cc5db31595a1c3b305d1fb9fc5ba46"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "c4ab0c02a5cc5db31595a1c3b305d1fb9fc5ba46"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "c4ab0c02a5cc5db31595a1c3b305d1fb9fc5ba46"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "total": 5,
+      "subject": "docs/zh_CN: update the translation of process/7.AdvancedTopics.rst",
+      "messageId": "<6cc2550da7ebfe597181d95b744abe22379f6fdb.1749557444.git.dzm91@hust.edu.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/6cc2550da7ebfe597181d95b744abe22379f6fdb.1749557444.git.dzm91@hust.edu.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/process/7.AdvancedTopics.rst"
+      ],
+      "patchId": "842f293d42effad6751d3b9632156c342441c2c2",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "42f3bf6916a04a7a65495640c37c9214abb79abd"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "42f3bf6916a04a7a65495640c37c9214abb79abd"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "42f3bf6916a04a7a65495640c37c9214abb79abd"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "total": 5,
+      "subject": "docs/zh_CN: update the translation of process/2.Process.rst",
+      "messageId": "<5e43fda6c7e3597e9e11192f959df65e9de57e7a.1749557444.git.dzm91@hust.edu.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/5e43fda6c7e3597e9e11192f959df65e9de57e7a.1749557444.git.dzm91@hust.edu.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/process/2.Process.rst"
+      ],
+      "patchId": "394b18423c1856f478ef072744b4559ee532a331",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "eabcd4d38a01952028d90595fd736adb93f1217e"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "eabcd4d38a01952028d90595fd736adb93f1217e"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "eabcd4d38a01952028d90595fd736adb93f1217e"
+        }
+      }
+    },
+    {
+      "index": 5,
+      "total": 5,
+      "subject": "docs/zh_CN: update the translation of process/5.Posting.rst",
+      "messageId": "<ce5603d746e1d64847f572660ea7bc38fcbf74ef.1749557444.git.dzm91@hust.edu.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/ce5603d746e1d64847f572660ea7bc38fcbf74ef.1749557444.git.dzm91@hust.edu.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/process/5.Posting.rst"
+      ],
+      "patchId": "65321c9fd242323415d7d1542fdddfea2176f8ea",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "5df4948065034671406614e74c9dc07bbdafc781"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "5df4948065034671406614e74c9dc07bbdafc781"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "5df4948065034671406614e74c9dc07bbdafc781"
+        }
+      }
+    }
+  ]
+}

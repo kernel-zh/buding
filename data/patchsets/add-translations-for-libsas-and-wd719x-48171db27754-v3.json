@@ -1,0 +1,127 @@
+{
+  "id": "add-translations-for-libsas-and-wd719x-48171db27754-v3",
+  "subject": "[PATCH v3 0/2] docs/zh_CN: Add translations for libsas and wd719x",
+  "authorName": "Yujie Zhang",
+  "authorEmail": "yjzhang@leap-io-kernel.com",
+  "revision": 3,
+  "postedAt": "2025-11-24T06:28:38.000Z",
+  "language": "zh_CN",
+  "patchCount": 2,
+  "status": "applied",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 1,
+  "latestRevision": true,
+  "messageIds": [
+    "<cover.1763964599.git.yjzhang@leap-io-kernel.com>",
+    "<3878b29b3778e46143b978c3fa1cb5939e3b9454.1763964599.git.yjzhang@leap-io-kernel.com>",
+    "<cb22a9695c2cbdfc673b060d6f84455a71318bc8.1763964599.git.yjzhang@leap-io-kernel.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "confirmed",
+      "matched": 2,
+      "total": 2,
+      "commit": "56a248e7bc21a2f51fcc706121e1f8fa89fda413"
+    },
+    "corbet": {
+      "state": "confirmed",
+      "matched": 2,
+      "total": 2,
+      "commit": "56a248e7bc21a2f51fcc706121e1f8fa89fda413"
+    },
+    "linus": {
+      "state": "confirmed",
+      "matched": 2,
+      "total": 2,
+      "commit": "56a248e7bc21a2f51fcc706121e1f8fa89fda413"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/cover.1763964599.git.yjzhang@leap-io-kernel.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/cover.1763964599.git.yjzhang@leap-io-kernel.com/raw",
+  "replies": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "add-translations-for-libsas-and-wd719x-1f42f2d00f25-v1",
+      "current": false
+    },
+    {
+      "revision": 2,
+      "id": "add-translations-for-libsas-and-wd719x-863f449f70c7-v2",
+      "current": false
+    },
+    {
+      "revision": 3,
+      "id": "add-translations-for-libsas-and-wd719x-48171db27754-v3",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 2,
+      "subject": "docs/zh_CN: Add libsas.rst translation",
+      "messageId": "<3878b29b3778e46143b978c3fa1cb5939e3b9454.1763964599.git.yjzhang@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/3878b29b3778e46143b978c3fa1cb5939e3b9454.1763964599.git.yjzhang@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/scsi/index.rst",
+        "Documentation/translations/zh_CN/scsi/libsas.rst"
+      ],
+      "patchId": "49fc321b27f862e9c0cb19b31e736c3860ea5b21",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "56a248e7bc21a2f51fcc706121e1f8fa89fda413"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "56a248e7bc21a2f51fcc706121e1f8fa89fda413"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "56a248e7bc21a2f51fcc706121e1f8fa89fda413"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "total": 2,
+      "subject": "docs/zh_CN: Add wd719x.rst translation",
+      "messageId": "<cb22a9695c2cbdfc673b060d6f84455a71318bc8.1763964599.git.yjzhang@leap-io-kernel.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/cb22a9695c2cbdfc673b060d6f84455a71318bc8.1763964599.git.yjzhang@leap-io-kernel.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/scsi/index.rst",
+        "Documentation/translations/zh_CN/scsi/wd719x.rst"
+      ],
+      "patchId": "ae060200e42a04a27b983ab696df12242927c990",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "f12ae9ba4d234732dc091cb0565d52b286de7572"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "f12ae9ba4d234732dc091cb0565d52b286de7572"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "f12ae9ba4d234732dc091cb0565d52b286de7572"
+        }
+      }
+    }
+  ]
+}

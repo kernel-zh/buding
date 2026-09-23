@@ -1,0 +1,83 @@
+{
+  "id": "add-how-to-of-chinese-translation-43f08dabb8b6-v1",
+  "subject": "[RFC PATCH] docs/zh_CN: Add how-to of Chinese translation",
+  "authorName": "Yanteng Si",
+  "authorEmail": "si.yanteng@linux.dev",
+  "revision": 1,
+  "postedAt": "2025-02-27T10:36:01.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 6,
+  "latestRevision": true,
+  "messageIds": [
+    "<20250227103602.321198-1-si.yanteng@linux.dev>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "4f0145e9ea41cc5d0f80b79a60ce39757d3b47d6"
+    },
+    "corbet": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "4f0145e9ea41cc5d0f80b79a60ce39757d3b47d6"
+    },
+    "linus": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "4f0145e9ea41cc5d0f80b79a60ce39757d3b47d6"
+    }
+  },
+  "rfc": true,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250227103602.321198-1-si.yanteng@linux.dev/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250227103602.321198-1-si.yanteng@linux.dev/raw",
+  "replies": 11,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "add-how-to-of-chinese-translation-43f08dabb8b6-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "docs/zh_CN: Add how-to of Chinese translation",
+      "messageId": "<20250227103602.321198-1-si.yanteng@linux.dev>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250227103602.321198-1-si.yanteng@linux.dev/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/how-to.rst",
+        "Documentation/translations/zh_CN/index.rst"
+      ],
+      "patchId": "117d33c9d9e015435c9dac483372e9cc96021174",
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "4f0145e9ea41cc5d0f80b79a60ce39757d3b47d6"
+        },
+        "corbet": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "4f0145e9ea41cc5d0f80b79a60ce39757d3b47d6"
+        },
+        "linus": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "4f0145e9ea41cc5d0f80b79a60ce39757d3b47d6"
+        }
+      }
+    }
+  ]
+}

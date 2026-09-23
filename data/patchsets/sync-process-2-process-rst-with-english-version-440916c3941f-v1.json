@@ -1,0 +1,114 @@
+{
+  "id": "sync-process-2-process-rst-with-english-version-440916c3941f-v1",
+  "subject": "[PATCH] docs/zh_CN: sync process/2.Process.rst with English version",
+  "authorName": "Song Hongyi",
+  "authorEmail": "szpcq123@gmail.com",
+  "revision": 1,
+  "postedAt": "2026-02-25T15:09:57.000Z",
+  "language": "zh_CN",
+  "patchCount": 2,
+  "status": "applied",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 2,
+  "latestRevision": true,
+  "messageIds": [
+    "<20260225151013.200635-1-szpcq123@gmail.com>",
+    "<20260311123107.329769-1-szpcq123@gmail.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "confirmed",
+      "matched": 2,
+      "total": 2,
+      "commit": "8c199fb49871cad666e408af41ca3c145679b8a4"
+    },
+    "corbet": {
+      "state": "confirmed",
+      "matched": 2,
+      "total": 2,
+      "commit": "8c199fb49871cad666e408af41ca3c145679b8a4"
+    },
+    "linus": {
+      "state": "confirmed",
+      "matched": 2,
+      "total": 2,
+      "commit": "8c199fb49871cad666e408af41ca3c145679b8a4"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260225151013.200635-1-szpcq123@gmail.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260225151013.200635-1-szpcq123@gmail.com/raw",
+  "replies": 2,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "sync-process-2-process-rst-with-english-version-440916c3941f-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 2,
+      "subject": "docs/zh_CN: sync process/2.Process.rst with English version",
+      "messageId": "<20260225151013.200635-1-szpcq123@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260225151013.200635-1-szpcq123@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/process/2.Process.rst"
+      ],
+      "patchId": "d449117a9edddcb3451089ef32b2f7fa01d4aecb",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "8c199fb49871cad666e408af41ca3c145679b8a4"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "8c199fb49871cad666e408af41ca3c145679b8a4"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "8c199fb49871cad666e408af41ca3c145679b8a4"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "total": 2,
+      "subject": "docs/zh_CN: sync process/2.Process.rst with English version",
+      "messageId": "<20260311123107.329769-1-szpcq123@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260311123107.329769-1-szpcq123@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/process/2.Process.rst"
+      ],
+      "patchId": "d449117a9edddcb3451089ef32b2f7fa01d4aecb",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "8c199fb49871cad666e408af41ca3c145679b8a4"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "8c199fb49871cad666e408af41ca3c145679b8a4"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "8c199fb49871cad666e408af41ca3c145679b8a4"
+        }
+      }
+    }
+  ]
+}

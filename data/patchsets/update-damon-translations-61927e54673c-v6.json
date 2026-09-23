@@ -1,0 +1,259 @@
+{
+  "id": "update-damon-translations-61927e54673c-v6",
+  "subject": "[PATCH v6 0/7] docs/zh_CN: update DAMON translations",
+  "authorName": "Doehyun Baek",
+  "authorEmail": "doehyunbaek@gmail.com",
+  "revision": 6,
+  "postedAt": "2026-07-08T07:32:39.000Z",
+  "language": "zh_CN",
+  "patchCount": 7,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 3,
+  "latestRevision": true,
+  "messageIds": [
+    "<20260708073246.1652828-1-doehyunbaek@gmail.com>",
+    "<20260708073246.1652828-2-doehyunbaek@gmail.com>",
+    "<20260708073246.1652828-3-doehyunbaek@gmail.com>",
+    "<20260708073246.1652828-4-doehyunbaek@gmail.com>",
+    "<20260708073246.1652828-5-doehyunbaek@gmail.com>",
+    "<20260708073246.1652828-6-doehyunbaek@gmail.com>",
+    "<20260708073246.1652828-7-doehyunbaek@gmail.com>",
+    "<20260708073246.1652828-8-doehyunbaek@gmail.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "partial",
+      "matched": 5,
+      "total": 7,
+      "commit": "46ac097616778604211b271d98671fd61c4f6409"
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 7
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 7
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260708073246.1652828-1-doehyunbaek@gmail.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260708073246.1652828-1-doehyunbaek@gmail.com/raw",
+  "replies": 3,
+  "versions": [
+    {
+      "revision": 6,
+      "id": "update-damon-translations-61927e54673c-v6",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 7,
+      "subject": "docs/zh_CN: update DAMON design translation",
+      "messageId": "<20260708073246.1652828-2-doehyunbaek@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260708073246.1652828-2-doehyunbaek@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/mm/damon/design.rst"
+      ],
+      "patchId": "23218a25b31198d551a1d17f04154ae4817f2eb5",
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "46ac097616778604211b271d98671fd61c4f6409"
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 2,
+      "total": 7,
+      "subject": "docs/zh_CN: add DAMON_STAT usage translation",
+      "messageId": "<20260708073246.1652828-3-doehyunbaek@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260708073246.1652828-3-doehyunbaek@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/admin-guide/mm/damon/stat.rst"
+      ],
+      "patchId": "9cc531ceb5a07e7d02049c419c0b1639adee281a",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "aad77d32d1f6498730097bba1650bc7be041c2f5"
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 3,
+      "total": 7,
+      "subject": "docs/zh_CN: update DAMON index translation",
+      "messageId": "<20260708073246.1652828-4-doehyunbaek@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260708073246.1652828-4-doehyunbaek@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/admin-guide/mm/damon/index.rst"
+      ],
+      "patchId": "0588a85c9dc43392b93f2c82dee11e557f8cbb87",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "dbe3494cdd805980cd18106b631d7eb774adc5ea"
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 4,
+      "total": 7,
+      "subject": "docs/zh_CN: update DAMON start translation",
+      "messageId": "<20260708073246.1652828-5-doehyunbaek@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260708073246.1652828-5-doehyunbaek@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/admin-guide/mm/damon/start.rst"
+      ],
+      "patchId": "ca9eada723271dd61bf4be9e0bd2aa988d1bf8fb",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "86053e840adb2f9426560fc97571e924d3692fe6"
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 5,
+      "total": 7,
+      "subject": "docs/zh_CN: update DAMON usage translation",
+      "messageId": "<20260708073246.1652828-6-doehyunbaek@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260708073246.1652828-6-doehyunbaek@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/admin-guide/mm/damon/usage.rst"
+      ],
+      "patchId": "ea524e9208375ad2232efb135e37b562c2922ede",
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "54b4bbb0736250dbf7a90e0b97af59421eef27d4"
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 6,
+      "total": 7,
+      "subject": "docs/zh_CN: update DAMON reclaim translation",
+      "messageId": "<20260708073246.1652828-7-doehyunbaek@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260708073246.1652828-7-doehyunbaek@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/admin-guide/mm/damon/reclaim.rst"
+      ],
+      "patchId": "30b4026798bd1f3aa26278d2a7daab170b734509",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "407d868e16c67ed5666e52b1f982b4484590dc5e"
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 7,
+      "total": 7,
+      "subject": "docs/zh_CN: update DAMON LRU sort translation",
+      "messageId": "<20260708073246.1652828-8-doehyunbaek@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260708073246.1652828-8-doehyunbaek@gmail.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/admin-guide/mm/damon/lru_sort.rst"
+      ],
+      "patchId": "e5d1320c8df9b15b0d478003d6acfb69285ae65b",
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "a7ebb31bf511a7e23db3738f7f6931b30f2659e3"
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

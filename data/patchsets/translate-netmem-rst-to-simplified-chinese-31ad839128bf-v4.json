@@ -1,0 +1,99 @@
+{
+  "id": "translate-netmem-rst-to-simplified-chinese-31ad839128bf-v4",
+  "subject": "[PATCH v4 3/3] Docs/zh_CN: Translate netmem.rst to Simplified Chinese",
+  "authorName": "jiang.kun2@zte.com.cn",
+  "authorEmail": "jiang.kun2@zte.com.cn",
+  "revision": 4,
+  "postedAt": "2025-06-30T11:30:07.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 1,
+  "latestRevision": false,
+  "messageIds": [
+    "<20250630193007665612yAcBZJB420SVhj5nqb@zte.com.cn>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250630193007665612yAcBZJB420SVhj5nqb@zte.com.cn/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250630193007665612yAcBZJB420SVhj5nqb@zte.com.cn/raw",
+  "replies": 1,
+  "versions": [
+    {
+      "revision": 3,
+      "id": "translate-netmem-rst-to-simplified-chinese-e1cbae59e8de-v3",
+      "current": false
+    },
+    {
+      "revision": 4,
+      "id": "translate-netmem-rst-to-simplified-chinese-31ad839128bf-v4",
+      "current": true
+    },
+    {
+      "revision": 5,
+      "id": "translate-netmem-rst-to-simplified-chinese-67d46558ecd6-v5",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 3,
+      "total": 3,
+      "subject": "Docs/zh_CN: Translate netmem.rst to Simplified Chinese",
+      "messageId": "<20250630193007665612yAcBZJB420SVhj5nqb@zte.com.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250630193007665612yAcBZJB420SVhj5nqb@zte.com.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/networking/index.rst",
+        "Documentation/translations/zh_CN/networking/netmem.rst"
+      ],
+      "patchId": "d79355df6890baf6e4eb1774f12698b1947c4c00",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "xu xin <xu.xin16@zte.com.cn>",
+          "messageId": "<20250630193007665612yAcBZJB420SVhj5nqb@zte.com.cn>"
+        },
+        {
+          "type": "Reviewed-by",
+          "value": "Yanteng Si <siyanteng@cqsoftware.com.cn>",
+          "messageId": "<20250630193007665612yAcBZJB420SVhj5nqb@zte.com.cn>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "add-sd-parameters-rst-translation-b2727a731dff-v1",
+  "subject": "[PATCH 7/7] docs/zh_CN: add sd-parameters.rst translation",
+  "authorName": "haodongdong",
+  "authorEmail": "doubled@leap-io.com",
+  "revision": 1,
+  "postedAt": "2025-07-08T02:41:39.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "proposed",
+  "lifecycle": "active",
+  "reviewState": "waiting",
+  "reviewReplies": 0,
+  "latestRevision": true,
+  "messageIds": [
+    "<20250708024139.848025-8-doubled@leap-io.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250708024139.848025-8-doubled@leap-io.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250708024139.848025-8-doubled@leap-io.com/raw",
+  "replies": 0,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "add-sd-parameters-rst-translation-b2727a731dff-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 7,
+      "total": 7,
+      "subject": "docs/zh_CN: add sd-parameters.rst translation",
+      "messageId": "<20250708024139.848025-8-doubled@leap-io.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250708024139.848025-8-doubled@leap-io.com/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/scsi/index.rst",
+        "Documentation/translations/zh_CN/scsi/sd-parameters.rst"
+      ],
+      "patchId": "ee26f6935c74f6b0c29fab9c0848da3ea0a9823e",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

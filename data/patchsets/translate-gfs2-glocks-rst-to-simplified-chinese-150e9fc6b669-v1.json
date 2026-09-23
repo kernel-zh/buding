@@ -1,0 +1,83 @@
+{
+  "id": "translate-gfs2-glocks-rst-to-simplified-chinese-150e9fc6b669-v1",
+  "subject": "[PATCH 5/5] Docs/zh_CN: Translate gfs2-glocks.rst to Simplified Chinese",
+  "authorName": "shao.mingyin@zte.com.cn",
+  "authorEmail": "shao.mingyin@zte.com.cn",
+  "revision": 1,
+  "postedAt": "2025-07-18T08:57:46.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 2,
+  "latestRevision": true,
+  "messageIds": [
+    "<20250718165746013rPfwDG8PRZ2LMvX4a0Z8U@zte.com.cn>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "1c8e1941137edd6bc8763ab00b37c80cd37ea73e"
+    },
+    "corbet": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "1c8e1941137edd6bc8763ab00b37c80cd37ea73e"
+    },
+    "linus": {
+      "state": "candidate",
+      "matched": 0,
+      "total": 1,
+      "commit": "1c8e1941137edd6bc8763ab00b37c80cd37ea73e"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250718165746013rPfwDG8PRZ2LMvX4a0Z8U@zte.com.cn/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250718165746013rPfwDG8PRZ2LMvX4a0Z8U@zte.com.cn/raw",
+  "replies": 2,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "translate-gfs2-glocks-rst-to-simplified-chinese-150e9fc6b669-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 5,
+      "total": 5,
+      "subject": "Docs/zh_CN: Translate gfs2-glocks.rst to Simplified Chinese",
+      "messageId": "<20250718165746013rPfwDG8PRZ2LMvX4a0Z8U@zte.com.cn>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250718165746013rPfwDG8PRZ2LMvX4a0Z8U@zte.com.cn/",
+      "changedFiles": [
+        "Documentation/translations/zh_CN/filesystems/gfs2-glocks.rst",
+        "Documentation/translations/zh_CN/filesystems/index.rst"
+      ],
+      "patchId": "89d8799fc75d5ec43376dc6defa28045be7e1a88",
+      "trees": {
+        "alex": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "1c8e1941137edd6bc8763ab00b37c80cd37ea73e"
+        },
+        "corbet": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "1c8e1941137edd6bc8763ab00b37c80cd37ea73e"
+        },
+        "linus": {
+          "state": "candidate",
+          "matched": 0,
+          "total": 1,
+          "commit": "1c8e1941137edd6bc8763ab00b37c80cd37ea73e"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "documentation-update-after-split-of-linux-mod-device-15592418d123-v2",
+  "subject": "[PATCH v2] Documentation: Update after split of <linux/mod_devicetable.h>",
+  "authorName": "Uwe Kleine-König (The Capable Hub)",
+  "authorEmail": "u.kleine-koenig@baylibre.com",
+  "revision": 2,
+  "postedAt": "2026-07-06T15:01:56.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 1,
+  "latestRevision": true,
+  "messageIds": [
+    "<ede7ce64f20e10660ebf6bc1b41836dad750ae3b.1783349758.git.ukleinek@kernel.org>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/ede7ce64f20e10660ebf6bc1b41836dad750ae3b.1783349758.git.ukleinek@kernel.org/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/ede7ce64f20e10660ebf6bc1b41836dad750ae3b.1783349758.git.ukleinek@kernel.org/raw",
+  "replies": 1,
+  "versions": [
+    {
+      "revision": 2,
+      "id": "documentation-update-after-split-of-linux-mod-device-15592418d123-v2",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "Documentation: Update after split of <linux/mod_devicetable.h>",
+      "messageId": "<ede7ce64f20e10660ebf6bc1b41836dad750ae3b.1783349758.git.ukleinek@kernel.org>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/ede7ce64f20e10660ebf6bc1b41836dad750ae3b.1783349758.git.ukleinek@kernel.org/",
+      "changedFiles": [
+        "Documentation/PCI/pci.rst",
+        "Documentation/driver-api/basics.rst",
+        "Documentation/driver-api/mei/mei-client-bus.rst",
+        "Documentation/pcmcia/driver.rst",
+        "Documentation/staging/rpmsg.rst",
+        "Documentation/translations/zh_CN/PCI/pci.rst"
+      ],
+      "patchId": "a89e63882281ccf2c60218203c35f3ae2488e6d8",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Randy Dunlap <rdunlap@infradead.org>",
+          "messageId": "<17aee024-e1c3-488a-aade-bd4df139cccb@infradead.org>"
+        },
+        {
+          "type": "Tested-by",
+          "value": "Randy Dunlap <rdunlap@infradead.org>",
+          "messageId": "<17aee024-e1c3-488a-aade-bd4df139cccb@infradead.org>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

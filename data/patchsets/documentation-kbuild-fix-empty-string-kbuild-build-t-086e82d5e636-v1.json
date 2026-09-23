@@ -1,0 +1,82 @@
+{
+  "id": "documentation-kbuild-fix-empty-string-kbuild-build-t-086e82d5e636-v1",
+  "subject": "[PATCH] Documentation/kbuild: fix empty string KBUILD_BUILD_TIMESTAMP",
+  "authorName": "Daniel Gomez",
+  "authorEmail": "da.gomez@kernel.org",
+  "revision": 1,
+  "postedAt": "2026-03-10T11:48:43.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 1,
+  "latestRevision": false,
+  "messageIds": [
+    "<20260310-fix-llvm-docs-v1-1-234878874762@samsung.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260310-fix-llvm-docs-v1-1-234878874762@samsung.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260310-fix-llvm-docs-v1-1-234878874762@samsung.com/raw",
+  "replies": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "documentation-kbuild-fix-empty-string-kbuild-build-t-086e82d5e636-v1",
+      "current": true
+    },
+    {
+      "revision": 2,
+      "id": "documentation-kbuild-fix-empty-string-kbuild-build-t-46c8a194001c-v2",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "Documentation/kbuild: fix empty string KBUILD_BUILD_TIMESTAMP",
+      "messageId": "<20260310-fix-llvm-docs-v1-1-234878874762@samsung.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260310-fix-llvm-docs-v1-1-234878874762@samsung.com/",
+      "changedFiles": [
+        "Documentation/kbuild/llvm.rst",
+        "Documentation/translations/zh_CN/kbuild/llvm.rst"
+      ],
+      "patchId": "6b30b7b4679fe2228d0f177728d25d124d2b0bfe",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

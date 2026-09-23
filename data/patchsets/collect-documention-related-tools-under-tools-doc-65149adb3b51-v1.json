@@ -1,0 +1,293 @@
+{
+  "id": "collect-documention-related-tools-under-tools-doc-65149adb3b51-v1",
+  "subject": "[PATCH RFC 00/13] Collect documention-related tools under tools/doc",
+  "authorName": "Jonathan Corbet",
+  "authorEmail": "corbet@lwn.net",
+  "revision": 1,
+  "postedAt": "2025-08-13T21:31:59.000Z",
+  "language": "mixed",
+  "patchCount": 6,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 28,
+  "latestRevision": true,
+  "messageIds": [
+    "<20250813213218.198582-1-corbet@lwn.net>",
+    "<20250813213218.198582-2-corbet@lwn.net>",
+    "<20250813213218.198582-3-corbet@lwn.net>",
+    "<20250813213218.198582-4-corbet@lwn.net>",
+    "<20250813213218.198582-5-corbet@lwn.net>",
+    "<20250813213218.198582-6-corbet@lwn.net>",
+    "<20250813213218.198582-7-corbet@lwn.net>",
+    "<20250813213218.198582-8-corbet@lwn.net>",
+    "<20250813213218.198582-9-corbet@lwn.net>",
+    "<20250813213218.198582-10-corbet@lwn.net>",
+    "<20250813213218.198582-11-corbet@lwn.net>",
+    "<20250813213218.198582-12-corbet@lwn.net>",
+    "<20250813213218.198582-13-corbet@lwn.net>",
+    "<20250813213218.198582-14-corbet@lwn.net>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 6
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 6
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 6
+    }
+  },
+  "rfc": true,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250813213218.198582-1-corbet@lwn.net/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250813213218.198582-1-corbet@lwn.net/raw",
+  "replies": 33,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "collect-documention-related-tools-under-tools-doc-65149adb3b51-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 2,
+      "total": 13,
+      "subject": "docs: move checktransupdate.py to tools/doc",
+      "messageId": "<20250813213218.198582-3-corbet@lwn.net>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250813213218.198582-3-corbet@lwn.net/",
+      "changedFiles": [
+        "Documentation/doc-guide/checktransupdate.rst",
+        "Documentation/translations/zh_CN/doc-guide/checktransupdate.rst",
+        "Documentation/translations/zh_CN/how-to.rst",
+        "MAINTAINERS",
+        "tools/doc/checktransupdate.py"
+      ],
+      "patchId": "59bb672bdf048c0713fe608e66bd769f7076b5fb",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Mauro Carvalho Chehab <mchehab+huawei@kernel.org>",
+          "messageId": "<20250814015106.2d7d0bf7@foz.lan>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 7,
+      "total": 13,
+      "subject": "docs: move sphinx-pre-install to tools/doc",
+      "messageId": "<20250813213218.198582-8-corbet@lwn.net>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250813213218.198582-8-corbet@lwn.net/",
+      "changedFiles": [
+        "Documentation/Makefile",
+        "Documentation/doc-guide/sphinx.rst",
+        "Documentation/sphinx/kerneldoc-preamble.sty",
+        "Documentation/translations/it_IT/doc-guide/sphinx.rst",
+        "Documentation/translations/zh_CN/doc-guide/sphinx.rst",
+        "Documentation/translations/zh_CN/how-to.rst",
+        "MAINTAINERS",
+        "tools/doc/sphinx-pre-install"
+      ],
+      "patchId": "b255abbe3c53f8edd97277a2832c549838516cba",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 9,
+      "total": 13,
+      "subject": "docs: move parse-headers.pl to tools/doc",
+      "messageId": "<20250813213218.198582-10-corbet@lwn.net>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250813213218.198582-10-corbet@lwn.net/",
+      "changedFiles": [
+        "Documentation/doc-guide/parse-headers.rst",
+        "Documentation/translations/it_IT/doc-guide/parse-headers.rst",
+        "Documentation/translations/zh_CN/doc-guide/parse-headers.rst",
+        "Documentation/userspace-api/media/Makefile",
+        "MAINTAINERS",
+        "tools/doc/parse-headers.pl"
+      ],
+      "patchId": "47fab84aac9cdb7ff3cd645e50db72a80a52efa7",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 10,
+      "total": 13,
+      "subject": "docs: move kernel-doc to tools/doc",
+      "messageId": "<20250813213218.198582-11-corbet@lwn.net>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250813213218.198582-11-corbet@lwn.net/",
+      "changedFiles": [
+        "Documentation/conf.py",
+        "Documentation/doc-guide/kernel-doc.rst",
+        "Documentation/kbuild/kbuild.rst",
+        "Documentation/process/coding-style.rst",
+        "Documentation/translations/it_IT/doc-guide/kernel-doc.rst",
+        "Documentation/translations/sp_SP/process/coding-style.rst",
+        "Documentation/translations/zh_CN/doc-guide/kernel-doc.rst",
+        "Documentation/translations/zh_CN/kbuild/kbuild.rst",
+        "Documentation/translations/zh_CN/process/coding-style.rst",
+        "Documentation/translations/zh_TW/process/coding-style.rst",
+        "MAINTAINERS",
+        "Makefile",
+        "drivers/gpu/drm/i915/Makefile",
+        "scripts/find-unused-docs.sh",
+        "scripts/kernel-doc",
+        "tools/doc/kernel-doc"
+      ],
+      "patchId": "a3cf2c85108dde1d911fbecbfd9935b85b925736",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Mauro Carvalho Chehab <mchehab+huawei@kernel.org>",
+          "messageId": "<20250814013353.623b20c8@foz.lan>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 11,
+      "total": 13,
+      "subject": "docs: move split-man.pl to tools/doc",
+      "messageId": "<20250813213218.198582-12-corbet@lwn.net>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250813213218.198582-12-corbet@lwn.net/",
+      "changedFiles": [
+        "Documentation/doc-guide/kernel-doc.rst",
+        "Documentation/translations/it_IT/doc-guide/kernel-doc.rst",
+        "Documentation/translations/zh_CN/doc-guide/kernel-doc.rst",
+        "tools/doc/split-man.pl"
+      ],
+      "patchId": "2b2569775bffe5aefc10224dc667d7589306d237",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Mauro Carvalho Chehab <mchehab+huawei@kernel.org>",
+          "messageId": "<20250814015005.22f0fced@foz.lan>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 12,
+      "total": 13,
+      "subject": "docs: move find-unused-docs.sh to tools/doc",
+      "messageId": "<20250813213218.198582-13-corbet@lwn.net>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250813213218.198582-13-corbet@lwn.net/",
+      "changedFiles": [
+        "Documentation/doc-guide/contributing.rst",
+        "Documentation/translations/zh_CN/doc-guide/contributing.rst",
+        "tools/doc/find-unused-docs.sh"
+      ],
+      "patchId": "4b8e42e5e0e8a97d9c34dd0385edf3877078bd7f",
+      "trailers": [
+        {
+          "type": "Reviewed-by",
+          "value": "Mauro Carvalho Chehab <mchehab+huawei@kernel.org>",
+          "messageId": "<20250814015040.09db5b0c@foz.lan>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

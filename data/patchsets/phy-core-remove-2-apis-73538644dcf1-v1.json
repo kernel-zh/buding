@@ -1,0 +1,122 @@
+{
+  "id": "phy-core-remove-2-apis-73538644dcf1-v1",
+  "subject": "[PATCH RESEND 0/2] phy: core: Remove 2 APIs",
+  "authorName": "Zijun Hu",
+  "authorEmail": "zijun_hu@icloud.com",
+  "revision": 1,
+  "postedAt": "2025-02-25T12:32:37.000Z",
+  "language": "zh_CN",
+  "patchCount": 2,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "waiting",
+  "reviewReplies": 0,
+  "latestRevision": false,
+  "messageIds": [
+    "<20250225-remove-apis-v1-0-e49b4a1941fd@quicinc.com>",
+    "<20250225-remove-apis-v1-1-e49b4a1941fd@quicinc.com>",
+    "<20250225-remove-apis-v1-2-e49b4a1941fd@quicinc.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 2
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 2
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 2
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250225-remove-apis-v1-0-e49b4a1941fd@quicinc.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250225-remove-apis-v1-0-e49b4a1941fd@quicinc.com/raw",
+  "replies": 0,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "phy-core-remove-2-apis-0d06c87b476a-v1",
+      "current": false
+    },
+    {
+      "revision": 1,
+      "id": "phy-core-remove-2-apis-73538644dcf1-v1",
+      "current": true
+    },
+    {
+      "revision": 1,
+      "id": "phy-core-remove-2-apis-71e255b92160-v1",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 2,
+      "subject": "phy: core: Remove API devm_of_phy_provider_unregister()",
+      "messageId": "<20250225-remove-apis-v1-1-e49b4a1941fd@quicinc.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250225-remove-apis-v1-1-e49b4a1941fd@quicinc.com/",
+      "changedFiles": [
+        "Documentation/driver-api/phy/phy.rst",
+        "Documentation/translations/zh_CN/driver-api/phy/phy.rst",
+        "drivers/phy/phy-core.c",
+        "include/linux/phy/phy.h"
+      ],
+      "patchId": "a8c2d21e785b17cb23163dc5424285baa1bf70f7",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "index": 2,
+      "total": 2,
+      "subject": "phy: core: Remove API devm_phy_destroy()",
+      "messageId": "<20250225-remove-apis-v1-2-e49b4a1941fd@quicinc.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250225-remove-apis-v1-2-e49b4a1941fd@quicinc.com/",
+      "changedFiles": [
+        "Documentation/driver-api/phy/phy.rst",
+        "Documentation/translations/zh_CN/driver-api/phy/phy.rst",
+        "drivers/phy/phy-core.c",
+        "include/linux/phy/phy.h"
+      ],
+      "patchId": "4f8440da4deb31a2302641372661f12cc8f82f53",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

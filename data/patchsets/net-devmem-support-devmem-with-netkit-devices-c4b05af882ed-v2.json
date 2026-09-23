@@ -1,0 +1,117 @@
+{
+  "id": "net-devmem-support-devmem-with-netkit-devices-c4b05af882ed-v2",
+  "subject": "[PATCH net-next v2 0/6] net: devmem: support devmem with netkit devices",
+  "authorName": "Bobby Eshleman",
+  "authorEmail": "bobbyeshleman@gmail.com",
+  "revision": 2,
+  "postedAt": "2026-05-05T00:27:47.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "superseded",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 3,
+  "latestRevision": false,
+  "messageIds": [
+    "<20260504-tcp-dm-netkit-v2-0-56d52ac72fd4@meta.com>",
+    "<20260504-tcp-dm-netkit-v2-1-56d52ac72fd4@meta.com>",
+    "<20260504-tcp-dm-netkit-v2-2-56d52ac72fd4@meta.com>",
+    "<20260504-tcp-dm-netkit-v2-3-56d52ac72fd4@meta.com>",
+    "<20260504-tcp-dm-netkit-v2-4-56d52ac72fd4@meta.com>",
+    "<20260504-tcp-dm-netkit-v2-5-56d52ac72fd4@meta.com>",
+    "<20260504-tcp-dm-netkit-v2-6-56d52ac72fd4@meta.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260504-tcp-dm-netkit-v2-0-56d52ac72fd4@meta.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260504-tcp-dm-netkit-v2-0-56d52ac72fd4@meta.com/raw",
+  "replies": 4,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "net-devmem-support-devmem-with-netkit-devices-f931f4ee29df-v1",
+      "current": false
+    },
+    {
+      "revision": 2,
+      "id": "net-devmem-support-devmem-with-netkit-devices-c4b05af882ed-v2",
+      "current": true
+    },
+    {
+      "revision": 3,
+      "id": "net-devmem-support-devmem-with-netkit-devices-9c25b9cd523f-v3",
+      "current": false
+    },
+    {
+      "revision": 4,
+      "id": "net-devmem-support-devmem-with-netkit-devices-679d8a60f4b5-v4",
+      "current": false
+    },
+    {
+      "revision": 5,
+      "id": "net-devmem-support-devmem-with-netkit-devices-459c71a8c4f1-v5",
+      "current": false
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 6,
+      "subject": "net: add netmem_tx modes that indicate dma capability",
+      "messageId": "<20260504-tcp-dm-netkit-v2-1-56d52ac72fd4@meta.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260504-tcp-dm-netkit-v2-1-56d52ac72fd4@meta.com/",
+      "changedFiles": [
+        "Documentation/networking/net_cachelines/net_device.rst",
+        "Documentation/networking/netmem.rst",
+        "Documentation/translations/zh_CN/networking/netmem.rst",
+        "drivers/net/ethernet/broadcom/bnxt/bnxt.c",
+        "drivers/net/ethernet/google/gve/gve_main.c",
+        "drivers/net/ethernet/mellanox/mlx5/core/en_main.c",
+        "drivers/net/ethernet/meta/fbnic/fbnic_netdev.c",
+        "drivers/net/netkit.c",
+        "include/linux/netdevice.h"
+      ],
+      "patchId": "25927983df7074147c4b2c31f0481039d8f3d9da",
+      "trailers": [
+        {
+          "type": "Acked-by",
+          "value": "Harshitha Ramamurthy <hramamurthy@google.com>",
+          "messageId": "<CAEAWyHcLSE8YJXrjRx+fxjGPY=vL=C4fC44MiFwdUyRiDx1a3w@mail.gmail.com>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

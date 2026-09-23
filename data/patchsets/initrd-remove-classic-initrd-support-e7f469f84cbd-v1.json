@@ -1,0 +1,141 @@
+{
+  "id": "initrd-remove-classic-initrd-support-e7f469f84cbd-v1",
+  "subject": "[PATCH RESEND 00/62] initrd: remove classic initrd support",
+  "authorName": "Askar Safin",
+  "authorEmail": "safinaskar@gmail.com",
+  "revision": 1,
+  "postedAt": "2025-09-13T00:37:39.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 28,
+  "latestRevision": true,
+  "messageIds": [
+    "<20250913003842.41944-1-safinaskar@gmail.com>",
+    "<20250913003842.41944-2-safinaskar@gmail.com>",
+    "<20250913003842.41944-3-safinaskar@gmail.com>",
+    "<20250913003842.41944-4-safinaskar@gmail.com>",
+    "<20250913003842.41944-5-safinaskar@gmail.com>",
+    "<20250913003842.41944-6-safinaskar@gmail.com>",
+    "<20250913003842.41944-7-safinaskar@gmail.com>",
+    "<20250913003842.41944-8-safinaskar@gmail.com>",
+    "<20250913003842.41944-9-safinaskar@gmail.com>",
+    "<20250913003842.41944-10-safinaskar@gmail.com>",
+    "<20250913003842.41944-11-safinaskar@gmail.com>",
+    "<20250913003842.41944-12-safinaskar@gmail.com>",
+    "<20250913003842.41944-13-safinaskar@gmail.com>",
+    "<20250913003842.41944-14-safinaskar@gmail.com>",
+    "<20250913003842.41944-15-safinaskar@gmail.com>",
+    "<20250913003842.41944-16-safinaskar@gmail.com>",
+    "<20250913003842.41944-17-safinaskar@gmail.com>",
+    "<20250913003842.41944-18-safinaskar@gmail.com>",
+    "<20250913003842.41944-19-safinaskar@gmail.com>",
+    "<20250913003842.41944-20-safinaskar@gmail.com>",
+    "<20250913003842.41944-21-safinaskar@gmail.com>",
+    "<20250913003842.41944-22-safinaskar@gmail.com>",
+    "<20250913003842.41944-23-safinaskar@gmail.com>",
+    "<20250913003842.41944-24-safinaskar@gmail.com>",
+    "<20250913003842.41944-25-safinaskar@gmail.com>",
+    "<20250913003842.41944-26-safinaskar@gmail.com>",
+    "<20250913003842.41944-27-safinaskar@gmail.com>",
+    "<20250913003842.41944-28-safinaskar@gmail.com>",
+    "<20250913003842.41944-29-safinaskar@gmail.com>",
+    "<20250913003842.41944-30-safinaskar@gmail.com>",
+    "<20250913003842.41944-31-safinaskar@gmail.com>",
+    "<20250913003842.41944-32-safinaskar@gmail.com>",
+    "<20250913003842.41944-33-safinaskar@gmail.com>",
+    "<20250913003842.41944-34-safinaskar@gmail.com>",
+    "<20250913003842.41944-35-safinaskar@gmail.com>",
+    "<20250913003842.41944-36-safinaskar@gmail.com>",
+    "<20250913003842.41944-37-safinaskar@gmail.com>",
+    "<20250914034335.3506706-1-safinaskar@gmail.com>",
+    "<20250914035027.3609569-1-safinaskar@gmail.com>",
+    "<20250914035103.3619203-1-safinaskar@gmail.com>",
+    "<20250914035138.3631173-1-safinaskar@gmail.com>",
+    "<20250914035215.3641628-1-safinaskar@gmail.com>",
+    "<20250914035250.3651258-1-safinaskar@gmail.com>",
+    "<20250914035326.3661003-1-safinaskar@gmail.com>",
+    "<20250914035402.3670906-1-safinaskar@gmail.com>",
+    "<20250914035438.3682240-1-safinaskar@gmail.com>",
+    "<20250914035513.3694090-1-safinaskar@gmail.com>",
+    "<20250914035550.3706342-1-safinaskar@gmail.com>",
+    "<20250914035626.3718268-1-safinaskar@gmail.com>",
+    "<20250914035703.3729713-1-safinaskar@gmail.com>",
+    "<20250914035738.3741007-1-safinaskar@gmail.com>",
+    "<20250914035814.3752803-1-safinaskar@gmail.com>",
+    "<20250914035850.3762697-1-safinaskar@gmail.com>",
+    "<20250914035926.3770703-1-safinaskar@gmail.com>",
+    "<20250914040002.3779907-1-safinaskar@gmail.com>",
+    "<20250914040037.3788082-1-safinaskar@gmail.com>",
+    "<20250914040114.3796281-1-safinaskar@gmail.com>",
+    "<20250914040151.3805905-1-safinaskar@gmail.com>",
+    "<20250914040227.3813593-1-safinaskar@gmail.com>",
+    "<20250914040303.3823154-1-safinaskar@gmail.com>",
+    "<20250914040339.3831241-1-safinaskar@gmail.com>",
+    "<20250914040416.3840072-1-safinaskar@gmail.com>",
+    "<20250914040451.3848715-1-safinaskar@gmail.com>",
+    "<20250925131055.3933381-1-nschichan@freebox.fr>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250913003842.41944-1-safinaskar@gmail.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250913003842.41944-1-safinaskar@gmail.com/raw",
+  "replies": 39,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "initrd-remove-classic-initrd-support-e7f469f84cbd-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 20,
+      "total": 62,
+      "subject": "doc: remove Documentation/power/swsusp-dmcrypt.rst",
+      "messageId": "<20250913003842.41944-21-safinaskar@gmail.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250913003842.41944-21-safinaskar@gmail.com/",
+      "changedFiles": [
+        "Documentation/power/index.rst",
+        "Documentation/power/swsusp-dmcrypt.rst",
+        "Documentation/translations/zh_CN/power/index.rst"
+      ],
+      "patchId": "ba0be0fce338c1f184de1d48047e0a759a27d542",
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

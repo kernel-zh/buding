@@ -1,0 +1,113 @@
+{
+  "id": "vsprintf-remove-redundant-pcn-format-specifier-65aa257a5e0c-v2",
+  "subject": "[PATCH v2 0/2] vsprintf: remove redundant %pCn format specifier",
+  "authorName": "Luca Ceresoli",
+  "authorEmail": "luca.ceresoli@bootlin.com",
+  "revision": 2,
+  "postedAt": "2025-03-11T09:21:21.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "applied",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 5,
+  "latestRevision": true,
+  "messageIds": [
+    "<20250311-vsprintf-pcn-v2-0-0af40fc7dee4@bootlin.com>",
+    "<20250311-vsprintf-pcn-v2-1-0af40fc7dee4@bootlin.com>",
+    "<20250311-vsprintf-pcn-v2-2-0af40fc7dee4@bootlin.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "592ebd77e65d91de0dbc5f08c05159ba91d2d709"
+    },
+    "corbet": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "592ebd77e65d91de0dbc5f08c05159ba91d2d709"
+    },
+    "linus": {
+      "state": "confirmed",
+      "matched": 1,
+      "total": 1,
+      "commit": "592ebd77e65d91de0dbc5f08c05159ba91d2d709"
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20250311-vsprintf-pcn-v2-0-0af40fc7dee4@bootlin.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20250311-vsprintf-pcn-v2-0-0af40fc7dee4@bootlin.com/raw",
+  "replies": 6,
+  "versions": [
+    {
+      "revision": 2,
+      "id": "vsprintf-remove-redundant-pcn-format-specifier-65aa257a5e0c-v2",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 2,
+      "total": 2,
+      "subject": "vsprintf: remove redundant and unused %pCn format specifier",
+      "messageId": "<20250311-vsprintf-pcn-v2-2-0af40fc7dee4@bootlin.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20250311-vsprintf-pcn-v2-2-0af40fc7dee4@bootlin.com/",
+      "changedFiles": [
+        "Documentation/core-api/printk-formats.rst",
+        "Documentation/translations/zh_CN/core-api/printk-formats.rst",
+        "lib/vsprintf.c"
+      ],
+      "patchId": "281fbafc05304c9a51ce03ce3570bec6749a676b",
+      "trailers": [
+        {
+          "type": "Acked-by",
+          "value": "Stephen Boyd <sboyd@kernel.org>",
+          "messageId": "<20250311-vsprintf-pcn-v2-2-0af40fc7dee4@bootlin.com>"
+        },
+        {
+          "type": "Reviewed-by",
+          "value": "Geert Uytterhoeven <geert+renesas@glider.be>",
+          "messageId": "<20250311-vsprintf-pcn-v2-2-0af40fc7dee4@bootlin.com>"
+        },
+        {
+          "type": "Reviewed-by",
+          "value": "Yanteng Si <si.yanteng@linux.dev>",
+          "messageId": "<aa840586-cd70-417f-82c2-bb887f337720@linux.dev>"
+        },
+        {
+          "type": "Reviewed-by",
+          "value": "Petr Mladek <pmladek@suse.com>",
+          "messageId": "<Z9BKW_06nLAOzYfY@pathway.suse.cz>"
+        },
+        {
+          "type": "Tested-by",
+          "value": "Petr Mladek <pmladek@suse.com>",
+          "messageId": "<Z9BKW_06nLAOzYfY@pathway.suse.cz>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "592ebd77e65d91de0dbc5f08c05159ba91d2d709"
+        },
+        "corbet": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "592ebd77e65d91de0dbc5f08c05159ba91d2d709"
+        },
+        "linus": {
+          "state": "confirmed",
+          "matched": 1,
+          "total": 1,
+          "commit": "592ebd77e65d91de0dbc5f08c05159ba91d2d709"
+        }
+      }
+    }
+  ]
+}

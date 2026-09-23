@@ -1,0 +1,92 @@
+{
+  "id": "task-delete-task-euid-bfd877327efd-v1",
+  "subject": "[PATCH] task: delete task_euid()",
+  "authorName": "Alice Ryhl",
+  "authorEmail": "aliceryhl@google.com",
+  "revision": 1,
+  "postedAt": "2026-02-19T12:14:39.000Z",
+  "language": "zh_CN",
+  "patchCount": 1,
+  "status": "needs-revision",
+  "lifecycle": "active",
+  "reviewState": "discussion",
+  "reviewReplies": 2,
+  "latestRevision": true,
+  "messageIds": [
+    "<20260219-remove-task-euid-v1-1-904060826e07@google.com>"
+  ],
+  "trees": {
+    "alex": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "corbet": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    },
+    "linus": {
+      "state": "missing",
+      "matched": 0,
+      "total": 1
+    }
+  },
+  "rfc": false,
+  "loreUrl": "https://lore.kernel.org/linux-doc/20260219-remove-task-euid-v1-1-904060826e07@google.com/",
+  "rawUrl": "https://lore.kernel.org/linux-doc/20260219-remove-task-euid-v1-1-904060826e07@google.com/raw",
+  "replies": 4,
+  "versions": [
+    {
+      "revision": 1,
+      "id": "task-delete-task-euid-bfd877327efd-v1",
+      "current": true
+    }
+  ],
+  "patches": [
+    {
+      "index": 1,
+      "total": 1,
+      "subject": "task: delete task_euid()",
+      "messageId": "<20260219-remove-task-euid-v1-1-904060826e07@google.com>",
+      "loreUrl": "https://lore.kernel.org/linux-doc/20260219-remove-task-euid-v1-1-904060826e07@google.com/",
+      "changedFiles": [
+        "Documentation/security/credentials.rst",
+        "Documentation/translations/zh_CN/security/credentials.rst",
+        "include/linux/cred.h",
+        "rust/helpers/task.c",
+        "rust/kernel/task.rs"
+      ],
+      "patchId": "fd4788ff9e35e75139274370b4d83c638a410c16",
+      "trailers": [
+        {
+          "type": "Suggested-by",
+          "value": "Jann Horn <jannh@google.com>",
+          "messageId": "<20260219-remove-task-euid-v1-1-904060826e07@google.com>"
+        },
+        {
+          "type": "Reviewed-by",
+          "value": "Gary Guo <gary@garyguo.net>",
+          "messageId": "<c10b237bea136e545ee4a76141409ee6@garyguo.net>"
+        }
+      ],
+      "trees": {
+        "alex": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "corbet": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        },
+        "linus": {
+          "state": "missing",
+          "matched": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}
