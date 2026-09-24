@@ -1,7 +1,7 @@
 To: linux-doc@vger.kernel.org
-Subject: What's cooking in zh_CN (Jul 2026, #02)
+Subject: What's cooking in zh_CN & zh_TW (Jul 2026, #03)
 
-Here are the topics that have been cooking in Alex's tree.
+Here are the topics waiting to get into Alex´s tree.
 
 Copies of the source code to Chinese documentation development tree live
 in here:
@@ -19,40 +19,55 @@ Please report any mirror instability to linux-doc@vger.kernel.org
 
 -----------------------------------------------------------------------
 
-NOTICE
+NOTICE 2026-07-22
 
-The first "What's cooking" missed Haoyang Liu, and it so happens that
-there are several topics graduating today, so the frequency of status
-updates this time is relatively high.
+Traditional Chinese or Taiwanese Mandarin (zh_TW) is currently going
+through a transition, and any comments would be welcome to help the new
+maintainer get familiar with the development process.
+
+NOTICE 2026-07-14
 
 The first time I cc'ed all relevant personnel. Is everyone happy to keep
 it this way, or should I only send it to the list? I´m concerned that
 unrelated discussions may create unnecessary noise in their inbox.
 
+
 This report is experimental. Please feel free to offer your suggestions.
 
 -----------------------------------------------------------------------
 
-[Graduated to 'docs-next']
+[New topic]
 
-* Ben Guo (2026-07-14) 4 commits
-  [PATCH v3 0/4] docs/zh_CN: update rust documentation translations
-  [PATCH v3 1/4] docs/zh_CN: Update rust/quick-start.rst translation
-  [PATCH v3 2/4] docs/zh_CN: Update rust/general-information.rst translation
-  [PATCH v3 3/4] docs/zh_CN: Update rust/arch-support.rst translation
-  [PATCH v3 4/4] docs/zh_CN: Update rust/testing.rst translation
+* Cui Shuang (2026-07-22) 1 commit
+  [PATCH v3] docs/zh_CN: Add configurable error injection translation
 
-  Merged into docs-next.
+  Needs review.
 
-  source: https://lore.kernel.org/linux-doc/cover.1784000217.git.ben.guo@openatom.club/
+  source: https://lore.kernel.org/linux-doc/20260722123240.22979-1-imcusg@gmail.com/
 
 
-* chengyaqiang (2026-05-22) 1 commit
-  [PATCH] docs/zh_CN: fix KASAN SW_TAGS mode description
+* Chen-Yu Yeh (2026-07-21) 16 commits (zh_TW)
+  [PATCH 00/16] docs/zh_TW: localize terminology and sync process/ documents
+  [PATCH 01/16] docs/zh_TW: process: localize terminology in 7.AdvancedTopics.rst
+  [PATCH 02/16] docs/zh_TW: process: localize terminology in 1.Intro.rst
+  [PATCH 03/16] docs/zh_TW: process: localize terminology in code-of-conduct-interpretation.rst
+  [PATCH 04/16] docs/zh_TW: process: localize terminology in license-rules.rst
+  [PATCH 05/16] docs/zh_TW: process: localize terminology in email-clients.rst
+  [PATCH 06/16] docs/zh_TW: process: localize terminology in programming-language.rst
+  [PATCH 07/16] docs/zh_TW: process: localize terminology in coding-style.rst
+  [PATCH 08/16] docs/zh_TW: process: localize terminology in stable-kernel-rules.rst
+  [PATCH 09/16] docs/zh_TW: process: localize terminology in 5.Posting.rst
+  [PATCH 10/16] docs/zh_TW: process: localize terminology in 2.Process.rst
+  [PATCH 11/16] docs/zh_TW: process: localize terminology in howto.rst
+  [PATCH 12/16] docs/zh_TW: process: localize terminology in embargoed-hardware-issues.rst
+  [PATCH 13/16] docs/zh_TW: process: localize terminology in submitting-patches.rst
+  [PATCH 14/16] docs/zh_TW: process: localize terminology in 8.Conclusion.rst
+  [PATCH 15/16] docs/zh_TW: process: localize terminology in index.rst
+  [PATCH 16/16] docs/zh_TW: Add a glossary for Traditional Chinese translations
 
-  Merged into docs-next.
+  Needs review.
 
-  source: https://lore.kernel.org/linux-doc/20260522075735.2022734-1-chengyaqiang@chengyaqiang.com/
+  Source: https://lore.kernel.org/linux-doc/20260721215542.98435-1-chenyou910331@gmail.com/
 
 -----------------------------------------------------------------------
 
@@ -72,6 +87,7 @@ This report is experimental. Please feel free to offer your suggestions.
 
   source: https://lore.kernel.org/linux-doc/20260708073246.1652828-1-doehyunbaek@gmail.com/
 
+
 * Jiandong Qiu (2026-07-06) 2 commits
   [PATCH v3 0/2] docs/zh_CN: update translation of doc-guide/sphinx.rst
   [PATCH v3 1/2] docs/zh_CN: add process/changes.rst translation
@@ -84,7 +100,7 @@ This report is experimental. Please feel free to offer your suggestions.
 
 
 * Yan Zhu (2026-06-12) 10 commits
-  [not found] <cover.1781105672.git.zhuyan2015@qq.com>
+  [PATCH 00/10] docs/zh_CN: add LSM admin-guide Chinese translation
   [PATCH 01/10] docs/zh_CN: add LSM/index Chinese translation
   [PATCH 02/10] docs/zh_CN: add LSM/apparmor Chinese translation
   [PATCH 03/10] docs/zh_CN: add LSM/LoadPin Chinese translation
@@ -98,8 +114,9 @@ This report is experimental. Please feel free to offer your suggestions.
 
   Needs review.
 
-  source: https://lore.kernel.org/linux-doc/tencent_7080BF6BB8F05936649DDC091FFD8C45210A@qq.com/
-  Note: cover letter missing on lore archive.
+  Cover letter: https://lore.kernel.org/linux-doc/tencent_001080DF135CEE2CD1B260EFA08E3CC71A09@qq.com/
+  Patch 01/10: https://lore.kernel.org/linux-doc/tencent_7080BF6BB8F05936649DDC091FFD8C45210A@qq.com/
+  Note: the cover letter and following patched are not threaded correctly
 
 -----------------------------------------------------------------------
 
